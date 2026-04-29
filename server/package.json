@@ -1,0 +1,9 @@
+{
+  "name": "derived-data-server",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-basic-auth": "^1.2.1"
+  }
+}
