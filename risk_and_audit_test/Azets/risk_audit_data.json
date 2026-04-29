@@ -1,0 +1,4914 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Nordic Operations - Audit & Assurance",
+      "description": "Core audit and assurance service delivery across Norway, Sweden, Denmark, and Finland",
+      "taxonomy": {
+        "region": "Nordic",
+        "service_line": "Audit & Assurance",
+        "entity_type": "Service Delivery Unit"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-06-15",
+      "next_audit_date": "2025-06-15",
+      "created_by": "Magnus Lindberg",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Nordic Operations - Tax Advisory",
+      "description": "Tax advisory and compliance services across Nordic markets",
+      "taxonomy": {
+        "region": "Nordic",
+        "service_line": "Tax Advisory",
+        "entity_type": "Service Delivery Unit"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-07-20",
+      "next_audit_date": "2025-07-20",
+      "created_by": "Magnus Lindberg",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Stuttgart Operations",
+      "description": "Newly acquired German operations including 876 FTEs providing tax advisory and accounting services",
+      "taxonomy": {
+        "region": "Germany",
+        "service_line": "Multi-Service",
+        "entity_type": "Acquired Entity"
+      },
+      "audit_frequency": "Quarterly",
+      "risk_rating": "High",
+      "last_audit_date": "2024-12-01",
+      "next_audit_date": "2025-03-01",
+      "created_by": "Klaus Werner",
+      "created_date": "2024-09-01"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Group Finance & Treasury",
+      "description": "Central finance function including treasury, financial reporting, and management accounting",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Finance",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-30",
+      "next_audit_date": "2025-09-30",
+      "created_by": "Erik Johannsen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Commercial Operations",
+      "description": "Sales, business development, and client relationship management across all regions",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Commercial",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-10-15",
+      "next_audit_date": "2025-04-15",
+      "created_by": "Anna Svensson",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Technology & Platform Services",
+      "description": "IT infrastructure, platform development, and digital service delivery capabilities",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Technology",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-08-01",
+      "next_audit_date": "2025-08-01",
+      "created_by": "Thomas Nielsen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Human Resources & Talent Management",
+      "description": "HR operations, recruitment, training, and workforce planning across all regions",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "HR",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-05-20",
+      "next_audit_date": "2025-05-20",
+      "created_by": "Ingrid Olsen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Data Privacy & Protection Office",
+      "description": "GDPR compliance, data protection governance, and privacy operations",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Compliance",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-04-10",
+      "next_audit_date": "2025-04-10",
+      "created_by": "Lars Eriksson",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Professional Standards & Quality",
+      "description": "Professional standards compliance, quality control, and methodology governance",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Quality",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-11-01",
+      "next_audit_date": "2025-11-01",
+      "created_by": "Henrik Andersen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "UK & Ireland Operations",
+      "description": "Service delivery operations across UK and Ireland markets",
+      "taxonomy": {
+        "region": "UK&I",
+        "service_line": "Multi-Service",
+        "entity_type": "Service Delivery Unit"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-07-15",
+      "next_audit_date": "2025-07-15",
+      "created_by": "James Crawford",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Outsourcing & Business Services",
+      "description": "Managed services, payroll, and bookkeeping operations",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Outsourcing",
+        "entity_type": "Service Delivery Unit"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-09-01",
+      "next_audit_date": "2025-09-01",
+      "created_by": "Sofia Bergman",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Regulatory Compliance & Licensing",
+      "description": "Multi-jurisdictional regulatory compliance and professional licensing management",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Compliance",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-10-01",
+      "next_audit_date": "2025-10-01",
+      "created_by": "Henrik Andersen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-13",
+      "name": "Advisory Services",
+      "description": "Corporate finance, transaction advisory, and consulting services",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Advisory",
+        "entity_type": "Service Delivery Unit"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-08-15",
+      "next_audit_date": "2025-08-15",
+      "created_by": "Peter Holm",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-14",
+      "name": "Integration Management Office",
+      "description": "Stuttgart acquisition integration program management and oversight",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Integration",
+        "entity_type": "Program Office"
+      },
+      "audit_frequency": "Quarterly",
+      "risk_rating": "Critical",
+      "last_audit_date": "2024-12-15",
+      "next_audit_date": "2025-03-15",
+      "created_by": "Klaus Werner",
+      "created_date": "2024-09-15"
+    },
+    {
+      "entity_id": "AE-15",
+      "name": "AI & Automation Center",
+      "description": "AI-augmented document processing and workflow automation development",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Technology",
+        "entity_type": "Innovation Center"
+      },
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-05-15",
+      "created_by": "Thomas Nielsen",
+      "created_date": "2024-01-01"
+    },
+    {
+      "entity_id": "AE-16",
+      "name": "Client Data Management",
+      "description": "Client data governance, storage, and cross-border data transfer management",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Data Management",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-01",
+      "next_audit_date": "2025-06-01",
+      "created_by": "Lars Eriksson",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-17",
+      "name": "Vendor & Third-Party Management",
+      "description": "Third-party risk management, vendor due diligence, and contract management",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Procurement",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-05-01",
+      "next_audit_date": "2025-05-01",
+      "created_by": "Sofia Bergman",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-18",
+      "name": "Business Continuity & Resilience",
+      "description": "Business continuity planning, disaster recovery, and operational resilience",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Risk Management",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-04-01",
+      "next_audit_date": "2025-04-01",
+      "created_by": "Erik Johannsen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-19",
+      "name": "Continental Europe Expansion",
+      "description": "Strategic expansion activities and market development in Continental Europe",
+      "taxonomy": {
+        "region": "Continental Europe",
+        "service_line": "Strategy",
+        "entity_type": "Strategic Initiative"
+      },
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-10-20",
+      "next_audit_date": "2025-04-20",
+      "created_by": "Klaus Werner",
+      "created_date": "2024-06-01"
+    },
+    {
+      "entity_id": "AE-20",
+      "name": "Professional Liability & Insurance",
+      "description": "Professional indemnity insurance, claims management, and liability oversight",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Risk Management",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-03-15",
+      "next_audit_date": "2025-03-15",
+      "created_by": "Henrik Andersen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-21",
+      "name": "Internal Audit Function",
+      "description": "Internal audit operations, methodology, and quality assurance",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Internal Audit",
+        "entity_type": "Assurance Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Low",
+      "last_audit_date": "2024-02-01",
+      "next_audit_date": "2025-02-01",
+      "created_by": "Board Audit Committee",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-22",
+      "name": "Legal & Company Secretarial",
+      "description": "Legal affairs, corporate governance, and company secretarial services",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Legal",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-08-20",
+      "next_audit_date": "2025-08-20",
+      "created_by": "Henrik Andersen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-23",
+      "name": "Client Onboarding & KYC",
+      "description": "Client acceptance, know-your-client procedures, and anti-money laundering compliance",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Compliance",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-15",
+      "next_audit_date": "2025-03-15",
+      "created_by": "Henrik Andersen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-24",
+      "name": "Financial Planning & Analysis",
+      "description": "Budgeting, forecasting, and management reporting operations",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Finance",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-07-01",
+      "next_audit_date": "2025-07-01",
+      "created_by": "Erik Johannsen",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-25",
+      "name": "Cybersecurity Operations",
+      "description": "Information security operations, threat management, and security monitoring",
+      "taxonomy": {
+        "region": "Group",
+        "service_line": "Technology",
+        "entity_type": "Corporate Function"
+      },
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-11-01",
+      "next_audit_date": "2025-05-01",
+      "created_by": "Thomas Nielsen",
+      "created_date": "2023-01-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Regulatory Complexity",
+      "description": "Assessment of regulatory burden and compliance complexity across jurisdictions",
+      "weight": 0.15,
+      "category": "External Environment",
+      "scoring_criteria": {
+        "1": "Single jurisdiction, stable regulations",
+        "3": "Multiple jurisdictions, moderate change",
+        "5": "Many jurisdictions, significant regulatory change"
+      },
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Financial Materiality",
+      "description": "Revenue and cost significance relative to group totals",
+      "weight": 0.2,
+      "category": "Financial Impact",
+      "scoring_criteria": {
+        "1": "<2% of group revenue",
+        "3": "2-10% of group revenue",
+        "5": ">10% of group revenue"
+      },
+      "created_by": "Erik Johannsen"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Change Intensity",
+      "description": "Degree of organizational, process, or system change occurring",
+      "weight": 0.15,
+      "category": "Operational Complexity",
+      "scoring_criteria": {
+        "1": "Stable operations",
+        "3": "Moderate change programs",
+        "5": "Major transformation or acquisition integration"
+      },
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Data Sensitivity",
+      "description": "Volume and sensitivity of client and personal data processed",
+      "weight": 0.15,
+      "category": "Data & Privacy",
+      "scoring_criteria": {
+        "1": "Limited sensitive data",
+        "3": "Moderate personal/financial data",
+        "5": "Extensive sensitive financial/personal data"
+      },
+      "created_by": "Lars Eriksson"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Technology Dependency",
+      "description": "Reliance on technology systems for service delivery",
+      "weight": 0.1,
+      "category": "Technology",
+      "scoring_criteria": {
+        "1": "Low technology dependency",
+        "3": "Moderate system reliance",
+        "5": "Critical technology dependency"
+      },
+      "created_by": "Thomas Nielsen"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Professional Liability Exposure",
+      "description": "Risk of professional liability claims and reputational damage",
+      "weight": 0.15,
+      "category": "Professional Standards",
+      "scoring_criteria": {
+        "1": "Low liability services",
+        "3": "Standard professional services",
+        "5": "High-risk advisory/audit services"
+      },
+      "created_by": "Henrik Andersen"
+    },
+    {
+      "factor_id": "AF-7",
+      "name": "Control Maturity",
+      "description": "Current state of internal control environment maturity",
+      "weight": 0.1,
+      "category": "Control Environment",
+      "scoring_criteria": {
+        "1": "Mature, well-tested controls",
+        "3": "Developing control framework",
+        "5": "Immature or untested controls"
+      },
+      "created_by": "Magnus Lindberg"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-3",
+      "assessment_date": "2025-01-15",
+      "inherent_risk_score": 4.5,
+      "control_risk_score": 4.0,
+      "residual_risk_score": 4.2,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "German Steuerberatungsgesetz adds significant regulatory complexity"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 4,
+          "rationale": "876 FTEs represent significant portion of workforce"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 5,
+          "rationale": "Active acquisition integration in progress"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "Controls not yet harmonized with group standards"
+        }
+      ],
+      "next_assessment_date": "2025-04-15",
+      "assessed_by": "Klaus Werner"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-01-10",
+      "inherent_risk_score": 4.0,
+      "control_risk_score": 3.5,
+      "residual_risk_score": 3.8,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Direct revenue generation function"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "Territory restructuring following AE departures"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "Pipeline management controls showing gaps"
+        }
+      ],
+      "next_assessment_date": "2025-07-10",
+      "assessed_by": "Anna Svensson"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-01-08",
+      "inherent_risk_score": 4.2,
+      "control_risk_score": 3.0,
+      "residual_risk_score": 3.5,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-3",
+          "score": 5,
+          "rationale": "Major platform migration underway"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "Extensive client data processing"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 5,
+          "rationale": "Critical technology infrastructure"
+        }
+      ],
+      "next_assessment_date": "2025-07-08",
+      "assessed_by": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-14",
+      "assessment_date": "2025-01-20",
+      "inherent_risk_score": 4.8,
+      "control_risk_score": 4.2,
+      "residual_risk_score": 4.5,
+      "risk_rating": "Critical",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "Cross-border integration complexity"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 4,
+          "rationale": "Significant acquisition investment at risk"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 5,
+          "rationale": "Active integration program"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 5,
+          "rationale": "New function with developing governance"
+        }
+      ],
+      "next_assessment_date": "2025-04-20",
+      "assessed_by": "Magnus Lindberg"
+    },
+    {
+      "assessment_id": "ARA-5",
+      "entity_id": "AE-15",
+      "assessment_date": "2025-01-12",
+      "inherent_risk_score": 4.3,
+      "control_risk_score": 3.8,
+      "residual_risk_score": 4.0,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "EU AI Act High Risk classification"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 5,
+          "rationale": "AI processing of sensitive client documents"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Critical automation dependency"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "Emerging AI governance framework"
+        }
+      ],
+      "next_assessment_date": "2025-07-12",
+      "assessed_by": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "ARA-6",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-01-05",
+      "inherent_risk_score": 4.0,
+      "control_risk_score": 2.5,
+      "residual_risk_score": 3.2,
+      "risk_rating": "Medium",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Central financial reporting function"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "Acquisition accounting complexity"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 2,
+          "rationale": "Mature finance controls in place"
+        }
+      ],
+      "next_assessment_date": "2025-07-05",
+      "assessed_by": "Erik Johannsen"
+    },
+    {
+      "assessment_id": "ARA-7",
+      "entity_id": "AE-8",
+      "assessment_date": "2025-01-18",
+      "inherent_risk_score": 4.4,
+      "control_risk_score": 3.2,
+      "residual_risk_score": 3.8,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "GDPR enforcement across multiple jurisdictions"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "Expansion of data processing scope with Stuttgart"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 5,
+          "rationale": "Extensive personal and financial data processing"
+        }
+      ],
+      "next_assessment_date": "2025-07-18",
+      "assessed_by": "Lars Eriksson"
+    },
+    {
+      "assessment_id": "ARA-8",
+      "entity_id": "AE-23",
+      "assessment_date": "2025-01-22",
+      "inherent_risk_score": 4.1,
+      "control_risk_score": 3.3,
+      "residual_risk_score": 3.7,
+      "risk_rating": "High",
+      "factors_assessed": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "AML regulations across jurisdictions"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "KYC data collection and verification"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Client acceptance risk exposure"
+        }
+      ],
+      "next_assessment_date": "2025-07-22",
+      "assessed_by": "Henrik Andersen"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Stuttgart Integration Governance Review",
+      "description": "Comprehensive review of Stuttgart acquisition integration governance, risk management, and control implementation",
+      "audit_type": "Integration Assurance",
+      "status": "In Progress",
+      "rating": null,
+      "planned_start_date": "2025-02-01",
+      "planned_end_date": "2025-03-31",
+      "actual_start_date": "2025-02-03",
+      "actual_end_date": null,
+      "lead_auditor": "Magnus Lindberg",
+      "audit_team": [
+        "Klaus Werner",
+        "Petra Schmidt",
+        "Hans Mueller"
+      ],
+      "entity_ids": [
+        "AE-3",
+        "AE-14"
+      ],
+      "budget_hours": 480,
+      "actual_hours": 200
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Commercial Operations Effectiveness Review",
+      "description": "Assessment of sales pipeline management, territory coverage, quota attainment processes, and forecasting accuracy",
+      "audit_type": "Operational Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Anna Svensson",
+      "audit_team": [
+        "Johan Karlsson",
+        "Marie Nielsen"
+      ],
+      "entity_ids": [
+        "AE-5"
+      ],
+      "budget_hours": 320,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Platform Migration IT General Controls Review",
+      "description": "Assessment of IT general controls during legacy system consolidation and platform migration",
+      "audit_type": "IT Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Thomas Nielsen",
+      "audit_team": [
+        "Lisa Andersson",
+        "Martin Berg"
+      ],
+      "entity_ids": [
+        "AE-6"
+      ],
+      "budget_hours": 400,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Revenue Recognition Compliance Audit",
+      "description": "Testing of revenue recognition policies and controls, including cross-border transaction treatment post-acquisition",
+      "audit_type": "Financial Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-07-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Erik Johannsen",
+      "audit_team": [
+        "Sofia Bergman",
+        "Kristian Hansen"
+      ],
+      "entity_ids": [
+        "AE-4",
+        "AE-3"
+      ],
+      "budget_hours": 360,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "GDPR Cross-Border Data Transfer Compliance",
+      "description": "Review of GDPR compliance for cross-border data transfers between Nordic and German operations",
+      "audit_type": "Compliance Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-04-15",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Lars Eriksson",
+      "audit_team": [
+        "Eva Lindqvist",
+        "Michael Braun"
+      ],
+      "entity_ids": [
+        "AE-8",
+        "AE-16"
+      ],
+      "budget_hours": 280,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "AI Governance and EU AI Act Compliance",
+      "description": "Assessment of AI governance framework compliance with EU AI Act High Risk system requirements",
+      "audit_type": "Compliance Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Thomas Nielsen",
+      "audit_team": [
+        "Lisa Andersson",
+        "Alexander Vogt"
+      ],
+      "entity_ids": [
+        "AE-15"
+      ],
+      "budget_hours": 320,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Professional Standards Quality Review",
+      "description": "Annual review of audit and tax advisory quality control systems and professional standards compliance",
+      "audit_type": "Quality Assurance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Henrik Andersen",
+      "audit_team": [
+        "Marta Kowalski",
+        "David Olsson"
+      ],
+      "entity_ids": [
+        "AE-9",
+        "AE-1",
+        "AE-2"
+      ],
+      "budget_hours": 400,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "German Tax Advisory Licensing Compliance",
+      "description": "Compliance review of Steuerberatungsgesetz requirements for German operations",
+      "audit_type": "Compliance Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-05-15",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Klaus Werner",
+      "audit_team": [
+        "Hans Mueller",
+        "Sabine Fischer"
+      ],
+      "entity_ids": [
+        "AE-3",
+        "AE-12"
+      ],
+      "budget_hours": 240,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-9",
+      "name": "Treasury and Debt Management Review",
+      "description": "Review of treasury operations, debt covenant compliance, and liquidity management following acquisition financing",
+      "audit_type": "Financial Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Erik Johannsen",
+      "audit_team": [
+        "Sofia Bergman",
+        "Anders Holm"
+      ],
+      "entity_ids": [
+        "AE-4"
+      ],
+      "budget_hours": 240,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-10",
+      "name": "Client Onboarding and AML Compliance Review",
+      "description": "Assessment of client acceptance procedures, KYC processes, and anti-money laundering controls",
+      "audit_type": "Compliance Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Henrik Andersen",
+      "audit_team": [
+        "Eva Lindqvist",
+        "Kristian Hansen"
+      ],
+      "entity_ids": [
+        "AE-23"
+      ],
+      "budget_hours": 280,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-11",
+      "name": "Cybersecurity Posture Assessment",
+      "description": "Comprehensive cybersecurity assessment including penetration testing and security control effectiveness",
+      "audit_type": "IT Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-11-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Thomas Nielsen",
+      "audit_team": [
+        "Martin Berg",
+        "Security External Vendor"
+      ],
+      "entity_ids": [
+        "AE-25"
+      ],
+      "budget_hours": 360,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-12",
+      "name": "Talent Retention and Succession Planning Review",
+      "description": "Review of talent management practices, succession planning, and knowledge transfer following Q4 departures",
+      "audit_type": "Operational Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-05-20",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Ingrid Olsen",
+      "audit_team": [
+        "Anna Svensson",
+        "Johan Karlsson"
+      ],
+      "entity_ids": [
+        "AE-7",
+        "AE-5"
+      ],
+      "budget_hours": 200,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-13",
+      "name": "Q4 FY2024 Commercial Controls Deep Dive",
+      "description": "Focused review of territory management and knowledge transfer controls following AE departures",
+      "audit_type": "Special Investigation",
+      "status": "Completed",
+      "rating": "Needs Improvement",
+      "planned_start_date": "2024-12-01",
+      "planned_end_date": "2025-01-15",
+      "actual_start_date": "2024-12-01",
+      "actual_end_date": "2025-01-20",
+      "lead_auditor": "Anna Svensson",
+      "audit_team": [
+        "Johan Karlsson",
+        "Marie Nielsen"
+      ],
+      "entity_ids": [
+        "AE-5"
+      ],
+      "budget_hours": 160,
+      "actual_hours": 180
+    },
+    {
+      "audit_id": "AUD-14",
+      "name": "Acquisition Purchase Price Allocation Review",
+      "description": "Review of Stuttgart acquisition purchase price allocation methodology and goodwill valuation",
+      "audit_type": "Financial Audit",
+      "status": "In Progress",
+      "rating": null,
+      "planned_start_date": "2025-01-15",
+      "planned_end_date": "2025-02-28",
+      "actual_start_date": "2025-01-15",
+      "actual_end_date": null,
+      "lead_auditor": "Erik Johannsen",
+      "audit_team": [
+        "Sofia Bergman",
+        "External Valuation Expert"
+      ],
+      "entity_ids": [
+        "AE-4",
+        "AE-3"
+      ],
+      "budget_hours": 200,
+      "actual_hours": 120
+    },
+    {
+      "audit_id": "AUD-15",
+      "name": "Business Continuity and Disaster Recovery Testing",
+      "description": "Annual review and testing of business continuity plans and disaster recovery capabilities",
+      "audit_type": "Operational Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-11-01",
+      "planned_end_date": "2025-12-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Thomas Nielsen",
+      "audit_team": [
+        "Martin Berg",
+        "Lisa Andersson"
+      ],
+      "entity_ids": [
+        "AE-18"
+      ],
+      "budget_hours": 240,
+      "actual_hours": 0
+    },
+    {
+      "audit_id": "AUD-16",
+      "name": "Third-Party Risk Management Review",
+      "description": "Assessment of vendor due diligence, third-party risk management, and contract management controls",
+      "audit_type": "Operational Audit",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-08-15",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Sofia Bergman",
+      "audit_team": [
+        "Anders Holm",
+        "Eva Lindqvist"
+      ],
+      "entity_ids": [
+        "AE-17"
+      ],
+      "budget_hours": 200,
+      "actual_hours": 0
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "FY2025 Annual Audit Plan",
+      "description": "Risk-based annual audit plan covering all major risk areas and strategic initiatives",
+      "fiscal_year": "2025",
+      "status": "Approved",
+      "total_audits": 16,
+      "total_budget_hours": 4680,
+      "approval_date": "2024-12-15",
+      "approved_by": "Board Audit Committee",
+      "audit_ids": [
+        "AUD-1",
+        "AUD-2",
+        "AUD-3",
+        "AUD-4",
+        "AUD-5",
+        "AUD-6",
+        "AUD-7",
+        "AUD-8",
+        "AUD-9",
+        "AUD-10",
+        "AUD-11",
+        "AUD-12",
+        "AUD-14",
+        "AUD-15",
+        "AUD-16"
+      ],
+      "coverage_summary": {
+        "high_risk_entities_covered": 12,
+        "total_high_risk_entities": 14,
+        "coverage_percentage": 85.7
+      },
+      "created_by": "Magnus Lindberg",
+      "created_date": "2024-11-01"
+    },
+    {
+      "plan_id": "AP-2",
+      "name": "Q1 2025 Integration Focused Plan",
+      "description": "Quarterly plan with focus on Stuttgart integration assurance and immediate risk areas",
+      "fiscal_year": "2025",
+      "status": "Active",
+      "total_audits": 3,
+      "total_budget_hours": 840,
+      "approval_date": "2025-01-05",
+      "approved_by": "Chief Audit Executive",
+      "audit_ids": [
+        "AUD-1",
+        "AUD-13",
+        "AUD-14"
+      ],
+      "coverage_summary": {
+        "integration_activities_covered": 3,
+        "financial_audits": 1,
+        "special_investigations": 1
+      },
+      "created_by": "Magnus Lindberg",
+      "created_date": "2025-01-02"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-13",
+      "title": "Inadequate Territory Succession Planning and Knowledge Transfer",
+      "criteria": "Best practice requires documented succession plans for client-facing roles and structured knowledge transfer processes",
+      "condition": "Following Q4 FY2024 account executive departures, no formal succession plans were in place. Critical client relationship knowledge was lost with departing personnel. Territory coverage gaps persisted for 6+ weeks.",
+      "cause": "Lack of formal succession planning program, inadequate documentation of client relationships, no structured offboarding knowledge transfer process",
+      "effect": "12 percentage point swing in quota attainment (87% Q1 to 99% Q3), client relationship risks, potential revenue leakage",
+      "recommendation": "Implement formal succession planning program for all client-facing roles. Establish mandatory knowledge transfer checklist and minimum notice period requirements. Create client relationship documentation standards.",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Agreed. HR to develop succession planning framework by Q2 2025. CRM documentation requirements to be enhanced immediately.",
+      "target_remediation_date": "2025-06-30",
+      "owner": "Ingrid Olsen",
+      "identified_date": "2025-01-15"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-13",
+      "title": "Deficient Sales Pipeline Management Controls",
+      "criteria": "Pipeline management should include weekly reviews, stage gate criteria, and forecast accuracy tracking",
+      "condition": "Pipeline reviews conducted inconsistently (monthly instead of weekly during Q4). No formal stage gate criteria documented. Forecast accuracy averaging 65% versus 85% target.",
+      "cause": "Resource constraints during territory transitions, lack of formalized pipeline management methodology, insufficient management oversight",
+      "effect": "Unreliable revenue forecasting, difficulty identifying at-risk opportunities, inconsistent sales execution",
+      "recommendation": "Implement weekly pipeline review cadence with documented escalation triggers. Define and communicate stage gate criteria. Establish forecast accuracy KPIs with accountability.",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Partially agreed. Weekly reviews being implemented from February 2025. Stage gate criteria project initiated.",
+      "target_remediation_date": "2025-04-30",
+      "owner": "Anna Svensson",
+      "identified_date": "2025-01-18"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-1",
+      "title": "Incomplete Integration Governance Framework for Stuttgart Acquisition",
+      "criteria": "Acquisition integration should have documented governance structure, clear accountability, risk management framework, and defined decision rights",
+      "condition": "Integration governance documented at high level only. Risk management framework not fully aligned with group standards. Decision rights matrix incomplete for cross-border operational decisions.",
+      "cause": "Accelerated integration timeline, complexity of cross-jurisdictional requirements, resource constraints in establishing governance",
+      "effect": "Potential for inconsistent decision-making, unclear accountability for integration milestones, increased execution risk",
+      "recommendation": "Complete integration governance documentation including detailed RACI matrix. Establish integration risk register aligned with group methodology. Define and communicate decision authority levels.",
+      "severity": "High",
+      "status": "In Progress",
+      "management_response": "Agreed. Enhanced governance framework in development with expected completion by end of Q1 2025.",
+      "target_remediation_date": "2025-03-31",
+      "owner": "Klaus Werner",
+      "identified_date": "2025-02-10"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-1",
+      "title": "Gaps in German Regulatory Compliance Documentation",
+      "criteria": "Professional services operations must maintain comprehensive compliance documentation for applicable regulatory requirements",
+      "condition": "Stuttgart operations compliance with Steuerberatungsgesetz not fully documented in group compliance framework. Licensing requirements for individual practitioners not centrally tracked.",
+      "cause": "Acquisition due diligence focused on financial aspects, limited regulatory integration planning, different documentation standards in German operations",
+      "effect": "Potential regulatory non-compliance, professional liability exposure, reputational risk",
+      "recommendation": "Conduct comprehensive regulatory compliance mapping for German operations. Establish central tracking for practitioner licensing. Integrate German compliance requirements into group framework.",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Agreed. Regulatory compliance project initiated with external legal counsel support.",
+      "target_remediation_date": "2025-05-31",
+      "owner": "Henrik Andersen",
+      "identified_date": "2025-02-15"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-14",
+      "title": "Purchase Price Allocation Documentation Deficiencies",
+      "criteria": "IFRS 3 requires detailed documentation of purchase price allocation methodology, assumptions, and fair value determinations",
+      "condition": "Supporting documentation for intangible asset valuation assumptions incomplete. Customer relationship valuation methodology not fully documented. Synergy assumptions not reconciled to integration plans.",
+      "cause": "Compressed timeline for acquisition close, reliance on third-party valuation without internal validation, limited finance resource availability",
+      "effect": "Potential audit qualification risk, goodwill impairment testing challenges, financial statement accuracy concerns",
+      "recommendation": "Complete documentation of all PPA assumptions and methodologies. Reconcile synergy assumptions to detailed integration plans. Establish internal review process for third-party valuations.",
+      "severity": "Medium",
+      "status": "In Progress",
+      "management_response": "Agreed. Documentation being enhanced in coordination with external auditors.",
+      "target_remediation_date": "2025-02-28",
+      "owner": "Erik Johannsen",
+      "identified_date": "2025-01-25"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-1",
+      "title": "Insufficient Cultural Integration Risk Assessment",
+      "criteria": "Acquisition integration should include assessment and mitigation of cultural integration risks",
+      "condition": "No formal cultural integration risk assessment performed. Employee engagement monitoring not established for Stuttgart operations. Change management communication plan generic and not tailored to German context.",
+      "cause": "Focus on operational integration over cultural aspects, limited change management resources, underestimation of cultural differences",
+      "effect": "Employee retention risk, productivity impacts, potential integration delays, client service quality risks",
+      "recommendation": "Conduct cultural assessment for Stuttgart operations. Establish employee pulse surveys and engagement monitoring. Develop Germany-specific change management and communication plans.",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Agreed. HR initiating cultural assessment with external support.",
+      "target_remediation_date": "2025-04-30",
+      "owner": "Ingrid Olsen",
+      "identified_date": "2025-02-12"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-1",
+      "title": "IT System Harmonization Timeline Risk",
+      "criteria": "System integration should have realistic timelines, contingency plans, and data migration validation procedures",
+      "condition": "System harmonization timeline compressed with limited contingency. Data migration validation procedures not fully documented. Parallel running period shortened due to cost pressures.",
+      "cause": "Aggressive synergy realization targets, cost optimization focus, underestimation of system complexity",
+      "effect": "Data integrity risks, operational disruption potential, reporting inconsistencies",
+      "recommendation": "Review and validate system integration timeline with technical teams. Document comprehensive data migration validation procedures. Establish adequate parallel running period with clear exit criteria.",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Partially agreed. Timeline under review but synergy commitments must be balanced against risk.",
+      "target_remediation_date": "2025-04-15",
+      "owner": "Thomas Nielsen",
+      "identified_date": "2025-02-18"
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-14",
+      "title": "Integration Synergy Tracking Methodology Gaps",
+      "criteria": "Synergy realization should be tracked against defined baselines with clear attribution methodology",
+      "condition": "Baseline cost and revenue assumptions not formally documented. Synergy attribution methodology not defined for shared cost savings. No independent validation process for reported synergies.",
+      "cause": "Rapid integration planning, focus on high-level targets over detailed tracking, limited FP&A resource allocation",
+      "effect": "Inability to accurately assess integration success, potential over or understatement of synergies, stakeholder reporting challenges",
+      "recommendation": "Document synergy baselines and assumptions. Define attribution methodology for cost and revenue synergies. Establish independent validation process for synergy reporting.",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Agreed. FP&A developing enhanced synergy tracking framework.",
+      "target_remediation_date": "2025-03-31",
+      "owner": "Erik Johannsen",
+      "identified_date": "2025-01-28"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Stuttgart Integration Execution Risk",
+      "description": "Risk that Stuttgart acquisition integration fails to achieve planned synergies, experiences significant delays, or results in operational disruption",
+      "category": "Strategic",
+      "sub_category": "M&A Integration",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_owner": "Klaus Werner",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Key personnel departures",
+        "System migration failures",
+        "Regulatory compliance gaps",
+        "Cultural conflicts"
+      ],
+      "affected_objectives": [
+        "OBJ-1",
+        "OBJ-3"
+      ],
+      "created_date": "2024-09-15",
+      "last_review_date": "2025-01-20"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Commercial Volatility and Revenue Predictability",
+      "description": "Risk that sales performance continues to show high volatility, impacting revenue predictability and growth targets",
+      "category": "Operational",
+      "sub_category": "Sales Execution",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_owner": "Anna Svensson",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Sales team departures",
+        "Pipeline management failures",
+        "Market downturn",
+        "Competitive pressure"
+      ],
+      "affected_objectives": [
+        "OBJ-2",
+        "OBJ-4"
+      ],
+      "created_date": "2024-10-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Platform Migration Data Integrity Risk",
+      "description": "Risk that legacy system consolidation and platform migration results in data integrity issues, operational disruption, or service delivery impacts",
+      "category": "Technology",
+      "sub_category": "System Migration",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Thomas Nielsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Data migration errors",
+        "System integration failures",
+        "Insufficient testing",
+        "Resource constraints"
+      ],
+      "affected_objectives": [
+        "OBJ-5",
+        "OBJ-6"
+      ],
+      "created_date": "2024-06-01",
+      "last_review_date": "2025-01-10"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Multi-Jurisdictional Regulatory Compliance",
+      "description": "Risk of non-compliance with professional services regulations across Nordic, German, and UK jurisdictions including audit regulations, tax advisory licensing, and professional standards",
+      "category": "Compliance",
+      "sub_category": "Professional Regulations",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_owner": "Henrik Andersen",
+      "risk_source": "External",
+      "trigger_events": [
+        "Regulatory changes",
+        "Licensing failures",
+        "Quality deficiencies",
+        "Regulatory inspections"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-8"
+      ],
+      "created_date": "2023-01-15",
+      "last_review_date": "2025-01-22"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "GDPR Cross-Border Data Transfer Compliance",
+      "description": "Risk of GDPR non-compliance related to cross-border data transfers between Nordic and German operations, including client financial data processing",
+      "category": "Compliance",
+      "sub_category": "Data Protection",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Lars Eriksson",
+      "risk_source": "External",
+      "trigger_events": [
+        "Data breach",
+        "Regulatory investigation",
+        "Inadequate transfer mechanisms",
+        "Processing scope changes"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-9"
+      ],
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-18"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "EU AI Act High Risk Classification Compliance",
+      "description": "Risk of non-compliance with EU AI Act requirements for AI systems classified as High Risk in professional services delivery",
+      "category": "Compliance",
+      "sub_category": "AI Governance",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "Thomas Nielsen",
+      "risk_source": "External",
+      "trigger_events": [
+        "AI system deployment",
+        "Regulatory enforcement",
+        "Algorithmic errors",
+        "Bias incidents"
+      ],
+      "affected_objectives": [
+        "OBJ-5",
+        "OBJ-7"
+      ],
+      "created_date": "2024-03-01",
+      "last_review_date": "2025-01-12"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Liquidity Constraint and Financial Flexibility",
+      "description": "Risk that reduced cash position and increased debt following acquisition financing constrains ability to fund growth investments or respond to market opportunities",
+      "category": "Financial",
+      "sub_category": "Liquidity",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Working capital strain",
+        "Unexpected capital needs",
+        "Covenant breach risk",
+        "Market downturn"
+      ],
+      "affected_objectives": [
+        "OBJ-1",
+        "OBJ-4"
+      ],
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-05"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Nordic Market Concentration Risk",
+      "description": "Risk that dependence on Nordic markets exposes business to regional economic downturns affecting SME client base",
+      "category": "Strategic",
+      "sub_category": "Market Concentration",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Anna Svensson",
+      "risk_source": "External",
+      "trigger_events": [
+        "Nordic economic downturn",
+        "SME sector weakness",
+        "Currency volatility",
+        "Competitive pressure"
+      ],
+      "affected_objectives": [
+        "OBJ-2",
+        "OBJ-3"
+      ],
+      "created_date": "2023-06-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Key Talent Retention and Succession",
+      "description": "Risk of losing key personnel in client-facing and technical roles without adequate succession planning or knowledge transfer",
+      "category": "Operational",
+      "sub_category": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "Ingrid Olsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Market competition for talent",
+        "Integration uncertainty",
+        "Compensation gaps",
+        "Career development limitations"
+      ],
+      "affected_objectives": [
+        "OBJ-6",
+        "OBJ-10"
+      ],
+      "created_date": "2024-10-01",
+      "last_review_date": "2025-01-20"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Revenue Recognition Accuracy",
+      "description": "Risk of revenue recognition errors or inconsistencies particularly for cross-border transactions and changing service mix toward advisory services",
+      "category": "Financial",
+      "sub_category": "Financial Reporting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Complex contract structures",
+        "Cross-border billing",
+        "Service mix changes",
+        "System consolidation"
+      ],
+      "affected_objectives": [
+        "OBJ-4",
+        "OBJ-11"
+      ],
+      "created_date": "2024-06-01",
+      "last_review_date": "2025-01-08"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Professional Liability and Quality Deficiencies",
+      "description": "Risk of professional liability claims arising from quality deficiencies in audit, tax, or advisory services",
+      "category": "Operational",
+      "sub_category": "Professional Standards",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_owner": "Henrik Andersen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Audit failures",
+        "Tax advice errors",
+        "Client disputes",
+        "Regulatory enforcement"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-8"
+      ],
+      "created_date": "2023-01-15",
+      "last_review_date": "2025-01-22"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Cybersecurity and Client Data Breach",
+      "description": "Risk of cybersecurity incident resulting in breach of client financial and personal data",
+      "category": "Technology",
+      "sub_category": "Cybersecurity",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_owner": "Thomas Nielsen",
+      "risk_source": "External",
+      "trigger_events": [
+        "Phishing attacks",
+        "Ransomware",
+        "Third-party breach",
+        "Insider threat"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-9"
+      ],
+      "created_date": "2023-01-15",
+      "last_review_date": "2025-01-10"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "German Steuerberatungsgesetz Compliance",
+      "description": "Risk of non-compliance with German Tax Advisory Act requirements in Stuttgart operations",
+      "category": "Compliance",
+      "sub_category": "Professional Licensing",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Klaus Werner",
+      "risk_source": "External",
+      "trigger_events": [
+        "Licensing gaps",
+        "Regulatory inspection",
+        "Staff qualification issues",
+        "Scope expansion"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-3"
+      ],
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "FY2026 Growth Target Execution Risk",
+      "description": "Risk that aggressive growth targets for FY2026 strain operational capacity during ongoing integration activities",
+      "category": "Strategic",
+      "sub_category": "Growth Strategy",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "Anna Svensson",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Capacity constraints",
+        "Quality impacts",
+        "Integration delays",
+        "Resource competition"
+      ],
+      "affected_objectives": [
+        "OBJ-2",
+        "OBJ-6"
+      ],
+      "created_date": "2024-12-01",
+      "last_review_date": "2025-01-10"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Continental Europe Market Entry Risk",
+      "description": "Risk that expansion into Continental European markets through acquisition creates execution challenges in unfamiliar markets",
+      "category": "Strategic",
+      "sub_category": "Geographic Expansion",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Klaus Werner",
+      "risk_source": "External",
+      "trigger_events": [
+        "Market misunderstanding",
+        "Competitive response",
+        "Regulatory barriers",
+        "Cultural challenges"
+      ],
+      "affected_objectives": [
+        "OBJ-3",
+        "OBJ-2"
+      ],
+      "created_date": "2024-06-01",
+      "last_review_date": "2025-01-20"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Working Capital Management During Integration",
+      "description": "Risk that working capital management controls are strained during acquisition integration leading to cash flow challenges",
+      "category": "Financial",
+      "sub_category": "Working Capital",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Billing delays",
+        "Collection issues",
+        "Vendor payment timing",
+        "System transition"
+      ],
+      "affected_objectives": [
+        "OBJ-4",
+        "OBJ-1"
+      ],
+      "created_date": "2024-09-15",
+      "last_review_date": "2025-01-05"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "Client Acceptance and AML Compliance",
+      "description": "Risk of inadequate client acceptance procedures or AML compliance failures resulting in regulatory sanctions or reputational damage",
+      "category": "Compliance",
+      "sub_category": "Anti-Money Laundering",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_owner": "Henrik Andersen",
+      "risk_source": "External",
+      "trigger_events": [
+        "High-risk client onboarding",
+        "Regulatory investigation",
+        "Sanctions screening failures",
+        "Transaction monitoring gaps"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-8"
+      ],
+      "created_date": "2023-01-15",
+      "last_review_date": "2025-01-22"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Goodwill Impairment Risk",
+      "description": "Risk that goodwill from Stuttgart acquisition becomes impaired if synergies are not realized or market conditions deteriorate",
+      "category": "Financial",
+      "sub_category": "Asset Valuation",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Synergy shortfalls",
+        "Market downturn",
+        "Integration failures",
+        "Competitive pressure"
+      ],
+      "affected_objectives": [
+        "OBJ-4",
+        "OBJ-11"
+      ],
+      "created_date": "2024-09-15",
+      "last_review_date": "2025-01-25"
+    },
+    {
+      "risk_id": "RISK-19",
+      "name": "Third-Party and Vendor Risk",
+      "description": "Risk that third-party service providers fail to meet service levels, security requirements, or compliance obligations",
+      "category": "Operational",
+      "sub_category": "Vendor Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Sofia Bergman",
+      "risk_source": "External",
+      "trigger_events": [
+        "Vendor service failure",
+        "Security breach at vendor",
+        "Vendor financial distress",
+        "Contract disputes"
+      ],
+      "affected_objectives": [
+        "OBJ-6",
+        "OBJ-9"
+      ],
+      "created_date": "2023-06-01",
+      "last_review_date": "2025-01-08"
+    },
+    {
+      "risk_id": "RISK-20",
+      "name": "Business Continuity and Operational Resilience",
+      "description": "Risk that business continuity arrangements are insufficient to maintain operations during significant disruption",
+      "category": "Operational",
+      "sub_category": "Business Continuity",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_owner": "Thomas Nielsen",
+      "risk_source": "External",
+      "trigger_events": [
+        "Natural disaster",
+        "Pandemic",
+        "Major system failure",
+        "Infrastructure disruption"
+      ],
+      "affected_objectives": [
+        "OBJ-6",
+        "OBJ-9"
+      ],
+      "created_date": "2023-01-15",
+      "last_review_date": "2025-01-10"
+    },
+    {
+      "risk_id": "RISK-21",
+      "name": "Financial Services Regulatory Triggering",
+      "description": "Risk that certain advisory services inadvertently trigger financial services regulations requiring licensing and conduct oversight",
+      "category": "Compliance",
+      "sub_category": "Financial Services Regulations",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_owner": "Henrik Andersen",
+      "risk_source": "External",
+      "trigger_events": [
+        "Service scope creep",
+        "Regulatory interpretation changes",
+        "New service offerings",
+        "Cross-border activities"
+      ],
+      "affected_objectives": [
+        "OBJ-7",
+        "OBJ-13"
+      ],
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-22"
+    },
+    {
+      "risk_id": "RISK-22",
+      "name": "Debt Covenant Compliance",
+      "description": "Risk that leverage ratio approaches or breaches covenant thresholds following acquisition financing",
+      "category": "Financial",
+      "sub_category": "Debt Compliance",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "EBITDA decline",
+        "Additional debt",
+        "Covenant calculation disputes",
+        "Market conditions"
+      ],
+      "affected_objectives": [
+        "OBJ-4",
+        "OBJ-1"
+      ],
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-05"
+    },
+    {
+      "risk_id": "RISK-23",
+      "name": "Cultural Integration Failure",
+      "description": "Risk that cultural differences between Nordic and German operations create integration friction, retention issues, or service quality impacts",
+      "category": "Operational",
+      "sub_category": "Change Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Ingrid Olsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Employee resistance",
+        "Communication gaps",
+        "Management style conflicts",
+        "Policy implementation issues"
+      ],
+      "affected_objectives": [
+        "OBJ-3",
+        "OBJ-10"
+      ],
+      "created_date": "2024-09-15",
+      "last_review_date": "2025-01-20"
+    },
+    {
+      "risk_id": "RISK-24",
+      "name": "Technology Operational Disruption",
+      "description": "Risk that technology consolidation during integration creates operational disruption impacting service delivery during critical periods",
+      "category": "Technology",
+      "sub_category": "System Availability",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Thomas Nielsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "System migration issues",
+        "Integration bugs",
+        "Capacity constraints",
+        "Training gaps"
+      ],
+      "affected_objectives": [
+        "OBJ-5",
+        "OBJ-6"
+      ],
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-10"
+    },
+    {
+      "risk_id": "RISK-25",
+      "name": "Financial Reporting Inconsistencies Post-Acquisition",
+      "description": "Risk that multi-jurisdictional operations create financial reporting inconsistencies or delays following acquisition",
+      "category": "Financial",
+      "sub_category": "Financial Reporting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Erik Johannsen",
+      "risk_source": "Internal",
+      "trigger_events": [
+        "Accounting policy differences",
+        "System consolidation issues",
+        "Resource constraints",
+        "Timeline pressures"
+      ],
+      "affected_objectives": [
+        "OBJ-4",
+        "OBJ-11"
+      ],
+      "created_date": "2024-09-15",
+      "last_review_date": "2025-01-08"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "assessment_date": "2025-01-20",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_rationale": "Integration governance improvements underway but significant work remains. Timeline pressures persist.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Integration milestone completion rate",
+          "value": "68%",
+          "threshold": "80%",
+          "status": "Below threshold"
+        },
+        {
+          "indicator": "Key personnel retention",
+          "value": "94%",
+          "threshold": "90%",
+          "status": "Within threshold"
+        }
+      ],
+      "assessed_by": "Magnus Lindberg"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-2",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "velocity": "High",
+      "trend": "Improving",
+      "assessment_rationale": "New pipeline management controls being implemented. Q3 quota attainment improved but sustainability unclear.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Quota attainment",
+          "value": "99%",
+          "threshold": "90%",
+          "status": "Within threshold"
+        },
+        {
+          "indicator": "Pipeline coverage ratio",
+          "value": "2.8x",
+          "threshold": "3.0x",
+          "status": "Below threshold"
+        }
+      ],
+      "assessed_by": "Anna Svensson"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-3",
+      "assessment_date": "2025-01-10",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_rationale": "Migration controls strengthened. Data validation procedures enhanced. Timeline risks remain.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Data migration error rate",
+          "value": "0.02%",
+          "threshold": "0.1%",
+          "status": "Within threshold"
+        },
+        {
+          "indicator": "System availability",
+          "value": "99.7%",
+          "threshold": "99.5%",
+          "status": "Within threshold"
+        }
+      ],
+      "assessed_by": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-6",
+      "assessment_date": "2025-01-12",
+      "assessment_type": "Regulatory Change Assessment",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "velocity": "Medium",
+      "trend": "Increasing",
+      "assessment_rationale": "EU AI Act implementation timeline approaching. Governance framework development in progress but gaps remain.",
+      "key_risk_indicators": [
+        {
+          "indicator": "AI governance framework completion",
+          "value": "60%",
+          "threshold": "80%",
+          "status": "Below threshold"
+        },
+        {
+          "indicator": "High risk AI systems documented",
+          "value": "75%",
+          "threshold": "100%",
+          "status": "Below threshold"
+        }
+      ],
+      "assessed_by": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-12",
+      "assessment_date": "2025-01-10",
+      "assessment_type": "Annual Assessment",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "velocity": "High",
+      "trend": "Stable",
+      "assessment_rationale": "Threat landscape remains elevated. Security controls performing effectively. Continued vigilance required.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Security incidents (critical)",
+          "value": "0",
+          "threshold": "0",
+          "status": "Within threshold"
+        },
+        {
+          "indicator": "Phishing test failure rate",
+          "value": "8%",
+          "threshold": "10%",
+          "status": "Within threshold"
+        }
+      ],
+      "assessed_by": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-7",
+      "assessment_date": "2025-01-05",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "velocity": "Low",
+      "trend": "Stable",
+      "assessment_rationale": "Cash position reduced but adequate for operational needs. Covenant headroom maintained.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Leverage ratio",
+          "value": "0.94x",
+          "threshold": "2.5x",
+          "status": "Within threshold"
+        },
+        {
+          "indicator": "Cash position",
+          "value": "$142.6M",
+          "threshold": "$100M",
+          "status": "Within threshold"
+        }
+      ],
+      "assessed_by": "Erik Johannsen"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-9",
+      "assessment_date": "2025-01-20",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "velocity": "Medium",
+      "trend": "Deteriorating",
+      "assessment_rationale": "Q4 departures highlighted succession gaps. Retention programs being enhanced but market competition remains strong.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Voluntary turnover rate",
+          "value": "14%",
+          "threshold": "12%",
+          "status": "Above threshold"
+        },
+        {
+          "indicator": "Critical role succession coverage",
+          "value": "65%",
+          "threshold": "80%",
+          "status": "Below threshold"
+        }
+      ],
+      "assessed_by": "Ingrid Olsen"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-13",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Integration Assessment",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_rationale": "Stuttgart operations historically compliant. Integration into group compliance framework in progress.",
+      "key_risk_indicators": [
+        {
+          "indicator": "Practitioner licensing compliance",
+          "value": "100%",
+          "threshold": "100%",
+          "status": "Within threshold"
+        },
+        {
+          "indicator": "Regulatory findings (open)",
+          "value": "2",
+          "threshold": "0",
+          "status": "Above threshold"
+        }
+      ],
+      "assessed_by": "Klaus Werner"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Stuttgart Integration Risk Mitigation Plan",
+      "description": "Comprehensive plan to address integration execution risks through enhanced governance, monitoring, and control implementation",
+      "status": "Active",
+      "priority": "Critical",
+      "actions": [
+        {
+          "action_id": "RMP-1-A1",
+          "description": "Complete integration governance framework documentation",
+          "owner": "Klaus Werner",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-1-A2",
+          "description": "Establish weekly integration risk review meetings",
+          "owner": "Magnus Lindberg",
+          "due_date": "2025-02-15",
+          "status": "Completed"
+        },
+        {
+          "action_id": "RMP-1-A3",
+          "description": "Implement integration milestone tracking dashboard",
+          "owner": "Klaus Werner",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-1-A4",
+          "description": "Conduct cultural integration assessment",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-04-30",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 8,
+      "budget_allocated": 250000,
+      "created_by": "Magnus Lindberg",
+      "created_date": "2024-10-01"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-2",
+      "name": "Commercial Effectiveness Improvement Plan",
+      "description": "Plan to improve sales predictability through enhanced pipeline management, succession planning, and forecasting",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-2-A1",
+          "description": "Implement weekly pipeline review cadence",
+          "owner": "Anna Svensson",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-2-A2",
+          "description": "Document and communicate stage gate criteria",
+          "owner": "Johan Karlsson",
+          "due_date": "2025-04-30",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-2-A3",
+          "description": "Enhance CRM client relationship documentation",
+          "owner": "Anna Svensson",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-2-A4",
+          "description": "Develop key account succession planning process",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 8,
+      "budget_allocated": 75000,
+      "created_by": "Anna Svensson",
+      "created_date": "2024-11-15"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-6",
+      "name": "EU AI Act Compliance Program",
+      "description": "Program to achieve compliance with EU AI Act requirements for High Risk AI systems",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-3-A1",
+          "description": "Complete AI system inventory and classification",
+          "owner": "Thomas Nielsen",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-3-A2",
+          "description": "Develop AI governance framework aligned with EU AI Act",
+          "owner": "Thomas Nielsen",
+          "due_date": "2025-05-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-3-A3",
+          "description": "Implement AI risk assessment methodology",
+          "owner": "Lisa Andersson",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-3-A4",
+          "description": "Establish AI human oversight procedures",
+          "owner": "Thomas Nielsen",
+          "due_date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "budget_allocated": 180000,
+      "created_by": "Thomas Nielsen",
+      "created_date": "2024-06-01"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-9",
+      "name": "Talent Retention and Succession Plan",
+      "description": "Plan to improve talent retention, succession planning, and knowledge management",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-4-A1",
+          "description": "Conduct compensation benchmarking analysis",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-4-A2",
+          "description": "Develop succession planning framework for critical roles",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-06-30",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-4-A3",
+          "description": "Implement mandatory offboarding knowledge transfer process",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-4-A4",
+          "description": "Launch employee engagement survey program",
+          "owner": "Ingrid Olsen",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "budget_allocated": 120000,
+      "created_by": "Ingrid Olsen",
+      "created_date": "2024-11-01"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-5",
+      "name": "GDPR Cross-Border Compliance Enhancement",
+      "description": "Plan to enhance GDPR compliance for cross-border data transfers following Stuttgart acquisition",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-5-A1",
+          "description": "Complete data flow mapping for German operations",
+          "owner": "Lars Eriksson",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-5-A2",
+          "description": "Implement Standard Contractual Clauses for internal transfers",
+          "owner": "Lars Eriksson",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-5-A3",
+          "description": "Conduct Transfer Impact Assessment",
+          "owner": "Eva Lindqvist",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-5-A4",
+          "description": "Update privacy notices and consent mechanisms",
+          "owner": "Lars Eriksson",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "budget_allocated": 95000,
+      "created_by": "Lars Eriksson",
+      "created_date": "2024-10-15"
+    },
+    {
+      "plan_id": "RMP-6",
+      "risk_id": "RISK-3",
+      "name": "Platform Migration Risk Management Plan",
+      "description": "Plan to manage data integrity and operational risks during platform migration",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-6-A1",
+          "description": "Enhance data migration validation procedures",
+          "owner": "Thomas Nielsen",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-6-A2",
+          "description": "Establish adequate parallel running period",
+          "owner": "Martin Berg",
+          "due_date": "2025-04-15",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-6-A3",
+          "description": "Implement rollback procedures and testing",
+          "owner": "Thomas Nielsen",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-6-A4",
+          "description": "Conduct user acceptance testing",
+          "owner": "Lisa Andersson",
+          "due_date": "2025-05-15",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "budget_allocated": 150000,
+      "created_by": "Thomas Nielsen",
+      "created_date": "2024-08-01"
+    },
+    {
+      "plan_id": "RMP-7",
+      "risk_id": "RISK-13",
+      "name": "German Regulatory Compliance Integration Plan",
+      "description": "Plan to integrate Stuttgart operations into group compliance framework and ensure Steuerberatungsgesetz compliance",
+      "status": "Active",
+      "priority": "High",
+      "actions": [
+        {
+          "action_id": "RMP-7-A1",
+          "description": "Complete regulatory compliance mapping for German operations",
+          "owner": "Klaus Werner",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action_id": "RMP-7-A2",
+          "description": "Establish central practitioner licensing tracking",
+          "owner": "Hans Mueller",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-7-A3",
+          "description": "Integrate German compliance into group framework",
+          "owner": "Henrik Andersen",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        },
+        {
+          "action_id": "RMP-7-A4",
+          "description": "Conduct compliance gap remediation",
+          "owner": "Klaus Werner",
+          "due_date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "budget_allocated": 85000,
+      "created_by": "Henrik Andersen",
+      "created_date": "2024-10-01"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Integration Governance Committee",
+      "description": "Weekly executive committee oversight of Stuttgart integration activities, risks, and milestone tracking",
+      "control_type": "Preventive",
+      "category": "Governance",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Klaus Werner",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-1",
+        "RISK-15",
+        "RISK-23"
+      ],
+      "linked_process_ids": [
+        "PROC-1"
+      ],
+      "effectiveness_rating": "Partially Effective",
+      "last_test_date": "2025-01-15",
+      "next_test_date": "2025-04-15"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Pipeline Review and Forecasting Process",
+      "description": "Weekly sales pipeline review with stage gate validation and forecast accuracy tracking",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Anna Svensson",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-2",
+        "RISK-14"
+      ],
+      "linked_process_ids": [
+        "PROC-2"
+      ],
+      "effectiveness_rating": "Needs Improvement",
+      "last_test_date": "2025-01-10",
+      "next_test_date": "2025-04-10"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Data Migration Validation Controls",
+      "description": "Automated and manual validation procedures for data migration including reconciliation and integrity checks",
+      "control_type": "Detective",
+      "category": "IT General Controls",
+      "frequency": "Per Migration Event",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-3",
+        "RISK-24"
+      ],
+      "linked_process_ids": [
+        "PROC-3"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2025-01-08",
+      "next_test_date": "2025-04-08"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Professional Licensing Verification",
+      "description": "Annual verification of professional licensing and qualification requirements for all regulated staff",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-4",
+        "RISK-13"
+      ],
+      "linked_process_ids": [
+        "PROC-4"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-01",
+      "next_test_date": "2025-12-01"
+    },
+    {
+      "control_id": "C-5",
+      "name": "GDPR Data Transfer Impact Assessment",
+      "description": "Assessment of cross-border data transfers to ensure compliance with GDPR transfer requirements",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Transfer Mechanism",
+      "automation_level": "Manual",
+      "owner": "Lars Eriksson",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-5"
+      ],
+      "linked_process_ids": [
+        "PROC-5"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-11-15",
+      "next_test_date": "2025-05-15"
+    },
+    {
+      "control_id": "C-6",
+      "name": "AI System Classification and Risk Assessment",
+      "description": "Classification of AI systems against EU AI Act risk categories with documented risk assessments",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per System Deployment",
+      "automation_level": "Manual",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-6"
+      ],
+      "linked_process_ids": [
+        "PROC-6"
+      ],
+      "effectiveness_rating": "Needs Improvement",
+      "last_test_date": "2025-01-05",
+      "next_test_date": "2025-04-05"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Cash Flow Monitoring and Forecasting",
+      "description": "Weekly cash position monitoring and 13-week rolling cash flow forecast",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-7",
+        "RISK-16",
+        "RISK-22"
+      ],
+      "linked_process_ids": [
+        "PROC-7"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2025-01-03",
+      "next_test_date": "2025-04-03"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Revenue Concentration Monitoring",
+      "description": "Quarterly analysis of revenue concentration by geography, service line, and client segment",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-8"
+      ],
+      "linked_process_ids": [
+        "PROC-8"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-15",
+      "next_test_date": "2025-03-15"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Talent Review and Succession Planning",
+      "description": "Semi-annual talent review identifying critical roles and succession candidates",
+      "control_type": "Preventive",
+      "category": "Human Resources",
+      "frequency": "Semi-Annual",
+      "automation_level": "Manual",
+      "owner": "Ingrid Olsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-9",
+        "RISK-23"
+      ],
+      "linked_process_ids": [
+        "PROC-9"
+      ],
+      "effectiveness_rating": "Needs Improvement",
+      "last_test_date": "2024-12-01",
+      "next_test_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Revenue Recognition Policy Compliance Review",
+      "description": "Monthly review of revenue recognition against IFRS 15 policy requirements",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-10",
+        "RISK-25"
+      ],
+      "linked_process_ids": [
+        "PROC-10"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2025-01-15",
+      "next_test_date": "2025-02-15"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Engagement Quality Control Review",
+      "description": "Independent quality control review of audit and advisory engagements before issuance",
+      "control_type": "Preventive",
+      "category": "Quality",
+      "frequency": "Per Engagement",
+      "automation_level": "Manual",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-11"
+      ],
+      "linked_process_ids": [
+        "PROC-11"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-11-01",
+      "next_test_date": "2025-11-01"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Security Operations Center Monitoring",
+      "description": "24/7 security monitoring, threat detection, and incident response capabilities",
+      "control_type": "Detective",
+      "category": "Cybersecurity",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-12"
+      ],
+      "linked_process_ids": [
+        "PROC-12"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2025-01-10",
+      "next_test_date": "2025-04-10"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Debt Covenant Compliance Monitoring",
+      "description": "Monthly monitoring of debt covenant metrics with early warning triggers",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-22"
+      ],
+      "linked_process_ids": [
+        "PROC-7"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2025-01-05",
+      "next_test_date": "2025-02-05"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Client Acceptance and Due Diligence",
+      "description": "Structured client acceptance process including KYC verification and AML screening",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Client",
+      "automation_level": "Semi-Automated",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-17"
+      ],
+      "linked_process_ids": [
+        "PROC-13"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-09-15",
+      "next_test_date": "2025-03-15"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Access Management Controls",
+      "description": "Role-based access control with periodic access reviews and privileged access management",
+      "control_type": "Preventive",
+      "category": "IT General Controls",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-12",
+        "RISK-3"
+      ],
+      "linked_process_ids": [
+        "PROC-14"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-01",
+      "next_test_date": "2025-03-01"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Third-Party Risk Assessment",
+      "description": "Risk assessment of third-party vendors including security, privacy, and business continuity reviews",
+      "control_type": "Preventive",
+      "category": "Vendor Management",
+      "frequency": "Per Vendor",
+      "automation_level": "Manual",
+      "owner": "Sofia Bergman",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-19"
+      ],
+      "linked_process_ids": [
+        "PROC-15"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-05-01",
+      "next_test_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Business Continuity Plan Testing",
+      "description": "Annual testing of business continuity and disaster recovery plans",
+      "control_type": "Detective",
+      "category": "Business Continuity",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-20"
+      ],
+      "linked_process_ids": [
+        "PROC-16"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-04-01",
+      "next_test_date": "2025-04-01"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Financial Services Scope Review",
+      "description": "Quarterly review of advisory services to identify potential financial services regulatory triggers",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-21"
+      ],
+      "linked_process_ids": [
+        "PROC-17"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-15",
+      "next_test_date": "2025-03-15"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Goodwill Impairment Indicator Monitoring",
+      "description": "Quarterly monitoring of impairment indicators for goodwill related to acquisitions",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-18"
+      ],
+      "linked_process_ids": [
+        "PROC-18"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-31",
+      "next_test_date": "2025-03-31"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Change Management Approval Process",
+      "description": "Formal change management process for system and process changes including CAB approval",
+      "control_type": "Preventive",
+      "category": "IT General Controls",
+      "frequency": "Per Change",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-3",
+        "RISK-24"
+      ],
+      "linked_process_ids": [
+        "PROC-19"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-08-01",
+      "next_test_date": "2025-08-01"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Key Account Review Process",
+      "description": "Quarterly review of key client relationships including health scoring and risk assessment",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Anna Svensson",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-2",
+        "RISK-8"
+      ],
+      "linked_process_ids": [
+        "PROC-2"
+      ],
+      "effectiveness_rating": "Partially Effective",
+      "last_test_date": "2024-12-15",
+      "next_test_date": "2025-03-15"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Independence Monitoring System",
+      "description": "Automated monitoring of auditor independence requirements including investment and relationship tracking",
+      "control_type": "Preventive",
+      "category": "Professional Standards",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-4",
+        "RISK-11"
+      ],
+      "linked_process_ids": [
+        "PROC-20"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-11-01",
+      "next_test_date": "2025-11-01"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Multi-Factor Authentication",
+      "description": "MFA required for all system access including client-facing applications and internal systems",
+      "control_type": "Preventive",
+      "category": "Cybersecurity",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-12"
+      ],
+      "linked_process_ids": [
+        "PROC-14"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-11-01",
+      "next_test_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Data Loss Prevention Controls",
+      "description": "DLP controls monitoring and preventing unauthorized data exfiltration",
+      "control_type": "Preventive",
+      "category": "Data Protection",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Lars Eriksson",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-5",
+        "RISK-12"
+      ],
+      "linked_process_ids": [
+        "PROC-21"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-06-01",
+      "next_test_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Endpoint Protection and Patch Management",
+      "description": "Endpoint protection deployment and automated patch management for all devices",
+      "control_type": "Preventive",
+      "category": "Cybersecurity",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-12"
+      ],
+      "linked_process_ids": [
+        "PROC-22"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-11-01",
+      "next_test_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Integration Milestone Tracking",
+      "description": "Tracking and reporting of Stuttgart integration milestones against plan",
+      "control_type": "Detective",
+      "category": "Project Management",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Klaus Werner",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-1"
+      ],
+      "linked_process_ids": [
+        "PROC-1"
+      ],
+      "effectiveness_rating": "Partially Effective",
+      "last_test_date": "2025-01-20",
+      "next_test_date": "2025-02-20"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Synergy Realization Tracking",
+      "description": "Monthly tracking and validation of integration synergy realization",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Erik Johannsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-1",
+        "RISK-18"
+      ],
+      "linked_process_ids": [
+        "PROC-23"
+      ],
+      "effectiveness_rating": "Needs Improvement",
+      "last_test_date": "2025-01-15",
+      "next_test_date": "2025-02-15"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Employee Onboarding and Offboarding Controls",
+      "description": "Structured onboarding and offboarding process including knowledge transfer requirements",
+      "control_type": "Preventive",
+      "category": "Human Resources",
+      "frequency": "Per Employee",
+      "automation_level": "Semi-Automated",
+      "owner": "Ingrid Olsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-9"
+      ],
+      "linked_process_ids": [
+        "PROC-24"
+      ],
+      "effectiveness_rating": "Needs Improvement",
+      "last_test_date": "2024-12-01",
+      "next_test_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Regulatory Change Monitoring",
+      "description": "Monitoring of regulatory changes across all jurisdictions with impact assessment",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Henrik Andersen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-4",
+        "RISK-6",
+        "RISK-21"
+      ],
+      "linked_process_ids": [
+        "PROC-25"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-10-01",
+      "next_test_date": "2025-10-01"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Backup and Recovery Testing",
+      "description": "Regular testing of backup and recovery procedures for critical systems",
+      "control_type": "Detective",
+      "category": "IT General Controls",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Nielsen",
+      "status": "Active",
+      "linked_risk_ids": [
+        "RISK-20",
+        "RISK-3"
+      ],
+      "linked_process_ids": [
+        "PROC-16"
+      ],
+      "effectiveness_rating": "Effective",
+      "last_test_date": "2024-12-01",
+      "next_test_date": "2025-03-01"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Reviewed meeting minutes, attendance records, and decision documentation for integration governance committee meetings",
+      "test_result": "Fail",
+      "test_evidence": "Committee meetings held weekly as designed. However, risk management framework documentation incomplete. Decision rights matrix not finalized.",
+      "deficiencies_identified": [
+        "Incomplete governance documentation",
+        "Decision rights matrix gaps"
+      ],
+      "tester": "Magnus Lindberg"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Reviewed pipeline review meeting records, stage gate documentation, and forecast accuracy reports",
+      "test_result": "Fail",
+      "test_evidence": "Weekly meetings not consistently held during Q4 2024. Stage gate criteria not formally documented. Forecast accuracy at 65% versus 85% target.",
+      "deficiencies_identified": [
+        "Inconsistent meeting cadence",
+        "Undocumented stage gate criteria",
+        "Poor forecast accuracy"
+      ],
+      "tester": "Anna Svensson"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-3",
+      "assessment_date": "2025-01-08",
+      "test_procedure": "Reviewed data migration validation procedures, reconciliation reports, and error logs",
+      "test_result": "Pass",
+      "test_evidence": "Validation procedures documented and executed. Error rate at 0.02% well below 0.1% threshold. Reconciliations completed for all migrations.",
+      "deficiencies_identified": [],
+      "tester": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-6",
+      "assessment_date": "2025-01-05",
+      "test_procedure": "Reviewed AI system inventory, classification documentation, and risk assessments",
+      "test_result": "Fail",
+      "test_evidence": "AI system inventory 75% complete. Classification methodology documented but not applied consistently. Risk assessments incomplete for 40% of high-risk systems.",
+      "deficiencies_identified": [
+        "Incomplete AI inventory",
+        "Inconsistent classification application",
+        "Missing risk assessments"
+      ],
+      "tester": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-9",
+      "assessment_date": "2024-12-01",
+      "test_procedure": "Reviewed succession planning documentation, critical role identification, and successor readiness assessments",
+      "test_result": "Fail",
+      "test_evidence": "Critical roles identified. Succession coverage only 65% versus 80% target. Successor readiness assessments not consistently documented.",
+      "deficiencies_identified": [
+        "Inadequate succession coverage",
+        "Inconsistent documentation"
+      ],
+      "tester": "Ingrid Olsen"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-12",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Reviewed SOC monitoring logs, incident response records, and detection capabilities",
+      "test_result": "Pass",
+      "test_evidence": "24/7 monitoring operational. Zero critical security incidents. Incident response times within SLA. Detection coverage comprehensive.",
+      "deficiencies_identified": [],
+      "tester": "Thomas Nielsen"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-14",
+      "assessment_date": "2024-09-15",
+      "test_procedure": "Reviewed client acceptance procedures, KYC documentation, and AML screening records",
+      "test_result": "Pass",
+      "test_evidence": "Client acceptance procedures consistently applied. KYC documentation complete for sampled clients. AML screening conducted for all new clients.",
+      "deficiencies_identified": [],
+      "tester": "Henrik Andersen"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-26",
+      "assessment_date": "2025-01-20",
+      "test_procedure": "Reviewed milestone tracking reports, status updates, and variance analysis",
+      "test_result": "Fail",
+      "test_evidence": "Milestone completion rate at 68% versus 80% target. Variance analysis conducted but root cause remediation not consistently tracked.",
+      "deficiencies_identified": [
+        "Milestone delays",
+        "Incomplete remediation tracking"
+      ],
+      "tester": "Klaus Werner"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-27",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Reviewed synergy tracking reports, baseline documentation, and attribution methodology",
+      "test_result": "Fail",
+      "test_evidence": "Synergy tracking reports produced monthly. However, baseline assumptions not formally documented. Attribution methodology not defined.",
+      "deficiencies_identified": [
+        "Missing baseline documentation",
+        "Undefined attribution methodology"
+      ],
+      "tester": "Erik Johannsen"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-28",
+      "assessment_date": "2024-12-01",
+      "test_procedure": "Reviewed onboarding and offboarding procedures, checklist completion, and knowledge transfer documentation",
+      "test_result": "Fail",
+      "test_evidence": "Onboarding procedures documented. Offboarding checklist exists but knowledge transfer requirements not consistently executed. Q4 AE departures showed significant knowledge gaps.",
+      "deficiencies_identified": [
+        "Inconsistent knowledge transfer execution",
+        "Documentation gaps"
+      ],
+      "tester": "Ingrid Olsen"
+    },
+    {
+      "assessment_id": "CA-11",
+      "parent_control_id": "C-21",
+      "assessment_date": "2024-12-15",
+      "test_procedure": "Reviewed key account review documentation, health scores, and risk assessments",
+      "test_result": "Fail",
+      "test_evidence": "Quarterly reviews conducted for most key accounts. Health scoring methodology inconsistent across regions. Some accounts not reviewed following AE departures.",
+      "deficiencies_identified": [
+        "Inconsistent methodology",
+        "Coverage gaps"
+      ],
+      "tester": "Anna Svensson"
+    },
+    {
+      "assessment_id": "CA-12",
+      "parent_control_id": "C-7",
+      "assessment_date": "2025-01-03",
+      "test_procedure": "Reviewed cash flow forecasts, actual vs forecast variance, and monitoring reports",
+      "test_result": "Pass",
+      "test_evidence": "Weekly cash position monitoring in place. 13-week forecasts produced and reviewed. Forecast accuracy within acceptable variance.",
+      "deficiencies_identified": [],
+      "tester": "Erik Johannsen"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-1",
+      "assessment_id": "CA-1",
+      "title": "Integration Governance Framework Documentation Gaps",
+      "description": "The integration governance committee is meeting as designed but governance framework documentation is incomplete, including decision rights matrix and risk management framework alignment",
+      "severity": "High",
+      "root_cause": "Accelerated integration timeline and competing priorities reduced time available for documentation",
+      "impact": "Potential for inconsistent decision-making and unclear accountability",
+      "status": "Open",
+      "remediation_plan": "Complete governance framework documentation including RACI matrix and decision authority levels",
+      "owner": "Klaus Werner",
+      "target_remediation_date": "2025-03-31",
+      "identified_date": "2025-01-15"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-2",
+      "assessment_id": "CA-2",
+      "title": "Pipeline Management Control Weaknesses",
+      "description": "Weekly pipeline reviews not consistently conducted, stage gate criteria undocumented, and forecast accuracy significantly below target",
+      "severity": "High",
+      "root_cause": "Resource constraints during territory transitions and lack of formalized methodology",
+      "impact": "Unreliable revenue forecasting and inability to identify at-risk opportunities",
+      "status": "Open",
+      "remediation_plan": "Implement weekly review cadence, document stage gate criteria, establish forecast accuracy KPIs",
+      "owner": "Anna Svensson",
+      "target_remediation_date": "2025-04-30",
+      "identified_date": "2025-01-10"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-6",
+      "assessment_id": "CA-4",
+      "title": "AI Governance Control Implementation Gaps",
+      "description": "AI system inventory incomplete, classification methodology not consistently applied, and risk assessments missing for significant portion of high-risk systems",
+      "severity": "High",
+      "root_cause": "Emerging regulatory requirements and limited AI governance expertise",
+      "impact": "Potential non-compliance with EU AI Act requirements",
+      "status": "Open",
+      "remediation_plan": "Complete AI inventory, apply consistent classification, conduct comprehensive risk assessments",
+      "owner": "Thomas Nielsen",
+      "target_remediation_date": "2025-06-30",
+      "identified_date": "2025-01-05"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-9",
+      "assessment_id": "CA-5",
+      "title": "Succession Planning Coverage Deficiency",
+      "description": "Succession coverage at 65% versus 80% target with inconsistent documentation of successor readiness assessments",
+      "severity": "Medium",
+      "root_cause": "Competing HR priorities and lack of formal succession planning program",
+      "impact": "Increased vulnerability to key personnel departures",
+      "status": "Open",
+      "remediation_plan": "Develop formal succession planning program with consistent documentation requirements",
+      "owner": "Ingrid Olsen",
+      "target_remediation_date": "2025-06-30",
+      "identified_date": "2024-12-01"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-26",
+      "assessment_id": "CA-8",
+      "title": "Integration Milestone Tracking Deficiency",
+      "description": "Milestone completion rate below target with incomplete root cause remediation tracking",
+      "severity": "High",
+      "root_cause": "Aggressive timeline and resource constraints",
+      "impact": "Integration delays and synergy realization risks",
+      "status": "Open",
+      "remediation_plan": "Implement enhanced milestone tracking with root cause analysis and remediation tracking",
+      "owner": "Klaus Werner",
+      "target_remediation_date": "2025-02-28",
+      "identified_date": "2025-01-20"
+    },
+    {
+      "deficiency_id": "CD-6",
+      "control_id": "C-27",
+      "assessment_id": "CA-9",
+      "title": "Synergy Tracking Methodology Gaps",
+      "description": "Baseline assumptions not formally documented and attribution methodology not defined",
+      "severity": "Medium",
+      "root_cause": "Rapid integration planning with focus on high-level targets",
+      "impact": "Inability to accurately assess integration success and validate synergy realization",
+      "status": "Open",
+      "remediation_plan": "Document synergy baselines and define attribution methodology",
+      "owner": "Erik Johannsen",
+      "target_remediation_date": "2025-03-31",
+      "identified_date": "2025-01-15"
+    },
+    {
+      "deficiency_id": "CD-7",
+      "control_id": "C-28",
+      "assessment_id": "CA-10",
+      "title": "Knowledge Transfer Process Deficiency",
+      "description": "Knowledge transfer requirements in offboarding process not consistently executed, resulting in knowledge loss during AE departures",
+      "severity": "High",
+      "root_cause": "Lack of mandatory knowledge transfer requirements and enforcement",
+      "impact": "Client relationship risks and institutional knowledge loss",
+      "status": "Open",
+      "remediation_plan": "Implement mandatory knowledge transfer checklist with compliance tracking",
+      "owner": "Ingrid Olsen",
+      "target_remediation_date": "2025-04-30",
+      "identified_date": "2024-12-01"
+    },
+    {
+      "deficiency_id": "CD-8",
+      "control_id": "C-21",
+      "assessment_id": "CA-11",
+      "title": "Key Account Review Inconsistency",
+      "description": "Key account health scoring methodology inconsistent across regions and coverage gaps following AE departures",
+      "severity": "Medium",
+      "root_cause": "Lack of standardized methodology and resource constraints",
+      "impact": "Potential client relationship issues not identified timely",
+      "status": "Open",
+      "remediation_plan": "Standardize health scoring methodology and ensure comprehensive coverage",
+      "owner": "Anna Svensson",
+      "target_remediation_date": "2025-03-31",
+      "identified_date": "2024-12-15"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "Acquisition Integration Management",
+      "description": "End-to-end process for managing acquisition integration including governance, milestone tracking, and synergy realization",
+      "owner": "Klaus Werner",
+      "category": "Strategic",
+      "linked_entity_ids": [
+        "AE-3",
+        "AE-14"
+      ],
+      "linked_control_ids": [
+        "C-1",
+        "C-26",
+        "C-27"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Sales Pipeline Management",
+      "description": "Process for managing sales opportunities from lead generation through close including forecasting",
+      "owner": "Anna Svensson",
+      "category": "Commercial",
+      "linked_entity_ids": [
+        "AE-5"
+      ],
+      "linked_control_ids": [
+        "C-2",
+        "C-21"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "System Migration and Data Management",
+      "description": "Process for managing system migrations including data validation and integrity controls",
+      "owner": "Thomas Nielsen",
+      "category": "Technology",
+      "linked_entity_ids": [
+        "AE-6"
+      ],
+      "linked_control_ids": [
+        "C-3",
+        "C-20"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "Professional Licensing Management",
+      "description": "Process for managing professional licensing requirements and verification across jurisdictions",
+      "owner": "Henrik Andersen",
+      "category": "Compliance",
+      "linked_entity_ids": [
+        "AE-12"
+      ],
+      "linked_control_ids": [
+        "C-4"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Cross-Border Data Transfer Management",
+      "description": "Process for assessing and authorizing cross-border data transfers under GDPR",
+      "owner": "Lars Eriksson",
+      "category": "Data Protection",
+      "linked_entity_ids": [
+        "AE-8",
+        "AE-16"
+      ],
+      "linked_control_ids": [
+        "C-5"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "AI System Governance",
+      "description": "Process for AI system classification, risk assessment, and governance under EU AI Act",
+      "owner": "Thomas Nielsen",
+      "category": "Technology",
+      "linked_entity_ids": [
+        "AE-15"
+      ],
+      "linked_control_ids": [
+        "C-6"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Treasury and Cash Management",
+      "description": "Process for managing cash position, forecasting, and debt covenant compliance",
+      "owner": "Erik Johannsen",
+      "category": "Finance",
+      "linked_entity_ids": [
+        "AE-4"
+      ],
+      "linked_control_ids": [
+        "C-7",
+        "C-13"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "Strategic Planning and Market Analysis",
+      "description": "Process for market analysis, concentration monitoring, and strategic planning",
+      "owner": "Anna Svensson",
+      "category": "Strategic",
+      "linked_entity_ids": [
+        "AE-5",
+        "AE-19"
+      ],
+      "linked_control_ids": [
+        "C-8"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "Talent Management and Succession Planning",
+      "description": "Process for talent review, succession planning, and career development",
+      "owner": "Ingrid Olsen",
+      "category": "Human Resources",
+      "linked_entity_ids": [
+        "AE-7"
+      ],
+      "linked_control_ids": [
+        "C-9"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Revenue Recognition and Billing",
+      "description": "Process for revenue recognition, billing, and IFRS 15 compliance",
+      "owner": "Erik Johannsen",
+      "category": "Finance",
+      "linked_entity_ids": [
+        "AE-4"
+      ],
+      "linked_control_ids": [
+        "C-10"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Engagement Quality Management",
+      "description": "Process for engagement quality control including EQCR review",
+      "owner": "Henrik Andersen",
+      "category": "Quality",
+      "linked_entity_ids": [
+        "AE-9"
+      ],
+      "linked_control_ids": [
+        "C-11"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Security Operations",
+      "description": "Process for security monitoring, threat detection, and incident response",
+      "owner": "Thomas Nielsen",
+      "category": "Cybersecurity",
+      "linked_entity_ids": [
+        "AE-25"
+      ],
+      "linked_control_ids": [
+        "C-12",
+        "C-23",
+        "C-25"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Client Acceptance and Onboarding",
+      "description": "Process for client acceptance, KYC, and AML compliance",
+      "owner": "Henrik Andersen",
+      "category": "Compliance",
+      "linked_entity_ids": [
+        "AE-23"
+      ],
+      "linked_control_ids": [
+        "C-14"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Identity and Access Management",
+      "description": "Process for managing user access, authentication, and periodic reviews",
+      "owner": "Thomas Nielsen",
+      "category": "IT Security",
+      "linked_entity_ids": [
+        "AE-6"
+      ],
+      "linked_control_ids": [
+        "C-15",
+        "C-23"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Third-Party Risk Management",
+      "description": "Process for vendor assessment, due diligence, and ongoing monitoring",
+      "owner": "Sofia Bergman",
+      "category": "Vendor Management",
+      "linked_entity_ids": [
+        "AE-17"
+      ],
+      "linked_control_ids": [
+        "C-16"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-16",
+      "name": "Business Continuity Management",
+      "description": "Process for BCP development, testing, and disaster recovery",
+      "owner": "Thomas Nielsen",
+      "category": "Business Continuity",
+      "linked_entity_ids": [
+        "AE-18"
+      ],
+      "linked_control_ids": [
+        "C-17",
+        "C-30"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-17",
+      "name": "Regulatory Scope Assessment",
+      "description": "Process for assessing service scope against regulatory requirements",
+      "owner": "Henrik Andersen",
+      "category": "Compliance",
+      "linked_entity_ids": [
+        "AE-12"
+      ],
+      "linked_control_ids": [
+        "C-18"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-18",
+      "name": "Impairment Assessment",
+      "description": "Process for goodwill and intangible asset impairment indicator monitoring and testing",
+      "owner": "Erik Johannsen",
+      "category": "Finance",
+      "linked_entity_ids": [
+        "AE-4"
+      ],
+      "linked_control_ids": [
+        "C-19"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-19",
+      "name": "Change Management",
+      "description": "Process for managing system and process changes including CAB approval",
+      "owner": "Thomas Nielsen",
+      "category": "IT Governance",
+      "linked_entity_ids": [
+        "AE-6"
+      ],
+      "linked_control_ids": [
+        "C-20"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-20",
+      "name": "Independence Management",
+      "description": "Process for monitoring auditor independence requirements",
+      "owner": "Henrik Andersen",
+      "category": "Professional Standards",
+      "linked_entity_ids": [
+        "AE-9"
+      ],
+      "linked_control_ids": [
+        "C-22"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-21",
+      "name": "Data Protection Operations",
+      "description": "Process for data protection controls including DLP monitoring",
+      "owner": "Lars Eriksson",
+      "category": "Data Protection",
+      "linked_entity_ids": [
+        "AE-16"
+      ],
+      "linked_control_ids": [
+        "C-24"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-22",
+      "name": "Endpoint Security Management",
+      "description": "Process for endpoint protection and patch management",
+      "owner": "Thomas Nielsen",
+      "category": "Cybersecurity",
+      "linked_entity_ids": [
+        "AE-25"
+      ],
+      "linked_control_ids": [
+        "C-25"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-23",
+      "name": "Synergy Management",
+      "description": "Process for tracking and validating acquisition synergy realization",
+      "owner": "Erik Johannsen",
+      "category": "Finance",
+      "linked_entity_ids": [
+        "AE-14"
+      ],
+      "linked_control_ids": [
+        "C-27"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-24",
+      "name": "Employee Lifecycle Management",
+      "description": "Process for employee onboarding and offboarding including knowledge transfer",
+      "owner": "Ingrid Olsen",
+      "category": "Human Resources",
+      "linked_entity_ids": [
+        "AE-7"
+      ],
+      "linked_control_ids": [
+        "C-28"
+      ],
+      "status": "Active"
+    },
+    {
+      "process_id": "PROC-25",
+      "name": "Regulatory Intelligence",
+      "description": "Process for monitoring regulatory changes and assessing impact",
+      "owner": "Henrik Andersen",
+      "category": "Compliance",
+      "linked_entity_ids": [
+        "AE-12"
+      ],
+      "linked_control_ids": [
+        "C-29"
+      ],
+      "status": "Active"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Successful Stuttgart Integration",
+      "description": "Successfully integrate Stuttgart acquisition achieving planned synergies while maintaining operational stability",
+      "category": "Strategic",
+      "owner": "Klaus Werner",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-1-KR1",
+          "description": "Achieve 80% of planned cost synergies",
+          "target": "80%",
+          "current": "35%"
+        },
+        {
+          "kr_id": "OBJ-1-KR2",
+          "description": "Complete system integration by Q3 2025",
+          "target": "100%",
+          "current": "40%"
+        },
+        {
+          "kr_id": "OBJ-1-KR3",
+          "description": "Maintain key staff retention above 90%",
+          "target": "90%",
+          "current": "94%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-1",
+        "RISK-23"
+      ],
+      "status": "In Progress"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Revenue Growth Achievement",
+      "description": "Achieve FY2025 and FY2026 revenue growth targets through organic growth and market expansion",
+      "category": "Financial",
+      "owner": "Anna Svensson",
+      "target_date": "2026-03-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-2-KR1",
+          "description": "Achieve 15% year-over-year revenue growth",
+          "target": "15%",
+          "current": "11%"
+        },
+        {
+          "kr_id": "OBJ-2-KR2",
+          "description": "Maintain quota attainment above 95%",
+          "target": "95%",
+          "current": "99%"
+        },
+        {
+          "kr_id": "OBJ-2-KR3",
+          "description": "Expand advisory services revenue share to 30%",
+          "target": "30%",
+          "current": "24%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-2",
+        "RISK-8",
+        "RISK-14"
+      ],
+      "status": "In Progress"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Continental Europe Expansion",
+      "description": "Establish and grow presence in Continental European markets beyond Nordic region",
+      "category": "Strategic",
+      "owner": "Klaus Werner",
+      "target_date": "2026-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-3-KR1",
+          "description": "Achieve 20% of revenue from Continental Europe",
+          "target": "20%",
+          "current": "12%"
+        },
+        {
+          "kr_id": "OBJ-3-KR2",
+          "description": "Establish operations in 3 additional markets",
+          "target": "3",
+          "current": "1"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-1",
+        "RISK-13",
+        "RISK-15"
+      ],
+      "status": "In Progress"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Financial Performance and Stability",
+      "description": "Maintain strong financial performance, liquidity, and covenant compliance",
+      "category": "Financial",
+      "owner": "Erik Johannsen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-4-KR1",
+          "description": "Maintain EBITDA margin above 20%",
+          "target": "20%",
+          "current": "22%"
+        },
+        {
+          "kr_id": "OBJ-4-KR2",
+          "description": "Keep leverage ratio below 2.0x",
+          "target": "2.0x",
+          "current": "0.94x"
+        },
+        {
+          "kr_id": "OBJ-4-KR3",
+          "description": "Maintain cash position above $100M",
+          "target": "$100M",
+          "current": "$142.6M"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-7",
+        "RISK-16",
+        "RISK-22"
+      ],
+      "status": "On Track"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Technology Transformation",
+      "description": "Complete platform modernization and establish leading digital capabilities",
+      "category": "Operational",
+      "owner": "Thomas Nielsen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-5-KR1",
+          "description": "Complete legacy system consolidation",
+          "target": "100%",
+          "current": "60%"
+        },
+        {
+          "kr_id": "OBJ-5-KR2",
+          "description": "Achieve 99.9% platform availability",
+          "target": "99.9%",
+          "current": "99.7%"
+        },
+        {
+          "kr_id": "OBJ-5-KR3",
+          "description": "Deploy AI capabilities across 5 service lines",
+          "target": "5",
+          "current": "2"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-3",
+        "RISK-6",
+        "RISK-24"
+      ],
+      "status": "In Progress"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Operational Excellence",
+      "description": "Achieve operational excellence through efficiency improvements and quality enhancement",
+      "category": "Operational",
+      "owner": "Sofia Bergman",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-6-KR1",
+          "description": "Improve utilization rate to 75%",
+          "target": "75%",
+          "current": "72%"
+        },
+        {
+          "kr_id": "OBJ-6-KR2",
+          "description": "Reduce delivery cycle time by 20%",
+          "target": "20%",
+          "current": "8%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-9",
+        "RISK-14"
+      ],
+      "status": "In Progress"
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "Regulatory Compliance Excellence",
+      "description": "Maintain full compliance with all professional and regulatory requirements across jurisdictions",
+      "category": "Compliance",
+      "owner": "Henrik Andersen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-7-KR1",
+          "description": "Zero material regulatory findings",
+          "target": "0",
+          "current": "2"
+        },
+        {
+          "kr_id": "OBJ-7-KR2",
+          "description": "100% licensing compliance",
+          "target": "100%",
+          "current": "100%"
+        },
+        {
+          "kr_id": "OBJ-7-KR3",
+          "description": "EU AI Act compliance by deadline",
+          "target": "100%",
+          "current": "60%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-4",
+        "RISK-5",
+        "RISK-6",
+        "RISK-13",
+        "RISK-17",
+        "RISK-21"
+      ],
+      "status": "At Risk"
+    },
+    {
+      "objective_id": "OBJ-8",
+      "name": "Professional Quality Standards",
+      "description": "Maintain highest professional quality standards across all service lines",
+      "category": "Quality",
+      "owner": "Henrik Andersen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-8-KR1",
+          "description": "Zero professional liability claims",
+          "target": "0",
+          "current": "0"
+        },
+        {
+          "kr_id": "OBJ-8-KR2",
+          "description": "100% EQCR completion rate",
+          "target": "100%",
+          "current": "98%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-4",
+        "RISK-11"
+      ],
+      "status": "On Track"
+    },
+    {
+      "objective_id": "OBJ-9",
+      "name": "Data Security and Privacy",
+      "description": "Protect client data and maintain robust security posture",
+      "category": "Technology",
+      "owner": "Thomas Nielsen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-9-KR1",
+          "description": "Zero data breaches",
+          "target": "0",
+          "current": "0"
+        },
+        {
+          "kr_id": "OBJ-9-KR2",
+          "description": "100% GDPR compliance",
+          "target": "100%",
+          "current": "92%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-5",
+        "RISK-12",
+        "RISK-19",
+        "RISK-20"
+      ],
+      "status": "On Track"
+    },
+    {
+      "objective_id": "OBJ-10",
+      "name": "Talent and Culture",
+      "description": "Build and retain high-performing diverse workforce with strong culture",
+      "category": "People",
+      "owner": "Ingrid Olsen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-10-KR1",
+          "description": "Reduce voluntary turnover to 12%",
+          "target": "12%",
+          "current": "14%"
+        },
+        {
+          "kr_id": "OBJ-10-KR2",
+          "description": "Achieve succession coverage of 80%",
+          "target": "80%",
+          "current": "65%"
+        },
+        {
+          "kr_id": "OBJ-10-KR3",
+          "description": "Employee engagement score above 75%",
+          "target": "75%",
+          "current": "71%"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-9",
+        "RISK-23"
+      ],
+      "status": "At Risk"
+    },
+    {
+      "objective_id": "OBJ-11",
+      "name": "Financial Reporting Integrity",
+      "description": "Ensure accurate, timely, and compliant financial reporting",
+      "category": "Financial",
+      "owner": "Erik Johannsen",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-11-KR1",
+          "description": "Unqualified audit opinion",
+          "target": "Yes",
+          "current": "Pending"
+        },
+        {
+          "kr_id": "OBJ-11-KR2",
+          "description": "Zero material misstatements",
+          "target": "0",
+          "current": "0"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-10",
+        "RISK-18",
+        "RISK-25"
+      ],
+      "status": "On Track"
+    },
+    {
+      "objective_id": "OBJ-13",
+      "name": "Advisory Services Growth",
+      "description": "Expand higher-margin advisory services while maintaining regulatory compliance",
+      "category": "Strategic",
+      "owner": "Peter Holm",
+      "target_date": "2025-12-31",
+      "key_results": [
+        {
+          "kr_id": "OBJ-13-KR1",
+          "description": "Advisory revenue growth of 25%",
+          "target": "25%",
+          "current": "18%"
+        },
+        {
+          "kr_id": "OBJ-13-KR2",
+          "description": "Zero regulatory scope breaches",
+          "target": "0",
+          "current": "0"
+        }
+      ],
+      "linked_risk_ids": [
+        "RISK-21",
+        "RISK-2"
+      ],
+      "status": "In Progress"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "EU Audit Directive (2014/56/EU)",
+      "description": "European Union directive on statutory audits of annual accounts and consolidated accounts",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2016-06-17",
+      "applicable_entities": [
+        "AE-1",
+        "AE-3",
+        "AE-10"
+      ],
+      "compliance_owner": "Henrik Andersen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "General Data Protection Regulation (GDPR)",
+      "description": "EU regulation on data protection and privacy for individuals within the EU and EEA",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2018-05-25",
+      "applicable_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-3",
+        "AE-8",
+        "AE-10",
+        "AE-11",
+        "AE-16"
+      ],
+      "compliance_owner": "Lars Eriksson",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "Steuerberatungsgesetz (German Tax Advisory Act)",
+      "description": "German federal law regulating tax advisory services and practitioner qualifications",
+      "type": "Regulation",
+      "jurisdiction": "Germany",
+      "effective_date": "1975-11-04",
+      "applicable_entities": [
+        "AE-3"
+      ],
+      "compliance_owner": "Klaus Werner",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "EU AI Act (Regulation 2024/1689)",
+      "description": "European Union regulation establishing harmonized rules on artificial intelligence",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2024-08-01",
+      "applicable_entities": [
+        "AE-15",
+        "AE-6"
+      ],
+      "compliance_owner": "Thomas Nielsen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "ISO 27001:2022",
+      "description": "International standard for information security management systems",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": "2022-10-25",
+      "applicable_entities": [
+        "AE-6",
+        "AE-25"
+      ],
+      "compliance_owner": "Thomas Nielsen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "International Standards on Auditing (ISAs)",
+      "description": "Professional standards for the auditing of financial statements",
+      "type": "Professional Standard",
+      "jurisdiction": "International",
+      "effective_date": "2009-12-15",
+      "applicable_entities": [
+        "AE-1",
+        "AE-3",
+        "AE-9",
+        "AE-10"
+      ],
+      "compliance_owner": "Henrik Andersen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "IFRS Standards",
+      "description": "International Financial Reporting Standards for financial statement preparation",
+      "type": "Accounting Standard",
+      "jurisdiction": "International",
+      "effective_date": "2005-01-01",
+      "applicable_entities": [
+        "AE-4"
+      ],
+      "compliance_owner": "Erik Johannsen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-8",
+      "name": "Anti-Money Laundering Directive (AMLD6)",
+      "description": "EU directive on prevention of use of financial system for money laundering or terrorist financing",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2021-12-03",
+      "applicable_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-3",
+        "AE-10",
+        "AE-23"
+      ],
+      "compliance_owner": "Henrik Andersen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-9",
+      "name": "ISQM 1 (Quality Management for Firms)",
+      "description": "International standard for quality management for firms performing audits or reviews",
+      "type": "Professional Standard",
+      "jurisdiction": "International",
+      "effective_date": "2022-12-15",
+      "applicable_entities": [
+        "AE-1",
+        "AE-9"
+      ],
+      "compliance_owner": "Henrik Andersen",
+      "status": "Active"
+    },
+    {
+      "standard_id": "STD-10",
+      "name": "Norwegian Accounting Act",
+      "description": "Norwegian regulation governing accounting and financial reporting requirements",
+      "type": "Regulation",
+      "jurisdiction": "Norway",
+      "effective_date": "1999-01-01",
+      "applicable_entities": [
+        "AE-1",
+        "AE-2"
+      ],
+      "compliance_owner": "Henrik Andersen",
+      "status": "Active"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-2",
+      "name": "Cross-Border Data Transfer Safeguards",
+      "description": "Requirements for implementing appropriate safeguards for personal data transfers outside the EEA",
+      "requirement_text": "Transfer of personal data to third countries requires appropriate safeguards including Standard Contractual Clauses or adequacy decisions",
+      "control_ids": [
+        "C-5",
+        "C-24"
+      ],
+      "compliance_status": "Partially Compliant",
+      "evidence_required": "Data flow mapping, Transfer Impact Assessments, SCCs",
+      "owner": "Lars Eriksson"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-3",
+      "name": "Tax Advisor Qualification Requirements",
+      "description": "Requirements for professional qualifications to provide tax advisory services in Germany",
+      "requirement_text": "Tax advisory services may only be provided by qualified Steuerberater or authorized entities",
+      "control_ids": [
+        "C-4"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "Practitioner licensing records, qualification documentation",
+      "owner": "Klaus Werner"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-4",
+      "name": "High Risk AI System Requirements",
+      "description": "Requirements for AI systems classified as high risk under EU AI Act",
+      "requirement_text": "High risk AI systems must implement risk management, data governance, technical documentation, record-keeping, transparency, human oversight, and accuracy requirements",
+      "control_ids": [
+        "C-6"
+      ],
+      "compliance_status": "Partially Compliant",
+      "evidence_required": "AI system inventory, risk assessments, governance documentation",
+      "owner": "Thomas Nielsen"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-6",
+      "name": "Engagement Quality Control Review",
+      "description": "Requirements for quality control review of audit engagements",
+      "requirement_text": "EQCR must be performed for audits of listed entities and other engagements as determined by the firm",
+      "control_ids": [
+        "C-11"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "EQCR completion records, review documentation",
+      "owner": "Henrik Andersen"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-5",
+      "name": "Access Control Requirements",
+      "description": "Requirements for access control to information assets",
+      "requirement_text": "Access to information and information processing facilities must be limited based on business and security requirements",
+      "control_ids": [
+        "C-15",
+        "C-23"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "Access control policy, access reviews, MFA deployment records",
+      "owner": "Thomas Nielsen"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-8",
+      "name": "Customer Due Diligence",
+      "description": "Requirements for customer identification and verification",
+      "requirement_text": "Obliged entities must apply customer due diligence measures including identification and verification of customer identity",
+      "control_ids": [
+        "C-14"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "KYC procedures, verification records, screening documentation",
+      "owner": "Henrik Andersen"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-7",
+      "name": "IFRS 15 Revenue Recognition",
+      "description": "Requirements for revenue recognition from contracts with customers",
+      "requirement_text": "Revenue recognized when performance obligations satisfied based on five-step model",
+      "control_ids": [
+        "C-10"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "Revenue recognition policy, contract analysis, performance obligation documentation",
+      "owner": "Erik Johannsen"
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "STD-1",
+      "name": "Auditor Independence",
+      "description": "Requirements for auditor independence from audit clients",
+      "requirement_text": "Statutory auditors must be independent of audited entity and must not be involved in decision-making",
+      "control_ids": [
+        "C-22"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "Independence monitoring records, confirmation documentation",
+      "owner": "Henrik Andersen"
+    },
+    {
+      "requirement_id": "REQ-9",
+      "standard_id": "STD-9",
+      "name": "Quality Management System",
+      "description": "Requirements for establishing quality management system in audit firms",
+      "requirement_text": "Firm must establish quality management system addressing governance, engagement performance, and resources",
+      "control_ids": [
+        "C-11",
+        "C-4"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "QMS documentation, monitoring reports, remediation records",
+      "owner": "Henrik Andersen"
+    },
+    {
+      "requirement_id": "REQ-10",
+      "standard_id": "STD-2",
+      "name": "Data Breach Notification",
+      "description": "Requirements for notifying supervisory authority and data subjects of personal data breaches",
+      "requirement_text": "Personal data breaches must be notified to supervisory authority within 72 hours and to data subjects without undue delay where high risk",
+      "control_ids": [
+        "C-12",
+        "C-24"
+      ],
+      "compliance_status": "Compliant",
+      "evidence_required": "Breach response procedures, notification templates, incident records",
+      "owner": "Lars Eriksson"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "name": "Integration Governance Committee Meeting Minutes - January 2025",
+      "description": "Minutes from weekly integration governance committee meetings held in January 2025",
+      "type": "Documentation",
+      "source": "Integration Management Office",
+      "collection_date": "2025-01-20",
+      "linked_control_ids": [
+        "C-1",
+        "C-26"
+      ],
+      "linked_audit_ids": [
+        "AUD-1"
+      ],
+      "custodian": "Klaus Werner",
+      "storage_location": "SharePoint/Integration/Governance",
+      "retention_period": "7 years"
+    },
+    {
+      "evidence_id": "EV-2",
+      "name": "Pipeline Management Reports Q4 2024",
+      "description": "Sales pipeline reports and forecast accuracy analysis for Q4 2024",
+      "type": "Report",
+      "source": "CRM System",
+      "collection_date": "2025-01-10",
+      "linked_control_ids": [
+        "C-2",
+        "C-21"
+      ],
+      "linked_audit_ids": [
+        "AUD-13"
+      ],
+      "custodian": "Anna Svensson",
+      "storage_location": "Salesforce Reports",
+      "retention_period": "5 years"
+    },
+    {
+      "evidence_id": "EV-3",
+      "name": "Data Migration Validation Reports",
+      "description": "Validation reports and reconciliations from platform migration activities",
+      "type": "Report",
+      "source": "IT Operations",
+      "collection_date": "2025-01-08",
+      "linked_control_ids": [
+        "C-3"
+      ],
+      "linked_audit_ids": [
+        "AUD-3"
+      ],
+      "custodian": "Thomas Nielsen",
+      "storage_location": "IT Document Management",
+      "retention_period": "7 years"
+    },
+    {
+      "evidence_id": "EV-4",
+      "name": "Professional Licensing Register",
+      "description": "Register of professional qualifications and licensing status for all regulated practitioners",
+      "type": "Register",
+      "source": "HR System",
+      "collection_date": "2025-01-15",
+      "linked_control_ids": [
+        "C-4"
+      ],
+      "linked_audit_ids": [
+        "AUD-8"
+      ],
+      "custodian": "Henrik Andersen",
+      "storage_location": "Compliance Portal",
+      "retention_period": "10 years"
+    },
+    {
+      "evidence_id": "EV-5",
+      "name": "AI System Inventory and Classification",
+      "description": "Inventory of AI systems with EU AI Act risk classifications and assessments",
+      "type": "Inventory",
+      "source": "Technology Governance",
+      "collection_date": "2025-01-05",
+      "linked_control_ids": [
+        "C-6"
+      ],
+      "linked_audit_ids": [
+        "AUD-6"
+      ],
+      "custodian": "Thomas Nielsen",
+      "storage_location": "IT Governance Portal",
+      "retention_period": "7 years"
+    },
+    {
+      "evidence_id": "EV-6",
+      "name": "Cash Flow Forecasts and Monitoring Reports",
+      "description": "Weekly cash position reports and 13-week rolling forecasts",
+      "type": "Report",
+      "source": "Treasury",
+      "collection_date": "2025-01-03",
+      "linked_control_ids": [
+        "C-7",
+        "C-13"
+      ],
+      "linked_audit_ids": [
+        "AUD-9"
+      ],
+      "custodian": "Erik Johannsen",
+      "storage_location": "Finance Systems",
+      "retention_period": "7 years"
+    },
+    {
+      "evidence_id": "EV-7",
+      "name": "SOC Monitoring Logs and Incident Reports",
+      "description": "Security operations center monitoring logs and incident response documentation",
+      "type": "System Logs",
+      "source": "SOC",
+      "collection_date": "2025-01-10",
+      "linked_control_ids": [
+        "C-12"
+      ],
+      "linked_audit_ids": [
+        "AUD-11"
+      ],
+      "custodian": "Thomas Nielsen",
+      "storage_location": "SIEM System",
+      "retention_period": "3 years"
+    },
+    {
+      "evidence_id": "EV-8",
+      "name": "Client Acceptance Procedures and KYC Records",
+      "description": "Sample of client acceptance documentation including KYC verification and AML screening",
+      "type": "Documentation",
+      "source": "Compliance",
+      "collection_date": "2024-09-15",
+      "linked_control_ids": [
+        "C-14"
+      ],
+      "linked_audit_ids": [
+        "AUD-10"
+      ],
+      "custodian": "Henrik Andersen",
+      "storage_location": "Compliance Portal",
+      "retention_period": "10 years"
+    },
+    {
+      "evidence_id": "EV-9",
+      "name": "Succession Planning Documentation",
+      "description": "Talent review and succession planning documentation for critical roles",
+      "type": "Documentation",
+      "source": "HR",
+      "collection_date": "2024-12-01",
+      "linked_control_ids": [
+        "C-9"
+      ],
+      "linked_audit_ids": [
+        "AUD-12"
+      ],
+      "custodian": "Ingrid Olsen",
+      "storage_location": "HR System",
+      "retention_period": "5 years"
+    },
+    {
+      "evidence_id": "EV-10",
+      "name": "Stuttgart Acquisition PPA Documentation",
+      "description": "Purchase price allocation documentation, valuation reports, and supporting assumptions",
+      "type": "Documentation",
+      "source": "Finance",
+      "collection_date": "2025-01-15",
+      "linked_control_ids": [
+        "C-19"
+      ],
+      "linked_audit_ids": [
+        "AUD-14"
+      ],
+      "custodian": "Erik Johannsen",
+      "storage_location": "Finance Document Management",
+      "retention_period": "10 years"
+    },
+    {
+      "evidence_id": "EV-11",
+      "name": "GDPR Data Flow Mapping - Nordic to German Operations",
+      "description": "Documentation of personal data flows between Nordic and German operations",
+      "type": "Documentation",
+      "source": "Data Protection Office",
+      "collection_date": "2025-01-18",
+      "linked_control_ids": [
+        "C-5"
+      ],
+      "linked_audit_ids": [
+        "AUD-5"
+      ],
+      "custodian": "Lars Eriksson",
+      "storage_location": "Privacy Portal",
+      "retention_period": "7 years"
+    },
+    {
+      "evidence_id": "EV-12",
+      "name": "Engagement Quality Control Review Records",
+      "description": "EQCR completion records and review documentation for audit engagements",
+      "type": "Documentation",
+      "source": "Quality Assurance",
+      "collection_date": "2024-11-01",
+      "linked_control_ids": [
+        "C-11"
+      ],
+      "linked_audit_ids": [
+        "AUD-7"
+      ],
+      "custodian": "Henrik Andersen",
+      "storage_location": "Quality Portal",
+      "retention_period": "10 years"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-DOC-1",
+      "audit_id": "AUD-1",
+      "title": "Integration Governance Framework Documentation",
+      "description": "Request for complete integration governance framework documentation including RACI matrix, decision rights, and risk management framework",
+      "requestor": "Magnus Lindberg",
+      "assignee": "Klaus Werner",
+      "due_date": "2025-02-15",
+      "status": "Open",
+      "priority": "High",
+      "document_types": [
+        "Governance Framework",
+        "RACI Matrix",
+        "Decision Rights Matrix"
+      ],
+      "created_date": "2025-02-03"
+    },
+    {
+      "request_id": "REQ-DOC-2",
+      "audit_id": "AUD-1",
+      "title": "Integration Milestone Tracking Reports",
+      "description": "Request for weekly integration milestone tracking reports and variance analysis from October 2024 to present",
+      "requestor": "Magnus Lindberg",
+      "assignee": "Klaus Werner",
+      "due_date": "2025-02-10",
+      "status": "Submitted",
+      "priority": "High",
+      "document_types": [
+        "Status Reports",
+        "Variance Analysis"
+      ],
+      "created_date": "2025-02-03"
+    },
+    {
+      "request_id": "REQ-DOC-3",
+      "audit_id": "AUD-14",
+      "title": "Purchase Price Allocation Supporting Documentation",
+      "description": "Request for detailed PPA documentation including valuation assumptions, methodology, and third-party reports",
+      "requestor": "Erik Johannsen",
+      "assignee": "Sofia Bergman",
+      "due_date": "2025-02-01",
+      "status": "In Review",
+      "priority": "High",
+      "document_types": [
+        "Valuation Reports",
+        "Assumption Documentation",
+        "Supporting Calculations"
+      ],
+      "created_date": "2025-01-15"
+    },
+    {
+      "request_id": "REQ-DOC-4",
+      "audit_id": "AUD-2",
+      "title": "Sales Pipeline and Forecast Reports",
+      "description": "Request for sales pipeline reports, forecast accuracy analysis, and territory coverage documentation",
+      "requestor": "Anna Svensson",
+      "assignee": "Johan Karlsson",
+      "due_date": "2025-04-08",
+      "status": "Pending",
+      "priority": "Medium",
+      "document_types": [
+        "Pipeline Reports",
+        "Forecast Analysis",
+        "Territory Maps"
+      ],
+      "created_date": "2025-01-28"
+    },
+    {
+      "request_id": "REQ-DOC-5",
+      "audit_id": "AUD-3",
+      "title": "Platform Migration Test Documentation",
+      "description": "Request for data migration test plans, validation procedures, and test results",
+      "requestor": "Thomas Nielsen",
+      "assignee": "Martin Berg",
+      "due_date": "2025-03-22",
+      "status": "Pending",
+      "priority": "High",
+      "document_types": [
+        "Test Plans",
+        "Validation Procedures",
+        "Test Results"
+      ],
+      "created_date": "2025-01-28"
+    },
+    {
+      "request_id": "REQ-DOC-6",
+      "audit_id": "AUD-5",
+      "title": "GDPR Data Transfer Documentation",
+      "description": "Request for data flow mapping, Standard Contractual Clauses, and Transfer Impact Assessments",
+      "requestor": "Lars Eriksson",
+      "assignee": "Eva Lindqvist",
+      "due_date": "2025-04-22",
+      "status": "Pending",
+      "priority": "High",
+      "document_types": [
+        "Data Flow Maps",
+        "SCCs",
+        "TIAs"
+      ],
+      "created_date": "2025-01-28"
+    },
+    {
+      "request_id": "REQ-DOC-7",
+      "audit_id": "AUD-6",
+      "title": "AI System Documentation and Risk Assessments",
+      "description": "Request for AI system inventory, classification documentation, and risk assessment records",
+      "requestor": "Thomas Nielsen",
+      "assignee": "Lisa Andersson",
+      "due_date": "2025-05-08",
+      "status": "Pending",
+      "priority": "High",
+      "document_types": [
+        "AI Inventory",
+        "Classification Records",
+        "Risk Assessments"
+      ],
+      "created_date": "2025-01-28"
+    },
+    {
+      "request_id": "REQ-DOC-8",
+      "audit_id": "AUD-8",
+      "title": "German Regulatory Compliance Documentation",
+      "description": "Request for Steuerberatungsgesetz compliance mapping and practitioner licensing records for Stuttgart operations",
+      "requestor": "Klaus Werner",
+      "assignee": "Hans Mueller",
+      "due_date": "2025-05-22",
+      "status": "Pending",
+      "priority": "High",
+      "document_types": [
+        "Compliance Mapping",
+        "Licensing Records",
+        "Qualification Documentation"
+      ],
+      "created_date": "2025-01-28"
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Document Review and Analysis",
+      "description": "Review and analysis of relevant documentation including policies, procedures, meeting minutes, and reports",
+      "category": "Documentation Review",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "steps": [
+        "Identify relevant documentation",
+        "Obtain and inventory documents",
+        "Review documents for completeness and accuracy",
+        "Assess alignment with requirements",
+        "Document findings and conclusions"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Sample-Based Testing",
+      "description": "Selection and testing of sample items to assess control operating effectiveness",
+      "category": "Substantive Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "steps": [
+        "Define population and sampling methodology",
+        "Select sample items using appropriate technique",
+        "Execute test procedures on selected items",
+        "Document test results and exceptions",
+        "Project findings to population",
+        "Conclude on control effectiveness"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Inquiry and Observation",
+      "description": "Interviews with process owners and observation of control execution",
+      "category": "Inquiry",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "steps": [
+        "Identify key personnel for inquiry",
+        "Prepare interview questions",
+        "Conduct interviews and document responses",
+        "Observe control execution where practical",
+        "Corroborate inquiry responses with documentation",
+        "Document findings"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Walkthrough Testing",
+      "description": "End-to-end walkthrough of transaction or process to understand control design and implementation",
+      "category": "Process Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "steps": [
+        "Select transaction for walkthrough",
+        "Trace transaction through process",
+        "Identify control points and assess design",
+        "Verify control implementation",
+        "Document walkthrough results"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Data Analytics Testing",
+      "description": "Use of data analytics techniques to test complete populations or identify anomalies",
+      "category": "Data Analysis",
+      "applicable_control_types": [
+        "Detective"
+      ],
+      "steps": [
+        "Define analytics objectives and data requirements",
+        "Obtain and validate data completeness",
+        "Perform analytics procedures",
+        "Investigate anomalies and exceptions",
+        "Document results and conclusions"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "IT System Configuration Review",
+      "description": "Review of IT system configurations to verify automated control settings",
+      "category": "IT Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "steps": [
+        "Identify system configuration requirements",
+        "Obtain configuration documentation or screenshots",
+        "Compare actual configuration to requirements",
+        "Verify change management for configurations",
+        "Document results and exceptions"
+      ],
+      "created_by": "Thomas Nielsen"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Reperformance Testing",
+      "description": "Independent reperformance of control procedure to verify accuracy",
+      "category": "Substantive Testing",
+      "applicable_control_types": [
+        "Detective"
+      ],
+      "steps": [
+        "Obtain original calculation or analysis",
+        "Independently reperform procedure",
+        "Compare results to original",
+        "Investigate and resolve differences",
+        "Document reperformance results"
+      ],
+      "created_by": "Magnus Lindberg"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Risk Assessment Interview",
+      "description": "Structured interview approach for risk identification and assessment",
+      "category": "Risk Assessment",
+      "applicable_control_types": [
+        "All"
+      ],
+      "steps": [
+        "Identify interview participants",
+        "Develop risk assessment questionnaire",
+        "Conduct structured interviews",
+        "Aggregate and analyze responses",
+        "Validate risks with supporting documentation",
+        "Document risk assessment results"
+      ],
+      "created_by": "Magnus Lindberg"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "risk-audit-benchmark-prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "aggregate": "node scripts/aggregate.mjs",
+    "dev": "npm run aggregate && vite",
+    "build": "npm run aggregate && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

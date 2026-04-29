@@ -1,0 +1,4846 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Commercial Operations",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "1",
+        "region": "AMER",
+        "function": "Sales & Marketing"
+      },
+      "description": "Sales, business development, and commercial execution functions including pipeline management, deal qualification, and revenue generation",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-09-15",
+      "next_audit_date": "2025-06-01",
+      "owner": "Sarah Chen, CRO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Revenue Recognition & Financial Reporting",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "1",
+        "region": "Global",
+        "function": "Finance"
+      },
+      "description": "Revenue recognition processes, ASC 606 compliance, financial statement preparation, and reporting controls",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-12-01",
+      "next_audit_date": "2025-03-15",
+      "owner": "Jennifer Walsh, CFO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Regulatory Compliance - SEC",
+      "taxonomy": {
+        "type": "Compliance Function",
+        "tier": "1",
+        "region": "AMER",
+        "function": "Compliance"
+      },
+      "description": "SEC Marketing Rule compliance, RIA regulatory requirements, and US securities law compliance",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-08-20",
+      "next_audit_date": "2025-08-01",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "created_by": "Internal Audit",
+      "created_date": "2023-03-01"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "International Operations - UK",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "2",
+        "region": "EMEA",
+        "function": "Operations"
+      },
+      "description": "UK subsidiary operations, FCA compliance, cross-border data handling, and European client services",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-10-15",
+      "next_audit_date": "2025-04-01",
+      "owner": "David Richardson, UK Managing Director",
+      "created_by": "Internal Audit",
+      "created_date": "2023-06-01"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Information Technology & Cybersecurity",
+      "taxonomy": {
+        "type": "Technology",
+        "tier": "1",
+        "region": "Global",
+        "function": "IT"
+      },
+      "description": "IT infrastructure, application security, SOC 2 controls, data protection, and cybersecurity operations",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-11-01",
+      "next_audit_date": "2025-05-01",
+      "owner": "Robert Kim, CTO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Client Onboarding & Implementation",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Operations"
+      },
+      "description": "Client onboarding processes, implementation services, data migration, and service delivery",
+      "audit_frequency": "Biennial",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-05-01",
+      "next_audit_date": "2025-09-01",
+      "owner": "Amanda Foster, VP Client Services",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Third-Party & Vendor Management",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Procurement"
+      },
+      "description": "Vendor risk management, third-party due diligence, contract management, and supplier oversight",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-07-15",
+      "next_audit_date": "2025-07-01",
+      "owner": "Lisa Chang, VP Operations",
+      "created_by": "Internal Audit",
+      "created_date": "2023-03-01"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Human Resources & Talent Management",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "2",
+        "region": "Global",
+        "function": "HR"
+      },
+      "description": "Recruitment, compensation, performance management, training, and employee lifecycle processes",
+      "audit_frequency": "Biennial",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-04-01",
+      "next_audit_date": "2026-04-01",
+      "owner": "Patricia Martinez, CHRO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Treasury & Cash Management",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Finance"
+      },
+      "description": "Cash management, investment policy, banking relationships, and liquidity management",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-06-01",
+      "next_audit_date": "2025-06-15",
+      "owner": "Jennifer Walsh, CFO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Product Development & Engineering",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "1",
+        "region": "Global",
+        "function": "Technology"
+      },
+      "description": "Software development lifecycle, product roadmap execution, quality assurance, and release management",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-09-01",
+      "next_audit_date": "2025-09-15",
+      "owner": "Robert Kim, CTO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-03-01"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Data Privacy & Protection",
+      "taxonomy": {
+        "type": "Compliance Function",
+        "tier": "1",
+        "region": "Global",
+        "function": "Legal/Compliance"
+      },
+      "description": "Data privacy compliance, GDPR, CCPA, data handling procedures, and privacy governance",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-10-01",
+      "next_audit_date": "2025-10-01",
+      "owner": "Thomas Wright, General Counsel",
+      "created_by": "Internal Audit",
+      "created_date": "2023-06-01"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Partner Channel Operations",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "2",
+        "region": "AMER",
+        "function": "Sales"
+      },
+      "description": "Partner ecosystem management, channel sales, strategic alliances, and partner enablement programs",
+      "audit_frequency": "Biennial",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-03-01",
+      "next_audit_date": "2025-11-01",
+      "owner": "Michael Torres, VP Strategic Partnerships",
+      "created_by": "Internal Audit",
+      "created_date": "2023-09-01"
+    },
+    {
+      "entity_id": "AE-13",
+      "name": "Enterprise Risk Management",
+      "taxonomy": {
+        "type": "Governance Function",
+        "tier": "1",
+        "region": "Global",
+        "function": "Risk"
+      },
+      "description": "Enterprise risk framework, risk appetite, risk reporting, and strategic risk management",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-12-15",
+      "next_audit_date": "2025-12-01",
+      "owner": "Karen Phillips, Chief Risk Officer",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-14",
+      "name": "Mid-Market Segment Operations",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "2",
+        "region": "AMER",
+        "function": "Sales"
+      },
+      "description": "Mid-market sales operations, client acquisition, retention programs, and segment-specific strategies",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-08-01",
+      "next_audit_date": "2025-08-15",
+      "owner": "Sarah Chen, CRO",
+      "created_by": "Internal Audit",
+      "created_date": "2024-01-15"
+    },
+    {
+      "entity_id": "AE-15",
+      "name": "Business Continuity & Disaster Recovery",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "1",
+        "region": "Global",
+        "function": "Operations"
+      },
+      "description": "Business continuity planning, disaster recovery, operational resilience, and crisis management",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-11-15",
+      "owner": "Robert Kim, CTO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-16",
+      "name": "Sales Compensation & Incentives",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Finance/HR"
+      },
+      "description": "Sales compensation plan administration, commission calculations, quota management, and incentive payments",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-04-15",
+      "next_audit_date": "2025-04-15",
+      "owner": "Jennifer Walsh, CFO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-06-01"
+    },
+    {
+      "entity_id": "AE-17",
+      "name": "Contract Management",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Legal"
+      },
+      "description": "Contract lifecycle management, terms and conditions, pricing approvals, and contract compliance",
+      "audit_frequency": "Biennial",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-02-01",
+      "next_audit_date": "2026-02-01",
+      "owner": "Thomas Wright, General Counsel",
+      "created_by": "Internal Audit",
+      "created_date": "2023-03-01"
+    },
+    {
+      "entity_id": "AE-18",
+      "name": "Institutional Services Division",
+      "taxonomy": {
+        "type": "Business Unit",
+        "tier": "1",
+        "region": "Global",
+        "function": "Sales"
+      },
+      "description": "Enterprise and institutional client services, large deal management, and strategic account operations",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-12-01",
+      "next_audit_date": "2025-12-15",
+      "owner": "Sarah Chen, CRO",
+      "created_by": "Internal Audit",
+      "created_date": "2024-03-01"
+    },
+    {
+      "entity_id": "AE-19",
+      "name": "Financial Planning & Analysis",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "2",
+        "region": "Global",
+        "function": "Finance"
+      },
+      "description": "Budgeting, forecasting, variance analysis, management reporting, and financial planning processes",
+      "audit_frequency": "Annual",
+      "risk_level": "Medium",
+      "last_audit_date": "2024-07-01",
+      "next_audit_date": "2025-07-15",
+      "owner": "Jennifer Walsh, CFO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-20",
+      "name": "Client Data Management",
+      "taxonomy": {
+        "type": "Process",
+        "tier": "1",
+        "region": "Global",
+        "function": "Operations"
+      },
+      "description": "Client data governance, data quality management, data integration, and master data management",
+      "audit_frequency": "Annual",
+      "risk_level": "High",
+      "last_audit_date": "2024-10-15",
+      "next_audit_date": "2025-10-15",
+      "owner": "Robert Kim, CTO",
+      "created_by": "Internal Audit",
+      "created_date": "2023-06-01"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Regulatory Compliance Complexity",
+      "description": "Assessment of regulatory burden and compliance complexity across jurisdictions",
+      "category": "Compliance",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "Single jurisdiction, minimal regulation",
+        "3": "Multiple jurisdictions, moderate regulation",
+        "5": "Global operations, complex multi-regulator oversight"
+      },
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Revenue Materiality",
+      "description": "Financial significance of entity to overall company revenue and profitability",
+      "category": "Financial",
+      "weight": 0.2,
+      "scoring_criteria": {
+        "1": "<5% of revenue",
+        "3": "5-15% of revenue",
+        "5": ">15% of revenue"
+      },
+      "created_by": "Jennifer Walsh, CFO"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Process Change Frequency",
+      "description": "Rate of significant changes to processes, systems, or personnel",
+      "category": "Operational",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Stable, minimal changes",
+        "3": "Moderate changes annually",
+        "5": "Frequent significant changes"
+      },
+      "created_by": "Internal Audit"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Prior Audit Results",
+      "description": "Historical audit performance and finding severity",
+      "category": "Audit History",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "No findings in prior audits",
+        "3": "Minor findings, timely remediation",
+        "5": "Significant/repeat findings"
+      },
+      "created_by": "Internal Audit"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Leadership Stability",
+      "description": "Assessment of management continuity and leadership effectiveness",
+      "category": "Governance",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Stable leadership >3 years",
+        "3": "Recent transition, experienced successor",
+        "5": "Multiple transitions, capability gaps"
+      },
+      "created_by": "Patricia Martinez, CHRO"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Technology Dependency",
+      "description": "Reliance on technology systems and automation",
+      "category": "Technology",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Minimal technology dependency",
+        "3": "Moderate system reliance",
+        "5": "Critical technology dependency"
+      },
+      "created_by": "Robert Kim, CTO"
+    },
+    {
+      "factor_id": "AF-7",
+      "name": "Third-Party Dependency",
+      "description": "Reliance on external vendors, partners, and service providers",
+      "category": "Operational",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Fully internal operations",
+        "3": "Some vendor dependencies",
+        "5": "Critical third-party dependencies"
+      },
+      "created_by": "Lisa Chang, VP Operations"
+    },
+    {
+      "factor_id": "AF-8",
+      "name": "Data Sensitivity",
+      "description": "Volume and sensitivity of data processed or stored",
+      "category": "Data/Privacy",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Non-sensitive data only",
+        "3": "Some sensitive client data",
+        "5": "Large volumes of highly sensitive financial data"
+      },
+      "created_by": "Thomas Wright, General Counsel"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 5,
+        "AF-3": 5,
+        "AF-4": 4,
+        "AF-5": 4,
+        "AF-6": 3,
+        "AF-7": 2,
+        "AF-8": 3
+      },
+      "overall_score": 4.2,
+      "risk_rating": "High",
+      "rationale": "Commercial Operations experienced significant leadership transition with CRO replacement, win rate volatility (24-31%), and extended sales cycles. High revenue materiality and recent process changes warrant increased audit focus.",
+      "next_audit_date": "2025-06-01",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-2",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 5,
+        "AF-3": 3,
+        "AF-4": 3,
+        "AF-5": 2,
+        "AF-6": 4,
+        "AF-7": 2,
+        "AF-8": 4
+      },
+      "overall_score": 3.8,
+      "risk_rating": "High",
+      "rationale": "Achievement of $1B ARR milestone and significant bookings volatility ($78M-$89M quarterly) require focused revenue recognition audit. ASC 606 compliance critical for enterprise deals.",
+      "next_audit_date": "2025-03-15",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-3",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 4,
+        "AF-4": 3,
+        "AF-5": 2,
+        "AF-6": 3,
+        "AF-7": 2,
+        "AF-8": 4
+      },
+      "overall_score": 3.9,
+      "risk_rating": "High",
+      "rationale": "SEC Marketing Rule compliance is business-critical differentiator. Regulatory enforcement drove Q3-Q4 demand, creating both opportunity and compliance risk requiring continuous monitoring.",
+      "next_audit_date": "2025-08-01",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 3,
+        "AF-3": 3,
+        "AF-4": 5,
+        "AF-5": 3,
+        "AF-6": 3,
+        "AF-7": 3,
+        "AF-8": 5
+      },
+      "overall_score": 4.1,
+      "risk_rating": "High",
+      "rationale": "UK FCA formal warning in Q3 indicates compliance gaps requiring immediate attention. Cross-border data handling and regulatory reporting accuracy need validation.",
+      "next_audit_date": "2025-04-01",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-5",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 4,
+        "AF-3": 3,
+        "AF-4": 2,
+        "AF-5": 2,
+        "AF-6": 5,
+        "AF-7": 4,
+        "AF-8": 5
+      },
+      "overall_score": 3.9,
+      "risk_rating": "High",
+      "rationale": "SOC 2 compliance critical for RIA and wealth management clients. High data sensitivity and technology dependency require robust cybersecurity controls.",
+      "next_audit_date": "2025-05-01",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-6",
+      "entity_id": "AE-14",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 4,
+        "AF-3": 4,
+        "AF-4": 4,
+        "AF-5": 4,
+        "AF-6": 3,
+        "AF-7": 2,
+        "AF-8": 3
+      },
+      "overall_score": 3.6,
+      "risk_rating": "High",
+      "rationale": "Mid-market segment remains 'under pressure' despite overall improvements. Competitive challenges and segment-specific execution issues warrant focused audit attention.",
+      "next_audit_date": "2025-08-15",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-7",
+      "entity_id": "AE-16",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 3,
+        "AF-3": 5,
+        "AF-4": 4,
+        "AF-5": 4,
+        "AF-6": 4,
+        "AF-7": 2,
+        "AF-8": 3
+      },
+      "overall_score": 3.7,
+      "risk_rating": "High",
+      "rationale": "Leadership transition and quota attainment volatility (82-101%) during CRO search period requires audit validation of compensation accuracy and plan administration.",
+      "next_audit_date": "2025-04-15",
+      "assessed_by": "Internal Audit"
+    },
+    {
+      "assessment_id": "ARA-8",
+      "entity_id": "AE-18",
+      "assessment_date": "2025-01-15",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 5,
+        "AF-3": 3,
+        "AF-4": 3,
+        "AF-5": 2,
+        "AF-6": 3,
+        "AF-7": 3,
+        "AF-8": 4
+      },
+      "overall_score": 3.7,
+      "risk_rating": "High",
+      "rationale": "Large enterprise deals like Bridgewater Institutional Services require enhanced deal qualification and revenue recognition oversight. High-value contract complexity.",
+      "next_audit_date": "2025-12-15",
+      "assessed_by": "Internal Audit"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Revenue Recognition & ASC 606 Compliance Audit",
+      "status": "In Progress",
+      "description": "Comprehensive audit of revenue recognition practices following $1B ARR milestone achievement, focusing on ASC 606 compliance, large enterprise deal recognition, and bookings volatility analysis",
+      "audit_type": "Financial",
+      "rating": null,
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-05-15",
+      "actual_start_date": "2025-03-15",
+      "actual_end_date": null,
+      "budget_hours": 400,
+      "actual_hours": 180,
+      "lead_auditor": "Rachel Morrison",
+      "audit_team": [
+        "Rachel Morrison",
+        "David Chen",
+        "Emily Watson"
+      ],
+      "scope": [
+        "AE-2",
+        "AE-18"
+      ],
+      "objectives": [
+        "Validate ASC 606 compliance for significant contracts",
+        "Test accuracy of bookings and ARR calculations",
+        "Review deal qualification processes for enterprise clients",
+        "Assess revenue cutoff procedures"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "UK Operations & FCA Compliance Audit",
+      "status": "Planning",
+      "description": "Post-FCA warning remediation audit focusing on international compliance procedures, data handling practices, and regulatory reporting accuracy following formal warning resolution",
+      "audit_type": "Compliance",
+      "rating": null,
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 350,
+      "actual_hours": 0,
+      "lead_auditor": "James Sullivan",
+      "audit_team": [
+        "James Sullivan",
+        "Anna Thompson",
+        "Mark Davies"
+      ],
+      "scope": [
+        "AE-4",
+        "AE-11"
+      ],
+      "objectives": [
+        "Assess FCA compliance framework adequacy",
+        "Validate remediation of prior warning issues",
+        "Review cross-border data handling controls",
+        "Test regulatory reporting accuracy"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Commercial Operations & Sales Compensation Audit",
+      "status": "Planning",
+      "description": "Audit of commercial operations and sales compensation following CRO leadership transition, focusing on pipeline quality, deal qualification, and commission accuracy",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-04-15",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 450,
+      "actual_hours": 0,
+      "lead_auditor": "Rachel Morrison",
+      "audit_team": [
+        "Rachel Morrison",
+        "Kevin Park",
+        "Lisa Rodriguez"
+      ],
+      "scope": [
+        "AE-1",
+        "AE-16",
+        "AE-14"
+      ],
+      "objectives": [
+        "Validate pipeline quality and deal qualification processes",
+        "Test sales compensation calculations and payments",
+        "Review quota setting and attainment tracking",
+        "Assess performance management during transition"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "SOC 2 Type II Readiness Assessment",
+      "status": "Planning",
+      "description": "Annual SOC 2 readiness assessment and control testing for security, availability, and confidentiality trust service criteria",
+      "audit_type": "IT/Security",
+      "rating": null,
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-07-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 500,
+      "actual_hours": 0,
+      "lead_auditor": "Michael Chen",
+      "audit_team": [
+        "Michael Chen",
+        "Sarah Kim",
+        "Alex Johnson",
+        "Jennifer White"
+      ],
+      "scope": [
+        "AE-5",
+        "AE-20",
+        "AE-15"
+      ],
+      "objectives": [
+        "Test IT general controls for SOC 2 compliance",
+        "Assess cybersecurity control effectiveness",
+        "Validate data protection and privacy controls",
+        "Review business continuity and disaster recovery"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "SEC Marketing Rule Compliance Audit",
+      "status": "Scheduled",
+      "description": "Assessment of SEC Marketing Rule compliance framework and related service offerings to RIA clients",
+      "audit_type": "Compliance",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 300,
+      "actual_hours": 0,
+      "lead_auditor": "James Sullivan",
+      "audit_team": [
+        "James Sullivan",
+        "Maria Garcia",
+        "Robert Taylor"
+      ],
+      "scope": [
+        "AE-3"
+      ],
+      "objectives": [
+        "Validate SEC Marketing Rule compliance framework",
+        "Test compliance monitoring and surveillance",
+        "Review client communication compliance",
+        "Assess regulatory change management"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Mid-Market Segment Performance Audit",
+      "status": "Scheduled",
+      "description": "Operational audit of mid-market segment addressing continued competitive pressure and execution challenges",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-08-15",
+      "planned_end_date": "2025-10-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 280,
+      "actual_hours": 0,
+      "lead_auditor": "Kevin Park",
+      "audit_team": [
+        "Kevin Park",
+        "Lisa Rodriguez"
+      ],
+      "scope": [
+        "AE-14"
+      ],
+      "objectives": [
+        "Analyze mid-market win rate drivers",
+        "Review competitive positioning and pricing",
+        "Assess sales process effectiveness",
+        "Evaluate customer retention programs"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Third-Party Risk Management Audit",
+      "status": "Scheduled",
+      "description": "Annual audit of vendor management and third-party risk oversight processes",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 250,
+      "actual_hours": 0,
+      "lead_auditor": "Emily Watson",
+      "audit_team": [
+        "Emily Watson",
+        "David Chen"
+      ],
+      "scope": [
+        "AE-7"
+      ],
+      "objectives": [
+        "Assess vendor due diligence procedures",
+        "Test ongoing vendor monitoring",
+        "Review critical vendor concentration risk",
+        "Validate contract compliance monitoring"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "Client Onboarding Process Audit",
+      "status": "Scheduled",
+      "description": "Review of client onboarding and implementation processes to ensure service delivery quality and compliance",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 220,
+      "actual_hours": 0,
+      "lead_auditor": "Lisa Rodriguez",
+      "audit_team": [
+        "Lisa Rodriguez",
+        "Anna Thompson"
+      ],
+      "scope": [
+        "AE-6"
+      ],
+      "objectives": [
+        "Review onboarding workflow effectiveness",
+        "Test data migration accuracy",
+        "Assess implementation timeline adherence",
+        "Validate service level compliance"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-9",
+      "name": "Data Privacy & Protection Audit",
+      "status": "Scheduled",
+      "description": "Annual assessment of data privacy compliance including GDPR, CCPA, and client data protection requirements",
+      "audit_type": "Compliance",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-11-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 320,
+      "actual_hours": 0,
+      "lead_auditor": "Michael Chen",
+      "audit_team": [
+        "Michael Chen",
+        "Sarah Kim"
+      ],
+      "scope": [
+        "AE-11",
+        "AE-20"
+      ],
+      "objectives": [
+        "Test data privacy control effectiveness",
+        "Validate data subject rights processes",
+        "Review data retention and deletion",
+        "Assess cross-border data transfer compliance"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-10",
+      "name": "Enterprise Risk Management Framework Audit",
+      "status": "Scheduled",
+      "description": "Assessment of ERM framework effectiveness and risk governance processes",
+      "audit_type": "Governance",
+      "rating": null,
+      "planned_start_date": "2025-12-01",
+      "planned_end_date": "2026-01-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "budget_hours": 200,
+      "actual_hours": 0,
+      "lead_auditor": "Rachel Morrison",
+      "audit_team": [
+        "Rachel Morrison",
+        "James Sullivan"
+      ],
+      "scope": [
+        "AE-13"
+      ],
+      "objectives": [
+        "Evaluate risk identification processes",
+        "Assess risk appetite framework",
+        "Review risk reporting to Board",
+        "Test risk mitigation plan effectiveness"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-11",
+      "name": "Q4 2024 Sales Compensation Review",
+      "status": "Completed",
+      "description": "Targeted review of Q3-Q4 2024 sales compensation calculations following CRO appointment and performance recovery",
+      "audit_type": "Financial",
+      "rating": "Satisfactory with Observations",
+      "planned_start_date": "2024-12-01",
+      "planned_end_date": "2025-01-31",
+      "actual_start_date": "2024-12-01",
+      "actual_end_date": "2025-02-05",
+      "budget_hours": 180,
+      "actual_hours": 195,
+      "lead_auditor": "Kevin Park",
+      "audit_team": [
+        "Kevin Park",
+        "Lisa Rodriguez"
+      ],
+      "scope": [
+        "AE-16"
+      ],
+      "objectives": [
+        "Validate commission calculation accuracy",
+        "Review quota adjustment approvals",
+        "Test payment timeliness",
+        "Assess plan exception handling"
+      ],
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "audit_id": "AUD-12",
+      "name": "FCA Remediation Validation",
+      "status": "Completed",
+      "description": "Validation audit of UK operations remediation actions following FCA formal warning",
+      "audit_type": "Compliance",
+      "rating": "Needs Improvement",
+      "planned_start_date": "2024-10-15",
+      "planned_end_date": "2024-12-15",
+      "actual_start_date": "2024-10-15",
+      "actual_end_date": "2024-12-20",
+      "budget_hours": 220,
+      "actual_hours": 265,
+      "lead_auditor": "James Sullivan",
+      "audit_team": [
+        "James Sullivan",
+        "Mark Davies"
+      ],
+      "scope": [
+        "AE-4"
+      ],
+      "objectives": [
+        "Validate remediation action completion",
+        "Test enhanced control implementation",
+        "Review regulatory communication processes",
+        "Assess ongoing compliance monitoring"
+      ],
+      "created_by": "Chief Audit Executive"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "2025 Annual Audit Plan",
+      "fiscal_year": "2025",
+      "status": "Approved",
+      "total_audits": 12,
+      "total_hours": 3650,
+      "risk_coverage": {
+        "High": "100%",
+        "Medium": "75%",
+        "Low": "25%"
+      },
+      "strategic_priorities": [
+        "Revenue recognition and ARR milestone",
+        "International compliance (FCA)",
+        "Commercial execution and leadership transition",
+        "SOC 2 and cybersecurity",
+        "Regulatory compliance (SEC Marketing Rule)"
+      ],
+      "resource_allocation": {
+        "Internal_Staff": 2800,
+        "Co-sourced": 850
+      },
+      "approval_date": "2025-01-20",
+      "approved_by": "Audit Committee",
+      "created_by": "Chief Audit Executive"
+    },
+    {
+      "plan_id": "AP-2",
+      "name": "Q1 2025 Audit Execution Plan",
+      "fiscal_year": "2025",
+      "status": "Active",
+      "total_audits": 3,
+      "total_hours": 930,
+      "audits_included": [
+        "AUD-1",
+        "AUD-11",
+        "AUD-12"
+      ],
+      "milestones": [
+        {
+          "date": "2025-02-28",
+          "milestone": "Complete Q4 2024 Compensation Review"
+        },
+        {
+          "date": "2025-03-31",
+          "milestone": "Revenue Recognition fieldwork 50% complete"
+        },
+        {
+          "date": "2025-04-15",
+          "milestone": "UK Compliance audit kickoff"
+        }
+      ],
+      "approval_date": "2025-01-05",
+      "approved_by": "Chief Audit Executive",
+      "created_by": "Internal Audit"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-12",
+      "title": "Inadequate Cross-Border Data Transfer Documentation",
+      "criteria": "FCA SYSC requirements mandate documented data transfer agreements and appropriate safeguards for cross-border transfers of client data",
+      "condition": "Review identified that 35% of cross-border data transfers lacked documented legal basis and 22% had incomplete data processing agreements",
+      "cause": "Rapid international expansion outpaced updates to data governance framework; insufficient coordination between UK legal and US data management teams",
+      "effect": "Regulatory non-compliance risk; contributed to FCA formal warning; potential for client data protection breaches; reputational exposure",
+      "recommendation": "Implement comprehensive data transfer impact assessments for all cross-border flows; establish dedicated international data governance function; complete data processing agreement inventory within 90 days",
+      "management_response": "Accepted. Data governance remediation project initiated with target completion Q2 2025. Interim manual controls implemented.",
+      "severity": "High",
+      "status": "Open",
+      "owner": "David Richardson, UK Managing Director",
+      "due_date": "2025-06-30",
+      "identified_date": "2024-11-15",
+      "created_by": "James Sullivan"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-12",
+      "title": "Delayed Regulatory Reporting to FCA",
+      "criteria": "FCA SUP requirements specify timeframes for mandatory regulatory notifications and reporting",
+      "condition": "Two required regulatory notifications were submitted 15 and 23 days past deadline in Q2-Q3 2024; root cause analysis not completed for 60+ days",
+      "cause": "Absence of automated regulatory calendar; key person dependency for UK regulatory reporting; unclear escalation procedures during staff transitions",
+      "effect": "Direct contributor to FCA formal warning; increased regulatory scrutiny; potential for future enforcement action",
+      "recommendation": "Implement automated regulatory calendar with advance notifications; establish backup reporting personnel; create regulatory escalation matrix",
+      "management_response": "Accepted. Regulatory calendar system implemented December 2024. Backup personnel designated and trained.",
+      "severity": "High",
+      "status": "In Remediation",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "due_date": "2025-03-31",
+      "identified_date": "2024-11-20",
+      "created_by": "James Sullivan"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-11",
+      "title": "Inconsistent Quota Adjustment Documentation",
+      "criteria": "Sales compensation policy requires documented approval for all quota modifications with business justification and appropriate authority level",
+      "condition": "18 of 45 quota adjustments (40%) during Q2-Q3 2024 leadership transition period lacked complete documentation; 6 adjustments approved below required authority level",
+      "cause": "CRO vacancy created approval gaps; interim approval matrix not established; compensation system did not enforce documentation requirements",
+      "effect": "Potential for inappropriate quota modifications; employee relations risk; financial statement misstatement risk for commission accruals",
+      "recommendation": "Implement system-enforced documentation requirements; establish interim authority matrix during leadership transitions; conduct retrospective review of undocumented adjustments",
+      "management_response": "Accepted. System controls enhanced in January 2025. Retrospective review completed with no material adjustments identified.",
+      "severity": "Medium",
+      "status": "Closed",
+      "owner": "Jennifer Walsh, CFO",
+      "due_date": "2025-02-28",
+      "identified_date": "2024-12-20",
+      "created_by": "Kevin Park"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-11",
+      "title": "Commission Calculation Timing Delays",
+      "criteria": "Commission payments should be processed within 30 days of deal closure per sales compensation policy",
+      "condition": "Average commission payment timing extended from 28 days to 42 days during Q2 2024; 12% of payments exceeded 60 days",
+      "cause": "Manual deal verification process overwhelmed during sales pipeline surge; integration gaps between CRM and compensation systems; resource constraints in Finance",
+      "effect": "Employee dissatisfaction; potential compliance issues with state wage payment laws; increased inquiries to HR and Finance",
+      "recommendation": "Automate deal-to-commission data flow; implement commission payment dashboard with aging alerts; add temporary resources during high-volume periods",
+      "management_response": "Accepted. CRM-compensation integration enhanced. Payment timing returned to 30-day target by Q4 2024.",
+      "severity": "Medium",
+      "status": "Closed",
+      "owner": "Jennifer Walsh, CFO",
+      "due_date": "2025-01-31",
+      "identified_date": "2024-12-18",
+      "created_by": "Kevin Park"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-1",
+      "title": "Revenue Recognition Timing for Multi-Element Arrangements",
+      "criteria": "ASC 606 requires identification and allocation of transaction price to distinct performance obligations with recognition as obligations are satisfied",
+      "condition": "Preliminary testing identified 3 of 15 large enterprise contracts where performance obligation identification and standalone selling price allocation methodology was inconsistent with policy",
+      "cause": "Complex deal structures for institutional clients; insufficient technical accounting review for deals above $5M; deal desk bandwidth constraints",
+      "effect": "Potential revenue recognition timing errors; financial statement misstatement risk; audit qualification risk",
+      "recommendation": "Implement mandatory technical accounting review for contracts >$3M; enhance deal desk training on ASC 606 requirements; establish revenue recognition checklist for complex arrangements",
+      "management_response": "Under review. Technical accounting function being expanded. Additional testing in progress.",
+      "severity": "High",
+      "status": "Open",
+      "owner": "Jennifer Walsh, CFO",
+      "due_date": "2025-06-15",
+      "identified_date": "2025-04-01",
+      "created_by": "Rachel Morrison"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-1",
+      "title": "Bookings to Revenue Reconciliation Documentation",
+      "criteria": "Quarterly reconciliation between bookings, deferred revenue, and recognized revenue should be documented with variance explanations",
+      "condition": "Q3 2024 reconciliation showed $2.3M unexplained variance; documentation of timing differences and adjustments incomplete",
+      "cause": "Rapid bookings growth ($78M to $89M) strained existing reconciliation processes; manual spreadsheet-based reconciliation; limited automation",
+      "effect": "Financial reporting accuracy risk; potential deferred revenue misstatement; SOX control deficiency exposure",
+      "recommendation": "Implement automated reconciliation tool; establish variance investigation thresholds; enhance month-end close procedures for revenue accounts",
+      "management_response": "Accepted. Reconciliation automation project underway with target completion Q3 2025.",
+      "severity": "Medium",
+      "status": "Open",
+      "owner": "Jennifer Walsh, CFO",
+      "due_date": "2025-07-31",
+      "identified_date": "2025-04-05",
+      "created_by": "Rachel Morrison"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-12",
+      "title": "UK Client Communication Compliance Gaps",
+      "criteria": "FCA COBS rules require fair, clear, and not misleading communications with appropriate risk disclosures",
+      "condition": "Review of 50 client communications identified 8 instances (16%) lacking required risk disclosures; 3 marketing materials not approved through compliance review process",
+      "cause": "Decentralized communication creation process; compliance review bottleneck leading to bypass; unclear applicability guidance for UK-specific requirements",
+      "effect": "FCA conduct risk; potential for misleading client communications; contributed to regulatory scrutiny",
+      "recommendation": "Implement centralized communication approval workflow; provide UK-specific compliance training; establish communication templates with pre-approved disclosures",
+      "management_response": "Accepted. New approval workflow implemented. Training completed for all UK-facing staff.",
+      "severity": "Medium",
+      "status": "In Remediation",
+      "owner": "David Richardson, UK Managing Director",
+      "due_date": "2025-04-30",
+      "identified_date": "2024-11-25",
+      "created_by": "James Sullivan"
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-11",
+      "title": "Pipeline Quality Metrics Not Validated",
+      "criteria": "Sales pipeline data should be independently validated to ensure forecasting accuracy and appropriate deal qualification",
+      "condition": "No systematic validation of pipeline quality metrics during CRO transition; deal stage definitions applied inconsistently across sales teams",
+      "cause": "Leadership focus on recruitment during transition; temporary suspension of deal review cadence; inconsistent CRM usage discipline",
+      "effect": "Forecast accuracy degradation (actual vs. forecast variance increased to 18% in Q2); resource allocation inefficiency; board reporting quality concerns",
+      "recommendation": "Reinstate weekly deal review cadence; implement pipeline hygiene automated scoring; establish independent pipeline validation by Finance",
+      "management_response": "Accepted. New CRO has implemented enhanced pipeline governance. Forecast accuracy improved to 8% variance by Q4 2024.",
+      "severity": "Medium",
+      "status": "Closed",
+      "owner": "Sarah Chen, CRO",
+      "due_date": "2025-01-15",
+      "identified_date": "2024-12-22",
+      "created_by": "Kevin Park"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Commercial Execution Decline",
+      "description": "Risk that competitive pressure and extended sales cycles result in continued win rate degradation, missed revenue targets, and market share loss to well-funded challengers",
+      "category": "Strategic",
+      "subcategory": "Competitive",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "owner": "Sarah Chen, CRO",
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "linked_entities": [
+        "AE-1",
+        "AE-14"
+      ],
+      "created_date": "2024-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Revenue Recognition Misstatement",
+      "description": "Risk of material misstatement in revenue recognition due to complex enterprise deal structures, ASC 606 interpretation, and rapid bookings growth",
+      "category": "Financial",
+      "subcategory": "Accounting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Very Low",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "linked_entities": [
+        "AE-2",
+        "AE-18"
+      ],
+      "created_date": "2024-06-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "International Regulatory Non-Compliance",
+      "description": "Risk of regulatory enforcement actions, fines, or operational restrictions due to non-compliance with FCA requirements in UK operations",
+      "category": "Compliance",
+      "subcategory": "Regulatory",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "owner": "David Richardson, UK Managing Director",
+      "linked_controls": [
+        "C-7",
+        "C-8",
+        "C-9"
+      ],
+      "linked_entities": [
+        "AE-4"
+      ],
+      "created_date": "2024-09-01",
+      "last_reviewed": "2025-01-20",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "SEC Marketing Rule Compliance Failure",
+      "description": "Risk that product or service offerings fail to adequately support client SEC Marketing Rule compliance, resulting in client regulatory issues and reputational damage",
+      "category": "Compliance",
+      "subcategory": "Product Compliance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "linked_controls": [
+        "C-10",
+        "C-11",
+        "C-12"
+      ],
+      "linked_entities": [
+        "AE-3"
+      ],
+      "created_date": "2023-11-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Cybersecurity Breach",
+      "description": "Risk of unauthorized access to client financial data, resulting in data breach notifications, regulatory fines, client losses, and reputational damage",
+      "category": "Operational",
+      "subcategory": "Technology",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Very Low",
+      "owner": "Robert Kim, CTO",
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-15",
+        "C-16"
+      ],
+      "linked_entities": [
+        "AE-5",
+        "AE-20"
+      ],
+      "created_date": "2023-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Leadership Transition Disruption",
+      "description": "Risk that key leadership changes disrupt operations, create control gaps, and negatively impact strategic execution and employee morale",
+      "category": "Operational",
+      "subcategory": "People",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Patricia Martinez, CHRO",
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "linked_entities": [
+        "AE-8",
+        "AE-1"
+      ],
+      "created_date": "2024-02-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Mid-Market Segment Erosion",
+      "description": "Risk of continued market share loss in mid-market segment due to competitive pressure, pricing challenges, and product-market fit issues",
+      "category": "Strategic",
+      "subcategory": "Market",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "owner": "Sarah Chen, CRO",
+      "linked_controls": [
+        "C-20",
+        "C-21"
+      ],
+      "linked_entities": [
+        "AE-14"
+      ],
+      "created_date": "2024-03-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Operating Margin Compression",
+      "description": "Risk that investment requirements and scaling challenges result in sustained operating margin compression below target levels",
+      "category": "Financial",
+      "subcategory": "Profitability",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_controls": [
+        "C-22",
+        "C-23"
+      ],
+      "linked_entities": [
+        "AE-19"
+      ],
+      "created_date": "2024-04-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Regulatory Environment Dependency",
+      "description": "Risk that over-reliance on regulatory enforcement (SEC Marketing Rule) as business driver creates vulnerability to policy changes or enforcement slowdowns",
+      "category": "Strategic",
+      "subcategory": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Sarah Chen, CRO",
+      "linked_controls": [
+        "C-24",
+        "C-25"
+      ],
+      "linked_entities": [
+        "AE-3",
+        "AE-1"
+      ],
+      "created_date": "2024-08-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Third-Party Service Provider Failure",
+      "description": "Risk that critical third-party service providers experience service disruptions, security breaches, or business failures impacting operations",
+      "category": "Operational",
+      "subcategory": "Third Party",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "owner": "Lisa Chang, VP Operations",
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-28"
+      ],
+      "linked_entities": [
+        "AE-7"
+      ],
+      "created_date": "2023-06-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Data Privacy Violation",
+      "description": "Risk of data privacy violations resulting in regulatory fines (GDPR, CCPA), client contract breaches, and reputational harm",
+      "category": "Compliance",
+      "subcategory": "Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "owner": "Thomas Wright, General Counsel",
+      "linked_controls": [
+        "C-29",
+        "C-30",
+        "C-31"
+      ],
+      "linked_entities": [
+        "AE-11",
+        "AE-20"
+      ],
+      "created_date": "2023-03-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Sales Compensation Errors",
+      "description": "Risk of material errors in sales compensation calculations resulting in financial misstatement, employee disputes, and compliance violations",
+      "category": "Operational",
+      "subcategory": "Process",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_controls": [
+        "C-32",
+        "C-33",
+        "C-34"
+      ],
+      "linked_entities": [
+        "AE-16"
+      ],
+      "created_date": "2024-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Enterprise Deal Execution Failure",
+      "description": "Risk of failed implementation or delivery issues on large enterprise deals (e.g., Bridgewater) resulting in contract terminations, revenue reversals, and reputational damage",
+      "category": "Operational",
+      "subcategory": "Delivery",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "owner": "Amanda Foster, VP Client Services",
+      "linked_controls": [
+        "C-35",
+        "C-36",
+        "C-37"
+      ],
+      "linked_entities": [
+        "AE-6",
+        "AE-18"
+      ],
+      "created_date": "2024-09-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "Business Continuity Failure",
+      "description": "Risk that business continuity plans are inadequate to maintain critical operations during significant disruptions",
+      "category": "Operational",
+      "subcategory": "Resilience",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Low",
+      "owner": "Robert Kim, CTO",
+      "linked_controls": [
+        "C-38",
+        "C-39",
+        "C-40"
+      ],
+      "linked_entities": [
+        "AE-15"
+      ],
+      "created_date": "2023-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Forecast Accuracy Degradation",
+      "description": "Risk that sales forecasting accuracy deteriorates leading to improper resource allocation, missed targets, and board confidence erosion",
+      "category": "Operational",
+      "subcategory": "Process",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 2,
+      "residual_score": 4,
+      "risk_appetite": "Medium",
+      "owner": "Sarah Chen, CRO",
+      "linked_controls": [
+        "C-41",
+        "C-42"
+      ],
+      "linked_entities": [
+        "AE-1",
+        "AE-19"
+      ],
+      "created_date": "2024-05-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "SOC 2 Compliance Failure",
+      "description": "Risk of SOC 2 audit qualification or adverse opinion impacting client confidence and contract renewals",
+      "category": "Compliance",
+      "subcategory": "Certification",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Very Low",
+      "owner": "Robert Kim, CTO",
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-43"
+      ],
+      "linked_entities": [
+        "AE-5"
+      ],
+      "created_date": "2023-03-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "Key Person Dependency - Technology",
+      "description": "Risk that critical technology knowledge is concentrated in few individuals creating operational vulnerability",
+      "category": "Operational",
+      "subcategory": "People",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Robert Kim, CTO",
+      "linked_controls": [
+        "C-44",
+        "C-45"
+      ],
+      "linked_entities": [
+        "AE-10",
+        "AE-5"
+      ],
+      "created_date": "2024-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Contract Compliance Failure",
+      "description": "Risk of non-compliance with client contract terms resulting in penalties, disputes, or terminations",
+      "category": "Operational",
+      "subcategory": "Legal",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 3,
+      "inherent_score": 6,
+      "residual_likelihood": 1,
+      "residual_impact": 3,
+      "residual_score": 3,
+      "risk_appetite": "Low",
+      "owner": "Thomas Wright, General Counsel",
+      "linked_controls": [
+        "C-46",
+        "C-47"
+      ],
+      "linked_entities": [
+        "AE-17"
+      ],
+      "created_date": "2023-06-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-19",
+      "name": "Talent Attraction and Retention",
+      "description": "Risk of inability to attract and retain key talent in competitive market impacting growth and execution capability",
+      "category": "Strategic",
+      "subcategory": "People",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Patricia Martinez, CHRO",
+      "linked_controls": [
+        "C-48",
+        "C-49"
+      ],
+      "linked_entities": [
+        "AE-8"
+      ],
+      "created_date": "2024-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-20",
+      "name": "Partner Channel Underperformance",
+      "description": "Risk that partner channel fails to meet revenue targets and strategic objectives despite investment",
+      "category": "Strategic",
+      "subcategory": "Channel",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 2,
+      "inherent_score": 6,
+      "residual_likelihood": 2,
+      "residual_impact": 2,
+      "residual_score": 4,
+      "risk_appetite": "Medium",
+      "owner": "Michael Torres, VP Strategic Partnerships",
+      "linked_controls": [
+        "C-50",
+        "C-51"
+      ],
+      "linked_entities": [
+        "AE-12"
+      ],
+      "created_date": "2024-06-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-21",
+      "name": "Liquidity Risk",
+      "description": "Risk of insufficient liquidity to meet operational needs and strategic investments",
+      "category": "Financial",
+      "subcategory": "Treasury",
+      "status": "Active",
+      "inherent_likelihood": 1,
+      "inherent_impact": 5,
+      "inherent_score": 5,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Very Low",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_controls": [
+        "C-52",
+        "C-53"
+      ],
+      "linked_entities": [
+        "AE-9"
+      ],
+      "created_date": "2023-01-15",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    },
+    {
+      "risk_id": "RISK-22",
+      "name": "Product Development Delays",
+      "description": "Risk that product roadmap delays impact competitive positioning and client retention",
+      "category": "Strategic",
+      "subcategory": "Product",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "owner": "Robert Kim, CTO",
+      "linked_controls": [
+        "C-54",
+        "C-55"
+      ],
+      "linked_entities": [
+        "AE-10"
+      ],
+      "created_date": "2024-03-01",
+      "last_reviewed": "2025-01-15",
+      "created_by": "Karen Phillips, Chief Risk Officer"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "velocity": "Medium",
+      "trend": "Improving",
+      "assessment_notes": "Win rates improved from 24% (Q1) to 31% (Q4) following CRO appointment. Sales cycle reduction trend positive. Mid-market segment remains challenged but showing stabilization. Continued competitive pressure from well-funded challengers.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Win Rate",
+          "Current": "31%",
+          "Target": ">32%",
+          "Status": "Near Target"
+        },
+        {
+          "KRI": "Sales Cycle Days",
+          "Current": "118",
+          "Target": "<115",
+          "Status": "Near Target"
+        }
+      ],
+      "assessed_by": "Karen Phillips, Chief Risk Officer",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-2",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "velocity": "Low",
+      "trend": "Stable",
+      "assessment_notes": "ASC 606 controls generally effective but complexity increasing with enterprise deals. Bookings volatility ($78M-$89M) requires enhanced reconciliation procedures. $1B ARR milestone achievement increases scrutiny.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Revenue Adjustments",
+          "Current": "0.3%",
+          "Target": "<0.5%",
+          "Status": "Within Target"
+        },
+        {
+          "KRI": "Deferred Revenue Variance",
+          "Current": "$2.3M",
+          "Target": "<$1M",
+          "Status": "Exceeds Threshold"
+        }
+      ],
+      "assessed_by": "Karen Phillips, Chief Risk Officer",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-3",
+      "assessment_date": "2025-01-20",
+      "assessment_type": "Event-Triggered",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_notes": "FCA formal warning resolved but indicates ongoing regulatory attention. Remediation in progress with enhanced compliance framework. Cross-border data handling remains elevated risk. Q1 2025 audit scheduled to validate improvements.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Regulatory Filings On-Time",
+          "Current": "95%",
+          "Target": "100%",
+          "Status": "Below Target"
+        },
+        {
+          "KRI": "Compliance Training Completion",
+          "Current": "88%",
+          "Target": "100%",
+          "Status": "Below Target"
+        }
+      ],
+      "assessed_by": "Karen Phillips, Chief Risk Officer",
+      "next_assessment_date": "2025-04-20"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-5",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "velocity": "High",
+      "trend": "Stable",
+      "assessment_notes": "Strong cybersecurity controls in place with SOC 2 Type II certification. Continued investment in security tooling. Threat landscape evolving with increased targeting of financial services sector. Annual penetration testing satisfactory.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Security Incidents",
+          "Current": "0 Critical",
+          "Target": "0",
+          "Status": "Within Target"
+        },
+        {
+          "KRI": "Patch Compliance",
+          "Current": "97%",
+          "Target": ">95%",
+          "Status": "Within Target"
+        }
+      ],
+      "assessed_by": "Robert Kim, CTO",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-6",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "velocity": "Low",
+      "trend": "Improving",
+      "assessment_notes": "CRO transition completed successfully. Sarah Chen onboarded and showing strong early results. No additional executive transitions anticipated in near term. Succession planning enhanced for critical roles.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Executive Turnover",
+          "Current": "0%",
+          "Target": "<10%",
+          "Status": "Within Target"
+        },
+        {
+          "KRI": "Key Role Succession Coverage",
+          "Current": "85%",
+          "Target": ">90%",
+          "Status": "Near Target"
+        }
+      ],
+      "assessed_by": "Patricia Martinez, CHRO",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-7",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_notes": "Mid-market segment remains 'under pressure' per board update. Competitive dynamics intense with pricing pressure. Product differentiation strategy in development. Segment-specific sales resources being evaluated.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Mid-Market Win Rate",
+          "Current": "22%",
+          "Target": ">28%",
+          "Status": "Below Target"
+        },
+        {
+          "KRI": "Mid-Market Churn",
+          "Current": "8%",
+          "Target": "<6%",
+          "Status": "Exceeds Threshold"
+        }
+      ],
+      "assessed_by": "Sarah Chen, CRO",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-8",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "velocity": "Medium",
+      "trend": "Improving",
+      "assessment_notes": "Operating margin recovered from 12.0% to 14.2% by Q4. Investment pace calibrated to revenue growth. Operational efficiency initiatives showing results. Margin expansion expected to continue.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Operating Margin",
+          "Current": "14.2%",
+          "Target": ">14%",
+          "Status": "Within Target"
+        },
+        {
+          "KRI": "Cost/Revenue Ratio",
+          "Current": "85.8%",
+          "Target": "<86%",
+          "Status": "Within Target"
+        }
+      ],
+      "assessed_by": "Jennifer Walsh, CFO",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-12",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "velocity": "Low",
+      "trend": "Improving",
+      "assessment_notes": "Compensation calculation accuracy improved following system enhancements. Payment timing returned to target. Leadership transition gaps addressed. Ongoing monitoring through Finance.",
+      "key_risk_indicators": [
+        {
+          "KRI": "Commission Accuracy",
+          "Current": "99.2%",
+          "Target": ">99%",
+          "Status": "Within Target"
+        },
+        {
+          "KRI": "Payment Timing (days)",
+          "Current": "28",
+          "Target": "<30",
+          "Status": "Within Target"
+        }
+      ],
+      "assessed_by": "Jennifer Walsh, CFO",
+      "next_assessment_date": "2025-04-15"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Commercial Excellence Program",
+      "description": "Comprehensive program to improve commercial execution including sales methodology enhancement, competitive intelligence, and deal qualification rigor",
+      "status": "In Progress",
+      "owner": "Sarah Chen, CRO",
+      "actions": [
+        {
+          "action": "Implement enhanced deal qualification framework",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Deploy competitive intelligence platform",
+          "due_date": "2025-04-30",
+          "status": "Planning"
+        },
+        {
+          "action": "Launch sales methodology training",
+          "due_date": "2025-05-31",
+          "status": "Planning"
+        },
+        {
+          "action": "Establish win/loss analysis program",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 8,
+      "expected_completion": "2025-06-30",
+      "budget": 450000,
+      "created_date": "2024-11-01",
+      "created_by": "Sarah Chen, CRO"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-3",
+      "name": "FCA Compliance Remediation Program",
+      "description": "Remediation program to address FCA formal warning findings and establish enhanced international compliance framework",
+      "status": "In Progress",
+      "owner": "David Richardson, UK Managing Director",
+      "actions": [
+        {
+          "action": "Complete data transfer documentation inventory",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement automated regulatory calendar",
+          "due_date": "2025-02-28",
+          "status": "Completed"
+        },
+        {
+          "action": "Establish UK compliance committee",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Deploy communication compliance workflow",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Conduct compliance training for UK staff",
+          "due_date": "2025-05-31",
+          "status": "Planning"
+        }
+      ],
+      "target_residual_score": 8,
+      "expected_completion": "2025-06-30",
+      "budget": 320000,
+      "created_date": "2024-10-15",
+      "created_by": "Michael Torres, Chief Compliance Officer"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-2",
+      "name": "Revenue Recognition Enhancement Initiative",
+      "description": "Program to strengthen ASC 606 compliance and revenue recognition controls for complex enterprise arrangements",
+      "status": "In Progress",
+      "owner": "Jennifer Walsh, CFO",
+      "actions": [
+        {
+          "action": "Expand technical accounting function",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement revenue recognition checklist for large deals",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Automate bookings-to-revenue reconciliation",
+          "due_date": "2025-07-31",
+          "status": "Planning"
+        },
+        {
+          "action": "Enhance deal desk training on ASC 606",
+          "due_date": "2025-05-31",
+          "status": "Planning"
+        }
+      ],
+      "target_residual_score": 6,
+      "expected_completion": "2025-07-31",
+      "budget": 280000,
+      "created_date": "2025-01-15",
+      "created_by": "Jennifer Walsh, CFO"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-7",
+      "name": "Mid-Market Segment Revitalization",
+      "description": "Strategic initiative to address mid-market competitive challenges through product positioning, pricing optimization, and dedicated resources",
+      "status": "Planning",
+      "owner": "Sarah Chen, CRO",
+      "actions": [
+        {
+          "action": "Conduct competitive pricing analysis",
+          "due_date": "2025-04-15",
+          "status": "Planning"
+        },
+        {
+          "action": "Develop mid-market product bundle",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        },
+        {
+          "action": "Establish dedicated mid-market sales team",
+          "due_date": "2025-05-31",
+          "status": "Planning"
+        },
+        {
+          "action": "Launch customer retention program",
+          "due_date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "expected_completion": "2025-08-31",
+      "budget": 380000,
+      "created_date": "2025-01-20",
+      "created_by": "Sarah Chen, CRO"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-13",
+      "name": "Enterprise Delivery Excellence Program",
+      "description": "Program to ensure successful delivery of large enterprise implementations including Bridgewater and similar strategic accounts",
+      "status": "In Progress",
+      "owner": "Amanda Foster, VP Client Services",
+      "actions": [
+        {
+          "action": "Establish enterprise program management office",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement executive sponsor program",
+          "due_date": "2025-04-30",
+          "status": "Planning"
+        },
+        {
+          "action": "Deploy implementation risk monitoring dashboard",
+          "due_date": "2025-05-31",
+          "status": "Planning"
+        },
+        {
+          "action": "Create enterprise client success playbook",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        }
+      ],
+      "target_residual_score": 6,
+      "expected_completion": "2025-06-30",
+      "budget": 250000,
+      "created_date": "2024-12-01",
+      "created_by": "Amanda Foster, VP Client Services"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Sales Pipeline Review",
+      "description": "Weekly sales leadership review of pipeline quality, deal progression, and forecast accuracy with documented outcomes",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1",
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "Meeting Minutes, Pipeline Reports",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Internal Audit"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Deal Qualification Framework",
+      "description": "Structured deal qualification criteria requiring documented assessment before advancing opportunities beyond Stage 2",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "CRM Records, Qualification Scorecards",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective with Observations",
+      "created_date": "2024-09-01",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Win/Loss Analysis Review",
+      "description": "Monthly analysis of won and lost deals to identify competitive trends, pricing issues, and execution gaps",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1",
+        "RISK-7"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "Analysis Reports, Action Plans",
+      "last_test_date": "2024-11-30",
+      "last_test_result": "Effective",
+      "created_date": "2024-01-15",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Revenue Recognition Policy Compliance Review",
+      "description": "Technical accounting review of significant contracts for ASC 606 compliance before revenue recognition",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Per Transaction",
+      "automation_level": "Manual",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_processes": [
+        "PROC-2"
+      ],
+      "evidence_type": "Technical Accounting Memos, Approval Documentation",
+      "last_test_date": "2025-01-15",
+      "last_test_result": "Partially Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Monthly Revenue Reconciliation",
+      "description": "Monthly reconciliation of bookings, deferred revenue, and recognized revenue with variance analysis",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_processes": [
+        "PROC-2"
+      ],
+      "evidence_type": "Reconciliation Workpapers, Variance Explanations",
+      "last_test_date": "2025-01-15",
+      "last_test_result": "Needs Improvement",
+      "created_date": "2023-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Deal Desk Pricing Approval",
+      "description": "Multi-level approval process for non-standard pricing and contract terms before execution",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Per Transaction",
+      "automation_level": "Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_processes": [
+        "PROC-2",
+        "PROC-1"
+      ],
+      "evidence_type": "Approval Workflows, System Logs",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-03-01",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-7",
+      "name": "FCA Regulatory Calendar Management",
+      "description": "Automated regulatory calendar with advance notifications for all FCA reporting and filing deadlines",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "David Richardson, UK Managing Director",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_processes": [
+        "PROC-3"
+      ],
+      "evidence_type": "System Logs, Completion Confirmations",
+      "last_test_date": "2025-01-20",
+      "last_test_result": "Effective",
+      "created_date": "2024-12-01",
+      "created_by": "UK Compliance"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Cross-Border Data Transfer Assessment",
+      "description": "Documented assessment and approval process for all cross-border data transfers involving client data",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Transaction",
+      "automation_level": "Manual",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-3",
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "PROC-3",
+        "PROC-6"
+      ],
+      "evidence_type": "Transfer Impact Assessments, Approval Records",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Ineffective",
+      "created_date": "2024-11-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-9",
+      "name": "UK Client Communication Compliance Review",
+      "description": "Pre-approval compliance review for all UK-targeted client communications and marketing materials",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "David Richardson, UK Managing Director",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_processes": [
+        "PROC-3"
+      ],
+      "evidence_type": "Approval Workflows, Communication Library",
+      "last_test_date": "2025-01-10",
+      "last_test_result": "Partially Effective",
+      "created_date": "2024-12-15",
+      "created_by": "UK Compliance"
+    },
+    {
+      "control_id": "C-10",
+      "name": "SEC Marketing Rule Compliance Monitoring",
+      "description": "Continuous monitoring of product features and client-facing materials for SEC Marketing Rule compliance",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "PROC-4"
+      ],
+      "evidence_type": "Monitoring Reports, Issue Logs",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-11-01",
+      "created_by": "Compliance"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Regulatory Change Management Process",
+      "description": "Structured process to identify, assess, and implement regulatory changes affecting product compliance features",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4",
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "PROC-4"
+      ],
+      "evidence_type": "Regulatory Tracker, Impact Assessments",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Compliance"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Client Compliance Feature Validation",
+      "description": "Quality assurance testing of compliance-related product features before release",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Release",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "PROC-4",
+        "PROC-7"
+      ],
+      "evidence_type": "Test Results, Release Approvals",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-09-01",
+      "created_by": "Engineering"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Multi-Factor Authentication Enforcement",
+      "description": "Mandatory MFA for all system access including production environments, administrative functions, and client data access",
+      "control_type": "Preventive",
+      "category": "IT Security",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "PROC-5"
+      ],
+      "evidence_type": "System Configuration, Access Logs",
+      "last_test_date": "2025-01-10",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "IT Security"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Security Information and Event Management (SIEM)",
+      "description": "24/7 monitoring of security events with automated alerting and incident response procedures",
+      "control_type": "Detective",
+      "category": "IT Security",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "PROC-5"
+      ],
+      "evidence_type": "SIEM Logs, Incident Reports",
+      "last_test_date": "2025-01-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "IT Security"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Vulnerability Management Program",
+      "description": "Regular vulnerability scanning and patching of all systems with defined SLAs based on severity",
+      "control_type": "Preventive",
+      "category": "IT Security",
+      "frequency": "Weekly",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_processes": [
+        "PROC-5"
+      ],
+      "evidence_type": "Scan Reports, Patch Records",
+      "last_test_date": "2025-01-12",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "IT Security"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Data Encryption Standards",
+      "description": "Encryption of all client data at rest (AES-256) and in transit (TLS 1.3)",
+      "control_type": "Preventive",
+      "category": "IT Security",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "PROC-5",
+        "PROC-6"
+      ],
+      "evidence_type": "Configuration Documentation, Encryption Certificates",
+      "last_test_date": "2024-11-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "IT Security"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Succession Planning Program",
+      "description": "Formal succession planning for all executive and key leadership positions with documented development plans",
+      "control_type": "Preventive",
+      "category": "Governance",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Patricia Martinez, CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Succession Plans, Board Reports",
+      "last_test_date": "2024-09-15",
+      "last_test_result": "Effective with Observations",
+      "created_date": "2023-06-01",
+      "created_by": "HR"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Leadership Transition Protocol",
+      "description": "Documented protocol for managing leadership transitions including interim authority, knowledge transfer, and communication plans",
+      "control_type": "Preventive",
+      "category": "Governance",
+      "frequency": "Event-Driven",
+      "automation_level": "Manual",
+      "owner": "Patricia Martinez, CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Transition Plans, Handover Documentation",
+      "last_test_date": "2024-10-01",
+      "last_test_result": "Partially Effective",
+      "created_date": "2024-03-01",
+      "created_by": "HR"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Interim Authority Matrix",
+      "description": "Pre-defined delegation of authority matrix activated during leadership vacancies",
+      "control_type": "Preventive",
+      "category": "Governance",
+      "frequency": "Event-Driven",
+      "automation_level": "Manual",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Authority Matrix, Activation Records",
+      "last_test_date": "2024-06-01",
+      "last_test_result": "Partially Effective",
+      "created_date": "2024-05-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Segment Performance Monitoring",
+      "description": "Monthly performance monitoring of mid-market segment with KPIs including win rates, churn, and competitive losses",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "Performance Dashboards, Monthly Reports",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2024-03-01",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Competitive Intelligence Program",
+      "description": "Systematic collection and analysis of competitive information including pricing, features, and market positioning",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Sarah Chen, CRO",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-7",
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "Competitive Reports, Market Analysis",
+      "last_test_date": null,
+      "last_test_result": null,
+      "created_date": "2025-01-15",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Operating Expense Budget Controls",
+      "description": "Multi-level approval for operating expenses with enhanced scrutiny during investment periods",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Per Transaction",
+      "automation_level": "Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_processes": [
+        "PROC-9"
+      ],
+      "evidence_type": "Approval Workflows, Budget Reports",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Monthly Financial Performance Review",
+      "description": "Monthly review of financial performance against budget including margin analysis and investment tracking",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_processes": [
+        "PROC-9"
+      ],
+      "evidence_type": "Financial Reports, Variance Analysis",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Revenue Diversification Monitoring",
+      "description": "Quarterly analysis of revenue concentration including regulatory-driven vs. organic demand segmentation",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "PROC-9"
+      ],
+      "evidence_type": "Revenue Analysis, Board Reports",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-08-01",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Regulatory Environment Scenario Planning",
+      "description": "Annual scenario planning for potential regulatory environment changes and business impact assessment",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "PROC-4"
+      ],
+      "evidence_type": "Scenario Analysis, Strategic Plans",
+      "last_test_date": "2024-10-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-08-01",
+      "created_by": "Strategy"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Vendor Due Diligence Program",
+      "description": "Risk-based due diligence for new vendors including financial stability, security posture, and compliance assessment",
+      "control_type": "Preventive",
+      "category": "Third Party",
+      "frequency": "Per Vendor",
+      "automation_level": "Semi-Automated",
+      "owner": "Lisa Chang, VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "PROC-10"
+      ],
+      "evidence_type": "Due Diligence Reports, Risk Assessments",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Operations"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Critical Vendor Performance Monitoring",
+      "description": "Continuous monitoring of critical vendor performance against SLAs with escalation procedures",
+      "control_type": "Detective",
+      "category": "Third Party",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Lisa Chang, VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "PROC-10"
+      ],
+      "evidence_type": "SLA Reports, Performance Dashboards",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Operations"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Vendor Concentration Risk Management",
+      "description": "Annual assessment of vendor concentration and contingency planning for critical vendor dependencies",
+      "control_type": "Preventive",
+      "category": "Third Party",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Lisa Chang, VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "PROC-10"
+      ],
+      "evidence_type": "Concentration Analysis, Contingency Plans",
+      "last_test_date": "2024-09-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-09-01",
+      "created_by": "Operations"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Privacy Impact Assessment Process",
+      "description": "Required privacy impact assessment for new products, features, or data processing activities",
+      "control_type": "Preventive",
+      "category": "Privacy",
+      "frequency": "Per Project",
+      "automation_level": "Manual",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "PROC-6"
+      ],
+      "evidence_type": "Privacy Impact Assessments, Approval Records",
+      "last_test_date": "2024-11-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-03-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Data Subject Request Management",
+      "description": "Automated workflow for processing data subject access, deletion, and correction requests within regulatory timeframes",
+      "control_type": "Corrective",
+      "category": "Privacy",
+      "frequency": "Per Request",
+      "automation_level": "Automated",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "PROC-6"
+      ],
+      "evidence_type": "Request Logs, Response Records",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Data Retention and Deletion Controls",
+      "description": "Automated data retention enforcement and secure deletion procedures aligned with retention schedule",
+      "control_type": "Preventive",
+      "category": "Privacy",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "PROC-6"
+      ],
+      "evidence_type": "Retention Logs, Deletion Confirmations",
+      "last_test_date": "2024-10-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-09-01",
+      "created_by": "IT"
+    },
+    {
+      "control_id": "C-32",
+      "name": "Commission Calculation Validation",
+      "description": "System-based commission calculations with Finance validation for payments above threshold",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Per Pay Period",
+      "automation_level": "Semi-Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "PROC-11"
+      ],
+      "evidence_type": "Calculation Reports, Validation Sign-offs",
+      "last_test_date": "2025-01-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Quota Adjustment Authorization",
+      "description": "Multi-level approval workflow for quota modifications with documented business justification",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Transaction",
+      "automation_level": "Automated",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "PROC-11"
+      ],
+      "evidence_type": "Approval Workflows, Justification Records",
+      "last_test_date": "2025-01-15",
+      "last_test_result": "Effective",
+      "created_date": "2025-01-01",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Commission Payment Reconciliation",
+      "description": "Monthly reconciliation of commission payments to sales results and accrual records",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "PROC-11"
+      ],
+      "evidence_type": "Reconciliation Workpapers",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Finance"
+    },
+    {
+      "control_id": "C-35",
+      "name": "Enterprise Implementation Governance",
+      "description": "Formal governance structure for enterprise implementations including steering committee, milestone reviews, and escalation procedures",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Project",
+      "automation_level": "Manual",
+      "owner": "Amanda Foster, VP Client Services",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "PROC-12"
+      ],
+      "evidence_type": "Governance Charters, Meeting Minutes",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-06-01",
+      "created_by": "Client Services"
+    },
+    {
+      "control_id": "C-36",
+      "name": "Implementation Risk Monitoring",
+      "description": "Weekly risk assessment and status monitoring for active enterprise implementations",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Amanda Foster, VP Client Services",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "PROC-12"
+      ],
+      "evidence_type": "Risk Reports, Status Dashboards",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2024-09-01",
+      "created_by": "Client Services"
+    },
+    {
+      "control_id": "C-37",
+      "name": "Data Migration Quality Assurance",
+      "description": "Comprehensive data validation and reconciliation procedures for client data migrations",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Per Migration",
+      "automation_level": "Automated",
+      "owner": "Amanda Foster, VP Client Services",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "PROC-12"
+      ],
+      "evidence_type": "Migration Reports, Reconciliation Records",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-09-01",
+      "created_by": "Client Services"
+    },
+    {
+      "control_id": "C-38",
+      "name": "Business Continuity Plan Maintenance",
+      "description": "Annual review and update of business continuity plans for all critical functions",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "PROC-13"
+      ],
+      "evidence_type": "BCP Documents, Update Records",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Operations"
+    },
+    {
+      "control_id": "C-39",
+      "name": "Disaster Recovery Testing",
+      "description": "Semi-annual disaster recovery testing with documented results and remediation tracking",
+      "control_type": "Detective",
+      "category": "IT",
+      "frequency": "Semi-Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "PROC-13"
+      ],
+      "evidence_type": "Test Results, Recovery Time Metrics",
+      "last_test_date": "2024-10-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "IT"
+    },
+    {
+      "control_id": "C-40",
+      "name": "Crisis Communication Protocol",
+      "description": "Documented crisis communication procedures including stakeholder notification and media response",
+      "control_type": "Corrective",
+      "category": "Governance",
+      "frequency": "Event-Driven",
+      "automation_level": "Manual",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "PROC-13"
+      ],
+      "evidence_type": "Communication Templates, Contact Lists",
+      "last_test_date": "2024-11-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-41",
+      "name": "Forecast Accuracy Tracking",
+      "description": "Monthly tracking of forecast accuracy with trend analysis and root cause investigation for significant variances",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Automated",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "PROC-1",
+        "PROC-9"
+      ],
+      "evidence_type": "Accuracy Reports, Variance Analysis",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2024-05-01",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-42",
+      "name": "Pipeline Hygiene Automation",
+      "description": "Automated pipeline hygiene scoring and alerting for stale opportunities and data quality issues",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "Sarah Chen, CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "PROC-1"
+      ],
+      "evidence_type": "Hygiene Reports, Alert Logs",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-10-01",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "control_id": "C-43",
+      "name": "SOC 2 Control Monitoring",
+      "description": "Continuous monitoring of SOC 2 trust service criteria controls with automated evidence collection",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "PROC-5"
+      ],
+      "evidence_type": "Monitoring Dashboards, Control Evidence",
+      "last_test_date": "2025-01-10",
+      "last_test_result": "Effective",
+      "created_date": "2023-03-01",
+      "created_by": "IT Security"
+    },
+    {
+      "control_id": "C-44",
+      "name": "Technical Documentation Standards",
+      "description": "Required documentation for all critical systems and processes to reduce key person dependency",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_processes": [
+        "PROC-7"
+      ],
+      "evidence_type": "Documentation Repository, Review Records",
+      "last_test_date": "2024-09-15",
+      "last_test_result": "Effective with Observations",
+      "created_date": "2024-01-15",
+      "created_by": "Engineering"
+    },
+    {
+      "control_id": "C-45",
+      "name": "Cross-Training Program",
+      "description": "Formal cross-training program for critical technical roles with coverage requirements",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Patricia Martinez, CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Training Records, Coverage Metrics",
+      "last_test_date": "2024-10-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-01-15",
+      "created_by": "HR"
+    },
+    {
+      "control_id": "C-46",
+      "name": "Contract Obligation Tracking",
+      "description": "Systematic tracking of material contract obligations with automated compliance monitoring",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_processes": [
+        "PROC-14"
+      ],
+      "evidence_type": "Obligation Reports, Compliance Records",
+      "last_test_date": "2024-11-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-47",
+      "name": "Contract Review and Approval",
+      "description": "Multi-level review and approval for contracts based on value and risk thresholds",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Contract",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Wright, General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_processes": [
+        "PROC-14"
+      ],
+      "evidence_type": "Approval Workflows, Review Records",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-03-01",
+      "created_by": "Legal"
+    },
+    {
+      "control_id": "C-48",
+      "name": "Compensation Benchmarking",
+      "description": "Annual compensation benchmarking against market data for key roles",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Patricia Martinez, CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Benchmark Reports, Adjustment Recommendations",
+      "last_test_date": "2024-08-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "HR"
+    },
+    {
+      "control_id": "C-49",
+      "name": "Employee Engagement Monitoring",
+      "description": "Quarterly pulse surveys and annual engagement surveys with action planning",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Automated",
+      "owner": "Patricia Martinez, CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "linked_processes": [
+        "PROC-8"
+      ],
+      "evidence_type": "Survey Results, Action Plans",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-06-01",
+      "created_by": "HR"
+    },
+    {
+      "control_id": "C-50",
+      "name": "Partner Performance Management",
+      "description": "Quarterly partner performance reviews against targets with tiered partnership management",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Torres, VP Strategic Partnerships",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_processes": [
+        "PROC-15"
+      ],
+      "evidence_type": "Performance Reports, Partner Scorecards",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2024-06-01",
+      "created_by": "Partnerships"
+    },
+    {
+      "control_id": "C-51",
+      "name": "Partner Enablement Program",
+      "description": "Structured partner training, certification, and enablement program",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Torres, VP Strategic Partnerships",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_processes": [
+        "PROC-15"
+      ],
+      "evidence_type": "Certification Records, Enablement Metrics",
+      "last_test_date": "2024-11-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-06-01",
+      "created_by": "Partnerships"
+    },
+    {
+      "control_id": "C-52",
+      "name": "Cash Position Monitoring",
+      "description": "Daily cash position monitoring and weekly liquidity forecasting",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-21"
+      ],
+      "linked_processes": [
+        "PROC-16"
+      ],
+      "evidence_type": "Cash Reports, Forecast Models",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Treasury"
+    },
+    {
+      "control_id": "C-53",
+      "name": "Investment Policy Compliance",
+      "description": "Quarterly review of investment portfolio compliance with approved investment policy",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Jennifer Walsh, CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-21"
+      ],
+      "linked_processes": [
+        "PROC-16"
+      ],
+      "evidence_type": "Compliance Reports, Investment Records",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2023-01-15",
+      "created_by": "Treasury"
+    },
+    {
+      "control_id": "C-54",
+      "name": "Product Roadmap Governance",
+      "description": "Quarterly product roadmap review with cross-functional prioritization and resource allocation",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-22"
+      ],
+      "linked_processes": [
+        "PROC-7"
+      ],
+      "evidence_type": "Roadmap Documents, Prioritization Records",
+      "last_test_date": "2024-12-01",
+      "last_test_result": "Effective",
+      "created_date": "2024-03-01",
+      "created_by": "Product"
+    },
+    {
+      "control_id": "C-55",
+      "name": "Sprint Velocity Monitoring",
+      "description": "Continuous monitoring of development sprint velocity and delivery predictability",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Bi-Weekly",
+      "automation_level": "Automated",
+      "owner": "Robert Kim, CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-22"
+      ],
+      "linked_processes": [
+        "PROC-7"
+      ],
+      "evidence_type": "Velocity Reports, Burndown Charts",
+      "last_test_date": "2024-12-15",
+      "last_test_result": "Effective",
+      "created_date": "2024-03-01",
+      "created_by": "Engineering"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-4",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Selected sample of 15 large enterprise contracts (>$1M) executed in Q3-Q4 2024 and verified technical accounting review completion, ASC 606 analysis documentation, and appropriate approval",
+      "test_result": "Fail",
+      "test_evidence": "3 of 15 contracts (20%) lacked documented technical accounting review; 2 contracts had incomplete performance obligation analysis",
+      "exceptions_noted": "Contracts with Bridgewater Institutional Services, Meridian Wealth Partners, and Apex Capital Advisors had gaps in required documentation",
+      "root_cause": "Technical accounting bandwidth constraints; unclear threshold for mandatory review; deal desk pressure to accelerate closing",
+      "tester": "Rachel Morrison",
+      "reviewer": "Chief Audit Executive",
+      "next_test_date": "2025-07-15"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-5",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Reviewed monthly revenue reconciliations for Q2-Q4 2024 for completeness, variance investigation, and management sign-off",
+      "test_result": "Fail",
+      "test_evidence": "Q3 2024 reconciliation contained $2.3M unexplained variance; variance investigation documentation incomplete for 2 of 6 months tested",
+      "exceptions_noted": "Reconciliation process strained by rapid bookings growth; manual spreadsheet approach creating control gaps",
+      "root_cause": "Lack of automated reconciliation tooling; insufficient staff during growth period; unclear variance investigation thresholds",
+      "tester": "David Chen",
+      "reviewer": "Rachel Morrison",
+      "next_test_date": "2025-07-15"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-8",
+      "assessment_date": "2024-11-15",
+      "test_procedure": "Reviewed documentation for cross-border data transfers to/from UK operations and assessed completeness of legal basis documentation and data processing agreements",
+      "test_result": "Fail",
+      "test_evidence": "35% of cross-border transfers lacked documented legal basis; 22% had incomplete data processing agreements; no centralized inventory of transfers",
+      "exceptions_noted": "Gap directly contributed to FCA concerns; urgent remediation required",
+      "root_cause": "Rapid international expansion; insufficient coordination between US and UK legal teams; lack of automated tracking",
+      "tester": "James Sullivan",
+      "reviewer": "Chief Audit Executive",
+      "next_test_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-9",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Selected sample of 50 UK client communications from Q3-Q4 2024 and verified pre-approval compliance review and required disclosures",
+      "test_result": "Fail",
+      "test_evidence": "8 communications (16%) lacked required risk disclosures; 3 marketing materials bypassed compliance review workflow",
+      "exceptions_noted": "Bypass occurred during high-volume campaign period; compliance team bottleneck cited as reason",
+      "root_cause": "Manual workflow inefficiency; unclear applicability guidance; resource constraints in UK compliance team",
+      "tester": "Anna Thompson",
+      "reviewer": "James Sullivan",
+      "next_test_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-18",
+      "assessment_date": "2024-10-01",
+      "test_procedure": "Evaluated application of leadership transition protocol during CRO vacancy period including interim authority, knowledge transfer, and communication",
+      "test_result": "Fail",
+      "test_evidence": "Interim authority matrix not formally documented until Week 4 of vacancy; knowledge transfer checklist incomplete; some approval gaps identified",
+      "exceptions_noted": "Control gaps during transition period contributed to quota adjustment documentation issues",
+      "root_cause": "Protocol not fully developed prior to transition; speed of departure limited preparation time",
+      "tester": "Kevin Park",
+      "reviewer": "Chief Audit Executive",
+      "next_test_date": "2025-04-01"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-33",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Tested quota adjustment approval workflow for Q3-Q4 2024 adjustments following system enhancement in January 2025",
+      "test_result": "Pass",
+      "test_evidence": "100% of Q4 2024 adjustments (post-CRO appointment) had complete documentation and appropriate approvals; system controls functioning as designed",
+      "exceptions_noted": "None for period tested; prior period issues documented separately",
+      "root_cause": "N/A",
+      "tester": "Lisa Rodriguez",
+      "reviewer": "Kevin Park",
+      "next_test_date": "2025-07-15"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-13",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Verified MFA enforcement across all production systems, administrative accounts, and client data access points",
+      "test_result": "Pass",
+      "test_evidence": "100% MFA coverage confirmed; configuration settings verified; no exceptions identified",
+      "exceptions_noted": "None",
+      "root_cause": "N/A",
+      "tester": "Sarah Kim",
+      "reviewer": "Michael Chen",
+      "next_test_date": "2025-07-10"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-14",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Reviewed SIEM configuration, alert generation, and incident response for Q4 2024",
+      "test_result": "Pass",
+      "test_evidence": "All critical alerts properly configured; incident response procedures followed for 3 elevated alerts; no security incidents",
+      "exceptions_noted": "None",
+      "root_cause": "N/A",
+      "tester": "Alex Johnson",
+      "reviewer": "Michael Chen",
+      "next_test_date": "2025-07-15"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-7",
+      "assessment_date": "2025-01-20",
+      "test_procedure": "Verified implementation of automated regulatory calendar and tested notification functionality for FCA deadlines",
+      "test_result": "Pass",
+      "test_evidence": "Calendar implemented December 2024; all Q1 2025 deadlines properly configured; notifications functioning; backup personnel assigned",
+      "exceptions_noted": "None",
+      "root_cause": "N/A",
+      "tester": "Mark Davies",
+      "reviewer": "James Sullivan",
+      "next_test_date": "2025-07-20"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-1",
+      "assessment_date": "2024-12-15",
+      "test_procedure": "Reviewed sales pipeline review process for Q4 2024 including meeting cadence, documented outcomes, and action tracking",
+      "test_result": "Pass",
+      "test_evidence": "Weekly reviews consistently held; pipeline reports generated; action items tracked and followed up; forecast accuracy improved",
+      "exceptions_noted": "None",
+      "root_cause": "N/A",
+      "tester": "Lisa Rodriguez",
+      "reviewer": "Kevin Park",
+      "next_test_date": "2025-06-15"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-4",
+      "finding_id": "FND-5",
+      "title": "Technical Accounting Review Coverage Gap",
+      "description": "Technical accounting review control not consistently applied to large enterprise contracts due to bandwidth constraints and unclear triggering criteria",
+      "deficiency_type": "Design and Operating",
+      "severity": "High",
+      "status": "Open",
+      "identified_date": "2025-01-15",
+      "owner": "Jennifer Walsh, CFO",
+      "remediation_plan": "Expand technical accounting function; implement system-enforced review triggers for contracts >$3M; enhance deal desk training",
+      "remediation_due_date": "2025-06-15",
+      "validated_by": null,
+      "validation_date": null,
+      "created_by": "Rachel Morrison"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-5",
+      "finding_id": "FND-6",
+      "title": "Revenue Reconciliation Process Inadequacy",
+      "description": "Monthly revenue reconciliation process lacks automation and clear variance investigation thresholds leading to unexplained variances",
+      "deficiency_type": "Design",
+      "severity": "Medium",
+      "status": "Open",
+      "identified_date": "2025-01-15",
+      "owner": "Jennifer Walsh, CFO",
+      "remediation_plan": "Implement automated reconciliation tool; establish variance thresholds; enhance documentation requirements",
+      "remediation_due_date": "2025-07-31",
+      "validated_by": null,
+      "validation_date": null,
+      "created_by": "David Chen"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-8",
+      "finding_id": "FND-1",
+      "title": "Cross-Border Data Transfer Control Failure",
+      "description": "Cross-border data transfer assessment and documentation control ineffective due to lack of centralized tracking and unclear procedures",
+      "deficiency_type": "Design and Operating",
+      "severity": "High",
+      "status": "In Remediation",
+      "identified_date": "2024-11-15",
+      "owner": "Thomas Wright, General Counsel",
+      "remediation_plan": "Complete data transfer inventory; implement assessment workflow; establish legal coordination process; conduct training",
+      "remediation_due_date": "2025-06-30",
+      "validated_by": null,
+      "validation_date": null,
+      "created_by": "James Sullivan"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-9",
+      "finding_id": "FND-7",
+      "title": "UK Communication Compliance Review Bypass",
+      "description": "Compliance review workflow for UK communications was bypassed due to bottleneck and lack of system enforcement",
+      "deficiency_type": "Operating",
+      "severity": "Medium",
+      "status": "In Remediation",
+      "identified_date": "2025-01-10",
+      "owner": "David Richardson, UK Managing Director",
+      "remediation_plan": "Implement mandatory workflow routing; add UK compliance resources; establish pre-approved template library",
+      "remediation_due_date": "2025-04-30",
+      "validated_by": null,
+      "validation_date": null,
+      "created_by": "Anna Thompson"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-18",
+      "finding_id": "FND-3",
+      "title": "Leadership Transition Protocol Gaps",
+      "description": "Leadership transition protocol was not fully implemented during CRO vacancy creating control gaps",
+      "deficiency_type": "Operating",
+      "severity": "Medium",
+      "status": "Closed",
+      "identified_date": "2024-10-01",
+      "owner": "Patricia Martinez, CHRO",
+      "remediation_plan": "Formalize interim authority matrix; pre-document succession procedures for all executive roles; conduct tabletop exercises",
+      "remediation_due_date": "2025-01-31",
+      "validated_by": "Kevin Park",
+      "validation_date": "2025-02-15",
+      "created_by": "Kevin Park"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "Sales and Revenue Generation",
+      "description": "End-to-end sales process from lead generation through deal closure including pipeline management, deal qualification, and booking",
+      "owner": "Sarah Chen, CRO",
+      "linked_entities": [
+        "AE-1",
+        "AE-14",
+        "AE-18"
+      ],
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-20",
+        "C-21",
+        "C-41",
+        "C-42"
+      ],
+      "linked_risks": [
+        "RISK-1",
+        "RISK-7",
+        "RISK-15"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Revenue Recognition and Financial Reporting",
+      "description": "Process for recognizing revenue in accordance with ASC 606, including contract analysis, performance obligation identification, and financial statement preparation",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_entities": [
+        "AE-2"
+      ],
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "status": "Active",
+      "last_review_date": "2025-01-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "International Regulatory Compliance (UK)",
+      "description": "Compliance processes for FCA regulatory requirements including reporting, communications, and data handling",
+      "owner": "David Richardson, UK Managing Director",
+      "linked_entities": [
+        "AE-4"
+      ],
+      "linked_controls": [
+        "C-7",
+        "C-8",
+        "C-9"
+      ],
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "status": "Under Review",
+      "last_review_date": "2025-01-20",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "SEC Regulatory Compliance",
+      "description": "Compliance framework for SEC Marketing Rule requirements and related product features",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "linked_entities": [
+        "AE-3"
+      ],
+      "linked_controls": [
+        "C-10",
+        "C-11",
+        "C-12",
+        "C-25"
+      ],
+      "linked_risks": [
+        "RISK-4",
+        "RISK-9"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-01",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Information Security Management",
+      "description": "Cybersecurity operations including access management, threat detection, vulnerability management, and incident response",
+      "owner": "Robert Kim, CTO",
+      "linked_entities": [
+        "AE-5"
+      ],
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-15",
+        "C-16",
+        "C-43"
+      ],
+      "linked_risks": [
+        "RISK-5",
+        "RISK-16"
+      ],
+      "status": "Active",
+      "last_review_date": "2025-01-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Data Privacy Management",
+      "description": "Data privacy compliance processes including impact assessments, subject rights, retention, and cross-border transfers",
+      "owner": "Thomas Wright, General Counsel",
+      "linked_entities": [
+        "AE-11",
+        "AE-20"
+      ],
+      "linked_controls": [
+        "C-8",
+        "C-16",
+        "C-29",
+        "C-30",
+        "C-31"
+      ],
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-11-01",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Product Development Lifecycle",
+      "description": "Software development process from requirements through deployment including quality assurance and release management",
+      "owner": "Robert Kim, CTO",
+      "linked_entities": [
+        "AE-10"
+      ],
+      "linked_controls": [
+        "C-12",
+        "C-44",
+        "C-54",
+        "C-55"
+      ],
+      "linked_risks": [
+        "RISK-17",
+        "RISK-22"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-01",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "Human Capital Management",
+      "description": "HR processes including recruitment, onboarding, performance management, compensation, and succession planning",
+      "owner": "Patricia Martinez, CHRO",
+      "linked_entities": [
+        "AE-8"
+      ],
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19",
+        "C-45",
+        "C-48",
+        "C-49"
+      ],
+      "linked_risks": [
+        "RISK-6",
+        "RISK-19"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-09-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "Financial Planning and Analysis",
+      "description": "Budgeting, forecasting, variance analysis, and management reporting processes",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_entities": [
+        "AE-19"
+      ],
+      "linked_controls": [
+        "C-22",
+        "C-23",
+        "C-24",
+        "C-41"
+      ],
+      "linked_risks": [
+        "RISK-8",
+        "RISK-15"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Third-Party Risk Management",
+      "description": "Vendor due diligence, ongoing monitoring, and risk management for third-party service providers",
+      "owner": "Lisa Chang, VP Operations",
+      "linked_entities": [
+        "AE-7"
+      ],
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-28"
+      ],
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-11-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Sales Compensation Administration",
+      "description": "Commission calculation, quota management, and incentive payment processing",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_entities": [
+        "AE-16"
+      ],
+      "linked_controls": [
+        "C-32",
+        "C-33",
+        "C-34"
+      ],
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "status": "Active",
+      "last_review_date": "2025-01-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Client Implementation and Onboarding",
+      "description": "Client onboarding, data migration, implementation project management, and go-live processes",
+      "owner": "Amanda Foster, VP Client Services",
+      "linked_entities": [
+        "AE-6",
+        "AE-18"
+      ],
+      "linked_controls": [
+        "C-35",
+        "C-36",
+        "C-37"
+      ],
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-01",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Business Continuity Management",
+      "description": "Business continuity planning, disaster recovery, and crisis management processes",
+      "owner": "Robert Kim, CTO",
+      "linked_entities": [
+        "AE-15"
+      ],
+      "linked_controls": [
+        "C-38",
+        "C-39",
+        "C-40"
+      ],
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-11-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Contract Lifecycle Management",
+      "description": "Contract creation, review, approval, execution, and compliance monitoring",
+      "owner": "Thomas Wright, General Counsel",
+      "linked_entities": [
+        "AE-17"
+      ],
+      "linked_controls": [
+        "C-46",
+        "C-47"
+      ],
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-01",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Partner Channel Management",
+      "description": "Partner recruitment, enablement, performance management, and channel operations",
+      "owner": "Michael Torres, VP Strategic Partnerships",
+      "linked_entities": [
+        "AE-12"
+      ],
+      "linked_controls": [
+        "C-50",
+        "C-51"
+      ],
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-15",
+      "created_by": "Process Owner"
+    },
+    {
+      "process_id": "PROC-16",
+      "name": "Treasury and Cash Management",
+      "description": "Cash management, liquidity forecasting, investment management, and banking operations",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_entities": [
+        "AE-9"
+      ],
+      "linked_controls": [
+        "C-52",
+        "C-53"
+      ],
+      "linked_risks": [
+        "RISK-21"
+      ],
+      "status": "Active",
+      "last_review_date": "2024-12-15",
+      "created_by": "Process Owner"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Achieve Revenue Growth Targets",
+      "description": "Achieve 15% year-over-year revenue growth while maintaining win rates above 30%",
+      "category": "Strategic",
+      "owner": "Sarah Chen, CRO",
+      "linked_risks": [
+        "RISK-1",
+        "RISK-7",
+        "RISK-9"
+      ],
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "kpis": [
+        {
+          "name": "Revenue Growth Rate",
+          "target": "15%",
+          "current": "13.8%"
+        },
+        {
+          "name": "Win Rate",
+          "target": ">30%",
+          "current": "31%"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Maintain Financial Statement Integrity",
+      "description": "Ensure accurate financial reporting with no material misstatements or restatements",
+      "category": "Financial",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_risks": [
+        "RISK-2",
+        "RISK-12"
+      ],
+      "target_date": "2025-12-31",
+      "status": "At Risk",
+      "kpis": [
+        {
+          "name": "Audit Adjustments",
+          "target": "<$500K",
+          "current": "TBD"
+        },
+        {
+          "name": "Restatements",
+          "target": "0",
+          "current": "0"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Achieve Regulatory Compliance Excellence",
+      "description": "Maintain full compliance with SEC, FCA, and data privacy regulations with no enforcement actions",
+      "category": "Compliance",
+      "owner": "Michael Torres, Chief Compliance Officer",
+      "linked_risks": [
+        "RISK-3",
+        "RISK-4",
+        "RISK-11"
+      ],
+      "target_date": "2025-12-31",
+      "status": "Needs Attention",
+      "kpis": [
+        {
+          "name": "Regulatory Findings",
+          "target": "0 material",
+          "current": "1 (FCA warning resolved)"
+        },
+        {
+          "name": "Filing Accuracy",
+          "target": "100%",
+          "current": "95%"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Maintain Cybersecurity and SOC 2 Compliance",
+      "description": "Achieve unqualified SOC 2 Type II report and maintain zero critical security incidents",
+      "category": "Operational",
+      "owner": "Robert Kim, CTO",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-16"
+      ],
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "kpis": [
+        {
+          "name": "SOC 2 Status",
+          "target": "Unqualified",
+          "current": "On Track"
+        },
+        {
+          "name": "Critical Incidents",
+          "target": "0",
+          "current": "0"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Improve Operating Margin",
+      "description": "Achieve operating margin of 15% or greater through operational efficiency and revenue growth",
+      "category": "Financial",
+      "owner": "Jennifer Walsh, CFO",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "kpis": [
+        {
+          "name": "Operating Margin",
+          "target": ">15%",
+          "current": "14.2%"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Execute Enterprise Client Success",
+      "description": "Successfully deliver all enterprise implementations including strategic accounts like Bridgewater",
+      "category": "Operational",
+      "owner": "Amanda Foster, VP Client Services",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "kpis": [
+        {
+          "name": "Implementation Success Rate",
+          "target": ">95%",
+          "current": "97%"
+        },
+        {
+          "name": "Enterprise NPS",
+          "target": ">50",
+          "current": "52"
+        }
+      ],
+      "created_by": "Executive Leadership"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "REG-1",
+      "name": "SEC Marketing Rule (Rule 206(4)-1)",
+      "description": "SEC rules governing investment adviser advertisements and testimonials/endorsements",
+      "type": "Regulation",
+      "jurisdiction": "United States",
+      "regulatory_body": "Securities and Exchange Commission",
+      "effective_date": "2022-11-04",
+      "applicability": "Product features for RIA clients; company marketing materials",
+      "linked_entities": [
+        "AE-3"
+      ],
+      "linked_controls": [
+        "C-10",
+        "C-11",
+        "C-12"
+      ],
+      "compliance_owner": "Michael Torres, Chief Compliance Officer",
+      "last_review_date": "2024-12-01",
+      "created_by": "Compliance"
+    },
+    {
+      "standard_id": "REG-2",
+      "name": "FCA Handbook (SYSC, COBS, SUP)",
+      "description": "UK Financial Conduct Authority rules covering systems and controls, conduct of business, and supervision",
+      "type": "Regulation",
+      "jurisdiction": "United Kingdom",
+      "regulatory_body": "Financial Conduct Authority",
+      "effective_date": "2001-12-01",
+      "applicability": "UK subsidiary operations, UK client services",
+      "linked_entities": [
+        "AE-4"
+      ],
+      "linked_controls": [
+        "C-7",
+        "C-8",
+        "C-9"
+      ],
+      "compliance_owner": "David Richardson, UK Managing Director",
+      "last_review_date": "2025-01-20",
+      "created_by": "Compliance"
+    },
+    {
+      "standard_id": "REG-3",
+      "name": "ASC 606 - Revenue from Contracts with Customers",
+      "description": "FASB accounting standard for revenue recognition",
+      "type": "Accounting Standard",
+      "jurisdiction": "United States",
+      "regulatory_body": "Financial Accounting Standards Board",
+      "effective_date": "2018-01-01",
+      "applicability": "All revenue recognition activities",
+      "linked_entities": [
+        "AE-2",
+        "AE-18"
+      ],
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "compliance_owner": "Jennifer Walsh, CFO",
+      "last_review_date": "2025-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "standard_id": "REG-4",
+      "name": "SOC 2 Trust Service Criteria",
+      "description": "AICPA criteria for security, availability, processing integrity, confidentiality, and privacy controls",
+      "type": "Industry Standard",
+      "jurisdiction": "United States",
+      "regulatory_body": "AICPA",
+      "effective_date": "2017-04-01",
+      "applicability": "IT operations, client data handling",
+      "linked_entities": [
+        "AE-5"
+      ],
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-15",
+        "C-16",
+        "C-43"
+      ],
+      "compliance_owner": "Robert Kim, CTO",
+      "last_review_date": "2025-01-10",
+      "created_by": "IT Security"
+    },
+    {
+      "standard_id": "REG-5",
+      "name": "General Data Protection Regulation (GDPR)",
+      "description": "EU regulation on data protection and privacy",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "regulatory_body": "European Commission / ICO (UK)",
+      "effective_date": "2018-05-25",
+      "applicability": "Processing of EU/UK resident data",
+      "linked_entities": [
+        "AE-4",
+        "AE-11",
+        "AE-20"
+      ],
+      "linked_controls": [
+        "C-8",
+        "C-29",
+        "C-30",
+        "C-31"
+      ],
+      "compliance_owner": "Thomas Wright, General Counsel",
+      "last_review_date": "2024-11-01",
+      "created_by": "Legal"
+    },
+    {
+      "standard_id": "REG-6",
+      "name": "California Consumer Privacy Act (CCPA)",
+      "description": "California law providing consumer data privacy rights",
+      "type": "Regulation",
+      "jurisdiction": "California, United States",
+      "regulatory_body": "California Attorney General",
+      "effective_date": "2020-01-01",
+      "applicability": "Processing of California resident data",
+      "linked_entities": [
+        "AE-11",
+        "AE-20"
+      ],
+      "linked_controls": [
+        "C-29",
+        "C-30",
+        "C-31"
+      ],
+      "compliance_owner": "Thomas Wright, General Counsel",
+      "last_review_date": "2024-11-01",
+      "created_by": "Legal"
+    },
+    {
+      "standard_id": "REG-7",
+      "name": "ISO 27001 Information Security Management",
+      "description": "International standard for information security management systems",
+      "type": "Industry Standard",
+      "jurisdiction": "International",
+      "regulatory_body": "International Organization for Standardization",
+      "effective_date": "2013-10-01",
+      "applicability": "Information security practices",
+      "linked_entities": [
+        "AE-5"
+      ],
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-15"
+      ],
+      "compliance_owner": "Robert Kim, CTO",
+      "last_review_date": "2024-11-01",
+      "created_by": "IT Security"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "REG-1",
+      "name": "Advertisement Substantiation",
+      "description": "Advisers must have a reasonable basis for believing they can substantiate material statements of fact in advertisements",
+      "requirement_text": "Rule 206(4)-1(a)(1)(i) requires advisers to have a reasonable basis for believing they can substantiate material statements of fact",
+      "linked_controls": [
+        "C-10",
+        "C-11"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2024-12-01",
+      "created_by": "Compliance"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "REG-2",
+      "name": "FCA Regulatory Reporting",
+      "description": "Firms must submit required regulatory reports and notifications within prescribed timeframes",
+      "requirement_text": "SUP 16 specifies reporting requirements and deadlines for FCA-regulated firms",
+      "linked_controls": [
+        "C-7"
+      ],
+      "compliance_status": "Partial - Remediation in Progress",
+      "last_assessment_date": "2025-01-20",
+      "created_by": "Compliance"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "REG-2",
+      "name": "Fair, Clear and Not Misleading Communications",
+      "description": "All communications with clients must be fair, clear, and not misleading",
+      "requirement_text": "COBS 4.2 requires communications to be fair, clear and not misleading",
+      "linked_controls": [
+        "C-9"
+      ],
+      "compliance_status": "Partial - Remediation in Progress",
+      "last_assessment_date": "2025-01-10",
+      "created_by": "Compliance"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "REG-3",
+      "name": "Performance Obligation Identification",
+      "description": "Identify distinct performance obligations in contracts with customers",
+      "requirement_text": "ASC 606-10-25-14 through 25-22 define criteria for identifying distinct performance obligations",
+      "linked_controls": [
+        "C-4"
+      ],
+      "compliance_status": "Partial - Enhancement Needed",
+      "last_assessment_date": "2025-01-15",
+      "created_by": "Finance"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "REG-4",
+      "name": "Logical Access Controls",
+      "description": "Implement logical access controls to protect against unauthorized access",
+      "requirement_text": "SOC 2 CC6.1 requires controls to restrict logical access to protected information assets",
+      "linked_controls": [
+        "C-13"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-01-10",
+      "created_by": "IT Security"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "REG-5",
+      "name": "International Data Transfer Safeguards",
+      "description": "Implement appropriate safeguards for transfers of personal data outside the EEA/UK",
+      "requirement_text": "GDPR Articles 44-49 specify requirements for international data transfers",
+      "linked_controls": [
+        "C-8"
+      ],
+      "compliance_status": "Non-Compliant - Remediation in Progress",
+      "last_assessment_date": "2024-11-15",
+      "created_by": "Legal"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "REG-5",
+      "name": "Data Subject Rights",
+      "description": "Enable data subjects to exercise their rights including access, deletion, and correction",
+      "requirement_text": "GDPR Articles 15-22 define data subject rights and response timeframes",
+      "linked_controls": [
+        "C-30"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2024-12-15",
+      "created_by": "Legal"
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "REG-4",
+      "name": "Security Incident Response",
+      "description": "Establish procedures to detect, respond to, and recover from security incidents",
+      "requirement_text": "SOC 2 CC7.4-CC7.5 require incident response and recovery procedures",
+      "linked_controls": [
+        "C-14"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-01-15",
+      "created_by": "IT Security"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "name": "Q4 2024 Pipeline Review Meeting Minutes",
+      "description": "Weekly sales pipeline review meeting minutes documenting deal discussions, forecast updates, and action items",
+      "evidence_type": "Document",
+      "source_system": "SharePoint",
+      "collection_date": "2025-01-15",
+      "linked_controls": [
+        "C-1"
+      ],
+      "linked_assessments": [
+        "CA-10"
+      ],
+      "retention_period": "7 years",
+      "classification": "Internal",
+      "created_by": "Commercial Operations"
+    },
+    {
+      "evidence_id": "EV-2",
+      "name": "Revenue Reconciliation Workpapers Q3 2024",
+      "description": "Monthly reconciliation workpapers showing bookings to deferred revenue to recognized revenue analysis",
+      "evidence_type": "Workpaper",
+      "source_system": "Finance Shared Drive",
+      "collection_date": "2025-01-15",
+      "linked_controls": [
+        "C-5"
+      ],
+      "linked_assessments": [
+        "CA-2"
+      ],
+      "retention_period": "7 years",
+      "classification": "Confidential",
+      "created_by": "Finance"
+    },
+    {
+      "evidence_id": "EV-3",
+      "name": "FCA Regulatory Calendar System Screenshot",
+      "description": "Screenshot of implemented regulatory calendar showing Q1 2025 FCA deadlines and notification settings",
+      "evidence_type": "System Screenshot",
+      "source_system": "Compliance Management System",
+      "collection_date": "2025-01-20",
+      "linked_controls": [
+        "C-7"
+      ],
+      "linked_assessments": [
+        "CA-9"
+      ],
+      "retention_period": "5 years",
+      "classification": "Internal",
+      "created_by": "UK Compliance"
+    },
+    {
+      "evidence_id": "EV-4",
+      "name": "Cross-Border Data Transfer Inventory",
+      "description": "Inventory of cross-border data transfers with legal basis documentation status",
+      "evidence_type": "Spreadsheet",
+      "source_system": "Legal Department",
+      "collection_date": "2024-11-15",
+      "linked_controls": [
+        "C-8"
+      ],
+      "linked_assessments": [
+        "CA-3"
+      ],
+      "retention_period": "5 years",
+      "classification": "Confidential",
+      "created_by": "Legal"
+    },
+    {
+      "evidence_id": "EV-5",
+      "name": "MFA Configuration Report",
+      "description": "System-generated report showing MFA enforcement status across all production systems and user accounts",
+      "evidence_type": "System Report",
+      "source_system": "Identity Management System",
+      "collection_date": "2025-01-10",
+      "linked_controls": [
+        "C-13"
+      ],
+      "linked_assessments": [
+        "CA-7"
+      ],
+      "retention_period": "3 years",
+      "classification": "Internal",
+      "created_by": "IT Security"
+    },
+    {
+      "evidence_id": "EV-6",
+      "name": "SIEM Alert and Response Log Q4 2024",
+      "description": "Log of security alerts generated and response actions taken during Q4 2024",
+      "evidence_type": "System Log",
+      "source_system": "SIEM Platform",
+      "collection_date": "2025-01-15",
+      "linked_controls": [
+        "C-14"
+      ],
+      "linked_assessments": [
+        "CA-8"
+      ],
+      "retention_period": "3 years",
+      "classification": "Confidential",
+      "created_by": "IT Security"
+    },
+    {
+      "evidence_id": "EV-7",
+      "name": "Commission Calculation Validation Report January 2025",
+      "description": "Finance validation report for January 2025 commission calculations",
+      "evidence_type": "Report",
+      "source_system": "Compensation System",
+      "collection_date": "2025-02-05",
+      "linked_controls": [
+        "C-32"
+      ],
+      "linked_assessments": [
+        "CA-6"
+      ],
+      "retention_period": "7 years",
+      "classification": "Confidential",
+      "created_by": "Finance"
+    },
+    {
+      "evidence_id": "EV-8",
+      "name": "UK Communication Compliance Review Sample",
+      "description": "Sample of UK client communications reviewed for compliance with FCA COBS requirements",
+      "evidence_type": "Document",
+      "source_system": "Compliance Management System",
+      "collection_date": "2025-01-10",
+      "linked_controls": [
+        "C-9"
+      ],
+      "linked_assessments": [
+        "CA-4"
+      ],
+      "retention_period": "5 years",
+      "classification": "Internal",
+      "created_by": "UK Compliance"
+    },
+    {
+      "evidence_id": "EV-9",
+      "name": "Technical Accounting Review Memos Q3-Q4 2024",
+      "description": "Technical accounting memos for large enterprise contracts reviewed during audit",
+      "evidence_type": "Document",
+      "source_system": "Finance Shared Drive",
+      "collection_date": "2025-01-15",
+      "linked_controls": [
+        "C-4"
+      ],
+      "linked_assessments": [
+        "CA-1"
+      ],
+      "retention_period": "7 years",
+      "classification": "Confidential",
+      "created_by": "Finance"
+    },
+    {
+      "evidence_id": "EV-10",
+      "name": "Quota Adjustment Approval Workflow Export",
+      "description": "System export of quota adjustment requests, approvals, and documentation from compensation system",
+      "evidence_type": "System Report",
+      "source_system": "Compensation System",
+      "collection_date": "2025-01-15",
+      "linked_controls": [
+        "C-33"
+      ],
+      "linked_assessments": [
+        "CA-6"
+      ],
+      "retention_period": "7 years",
+      "classification": "Confidential",
+      "created_by": "Commercial Operations"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "RQ-1",
+      "audit_id": "AUD-1",
+      "title": "Revenue Recognition Documentation for Large Contracts",
+      "description": "Request for technical accounting memos, contract summaries, and ASC 606 analysis for contracts >$1M executed in Q3-Q4 2024",
+      "request_type": "Document",
+      "status": "Completed",
+      "priority": "High",
+      "requested_from": "Jennifer Walsh, CFO",
+      "requested_by": "Rachel Morrison",
+      "due_date": "2025-03-25",
+      "completion_date": "2025-03-23",
+      "linked_evidence": [
+        "EV-9"
+      ],
+      "created_date": "2025-03-18"
+    },
+    {
+      "request_id": "RQ-2",
+      "audit_id": "AUD-1",
+      "title": "Monthly Revenue Reconciliation Workpapers",
+      "description": "Request for revenue reconciliation workpapers for Q2-Q4 2024 including variance explanations and management sign-off",
+      "request_type": "Document",
+      "status": "Completed",
+      "priority": "High",
+      "requested_from": "Controller",
+      "requested_by": "David Chen",
+      "due_date": "2025-03-28",
+      "completion_date": "2025-03-26",
+      "linked_evidence": [
+        "EV-2"
+      ],
+      "created_date": "2025-03-20"
+    },
+    {
+      "request_id": "RQ-3",
+      "audit_id": "AUD-2",
+      "title": "Cross-Border Data Transfer Documentation",
+      "description": "Request for complete inventory of UK-US data transfers with legal basis documentation and data processing agreements",
+      "request_type": "Document",
+      "status": "In Progress",
+      "priority": "High",
+      "requested_from": "Thomas Wright, General Counsel",
+      "requested_by": "James Sullivan",
+      "due_date": "2025-04-10",
+      "completion_date": null,
+      "linked_evidence": [
+        "EV-4"
+      ],
+      "created_date": "2025-04-02"
+    },
+    {
+      "request_id": "RQ-4",
+      "audit_id": "AUD-2",
+      "title": "FCA Regulatory Filing Evidence",
+      "description": "Request for evidence of Q3-Q4 2024 FCA regulatory filings including submission confirmations and deadline tracking",
+      "request_type": "Document",
+      "status": "Pending",
+      "priority": "High",
+      "requested_from": "David Richardson, UK Managing Director",
+      "requested_by": "Anna Thompson",
+      "due_date": "2025-04-15",
+      "completion_date": null,
+      "linked_evidence": [],
+      "created_date": "2025-04-03"
+    },
+    {
+      "request_id": "RQ-5",
+      "audit_id": "AUD-3",
+      "title": "Quota Adjustment Documentation",
+      "description": "Request for all quota adjustment requests and approvals from Q2-Q4 2024 including business justifications",
+      "request_type": "System Export",
+      "status": "Pending",
+      "priority": "Medium",
+      "requested_from": "Sarah Chen, CRO",
+      "requested_by": "Kevin Park",
+      "due_date": "2025-04-25",
+      "completion_date": null,
+      "linked_evidence": [],
+      "created_date": "2025-04-15"
+    },
+    {
+      "request_id": "RQ-6",
+      "audit_id": "AUD-4",
+      "title": "SOC 2 Control Evidence Package",
+      "description": "Request for current SOC 2 control evidence including system configurations, access logs, and monitoring reports",
+      "request_type": "Document",
+      "status": "Pending",
+      "priority": "High",
+      "requested_from": "Robert Kim, CTO",
+      "requested_by": "Michael Chen",
+      "due_date": "2025-05-10",
+      "completion_date": null,
+      "linked_evidence": [],
+      "created_date": "2025-04-28"
+    },
+    {
+      "request_id": "RQ-7",
+      "audit_id": "AUD-11",
+      "title": "Commission Payment Reconciliation",
+      "description": "Request for Q3-Q4 2024 commission payment reconciliations including timing analysis and variance explanations",
+      "request_type": "Document",
+      "status": "Completed",
+      "priority": "Medium",
+      "requested_from": "Controller",
+      "requested_by": "Lisa Rodriguez",
+      "due_date": "2024-12-20",
+      "completion_date": "2024-12-18",
+      "linked_evidence": [
+        "EV-7"
+      ],
+      "created_date": "2024-12-10"
+    },
+    {
+      "request_id": "RQ-8",
+      "audit_id": "AUD-12",
+      "title": "UK Communication Compliance Sample",
+      "description": "Request for sample of 50 UK client communications from Q3-Q4 2024 with compliance review documentation",
+      "request_type": "Document",
+      "status": "Completed",
+      "priority": "High",
+      "requested_from": "UK Compliance Manager",
+      "requested_by": "Anna Thompson",
+      "due_date": "2024-11-20",
+      "completion_date": "2024-11-18",
+      "linked_evidence": [
+        "EV-8"
+      ],
+      "created_date": "2024-11-10"
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Sample-Based Testing",
+      "description": "Selection and testing of sample transactions to evaluate control operating effectiveness",
+      "method_type": "Substantive",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated"
+      ],
+      "sample_size_guidance": "25-40 items for high frequency controls; 10-15 for medium frequency; 100% for low frequency",
+      "documentation_requirements": [
+        "Sample selection criteria",
+        "Testing procedures",
+        "Exception documentation",
+        "Conclusion"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Inquiry and Observation",
+      "description": "Interviews with control owners and direct observation of control execution",
+      "method_type": "Compliance",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated",
+        "Automated"
+      ],
+      "sample_size_guidance": "Minimum 2-3 personnel for each process; observe 2-3 control executions",
+      "documentation_requirements": [
+        "Inquiry notes",
+        "Observation records",
+        "Corroborating evidence"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "System Configuration Review",
+      "description": "Examination of system configurations to verify automated controls are properly implemented",
+      "method_type": "Configuration",
+      "applicable_control_types": [
+        "Automated",
+        "Semi-Automated"
+      ],
+      "sample_size_guidance": "100% of critical system configurations; key change log review",
+      "documentation_requirements": [
+        "Configuration screenshots",
+        "Change logs",
+        "Baseline comparison"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Data Analytics",
+      "description": "Use of data analysis techniques to test entire populations or identify anomalies",
+      "method_type": "Data Analysis",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated",
+        "Automated"
+      ],
+      "sample_size_guidance": "100% of population where data available; focus on outliers and exceptions",
+      "documentation_requirements": [
+        "Analysis methodology",
+        "Data sources",
+        "Query logic",
+        "Exception analysis"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Walkthrough Testing",
+      "description": "End-to-end process walkthrough to understand and validate control design",
+      "method_type": "Design",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated",
+        "Automated"
+      ],
+      "sample_size_guidance": "1 complete transaction per significant process; multiple paths for complex processes",
+      "documentation_requirements": [
+        "Process narrative",
+        "Control points identified",
+        "Design assessment"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Re-performance",
+      "description": "Independent re-execution of control procedures to verify accuracy",
+      "method_type": "Substantive",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated"
+      ],
+      "sample_size_guidance": "5-10 items for calculation/reconciliation controls",
+      "documentation_requirements": [
+        "Re-performance workpapers",
+        "Variance analysis",
+        "Root cause for differences"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Document Examination",
+      "description": "Review of supporting documentation for evidence of control execution",
+      "method_type": "Compliance",
+      "applicable_control_types": [
+        "Manual",
+        "Semi-Automated"
+      ],
+      "sample_size_guidance": "Per sample-based testing guidance; focus on completeness and timeliness",
+      "documentation_requirements": [
+        "Document checklist",
+        "Attribute testing results",
+        "Exception tracking"
+      ],
+      "created_by": "Internal Audit"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Penetration Testing Review",
+      "description": "Review of third-party penetration test results and remediation activities",
+      "method_type": "Technical",
+      "applicable_control_types": [
+        "Automated"
+      ],
+      "sample_size_guidance": "100% of critical/high findings; sample of medium findings",
+      "documentation_requirements": [
+        "Penetration test report",
+        "Remediation tracking",
+        "Retest evidence"
+      ],
+      "created_by": "Internal Audit"
+    }
+  ]
+}

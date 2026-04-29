@@ -1,0 +1,3819 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Corporate Finance & Treasury",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Finance",
+        "sub_category": "Treasury Management"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Manages corporate cash, debt facilities, and capital allocation including covenant compliance monitoring",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Revenue Operations",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Finance",
+        "sub_category": "Revenue Recognition"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Subscription billing, revenue recognition, and customer contract management across combined entity",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-01"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "ImpactHours Integration Program",
+      "taxonomy": {
+        "type": "Project",
+        "category": "M&A",
+        "sub_category": "Post-Merger Integration"
+      },
+      "audit_frequency": "Quarterly",
+      "created_by": "Chief Audit Executive",
+      "description": "Technology, people, and process integration for acquired ImpactHours business",
+      "risk_rating": "Critical",
+      "last_audit_date": null
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Platform Engineering",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Technology",
+        "sub_category": "Software Development"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Core SaaS platform development, deployment, and maintenance operations",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-04-20"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Information Security",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Technology",
+        "sub_category": "Cybersecurity"
+      },
+      "audit_frequency": "Semi-Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Enterprise security operations, SOC 2 compliance, and data protection controls",
+      "risk_rating": "High",
+      "last_audit_date": "2024-10-01"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Customer Success & Retention",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Operations",
+        "sub_category": "Customer Management"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Customer onboarding, retention programs, and gross revenue retention monitoring",
+      "risk_rating": "High",
+      "last_audit_date": "2024-07-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Sales & Go-to-Market",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Commercial",
+        "sub_category": "Sales Operations"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Enterprise and mid-market sales operations, pricing, and deal management",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-05-01"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Human Resources",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Corporate",
+        "sub_category": "People Operations"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Talent management, compensation, and workforce planning across 712 FTEs",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-08-01"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Data Privacy & Compliance",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Legal",
+        "sub_category": "Regulatory Compliance"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "GDPR, CCPA, and cross-border data privacy compliance management",
+      "risk_rating": "High",
+      "last_audit_date": "2024-03-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Cloud Infrastructure",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Technology",
+        "sub_category": "Infrastructure"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "AWS/cloud platform operations, availability, and disaster recovery",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-01"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Financial Reporting",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Finance",
+        "sub_category": "Accounting"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "General ledger, financial close, and external reporting processes",
+      "risk_rating": "High",
+      "last_audit_date": "2024-02-28"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Procurement & Vendor Management",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Operations",
+        "sub_category": "Third Party Management"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Vendor selection, contracting, and third-party risk management",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-11-01"
+    },
+    {
+      "entity_id": "AE-13",
+      "name": "Corporate Governance",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Corporate",
+        "sub_category": "Board Governance"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Board oversight, committee operations, and governance framework",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-01-15"
+    },
+    {
+      "entity_id": "AE-14",
+      "name": "Product Management",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Technology",
+        "sub_category": "Product Development"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Product roadmap, feature development, and competitive positioning",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-04-01"
+    },
+    {
+      "entity_id": "AE-15",
+      "name": "US Operations",
+      "taxonomy": {
+        "type": "Region",
+        "category": "Geography",
+        "sub_category": "North America"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "US subsidiary operations, tax compliance, and regulatory requirements",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-15"
+    },
+    {
+      "entity_id": "AE-16",
+      "name": "Payment Processing",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Operations",
+        "sub_category": "Payments"
+      },
+      "audit_frequency": "Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Donation processing, fund disbursement, and payment compliance",
+      "risk_rating": "High",
+      "last_audit_date": "2024-07-01"
+    },
+    {
+      "entity_id": "AE-17",
+      "name": "IPO Readiness Program",
+      "taxonomy": {
+        "type": "Project",
+        "category": "Corporate",
+        "sub_category": "Strategic Initiative"
+      },
+      "audit_frequency": "Quarterly",
+      "created_by": "Chief Audit Executive",
+      "description": "SOX preparation, internal controls enhancement, and public company readiness",
+      "risk_rating": "High",
+      "last_audit_date": null
+    },
+    {
+      "entity_id": "AE-18",
+      "name": "Marketing Operations",
+      "taxonomy": {
+        "type": "Function",
+        "category": "Commercial",
+        "sub_category": "Marketing"
+      },
+      "audit_frequency": "Bi-Annual",
+      "created_by": "Chief Audit Executive",
+      "description": "Brand management, demand generation, and marketing spend effectiveness",
+      "risk_rating": "Low",
+      "last_audit_date": "2024-05-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Financial Materiality",
+      "description": "Revenue, asset, or expense significance relative to consolidated financial statements",
+      "weight": 25,
+      "scoring_criteria": {
+        "1": "Less than $1M",
+        "2": "$1-5M",
+        "3": "$5-15M",
+        "4": "$15-30M",
+        "5": "Greater than $30M"
+      }
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Regulatory Exposure",
+      "description": "Level of regulatory scrutiny and compliance requirements",
+      "weight": 20,
+      "scoring_criteria": {
+        "1": "Minimal regulation",
+        "2": "Standard compliance",
+        "3": "Moderate regulation",
+        "4": "High regulation",
+        "5": "Critical compliance"
+      }
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Complexity of Operations",
+      "description": "Process complexity, system integrations, and operational interdependencies",
+      "weight": 15,
+      "scoring_criteria": {
+        "1": "Simple processes",
+        "2": "Low complexity",
+        "3": "Moderate complexity",
+        "4": "High complexity",
+        "5": "Very high complexity"
+      }
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Change Environment",
+      "description": "Degree of organizational, system, or process changes in the period",
+      "weight": 15,
+      "scoring_criteria": {
+        "1": "Stable",
+        "2": "Minor changes",
+        "3": "Moderate changes",
+        "4": "Significant changes",
+        "5": "Transformational change"
+      }
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Control Environment Maturity",
+      "description": "Strength and effectiveness of existing internal controls",
+      "weight": 15,
+      "scoring_criteria": {
+        "1": "Mature",
+        "2": "Established",
+        "3": "Developing",
+        "4": "Emerging",
+        "5": "Deficient"
+      }
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Strategic Importance",
+      "description": "Alignment with and impact on strategic objectives and stakeholder expectations",
+      "weight": 10,
+      "scoring_criteria": {
+        "1": "Minimal impact",
+        "2": "Low impact",
+        "3": "Moderate impact",
+        "4": "High impact",
+        "5": "Critical to strategy"
+      }
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 4,
+        "AF-4": 5,
+        "AF-5": 3,
+        "AF-6": 5
+      },
+      "total_score": 4.35,
+      "risk_rating": "High",
+      "rationale": "Significant liquidity deterioration and debt covenant exposure requires enhanced audit focus"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-2",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 4,
+        "AF-4": 4,
+        "AF-5": 3,
+        "AF-6": 4
+      },
+      "total_score": 4.05,
+      "risk_rating": "High",
+      "rationale": "Complex revenue recognition across 1,148 customers with acquisition integration complexity"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-3",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 3,
+        "AF-3": 5,
+        "AF-4": 5,
+        "AF-5": 4,
+        "AF-6": 5
+      },
+      "total_score": 4.3,
+      "risk_rating": "Critical",
+      "rationale": "ImpactHours integration represents highest risk area with unclear success metrics and timeline"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 5,
+        "AF-3": 4,
+        "AF-4": 4,
+        "AF-5": 2,
+        "AF-6": 4
+      },
+      "total_score": 3.75,
+      "risk_rating": "High",
+      "rationale": "SOC 2 compliance critical for enterprise customers with expanding attack surface post-acquisition"
+    },
+    {
+      "assessment_id": "ARA-5",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 2,
+        "AF-3": 3,
+        "AF-4": 4,
+        "AF-5": 3,
+        "AF-6": 5
+      },
+      "total_score": 3.45,
+      "risk_rating": "High",
+      "rationale": "GRR decline from 92% to 91% signals customer retention risk during integration"
+    },
+    {
+      "assessment_id": "ARA-6",
+      "entity_id": "AE-9",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 5,
+        "AF-3": 4,
+        "AF-4": 3,
+        "AF-5": 3,
+        "AF-6": 4
+      },
+      "total_score": 3.75,
+      "risk_rating": "High",
+      "rationale": "GDPR and CCPA compliance essential with combined customer data from acquisition"
+    },
+    {
+      "assessment_id": "ARA-7",
+      "entity_id": "AE-11",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 4,
+        "AF-4": 4,
+        "AF-5": 3,
+        "AF-6": 5
+      },
+      "total_score": 4.2,
+      "risk_rating": "High",
+      "rationale": "Acquisition accounting complexity and IPO preparation require robust financial reporting"
+    },
+    {
+      "assessment_id": "ARA-8",
+      "entity_id": "AE-15",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 4,
+        "AF-3": 3,
+        "AF-4": 3,
+        "AF-5": 3,
+        "AF-6": 4
+      },
+      "total_score": 3.55,
+      "risk_rating": "High",
+      "rationale": "Cross-border complexity with Canadian HQ creates transfer pricing and tax compliance risk"
+    },
+    {
+      "assessment_id": "ARA-9",
+      "entity_id": "AE-16",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 5,
+        "AF-3": 4,
+        "AF-4": 3,
+        "AF-5": 2,
+        "AF-6": 4
+      },
+      "total_score": 3.75,
+      "risk_rating": "High",
+      "rationale": "Payment processing compliance and fund flow controls critical for platform integrity"
+    },
+    {
+      "assessment_id": "ARA-10",
+      "entity_id": "AE-17",
+      "assessment_date": "2025-01-15",
+      "assessor": "Sarah Mitchell",
+      "factor_scores": {
+        "AF-1": 3,
+        "AF-2": 5,
+        "AF-3": 4,
+        "AF-4": 5,
+        "AF-5": 4,
+        "AF-6": 5
+      },
+      "total_score": 4.3,
+      "risk_rating": "High",
+      "rationale": "SOX readiness preparation requires significant control enhancement and documentation"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "ImpactHours Integration Assurance Review",
+      "status": "In Progress",
+      "description": "Comprehensive review of post-merger integration controls, milestone tracking, and risk mitigation effectiveness",
+      "rating": null,
+      "planned_start_date": "2025-01-20",
+      "planned_end_date": "2025-03-15",
+      "actual_start_date": "2025-01-22",
+      "actual_end_date": null,
+      "lead_auditor": "Michael Chen",
+      "scope": [
+        "AE-3",
+        "AE-4",
+        "AE-6"
+      ],
+      "budget_hours": 480,
+      "audit_type": "Operational"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Revenue Recognition and Contract Compliance Audit",
+      "status": "Planned",
+      "description": "Audit of ASC 606 compliance, subscription revenue recognition, and customer contract accuracy post-acquisition",
+      "rating": null,
+      "planned_start_date": "2025-02-15",
+      "planned_end_date": "2025-04-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Jennifer Walsh",
+      "scope": [
+        "AE-2",
+        "AE-11"
+      ],
+      "budget_hours": 320,
+      "audit_type": "Financial"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Treasury and Debt Covenant Compliance Audit",
+      "status": "Planned",
+      "description": "Review of debt facility compliance, cash management controls, and covenant monitoring processes",
+      "rating": null,
+      "planned_start_date": "2025-03-01",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Robert Kim",
+      "scope": [
+        "AE-1"
+      ],
+      "budget_hours": 240,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "SOC 2 Type II Pre-Assessment",
+      "status": "In Progress",
+      "description": "Internal assessment of SOC 2 controls effectiveness prior to external certification audit",
+      "rating": null,
+      "planned_start_date": "2025-01-15",
+      "planned_end_date": "2025-03-31",
+      "actual_start_date": "2025-01-16",
+      "actual_end_date": null,
+      "lead_auditor": "Amanda Torres",
+      "scope": [
+        "AE-5",
+        "AE-10"
+      ],
+      "budget_hours": 400,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "Data Privacy Compliance Audit",
+      "status": "Planned",
+      "description": "Assessment of GDPR, CCPA, and cross-border data transfer compliance across combined entity",
+      "rating": null,
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "David Park",
+      "scope": [
+        "AE-9",
+        "AE-4"
+      ],
+      "budget_hours": 280,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Customer Retention and GRR Analysis",
+      "status": "Planned",
+      "description": "Review of customer success processes, churn analysis, and retention controls during integration period",
+      "rating": null,
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Lisa Martinez",
+      "scope": [
+        "AE-6",
+        "AE-7"
+      ],
+      "budget_hours": 200,
+      "audit_type": "Operational"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Acquisition Accounting and Goodwill Valuation Review",
+      "status": "Completed",
+      "description": "Review of ImpactHours purchase price allocation, goodwill recognition, and integration cost treatment",
+      "rating": "Needs Improvement",
+      "planned_start_date": "2024-11-15",
+      "planned_end_date": "2025-01-15",
+      "actual_start_date": "2024-11-18",
+      "actual_end_date": "2025-01-20",
+      "lead_auditor": "Jennifer Walsh",
+      "scope": [
+        "AE-11",
+        "AE-3"
+      ],
+      "budget_hours": 280,
+      "audit_type": "Financial"
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "SOX Readiness Assessment",
+      "status": "Planned",
+      "description": "Gap assessment of internal controls over financial reporting against SOX 404 requirements",
+      "rating": null,
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-08-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Robert Kim",
+      "scope": [
+        "AE-17",
+        "AE-1",
+        "AE-2",
+        "AE-11"
+      ],
+      "budget_hours": 600,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-9",
+      "name": "Payment Processing Controls Review",
+      "status": "Planned",
+      "description": "Audit of donation processing, fund disbursement controls, and payment compliance requirements",
+      "rating": null,
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Michael Chen",
+      "scope": [
+        "AE-16"
+      ],
+      "budget_hours": 180,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-10",
+      "name": "Transfer Pricing and Cross-Border Tax Compliance",
+      "status": "Planned",
+      "description": "Review of intercompany transactions, transfer pricing documentation, and US-Canada tax compliance",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "David Park",
+      "scope": [
+        "AE-15",
+        "AE-1"
+      ],
+      "budget_hours": 240,
+      "audit_type": "Compliance"
+    },
+    {
+      "audit_id": "AUD-11",
+      "name": "IT General Controls Review",
+      "status": "Planned",
+      "description": "Assessment of ITGC framework including change management, access controls, and operations",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Amanda Torres",
+      "scope": [
+        "AE-4",
+        "AE-10"
+      ],
+      "budget_hours": 320,
+      "audit_type": "IT"
+    },
+    {
+      "audit_id": "AUD-12",
+      "name": "Vendor Risk Management Audit",
+      "status": "Planned",
+      "description": "Review of third-party risk assessment, vendor due diligence, and ongoing monitoring processes",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-11-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Lisa Martinez",
+      "scope": [
+        "AE-12"
+      ],
+      "budget_hours": 160,
+      "audit_type": "Operational"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "audit_id": "AUD-1",
+      "version": "1.2",
+      "approval_date": "2025-01-18",
+      "approved_by": "Sarah Mitchell",
+      "objectives": [
+        "Assess integration milestone achievement",
+        "Evaluate technology consolidation controls",
+        "Review customer migration risk management"
+      ],
+      "methodology": "Risk-based audit approach combining interviews, document review, and data analytics",
+      "resource_allocation": {
+        "lead": "Michael Chen",
+        "staff": [
+          "James Liu",
+          "Emily Roberts"
+        ],
+        "hours": 480
+      },
+      "timeline": {
+        "planning": "2025-01-20 to 2025-01-31",
+        "fieldwork": "2025-02-01 to 2025-03-01",
+        "reporting": "2025-03-02 to 2025-03-15"
+      }
+    },
+    {
+      "plan_id": "AP-2",
+      "audit_id": "AUD-2",
+      "version": "1.0",
+      "approval_date": "2025-02-10",
+      "approved_by": "Sarah Mitchell",
+      "objectives": [
+        "Verify ASC 606 compliance",
+        "Test revenue cutoff accuracy",
+        "Assess contract modification controls"
+      ],
+      "methodology": "Substantive testing of revenue transactions combined with controls testing",
+      "resource_allocation": {
+        "lead": "Jennifer Walsh",
+        "staff": [
+          "Kevin Brown",
+          "Rachel Green"
+        ],
+        "hours": 320
+      },
+      "timeline": {
+        "planning": "2025-02-15 to 2025-02-28",
+        "fieldwork": "2025-03-01 to 2025-04-01",
+        "reporting": "2025-04-02 to 2025-04-15"
+      }
+    },
+    {
+      "plan_id": "AP-3",
+      "audit_id": "AUD-4",
+      "version": "1.1",
+      "approval_date": "2025-01-12",
+      "approved_by": "Sarah Mitchell",
+      "objectives": [
+        "Evaluate SOC 2 Trust Services Criteria compliance",
+        "Test security and availability controls",
+        "Identify gaps prior to external audit"
+      ],
+      "methodology": "Control testing aligned with AICPA Trust Services Criteria framework",
+      "resource_allocation": {
+        "lead": "Amanda Torres",
+        "staff": [
+          "Chris Wilson",
+          "Sarah Lee",
+          "Tom Anderson"
+        ],
+        "hours": 400
+      },
+      "timeline": {
+        "planning": "2025-01-15 to 2025-01-25",
+        "fieldwork": "2025-01-26 to 2025-03-15",
+        "reporting": "2025-03-16 to 2025-03-31"
+      }
+    },
+    {
+      "plan_id": "AP-4",
+      "audit_id": "AUD-8",
+      "version": "1.0",
+      "approval_date": "2025-05-25",
+      "approved_by": "Sarah Mitchell",
+      "objectives": [
+        "Map key business processes to financial reporting",
+        "Document and test key controls",
+        "Identify control gaps for remediation"
+      ],
+      "methodology": "Top-down risk-based approach aligned with PCAOB AS 2201 framework",
+      "resource_allocation": {
+        "lead": "Robert Kim",
+        "staff": [
+          "Jennifer Walsh",
+          "Michael Chen",
+          "Emily Roberts",
+          "Kevin Brown"
+        ],
+        "hours": 600
+      },
+      "timeline": {
+        "planning": "2025-06-01 to 2025-06-20",
+        "fieldwork": "2025-06-21 to 2025-08-15",
+        "reporting": "2025-08-16 to 2025-08-31"
+      }
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-7",
+      "title": "Incomplete Purchase Price Allocation Documentation",
+      "criteria": "ASC 805 requires detailed documentation of purchase price allocation including fair value methodologies and assumptions",
+      "condition": "Purchase price allocation for ImpactHours acquisition lacks sufficient documentation of valuation methodologies for intangible assets and customer relationships",
+      "cause": "Accelerated deal timeline and limited finance team bandwidth during acquisition close",
+      "effect": "Risk of external auditor qualification and potential restatement if fair value estimates are challenged",
+      "recommendation": "Engage third-party valuation specialist to prepare comprehensive PPA documentation within 60 days",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Agreed. Engaging Duff & Phelps for retrospective valuation documentation by Q1 2025 end",
+      "due_date": "2025-03-31",
+      "owner": "CFO"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-7",
+      "title": "Integration Cost Capitalization Inconsistencies",
+      "criteria": "ASC 350 provides guidance on costs that can be capitalized versus expensed during integration activities",
+      "condition": "Approximately $2.3M of integration costs were capitalized without clear alignment to capitalization criteria; treatment varies across cost categories",
+      "cause": "Lack of formal integration cost accounting policy and unclear guidance to project managers",
+      "effect": "Potential overstatement of assets and understatement of current period expenses affecting investor reporting",
+      "recommendation": "Establish formal integration cost accounting policy with clear capitalization thresholds and categories",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Policy draft under review; will implement prospectively and assess prior period treatment",
+      "due_date": "2025-02-28",
+      "owner": "VP Controller"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-7",
+      "title": "Goodwill Impairment Testing Framework Not Established",
+      "criteria": "ASC 350-20 requires at least annual goodwill impairment testing with interim testing if indicators exist",
+      "condition": "Post-acquisition, no formal goodwill impairment testing framework has been established including reporting unit determination",
+      "cause": "First significant acquisition; internal expertise in impairment testing limited",
+      "effect": "Risk of unidentified impairment and regulatory findings if not addressed prior to IPO",
+      "recommendation": "Establish goodwill impairment testing framework including reporting unit identification and qualitative/quantitative testing methodology",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Engaged external accounting advisor to assist with framework development",
+      "due_date": "2025-04-30",
+      "owner": "VP Controller"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-1",
+      "title": "Integration Milestone Tracking Gaps",
+      "criteria": "PMI best practices require formal milestone tracking with clear ownership, timelines, and success metrics",
+      "condition": "Integration program lacks formalized milestone tracking system; status updates are ad-hoc and inconsistent across workstreams",
+      "cause": "Integration leadership prioritized execution over governance structure; no dedicated PMO established",
+      "effect": "Board and executive visibility into integration progress is limited; risk of undetected delays and budget overruns",
+      "recommendation": "Implement formal PMO structure with standardized milestone tracking, weekly status reporting, and escalation protocols",
+      "severity": "High",
+      "status": "In Progress",
+      "management_response": "PMO lead hired; implementation of tracking system underway",
+      "due_date": "2025-02-28",
+      "owner": "VP Integration"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-1",
+      "title": "Technology Integration Risk Assessment Incomplete",
+      "criteria": "Technology integration should include comprehensive risk assessment covering data migration, system compatibility, and security",
+      "condition": "Technology integration risk assessment exists but lacks coverage of data migration quality controls and legacy system decommissioning timeline",
+      "cause": "Rapid integration timeline compressed risk assessment activities",
+      "effect": "Potential data quality issues and security gaps during migration period",
+      "recommendation": "Complete comprehensive technology risk assessment and implement data migration validation controls",
+      "severity": "Medium",
+      "status": "In Progress",
+      "management_response": "Technology risk assessment update in progress; data validation controls being implemented",
+      "due_date": "2025-03-15",
+      "owner": "CTO"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-4",
+      "title": "Access Review Process Inconsistencies",
+      "criteria": "SOC 2 CC6.1 requires periodic review of user access to ensure appropriateness",
+      "condition": "Quarterly access reviews are performed but documentation is inconsistent; 15% of reviews in sample lacked evidence of management approval",
+      "cause": "Manual process with inconsistent documentation requirements across departments",
+      "effect": "Risk of SOC 2 qualification and potential unauthorized access remaining undetected",
+      "recommendation": "Implement centralized access review tool with mandatory approval workflow and evidence retention",
+      "severity": "Medium",
+      "status": "In Progress",
+      "management_response": "Evaluating identity governance tools; interim process enhancement implemented",
+      "due_date": "2025-04-30",
+      "owner": "CISO"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-4",
+      "title": "Incident Response Playbooks Incomplete for Merged Environment",
+      "criteria": "SOC 2 CC7.4 requires defined incident response procedures that address various types of security incidents",
+      "condition": "Incident response playbooks have not been updated to reflect merged technology environment and ImpactHours systems",
+      "cause": "Security team focused on integration activities; playbook updates deprioritized",
+      "effect": "Potential delayed or inconsistent response to security incidents affecting acquired systems",
+      "recommendation": "Update all incident response playbooks to include merged environment scope within 45 days",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Acknowledged; security team assigned to complete playbook updates",
+      "due_date": "2025-03-15",
+      "owner": "CISO"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Liquidity Crisis from Debt Covenant Breach",
+      "description": "Rapid cash burn from ImpactHours acquisition combined with $55M debt load creates risk of covenant breach triggering acceleration or restricted access to revolver",
+      "category": "Financial",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 5,
+      "residual_score": 15,
+      "owner": "CFO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Debt service coverage ratio below 1.5x",
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ]
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "ImpactHours Integration Failure",
+      "description": "Complex technology and organizational integration may fail to achieve synergy targets, leading to customer attrition and value destruction",
+      "category": "Strategic",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "owner": "COO",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Integration milestone achievement below 80%",
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ]
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Customer Revenue Retention Decline",
+      "description": "GRR decline from 92% to 91% may accelerate during integration, threatening recurring revenue base and growth trajectory",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "owner": "Chief Customer Officer",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Monthly GRR falling below 90%",
+      "linked_controls": [
+        "C-7",
+        "C-8",
+        "C-9"
+      ]
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Revenue Recognition Material Misstatement",
+      "description": "Complex subscription models across combined 1,148 customers creates risk of revenue recognition errors under ASC 606",
+      "category": "Financial",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "owner": "VP Controller",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "Revenue adjustments exceeding $500K per quarter",
+      "linked_controls": [
+        "C-10",
+        "C-11",
+        "C-12"
+      ]
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Data Breach and Privacy Violation",
+      "description": "Handling of corporate employee and donation data creates exposure to GDPR/CCPA violations and reputational damage",
+      "category": "Compliance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "owner": "CISO",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "Security incidents with PII exposure",
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-15",
+        "C-16"
+      ]
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Platform Availability and Performance Degradation",
+      "description": "SaaS platform downtime or performance issues during integration may trigger SLA breaches and customer dissatisfaction",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CTO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Monthly uptime below 99.9%",
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ]
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Competitive Market Share Loss",
+      "description": "Platform bundlers (Salesforce.org and others) may capture mid-market share through integrated offerings, compressing Benevity's addressable market",
+      "category": "Strategic",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "owner": "Chief Strategy Officer",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Win rate decline in mid-market below 30%",
+      "linked_controls": [
+        "C-20",
+        "C-21"
+      ]
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Leadership and Key Person Risk",
+      "description": "Recent CRO vacancy and integration strain may lead to further executive departures affecting strategic execution",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CHRO",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Executive turnover exceeding 20% annually",
+      "linked_controls": [
+        "C-22",
+        "C-23"
+      ]
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Cross-Border Tax and Transfer Pricing Non-Compliance",
+      "description": "Canadian headquarters with US operations creates transfer pricing and tax compliance complexity that may result in penalties",
+      "category": "Compliance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "VP Tax",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Transfer pricing audit adjustment exceeding $1M",
+      "linked_controls": [
+        "C-24",
+        "C-25"
+      ]
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "SOX Compliance Failure Delaying IPO",
+      "description": "Inadequate internal controls over financial reporting may delay IPO timeline or result in adverse auditor opinion",
+      "category": "Compliance",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "owner": "CFO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Material weakness identified in ICFR",
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-28"
+      ]
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Payment Processing Compliance Failure",
+      "description": "Donation processing and fund disbursement may violate payment regulations or result in fund misappropriation",
+      "category": "Compliance",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "owner": "VP Operations",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "Payment processing error rate exceeding 0.1%",
+      "linked_controls": [
+        "C-29",
+        "C-30",
+        "C-31"
+      ]
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Acquisition Accounting Restatement",
+      "description": "Inadequate purchase price allocation documentation and goodwill accounting may require restatement",
+      "category": "Financial",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "VP Controller",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "External auditor PPA qualification",
+      "linked_controls": [
+        "C-32",
+        "C-33"
+      ]
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Third-Party Vendor Security Breach",
+      "description": "Critical vendors may experience security incidents compromising Benevity data or operations",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CISO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Critical vendor security incident",
+      "linked_controls": [
+        "C-34",
+        "C-35"
+      ]
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "API Security Vulnerability Exploitation",
+      "description": "Platform APIs may contain vulnerabilities that could be exploited to access customer data or disrupt services",
+      "category": "Technology",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CTO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Critical API vulnerability discovered",
+      "linked_controls": [
+        "C-36",
+        "C-37"
+      ]
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Employee Fraud and Misappropriation",
+      "description": "Growth and integration may create control gaps enabling employee fraud or asset misappropriation",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 3,
+      "inherent_score": 6,
+      "residual_likelihood": 1,
+      "residual_impact": 3,
+      "residual_score": 3,
+      "owner": "CFO",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "Confirmed fraud incident",
+      "linked_controls": [
+        "C-38",
+        "C-39",
+        "C-40"
+      ]
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Inadequate Disaster Recovery Capability",
+      "description": "Merged technology infrastructure may have gaps in disaster recovery readiness affecting business continuity",
+      "category": "Technology",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "owner": "CTO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "RTO/RPO test failure",
+      "linked_controls": [
+        "C-41",
+        "C-42"
+      ]
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "Regulatory Changes in ESG Disclosure Requirements",
+      "description": "Evolving ESG disclosure regulations may impose compliance burdens or create market opportunities competitors capture first",
+      "category": "Strategic",
+      "status": "Monitoring",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 2,
+      "residual_score": 6,
+      "owner": "Chief Strategy Officer",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Major ESG regulation enacted without product readiness",
+      "linked_controls": [
+        "C-43",
+        "C-44"
+      ]
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Pricing Power Erosion",
+      "description": "Competitive pressure from bundlers may force pricing concessions affecting gross margins and unit economics",
+      "category": "Financial",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "owner": "CRO",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Average contract value decline exceeding 10%",
+      "linked_controls": [
+        "C-45",
+        "C-46"
+      ]
+    },
+    {
+      "risk_id": "RISK-19",
+      "name": "SOC 2 Certification Failure",
+      "description": "Control deficiencies may result in SOC 2 Type II qualification affecting enterprise customer trust and sales",
+      "category": "Compliance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CISO",
+      "risk_appetite": "Very Low",
+      "key_risk_indicator": "SOC 2 qualified or adverse opinion",
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-17"
+      ]
+    },
+    {
+      "risk_id": "RISK-20",
+      "name": "Intellectual Property Infringement",
+      "description": "ImpactHours acquisition may have introduced undiscovered IP infringement claims or licensing issues",
+      "category": "Legal",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "owner": "General Counsel",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "IP infringement claim received",
+      "linked_controls": [
+        "C-47",
+        "C-48"
+      ]
+    },
+    {
+      "risk_id": "RISK-21",
+      "name": "Working Capital Management Failure",
+      "description": "Inadequate cash flow forecasting and working capital management may create unexpected liquidity shortfalls",
+      "category": "Financial",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CFO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Cash forecast variance exceeding 20%",
+      "linked_controls": [
+        "C-49",
+        "C-50"
+      ]
+    },
+    {
+      "risk_id": "RISK-22",
+      "name": "Change Management Fatigue",
+      "description": "Rapid organizational growth and integration may overwhelm employees, reducing productivity and increasing turnover",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "owner": "CHRO",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Employee engagement score decline exceeding 10 points",
+      "linked_controls": [
+        "C-51",
+        "C-52"
+      ]
+    },
+    {
+      "risk_id": "RISK-23",
+      "name": "Contract Migration Errors",
+      "description": "Migration of ImpactHours customer contracts may introduce errors affecting billing, SLAs, or renewal terms",
+      "category": "Operational",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "owner": "Chief Customer Officer",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Contract migration errors affecting more than 5% of customers",
+      "linked_controls": [
+        "C-53",
+        "C-54"
+      ]
+    },
+    {
+      "risk_id": "RISK-24",
+      "name": "M&A Due Diligence Process Weakness",
+      "description": "Inadequate due diligence processes may lead to future acquisition failures or undiscovered liabilities",
+      "category": "Strategic",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "owner": "CFO",
+      "risk_appetite": "Medium",
+      "key_risk_indicator": "Post-close discovery of material undisclosed liability",
+      "linked_controls": [
+        "C-55",
+        "C-56"
+      ]
+    },
+    {
+      "risk_id": "RISK-25",
+      "name": "Board Governance and Oversight Gaps",
+      "description": "Limited board visibility into integration progress and risk management may lead to inadequate strategic oversight",
+      "category": "Governance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "owner": "CEO",
+      "risk_appetite": "Low",
+      "key_risk_indicator": "Board satisfaction survey decline",
+      "linked_controls": [
+        "C-57",
+        "C-58"
+      ]
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "assessment_date": "2025-01-15",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Quarterly Review",
+      "assessor": "CFO",
+      "notes": "Cash position improved slightly from Q4 low but covenant headroom remains tight; monitoring weekly"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-2",
+      "assessment_date": "2025-01-15",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Quarterly Review",
+      "assessor": "COO",
+      "notes": "Integration tracking improved with PMO hire; technology consolidation remains on critical path"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-3",
+      "assessment_date": "2025-01-15",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Quarterly Review",
+      "assessor": "Chief Customer Officer",
+      "notes": "GRR stabilized at 91% in January; enhanced customer success playbook showing early positive indicators"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-5",
+      "assessment_date": "2025-01-15",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Quarterly Review",
+      "assessor": "CISO",
+      "notes": "SOC 2 preparation addressing most control gaps; data mapping exercise completed for merged entity"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-10",
+      "assessment_date": "2025-01-15",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Quarterly Review",
+      "assessor": "CFO",
+      "notes": "SOX readiness assessment planned for Q2; significant documentation gaps expected based on preliminary review"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-7",
+      "assessment_date": "2025-01-15",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Quarterly Review",
+      "assessor": "Chief Strategy Officer",
+      "notes": "Salesforce.org market entry still delayed; competitive intelligence indicates 6-month window advantage"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-4",
+      "assessment_date": "2025-01-15",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Quarterly Review",
+      "assessor": "VP Controller",
+      "notes": "Revenue recognition controls strengthened; customer contract consolidation project 60% complete"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-12",
+      "assessment_date": "2025-01-15",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Quarterly Review",
+      "assessor": "VP Controller",
+      "notes": "Valuation specialist engaged per audit finding; PPA documentation remediation underway"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Liquidity and Covenant Management Program",
+      "description": "Comprehensive program to strengthen cash position, monitor covenant compliance, and maintain lender relationships",
+      "status": "In Progress",
+      "target_residual_score": 10,
+      "actions": [
+        {
+          "action": "Implement weekly cash forecasting process",
+          "owner": "VP Treasury",
+          "due_date": "2025-02-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Negotiate covenant amendment for integration period",
+          "owner": "CFO",
+          "due_date": "2025-03-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Identify $5M cost reduction opportunities",
+          "owner": "COO",
+          "due_date": "2025-04-30",
+          "status": "Planned"
+        }
+      ],
+      "owner": "CFO",
+      "start_date": "2025-01-01",
+      "target_date": "2025-06-30"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-2",
+      "name": "Integration Excellence Program",
+      "description": "Structured integration program with formal PMO, milestone tracking, and synergy realization monitoring",
+      "status": "In Progress",
+      "target_residual_score": 8,
+      "actions": [
+        {
+          "action": "Establish dedicated PMO with full-time lead",
+          "owner": "COO",
+          "due_date": "2025-02-01",
+          "status": "Completed"
+        },
+        {
+          "action": "Implement milestone tracking system",
+          "owner": "VP Integration",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        },
+        {
+          "action": "Define and track synergy metrics",
+          "owner": "CFO",
+          "due_date": "2025-03-15",
+          "status": "Planned"
+        }
+      ],
+      "owner": "COO",
+      "start_date": "2024-12-01",
+      "target_date": "2025-09-30"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-3",
+      "name": "Customer Retention Enhancement Program",
+      "description": "Proactive customer success initiative to stabilize and improve GRR during integration period",
+      "status": "In Progress",
+      "target_residual_score": 8,
+      "actions": [
+        {
+          "action": "Deploy dedicated retention team for at-risk accounts",
+          "owner": "Chief Customer Officer",
+          "due_date": "2025-02-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement early warning churn prediction model",
+          "owner": "VP Customer Success",
+          "due_date": "2025-03-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Launch customer communication program on integration benefits",
+          "owner": "VP Marketing",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        }
+      ],
+      "owner": "Chief Customer Officer",
+      "start_date": "2025-01-01",
+      "target_date": "2025-06-30"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-10",
+      "name": "SOX Readiness Acceleration Program",
+      "description": "Accelerated program to achieve SOX 404 compliance in preparation for potential IPO",
+      "status": "Planned",
+      "target_residual_score": 8,
+      "actions": [
+        {
+          "action": "Engage SOX compliance consulting firm",
+          "owner": "CFO",
+          "due_date": "2025-03-01",
+          "status": "Planned"
+        },
+        {
+          "action": "Complete ICFR scoping and risk assessment",
+          "owner": "VP Controller",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Remediate identified control gaps",
+          "owner": "VP Controller",
+          "due_date": "2025-10-31",
+          "status": "Planned"
+        }
+      ],
+      "owner": "CFO",
+      "start_date": "2025-03-01",
+      "target_date": "2025-12-31"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-5",
+      "name": "Data Privacy Compliance Enhancement",
+      "description": "Comprehensive program to ensure GDPR/CCPA compliance across merged entity with unified privacy framework",
+      "status": "In Progress",
+      "target_residual_score": 6,
+      "actions": [
+        {
+          "action": "Complete data mapping for ImpactHours systems",
+          "owner": "DPO",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        },
+        {
+          "action": "Harmonize privacy policies and notices",
+          "owner": "General Counsel",
+          "due_date": "2025-03-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Implement unified consent management platform",
+          "owner": "CISO",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        }
+      ],
+      "owner": "CISO",
+      "start_date": "2025-01-01",
+      "target_date": "2025-06-30"
+    },
+    {
+      "plan_id": "RMP-6",
+      "risk_id": "RISK-19",
+      "name": "SOC 2 Certification Assurance Program",
+      "description": "Program to remediate control gaps and ensure successful SOC 2 Type II certification",
+      "status": "In Progress",
+      "target_residual_score": 4,
+      "actions": [
+        {
+          "action": "Remediate access review control gaps",
+          "owner": "CISO",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Update incident response playbooks",
+          "owner": "CISO",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Conduct pre-audit readiness assessment",
+          "owner": "CISO",
+          "due_date": "2025-05-15",
+          "status": "Planned"
+        }
+      ],
+      "owner": "CISO",
+      "start_date": "2025-01-01",
+      "target_date": "2025-06-30"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Weekly Cash Position Reporting",
+      "description": "Weekly consolidated cash position report prepared by Treasury and reviewed by CFO with variance analysis",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Treasury",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1",
+        "RISK-21"
+      ],
+      "linked_process": "PRC-1",
+      "evidence_type": "Cash position report with CFO sign-off"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Debt Covenant Compliance Monitoring",
+      "description": "Monthly calculation and tracking of all debt covenant ratios with threshold alerts",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Treasury",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_process": "PRC-1",
+      "evidence_type": "Covenant compliance certificate"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Capital Allocation Approval Authority Matrix",
+      "description": "Formal approval requirements for capital expenditures and investments based on amount thresholds",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_process": "PRC-1",
+      "evidence_type": "Signed approval documentation"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Integration Milestone Tracking Dashboard",
+      "description": "Centralized PMO dashboard tracking integration milestones, dependencies, and status",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Automated",
+      "owner": "VP Integration",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_process": "PRC-2",
+      "evidence_type": "Dashboard screenshots with milestone status"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Integration Steering Committee Review",
+      "description": "Bi-weekly steering committee meeting reviewing integration progress, risks, and resource allocation",
+      "control_type": "Detective",
+      "frequency": "Bi-Weekly",
+      "automation_level": "Manual",
+      "owner": "COO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_process": "PRC-2",
+      "evidence_type": "Meeting minutes with decisions documented"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Technology Integration Testing Gate",
+      "description": "Formal quality gates for technology integration releases requiring testing sign-off before production",
+      "control_type": "Preventive",
+      "frequency": "Per Release",
+      "automation_level": "Semi-Automated",
+      "owner": "CTO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-2",
+        "RISK-6"
+      ],
+      "linked_process": "PRC-3",
+      "evidence_type": "Test completion certificate and sign-off"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Customer Health Score Monitoring",
+      "description": "Automated customer health scoring with alerts for accounts showing decline in engagement metrics",
+      "control_type": "Detective",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "VP Customer Success",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_process": "PRC-4",
+      "evidence_type": "Health score report with alert triggers"
+    },
+    {
+      "control_id": "C-8",
+      "name": "At-Risk Account Intervention Process",
+      "description": "Escalation and intervention process for accounts flagged as at-risk with executive sponsor assignment",
+      "control_type": "Corrective",
+      "frequency": "As Needed",
+      "automation_level": "Manual",
+      "owner": "Chief Customer Officer",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_process": "PRC-4",
+      "evidence_type": "Intervention plan and outcome documentation"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Monthly GRR Analysis and Reporting",
+      "description": "Monthly calculation and analysis of gross revenue retention with cohort analysis and trend reporting",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_process": "PRC-4",
+      "evidence_type": "GRR report with cohort analysis"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Revenue Recognition Policy Compliance",
+      "description": "Standardized revenue recognition policy aligned with ASC 606 with documented SSP and allocation procedures",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_process": "PRC-5",
+      "evidence_type": "Revenue recognition memo per contract"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Contract Revenue Recognition Review",
+      "description": "Review of significant and non-standard contracts by revenue accounting team for proper recognition treatment",
+      "control_type": "Preventive",
+      "frequency": "Per Contract",
+      "automation_level": "Manual",
+      "owner": "Revenue Accounting Manager",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_process": "PRC-5",
+      "evidence_type": "Contract review checklist and conclusion"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Revenue Cutoff Testing",
+      "description": "Month-end revenue cutoff testing ensuring proper period recognition for subscription and service revenue",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_process": "PRC-5",
+      "evidence_type": "Cutoff testing workpaper"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Access Control Management",
+      "description": "Role-based access control with quarterly access reviews and segregation of duties enforcement",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "CISO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-19"
+      ],
+      "linked_process": "PRC-6",
+      "evidence_type": "Access review completion report"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Data Encryption Standards",
+      "description": "Encryption of data at rest and in transit using AES-256 and TLS 1.2+ standards",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "CISO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-19"
+      ],
+      "linked_process": "PRC-6",
+      "evidence_type": "Encryption configuration documentation"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Privacy Impact Assessments",
+      "description": "Privacy impact assessments for new products, features, and data processing activities",
+      "control_type": "Preventive",
+      "frequency": "Per Project",
+      "automation_level": "Manual",
+      "owner": "DPO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_process": "PRC-7",
+      "evidence_type": "Completed PIA documentation"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Data Subject Request Management",
+      "description": "Process to receive, track, and fulfill data subject access, deletion, and portability requests",
+      "control_type": "Corrective",
+      "frequency": "As Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "DPO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_process": "PRC-7",
+      "evidence_type": "DSR tracking log and completion evidence"
+    },
+    {
+      "control_id": "C-17",
+      "name": "System Availability Monitoring",
+      "description": "24/7 automated monitoring of platform availability with alerting and escalation procedures",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6",
+        "RISK-19"
+      ],
+      "linked_process": "PRC-8",
+      "evidence_type": "Monitoring dashboard and alert logs"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Change Management Process",
+      "description": "Formal change management process with CAB approval for production changes and rollback procedures",
+      "control_type": "Preventive",
+      "frequency": "Per Change",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_process": "PRC-3",
+      "evidence_type": "Change request and approval records"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Incident Management and Response",
+      "description": "Defined incident response procedures with severity classification, escalation, and communication protocols",
+      "control_type": "Corrective",
+      "frequency": "As Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "CISO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-6",
+        "RISK-5"
+      ],
+      "linked_process": "PRC-8",
+      "evidence_type": "Incident tickets and post-mortem reports"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Competitive Intelligence Program",
+      "description": "Structured competitive intelligence gathering and analysis with quarterly competitive landscape review",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Strategy",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "linked_process": "PRC-9",
+      "evidence_type": "Competitive analysis report"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Win/Loss Analysis",
+      "description": "Systematic analysis of won and lost deals to identify competitive dynamics and product gaps",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Sales Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-7",
+        "RISK-18"
+      ],
+      "linked_process": "PRC-9",
+      "evidence_type": "Win/loss analysis report"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Succession Planning",
+      "description": "Executive succession planning with identified successors and development plans for key roles",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_process": "PRC-10",
+      "evidence_type": "Succession planning documentation"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Executive Retention Monitoring",
+      "description": "Monitoring of executive engagement and retention risk indicators with proactive intervention",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_process": "PRC-10",
+      "evidence_type": "Executive engagement assessment"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Transfer Pricing Documentation",
+      "description": "Annual transfer pricing study and documentation for intercompany transactions",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "VP Tax",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_process": "PRC-11",
+      "evidence_type": "Transfer pricing study documentation"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Cross-Border Tax Compliance Review",
+      "description": "Quarterly review of cross-border tax compliance including permanent establishment and withholding tax",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Tax",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_process": "PRC-11",
+      "evidence_type": "Tax compliance review memo"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Key Control Documentation",
+      "description": "Documentation of key controls over financial reporting with process narratives and control matrices",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "VP Controller",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_process": "PRC-12",
+      "evidence_type": "Control documentation package"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Management Review Controls",
+      "description": "Formalized management review controls including variance analysis and analytical review",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-10",
+        "RISK-4"
+      ],
+      "linked_process": "PRC-12",
+      "evidence_type": "Management review workpapers"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Financial Close Checklist",
+      "description": "Comprehensive financial close checklist with sign-off requirements and due date tracking",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_process": "PRC-12",
+      "evidence_type": "Completed close checklist"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Payment Authorization Controls",
+      "description": "Multi-level authorization for donation disbursements with segregation of initiation and approval",
+      "control_type": "Preventive",
+      "frequency": "Per Transaction",
+      "automation_level": "Automated",
+      "owner": "VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_process": "PRC-13",
+      "evidence_type": "Payment authorization audit trail"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Donation Fund Reconciliation",
+      "description": "Daily reconciliation of donation funds received, held, and disbursed with variance investigation",
+      "control_type": "Detective",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_process": "PRC-13",
+      "evidence_type": "Reconciliation report with variance analysis"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Charity Verification Process",
+      "description": "Verification of charity eligibility and registration status before fund disbursement",
+      "control_type": "Preventive",
+      "frequency": "Per Charity",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Operations",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_process": "PRC-13",
+      "evidence_type": "Charity verification documentation"
+    },
+    {
+      "control_id": "C-32",
+      "name": "Purchase Price Allocation Review",
+      "description": "CFO review and approval of purchase price allocation with supporting valuation documentation",
+      "control_type": "Preventive",
+      "frequency": "Per Acquisition",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_process": "PRC-14",
+      "evidence_type": "PPA approval documentation"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Goodwill Impairment Testing",
+      "description": "Annual goodwill impairment testing with interim testing when indicators present",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "VP Controller",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_process": "PRC-14",
+      "evidence_type": "Impairment testing workpapers"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Vendor Security Assessment",
+      "description": "Security assessment of critical vendors including SOC 2 review and security questionnaire",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "CISO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_process": "PRC-15",
+      "evidence_type": "Vendor security assessment documentation"
+    },
+    {
+      "control_id": "C-35",
+      "name": "Critical Vendor Monitoring",
+      "description": "Ongoing monitoring of critical vendors for security incidents and performance issues",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Procurement",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_process": "PRC-15",
+      "evidence_type": "Vendor monitoring dashboard and alerts"
+    },
+    {
+      "control_id": "C-36",
+      "name": "API Security Testing",
+      "description": "Regular security testing of APIs including penetration testing and vulnerability scanning",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "CISO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_process": "PRC-6",
+      "evidence_type": "API security testing report"
+    },
+    {
+      "control_id": "C-37",
+      "name": "API Rate Limiting and Authentication",
+      "description": "Technical controls for API authentication, rate limiting, and abuse prevention",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_process": "PRC-6",
+      "evidence_type": "API security configuration documentation"
+    },
+    {
+      "control_id": "C-38",
+      "name": "Segregation of Duties",
+      "description": "Enforced segregation of duties for financial transactions and system access",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_process": "PRC-12",
+      "evidence_type": "SoD matrix and conflict report"
+    },
+    {
+      "control_id": "C-39",
+      "name": "Expense Approval Process",
+      "description": "Hierarchical expense approval with limits based on amount and expense category",
+      "control_type": "Preventive",
+      "frequency": "Per Transaction",
+      "automation_level": "Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_process": "PRC-16",
+      "evidence_type": "Expense approval workflow records"
+    },
+    {
+      "control_id": "C-40",
+      "name": "Fraud Hotline and Reporting",
+      "description": "Anonymous fraud reporting hotline with investigation and escalation procedures",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_process": "PRC-17",
+      "evidence_type": "Hotline report and investigation log"
+    },
+    {
+      "control_id": "C-41",
+      "name": "Disaster Recovery Testing",
+      "description": "Annual disaster recovery testing with documented RTO/RPO validation",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_process": "PRC-8",
+      "evidence_type": "DR test results and lessons learned"
+    },
+    {
+      "control_id": "C-42",
+      "name": "Backup Verification",
+      "description": "Automated backup verification with regular restore testing",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Automated",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_process": "PRC-8",
+      "evidence_type": "Backup verification logs"
+    },
+    {
+      "control_id": "C-43",
+      "name": "Regulatory Monitoring",
+      "description": "Monitoring of regulatory developments in ESG disclosure, privacy, and financial services",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_process": "PRC-17",
+      "evidence_type": "Regulatory monitoring report"
+    },
+    {
+      "control_id": "C-44",
+      "name": "Product Compliance Review",
+      "description": "Review of product roadmap for regulatory compliance requirements and opportunities",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Product",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_process": "PRC-9",
+      "evidence_type": "Compliance review meeting minutes"
+    },
+    {
+      "control_id": "C-45",
+      "name": "Pricing Governance Committee",
+      "description": "Cross-functional committee reviewing pricing strategy and discount authorities",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_process": "PRC-9",
+      "evidence_type": "Pricing committee meeting minutes"
+    },
+    {
+      "control_id": "C-46",
+      "name": "Discount Approval Matrix",
+      "description": "Structured discount approval requirements based on deal size and discount percentage",
+      "control_type": "Preventive",
+      "frequency": "Per Deal",
+      "automation_level": "Automated",
+      "owner": "CRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_process": "PRC-18",
+      "evidence_type": "Discount approval records"
+    },
+    {
+      "control_id": "C-47",
+      "name": "IP Due Diligence",
+      "description": "Comprehensive IP due diligence during acquisitions including license review and freedom to operate analysis",
+      "control_type": "Preventive",
+      "frequency": "Per Acquisition",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_process": "PRC-14",
+      "evidence_type": "IP due diligence report"
+    },
+    {
+      "control_id": "C-48",
+      "name": "Open Source License Management",
+      "description": "Tracking and compliance management for open source software usage",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "VP Engineering",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_process": "PRC-3",
+      "evidence_type": "Open source inventory and license report"
+    },
+    {
+      "control_id": "C-49",
+      "name": "13-Week Cash Flow Forecast",
+      "description": "Rolling 13-week cash flow forecast with weekly updates and variance analysis",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Treasury",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-21"
+      ],
+      "linked_process": "PRC-1",
+      "evidence_type": "13-week cash forecast model"
+    },
+    {
+      "control_id": "C-50",
+      "name": "Working Capital Dashboard",
+      "description": "Real-time dashboard monitoring AR, AP, and working capital metrics with KPI alerts",
+      "control_type": "Detective",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "VP Controller",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-21"
+      ],
+      "linked_process": "PRC-1",
+      "evidence_type": "Working capital dashboard screenshots"
+    },
+    {
+      "control_id": "C-51",
+      "name": "Employee Engagement Survey",
+      "description": "Quarterly employee engagement pulse survey with trend analysis and action planning",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Automated",
+      "owner": "CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-22"
+      ],
+      "linked_process": "PRC-10",
+      "evidence_type": "Engagement survey results and action plan"
+    },
+    {
+      "control_id": "C-52",
+      "name": "Change Management Communication Program",
+      "description": "Structured communication program for organizational changes with feedback mechanisms",
+      "control_type": "Preventive",
+      "frequency": "As Needed",
+      "automation_level": "Manual",
+      "owner": "CHRO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-22"
+      ],
+      "linked_process": "PRC-10",
+      "evidence_type": "Communication plan and feedback summary"
+    },
+    {
+      "control_id": "C-53",
+      "name": "Contract Migration Validation",
+      "description": "Systematic validation of migrated customer contracts including terms, pricing, and SLA accuracy",
+      "control_type": "Detective",
+      "frequency": "Per Migration",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Customer Success",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-23"
+      ],
+      "linked_process": "PRC-2",
+      "evidence_type": "Contract migration validation checklist"
+    },
+    {
+      "control_id": "C-54",
+      "name": "Customer Communication on Contract Changes",
+      "description": "Proactive customer communication regarding any contract migration changes with confirmation",
+      "control_type": "Preventive",
+      "frequency": "Per Migration",
+      "automation_level": "Manual",
+      "owner": "Chief Customer Officer",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-23"
+      ],
+      "linked_process": "PRC-2",
+      "evidence_type": "Customer communication records"
+    },
+    {
+      "control_id": "C-55",
+      "name": "M&A Due Diligence Checklist",
+      "description": "Comprehensive due diligence checklist covering financial, legal, technology, and operational areas",
+      "control_type": "Preventive",
+      "frequency": "Per Acquisition",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-24"
+      ],
+      "linked_process": "PRC-14",
+      "evidence_type": "Completed due diligence checklist"
+    },
+    {
+      "control_id": "C-56",
+      "name": "Post-Acquisition Performance Tracking",
+      "description": "Monthly tracking of acquisition performance against business case assumptions and synergy targets",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-24"
+      ],
+      "linked_process": "PRC-14",
+      "evidence_type": "Acquisition performance report"
+    },
+    {
+      "control_id": "C-57",
+      "name": "Board Reporting Package",
+      "description": "Comprehensive monthly board reporting package including financial, operational, and risk updates",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "CFO",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-25"
+      ],
+      "linked_process": "PRC-17",
+      "evidence_type": "Board package with delivery confirmation"
+    },
+    {
+      "control_id": "C-58",
+      "name": "Risk Committee Review",
+      "description": "Quarterly risk committee meeting reviewing enterprise risks, mitigations, and emerging issues",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief Audit Executive",
+      "status": "Active",
+      "linked_risks": [
+        "RISK-25"
+      ],
+      "linked_process": "PRC-17",
+      "evidence_type": "Risk committee meeting minutes"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "assessment_date": "2025-01-10",
+      "test_result": "Pass",
+      "test_evidence": "Reviewed 8 weeks of cash position reports; all prepared timely with CFO sign-off documented",
+      "tester": "James Liu",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "assessment_date": "2025-01-10",
+      "test_result": "Pass",
+      "test_evidence": "Reviewed 6 monthly covenant calculations; all ratios accurately computed with supporting documentation",
+      "tester": "James Liu",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-4",
+      "assessment_date": "2025-02-05",
+      "test_result": "Fail",
+      "test_evidence": "Dashboard implemented but milestone definitions inconsistent; 3 of 12 workstreams lacking clear success criteria",
+      "tester": "Emily Roberts",
+      "test_type": "Design Effectiveness",
+      "deficiency_noted": true
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-5",
+      "assessment_date": "2025-02-05",
+      "test_result": "Pass with Exceptions",
+      "test_evidence": "Steering committee meetings held as scheduled; 2 of 8 meetings reviewed lacked documented decisions and action items",
+      "tester": "Emily Roberts",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": true
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-13",
+      "assessment_date": "2025-01-25",
+      "test_result": "Fail",
+      "test_evidence": "Quarterly access reviews performed but 15% of sampled reviews lacked management approval documentation",
+      "tester": "Chris Wilson",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": true
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-14",
+      "assessment_date": "2025-01-25",
+      "test_result": "Pass",
+      "test_evidence": "Encryption configuration verified for production systems; all data at rest using AES-256, TLS 1.2+ in transit",
+      "tester": "Chris Wilson",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-17",
+      "assessment_date": "2025-01-25",
+      "test_result": "Pass",
+      "test_evidence": "Monitoring dashboards verified; alerts properly configured with 15-minute response SLA being met",
+      "tester": "Tom Anderson",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-19",
+      "assessment_date": "2025-01-28",
+      "test_result": "Fail",
+      "test_evidence": "Incident response playbooks reviewed; ImpactHours systems not integrated into existing procedures",
+      "tester": "Sarah Lee",
+      "test_type": "Design Effectiveness",
+      "deficiency_noted": true
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-10",
+      "assessment_date": "2025-01-15",
+      "test_result": "Pass",
+      "test_evidence": "Revenue recognition policy documented and aligned with ASC 606; SSP methodology documented",
+      "tester": "Kevin Brown",
+      "test_type": "Design Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-29",
+      "assessment_date": "2025-01-20",
+      "test_result": "Pass",
+      "test_evidence": "Tested 25 donation disbursements; all had proper dual authorization and matched charity verification",
+      "tester": "Rachel Green",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    },
+    {
+      "assessment_id": "CA-11",
+      "parent_control_id": "C-32",
+      "assessment_date": "2024-12-15",
+      "test_result": "Fail",
+      "test_evidence": "PPA review was performed but documentation of valuation methodology was incomplete",
+      "tester": "Jennifer Walsh",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": true
+    },
+    {
+      "assessment_id": "CA-12",
+      "parent_control_id": "C-38",
+      "assessment_date": "2025-01-18",
+      "test_result": "Pass",
+      "test_evidence": "SoD matrix reviewed; no conflicting access combinations identified in tested population",
+      "tester": "James Liu",
+      "test_type": "Operating Effectiveness",
+      "deficiency_noted": false
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-4",
+      "identified_date": "2025-02-05",
+      "description": "Integration milestone tracking lacks consistent success criteria across workstreams",
+      "severity": "Moderate",
+      "root_cause": "Rapid PMO establishment without standardized milestone definition framework",
+      "remediation_plan": "Implement standardized milestone definition template and review all workstream criteria",
+      "remediation_owner": "VP Integration",
+      "target_date": "2025-03-15",
+      "status": "Open"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-5",
+      "identified_date": "2025-02-05",
+      "description": "Steering committee meeting documentation incomplete with missing decisions and action items",
+      "severity": "Minor",
+      "root_cause": "No standardized meeting minutes template or documentation requirements",
+      "remediation_plan": "Implement standardized meeting minutes template with required fields",
+      "remediation_owner": "PMO Lead",
+      "target_date": "2025-02-28",
+      "status": "Open"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-13",
+      "identified_date": "2025-01-25",
+      "description": "Quarterly access reviews lack consistent management approval documentation",
+      "severity": "Significant",
+      "root_cause": "Manual process without mandatory approval workflow",
+      "remediation_plan": "Implement identity governance tool with mandatory approval workflow",
+      "remediation_owner": "CISO",
+      "target_date": "2025-04-30",
+      "status": "Open"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-19",
+      "identified_date": "2025-01-28",
+      "description": "Incident response playbooks do not cover merged ImpactHours technology environment",
+      "severity": "Significant",
+      "root_cause": "Security team prioritized integration activities over playbook updates",
+      "remediation_plan": "Update all incident response playbooks to include merged environment scope",
+      "remediation_owner": "CISO",
+      "target_date": "2025-03-15",
+      "status": "Open"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-32",
+      "identified_date": "2024-12-15",
+      "description": "Purchase price allocation documentation incomplete for ImpactHours acquisition",
+      "severity": "Significant",
+      "root_cause": "Accelerated deal timeline and limited finance team bandwidth",
+      "remediation_plan": "Engage third-party valuation specialist for retrospective documentation",
+      "remediation_owner": "VP Controller",
+      "target_date": "2025-03-31",
+      "status": "In Progress"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PRC-1",
+      "name": "Treasury and Cash Management",
+      "description": "Management of corporate cash, banking relationships, and debt facility compliance",
+      "owner": "VP Treasury",
+      "linked_entity": "AE-1",
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-49",
+        "C-50"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-2",
+      "name": "Post-Merger Integration Management",
+      "description": "Coordination and execution of ImpactHours integration activities across technology, people, and processes",
+      "owner": "VP Integration",
+      "linked_entity": "AE-3",
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-53",
+        "C-54"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-3",
+      "name": "Software Development and Change Management",
+      "description": "Platform development, release management, and production change control",
+      "owner": "VP Engineering",
+      "linked_entity": "AE-4",
+      "linked_controls": [
+        "C-6",
+        "C-18",
+        "C-48"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-4",
+      "name": "Customer Success Management",
+      "description": "Customer onboarding, retention, health monitoring, and success programs",
+      "owner": "VP Customer Success",
+      "linked_entity": "AE-6",
+      "linked_controls": [
+        "C-7",
+        "C-8",
+        "C-9"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-5",
+      "name": "Revenue Recognition",
+      "description": "Subscription revenue recognition, contract review, and period-end cutoff procedures",
+      "owner": "VP Controller",
+      "linked_entity": "AE-2",
+      "linked_controls": [
+        "C-10",
+        "C-11",
+        "C-12"
+      ],
+      "frequency": "Monthly"
+    },
+    {
+      "process_id": "PRC-6",
+      "name": "Information Security Management",
+      "description": "Security operations, access management, and vulnerability management",
+      "owner": "CISO",
+      "linked_entity": "AE-5",
+      "linked_controls": [
+        "C-13",
+        "C-14",
+        "C-36",
+        "C-37"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-7",
+      "name": "Data Privacy Management",
+      "description": "Privacy compliance, data subject requests, and privacy impact assessments",
+      "owner": "DPO",
+      "linked_entity": "AE-9",
+      "linked_controls": [
+        "C-15",
+        "C-16"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-8",
+      "name": "IT Operations and Incident Management",
+      "description": "Platform operations, monitoring, incident response, and disaster recovery",
+      "owner": "VP Engineering",
+      "linked_entity": "AE-10",
+      "linked_controls": [
+        "C-17",
+        "C-19",
+        "C-41",
+        "C-42"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-9",
+      "name": "Strategic Planning and Competitive Intelligence",
+      "description": "Strategic planning, competitive analysis, and market positioning",
+      "owner": "Chief Strategy Officer",
+      "linked_entity": "AE-7",
+      "linked_controls": [
+        "C-20",
+        "C-21",
+        "C-44",
+        "C-45"
+      ],
+      "frequency": "Quarterly"
+    },
+    {
+      "process_id": "PRC-10",
+      "name": "Human Capital Management",
+      "description": "Talent acquisition, retention, succession planning, and employee engagement",
+      "owner": "CHRO",
+      "linked_entity": "AE-8",
+      "linked_controls": [
+        "C-22",
+        "C-23",
+        "C-51",
+        "C-52"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-11",
+      "name": "Tax Compliance Management",
+      "description": "Income tax, transfer pricing, and cross-border tax compliance",
+      "owner": "VP Tax",
+      "linked_entity": "AE-15",
+      "linked_controls": [
+        "C-24",
+        "C-25"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-12",
+      "name": "Financial Reporting and Close",
+      "description": "General ledger, financial close, and external reporting processes",
+      "owner": "VP Controller",
+      "linked_entity": "AE-11",
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-28",
+        "C-38"
+      ],
+      "frequency": "Monthly"
+    },
+    {
+      "process_id": "PRC-13",
+      "name": "Payment Processing and Fund Management",
+      "description": "Donation collection, fund custody, and charity disbursement",
+      "owner": "VP Operations",
+      "linked_entity": "AE-16",
+      "linked_controls": [
+        "C-29",
+        "C-30",
+        "C-31"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-14",
+      "name": "Mergers and Acquisitions",
+      "description": "Deal evaluation, due diligence, integration planning, and post-close tracking",
+      "owner": "CFO",
+      "linked_entity": "AE-13",
+      "linked_controls": [
+        "C-32",
+        "C-33",
+        "C-47",
+        "C-55",
+        "C-56"
+      ],
+      "frequency": "As Needed"
+    },
+    {
+      "process_id": "PRC-15",
+      "name": "Vendor Management",
+      "description": "Vendor selection, contracting, security assessment, and ongoing monitoring",
+      "owner": "VP Procurement",
+      "linked_entity": "AE-12",
+      "linked_controls": [
+        "C-34",
+        "C-35"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-16",
+      "name": "Procure to Pay",
+      "description": "Requisition, purchase order, receipt, and payment processing",
+      "owner": "VP Controller",
+      "linked_entity": "AE-11",
+      "linked_controls": [
+        "C-39"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-17",
+      "name": "Enterprise Risk Management and Governance",
+      "description": "Risk identification, assessment, mitigation, and board reporting",
+      "owner": "Chief Audit Executive",
+      "linked_entity": "AE-13",
+      "linked_controls": [
+        "C-40",
+        "C-43",
+        "C-57",
+        "C-58"
+      ],
+      "frequency": "Continuous"
+    },
+    {
+      "process_id": "PRC-18",
+      "name": "Quote to Cash",
+      "description": "Deal pricing, contracting, billing, and collections",
+      "owner": "CRO",
+      "linked_entity": "AE-7",
+      "linked_controls": [
+        "C-46"
+      ],
+      "frequency": "Continuous"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Maintain Financial Stability",
+      "description": "Ensure adequate liquidity, debt covenant compliance, and financial flexibility to support operations and growth",
+      "category": "Financial",
+      "owner": "CFO",
+      "linked_risks": [
+        "RISK-1",
+        "RISK-21"
+      ],
+      "success_criteria": "Maintain minimum $10M cash position and covenant headroom above 15%",
+      "time_horizon": "Annual"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Successful ImpactHours Integration",
+      "description": "Complete integration of ImpactHours acquisition achieving planned synergies and customer retention",
+      "category": "Strategic",
+      "owner": "COO",
+      "linked_risks": [
+        "RISK-2",
+        "RISK-23"
+      ],
+      "success_criteria": "Achieve 90%+ integration milestones on time with 95% customer retention",
+      "time_horizon": "18 Months"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Protect and Grow Revenue Base",
+      "description": "Maintain gross revenue retention above 91% and achieve 115%+ net revenue retention",
+      "category": "Financial",
+      "owner": "Chief Customer Officer",
+      "linked_risks": [
+        "RISK-3",
+        "RISK-18"
+      ],
+      "success_criteria": "GRR >= 91%, NRR >= 115%",
+      "time_horizon": "Annual"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Ensure Regulatory Compliance",
+      "description": "Maintain compliance with all applicable regulations including GDPR, CCPA, and SOC 2 requirements",
+      "category": "Compliance",
+      "owner": "General Counsel",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-11",
+        "RISK-19"
+      ],
+      "success_criteria": "Zero material compliance findings; SOC 2 Type II certification maintained",
+      "time_horizon": "Annual"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Achieve IPO Readiness",
+      "description": "Establish internal controls and governance framework meeting public company requirements",
+      "category": "Strategic",
+      "owner": "CFO",
+      "linked_risks": [
+        "RISK-10",
+        "RISK-25"
+      ],
+      "success_criteria": "No material weaknesses identified in ICFR assessment",
+      "time_horizon": "24 Months"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Maintain Platform Security and Availability",
+      "description": "Ensure platform meets enterprise security standards and 99.9% availability SLA",
+      "category": "Operational",
+      "owner": "CTO",
+      "linked_risks": [
+        "RISK-5",
+        "RISK-6",
+        "RISK-14",
+        "RISK-16"
+      ],
+      "success_criteria": "Zero material security breaches; 99.9% uptime achieved",
+      "time_horizon": "Annual"
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "Maintain Competitive Position",
+      "description": "Defend market position against platform bundlers and maintain pricing power",
+      "category": "Strategic",
+      "owner": "Chief Strategy Officer",
+      "linked_risks": [
+        "RISK-7",
+        "RISK-18"
+      ],
+      "success_criteria": "Maintain or improve enterprise win rate; ACV growth positive",
+      "time_horizon": "Annual"
+    },
+    {
+      "objective_id": "OBJ-8",
+      "name": "Retain and Develop Talent",
+      "description": "Maintain employee engagement and retention during integration and growth period",
+      "category": "Operational",
+      "owner": "CHRO",
+      "linked_risks": [
+        "RISK-8",
+        "RISK-22"
+      ],
+      "success_criteria": "Employee turnover below 15%; engagement score above 70",
+      "time_horizon": "Annual"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "SOC 2 Type II",
+      "description": "AICPA Service Organization Control 2 report covering security, availability, and confidentiality trust services criteria",
+      "issuing_body": "AICPA",
+      "version": "2017",
+      "effective_date": "2017-01-01",
+      "applicability": "Required for enterprise customers; covers platform security and availability controls",
+      "linked_entities": [
+        "AE-5",
+        "AE-10"
+      ]
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "GDPR",
+      "description": "EU General Data Protection Regulation governing personal data processing and privacy rights",
+      "issuing_body": "European Union",
+      "version": "2016/679",
+      "effective_date": "2018-05-25",
+      "applicability": "Applicable to processing of EU resident personal data including employee and donation data",
+      "linked_entities": [
+        "AE-9",
+        "AE-4"
+      ]
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "CCPA/CPRA",
+      "description": "California Consumer Privacy Act and Privacy Rights Act governing California resident data",
+      "issuing_body": "State of California",
+      "version": "2020",
+      "effective_date": "2020-01-01",
+      "applicability": "Applicable to California resident personal information across platform",
+      "linked_entities": [
+        "AE-9",
+        "AE-4"
+      ]
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "ASC 606",
+      "description": "Revenue from Contracts with Customers accounting standard",
+      "issuing_body": "FASB",
+      "version": "2014-09",
+      "effective_date": "2018-01-01",
+      "applicability": "Governs subscription revenue recognition for all customer contracts",
+      "linked_entities": [
+        "AE-2",
+        "AE-11"
+      ]
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "ASC 805",
+      "description": "Business Combinations accounting standard governing acquisition accounting",
+      "issuing_body": "FASB",
+      "version": "2007-04",
+      "effective_date": "2009-01-01",
+      "applicability": "Governs ImpactHours acquisition accounting and purchase price allocation",
+      "linked_entities": [
+        "AE-11",
+        "AE-3"
+      ]
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "SOX Section 404",
+      "description": "Sarbanes-Oxley Act requirements for internal control over financial reporting",
+      "issuing_body": "SEC/PCAOB",
+      "version": "2002",
+      "effective_date": "2002-07-30",
+      "applicability": "Future requirement for IPO readiness; voluntary adoption for preparation",
+      "linked_entities": [
+        "AE-17",
+        "AE-11",
+        "AE-1",
+        "AE-2"
+      ]
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "ISO 27001",
+      "description": "International standard for information security management systems",
+      "issuing_body": "ISO",
+      "version": "2022",
+      "effective_date": "2022-10-25",
+      "applicability": "Framework for information security program; certification target for enterprise customers",
+      "linked_entities": [
+        "AE-5",
+        "AE-10"
+      ]
+    },
+    {
+      "standard_id": "STD-8",
+      "name": "PCI DSS",
+      "description": "Payment Card Industry Data Security Standard",
+      "issuing_body": "PCI Security Standards Council",
+      "version": "4.0",
+      "effective_date": "2024-03-31",
+      "applicability": "Applicable to donation payment processing handling cardholder data",
+      "linked_entities": [
+        "AE-16"
+      ]
+    },
+    {
+      "standard_id": "STD-9",
+      "name": "Canadian Income Tax Act",
+      "description": "Canadian federal income tax legislation governing corporate taxation",
+      "issuing_body": "Government of Canada",
+      "version": "Current",
+      "effective_date": "1985-01-01",
+      "applicability": "Governs Canadian headquarters tax compliance and cross-border transactions",
+      "linked_entities": [
+        "AE-15",
+        "AE-1"
+      ]
+    },
+    {
+      "standard_id": "STD-10",
+      "name": "Transfer Pricing Guidelines",
+      "description": "OECD Transfer Pricing Guidelines for Multinational Enterprises",
+      "issuing_body": "OECD",
+      "version": "2022",
+      "effective_date": "2022-01-20",
+      "applicability": "Framework for intercompany pricing between Canadian and US entities",
+      "linked_entities": [
+        "AE-15"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "description": "Implement logical and physical access controls to protect information and systems",
+      "control_mapping": [
+        "C-13",
+        "C-14",
+        "C-37"
+      ],
+      "compliance_status": "Partially Compliant",
+      "gap_description": "Access review documentation gaps identified",
+      "remediation_due_date": "2025-04-30"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-1",
+      "description": "Establish incident response procedures to identify, respond to, and recover from security incidents",
+      "control_mapping": [
+        "C-19"
+      ],
+      "compliance_status": "Non-Compliant",
+      "gap_description": "Incident response playbooks do not cover merged environment",
+      "remediation_due_date": "2025-03-15"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-1",
+      "description": "Monitor system performance and availability to meet defined service commitments",
+      "control_mapping": [
+        "C-17",
+        "C-41",
+        "C-42"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-2",
+      "description": "Maintain records of processing activities under Article 30",
+      "control_mapping": [
+        "C-15"
+      ],
+      "compliance_status": "Partially Compliant",
+      "gap_description": "ImpactHours data processing records being integrated",
+      "remediation_due_date": "2025-02-28"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-2",
+      "description": "Respond to data subject requests within 30 days under Articles 15-22",
+      "control_mapping": [
+        "C-16"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-4",
+      "description": "Identify performance obligations in customer contracts",
+      "control_mapping": [
+        "C-10",
+        "C-11"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-4",
+      "description": "Determine standalone selling price for distinct performance obligations",
+      "control_mapping": [
+        "C-10"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "STD-5",
+      "description": "Allocate purchase price to identifiable assets and liabilities at fair value",
+      "control_mapping": [
+        "C-32"
+      ],
+      "compliance_status": "Partially Compliant",
+      "gap_description": "Documentation of fair value methodology incomplete",
+      "remediation_due_date": "2025-03-31"
+    },
+    {
+      "requirement_id": "REQ-9",
+      "standard_id": "STD-6",
+      "description": "Document and test key controls over financial reporting",
+      "control_mapping": [
+        "C-26",
+        "C-27",
+        "C-28"
+      ],
+      "compliance_status": "In Progress",
+      "gap_description": "Documentation in development for SOX readiness",
+      "remediation_due_date": "2025-10-31"
+    },
+    {
+      "requirement_id": "REQ-10",
+      "standard_id": "STD-8",
+      "description": "Protect stored cardholder data through encryption and access controls",
+      "control_mapping": [
+        "C-14",
+        "C-29"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-11",
+      "standard_id": "STD-10",
+      "description": "Maintain contemporaneous transfer pricing documentation",
+      "control_mapping": [
+        "C-24"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    },
+    {
+      "requirement_id": "REQ-12",
+      "standard_id": "STD-1",
+      "description": "Implement change management controls for production systems",
+      "control_mapping": [
+        "C-18"
+      ],
+      "compliance_status": "Compliant",
+      "gap_description": null,
+      "remediation_due_date": null
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "name": "Weekly Cash Position Report - January 2025",
+      "description": "Cash position reports with CFO approval for weeks ending 1/3, 1/10, 1/17, 1/24",
+      "evidence_type": "Document",
+      "collection_date": "2025-01-27",
+      "source": "Treasury Department",
+      "linked_control": "C-1",
+      "linked_audit": "AUD-3",
+      "retention_period": "7 years",
+      "file_reference": "EVID/2025/TREASURY/001"
+    },
+    {
+      "evidence_id": "EV-2",
+      "name": "Covenant Compliance Certificate - Q4 2024",
+      "description": "Monthly covenant compliance calculations for October, November, December 2024",
+      "evidence_type": "Document",
+      "collection_date": "2025-01-15",
+      "source": "Treasury Department",
+      "linked_control": "C-2",
+      "linked_audit": "AUD-3",
+      "retention_period": "7 years",
+      "file_reference": "EVID/2025/TREASURY/002"
+    },
+    {
+      "evidence_id": "EV-3",
+      "name": "Integration Steering Committee Minutes - January 2025",
+      "description": "Meeting minutes from bi-weekly steering committee meetings held January 8 and 22, 2025",
+      "evidence_type": "Document",
+      "collection_date": "2025-01-28",
+      "source": "PMO",
+      "linked_control": "C-5",
+      "linked_audit": "AUD-1",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/PMO/001"
+    },
+    {
+      "evidence_id": "EV-4",
+      "name": "Access Review Completion Report - Q4 2024",
+      "description": "Quarterly access review documentation for October 2024 cycle",
+      "evidence_type": "Report",
+      "collection_date": "2025-01-25",
+      "source": "Information Security",
+      "linked_control": "C-13",
+      "linked_audit": "AUD-4",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/INFOSEC/001"
+    },
+    {
+      "evidence_id": "EV-5",
+      "name": "Encryption Configuration Documentation",
+      "description": "Technical documentation of encryption standards implementation across production systems",
+      "evidence_type": "Technical Documentation",
+      "collection_date": "2025-01-25",
+      "source": "Engineering",
+      "linked_control": "C-14",
+      "linked_audit": "AUD-4",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/ENG/001"
+    },
+    {
+      "evidence_id": "EV-6",
+      "name": "Revenue Recognition Policy Documentation",
+      "description": "Current ASC 606 revenue recognition policy with SSP methodology",
+      "evidence_type": "Policy Document",
+      "collection_date": "2025-01-15",
+      "source": "Accounting",
+      "linked_control": "C-10",
+      "linked_audit": "AUD-2",
+      "retention_period": "7 years",
+      "file_reference": "EVID/2025/ACCT/001"
+    },
+    {
+      "evidence_id": "EV-7",
+      "name": "ImpactHours Purchase Price Allocation",
+      "description": "Draft PPA documentation with valuation summaries for acquired intangibles",
+      "evidence_type": "Document",
+      "collection_date": "2024-12-15",
+      "source": "Accounting",
+      "linked_control": "C-32",
+      "linked_audit": "AUD-7",
+      "retention_period": "Permanent",
+      "file_reference": "EVID/2024/MA/001"
+    },
+    {
+      "evidence_id": "EV-8",
+      "name": "Donation Disbursement Sample Testing",
+      "description": "Testing workpapers for 25 donation disbursements including authorization evidence",
+      "evidence_type": "Workpaper",
+      "collection_date": "2025-01-20",
+      "source": "Internal Audit",
+      "linked_control": "C-29",
+      "linked_audit": "AUD-9",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/IA/001"
+    },
+    {
+      "evidence_id": "EV-9",
+      "name": "System Availability Dashboard Screenshots",
+      "description": "Monthly availability reports showing uptime metrics for December 2024 and January 2025",
+      "evidence_type": "Report",
+      "collection_date": "2025-01-31",
+      "source": "Engineering",
+      "linked_control": "C-17",
+      "linked_audit": "AUD-4",
+      "retention_period": "3 years",
+      "file_reference": "EVID/2025/ENG/002"
+    },
+    {
+      "evidence_id": "EV-10",
+      "name": "Incident Response Playbook",
+      "description": "Current incident response playbook showing gap for ImpactHours systems",
+      "evidence_type": "Policy Document",
+      "collection_date": "2025-01-28",
+      "source": "Information Security",
+      "linked_control": "C-19",
+      "linked_audit": "AUD-4",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/INFOSEC/002"
+    },
+    {
+      "evidence_id": "EV-11",
+      "name": "GRR Analysis Report - January 2025",
+      "description": "Monthly gross revenue retention analysis with cohort breakdown",
+      "evidence_type": "Report",
+      "collection_date": "2025-02-05",
+      "source": "Finance",
+      "linked_control": "C-9",
+      "linked_audit": "AUD-6",
+      "retention_period": "5 years",
+      "file_reference": "EVID/2025/FIN/001"
+    },
+    {
+      "evidence_id": "EV-12",
+      "name": "Transfer Pricing Study - FY2024",
+      "description": "Annual transfer pricing study for US-Canada intercompany transactions",
+      "evidence_type": "Document",
+      "collection_date": "2024-12-20",
+      "source": "Tax Department",
+      "linked_control": "C-24",
+      "linked_audit": "AUD-10",
+      "retention_period": "7 years",
+      "file_reference": "EVID/2024/TAX/001"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-IR-1",
+      "audit_id": "AUD-1",
+      "title": "Integration Milestone Documentation",
+      "description": "Complete milestone tracking documentation including all workstream definitions, success criteria, and current status",
+      "requested_from": "VP Integration",
+      "requested_by": "Michael Chen",
+      "request_date": "2025-01-22",
+      "due_date": "2025-02-01",
+      "status": "Completed",
+      "priority": "High",
+      "response_notes": "Provided dashboard exports and milestone definitions for all 12 workstreams"
+    },
+    {
+      "request_id": "REQ-IR-2",
+      "audit_id": "AUD-1",
+      "title": "Technology Integration Risk Assessment",
+      "description": "Current technology integration risk assessment including data migration risks and mitigation plans",
+      "requested_from": "CTO",
+      "requested_by": "Michael Chen",
+      "request_date": "2025-01-22",
+      "due_date": "2025-02-05",
+      "status": "Pending",
+      "priority": "High",
+      "response_notes": null
+    },
+    {
+      "request_id": "REQ-IR-3",
+      "audit_id": "AUD-4",
+      "title": "SOC 2 Control Matrix",
+      "description": "Current SOC 2 control matrix with testing status and evidence references",
+      "requested_from": "CISO",
+      "requested_by": "Amanda Torres",
+      "request_date": "2025-01-16",
+      "due_date": "2025-01-23",
+      "status": "Completed",
+      "priority": "High",
+      "response_notes": "Control matrix provided with 142 controls mapped to Trust Services Criteria"
+    },
+    {
+      "request_id": "REQ-IR-4",
+      "audit_id": "AUD-4",
+      "title": "Access Review Evidence Package",
+      "description": "Complete access review documentation for Q4 2024 including approvals and exceptions",
+      "requested_from": "CISO",
+      "requested_by": "Chris Wilson",
+      "request_date": "2025-01-18",
+      "due_date": "2025-01-25",
+      "status": "Completed",
+      "priority": "High",
+      "response_notes": "Evidence provided; gaps in approval documentation noted"
+    },
+    {
+      "request_id": "REQ-IR-5",
+      "audit_id": "AUD-7",
+      "title": "Purchase Price Allocation Supporting Documentation",
+      "description": "All supporting documentation for ImpactHours purchase price allocation including valuation reports",
+      "requested_from": "VP Controller",
+      "requested_by": "Jennifer Walsh",
+      "request_date": "2024-11-20",
+      "due_date": "2024-12-01",
+      "status": "Completed",
+      "priority": "High",
+      "response_notes": "Draft PPA provided; valuation methodology documentation incomplete"
+    },
+    {
+      "request_id": "REQ-IR-6",
+      "audit_id": "AUD-2",
+      "title": "Revenue Recognition Policy and Procedures",
+      "description": "Current revenue recognition policy, SSP documentation, and contract review procedures",
+      "requested_from": "VP Controller",
+      "requested_by": "Jennifer Walsh",
+      "request_date": "2025-02-15",
+      "due_date": "2025-02-22",
+      "status": "Open",
+      "priority": "Medium",
+      "response_notes": null
+    },
+    {
+      "request_id": "REQ-IR-7",
+      "audit_id": "AUD-3",
+      "title": "Debt Facility Agreements",
+      "description": "All current debt facility agreements including covenant definitions and amendment documentation",
+      "requested_from": "VP Treasury",
+      "requested_by": "Robert Kim",
+      "request_date": "2025-03-01",
+      "due_date": "2025-03-08",
+      "status": "Open",
+      "priority": "High",
+      "response_notes": null
+    },
+    {
+      "request_id": "REQ-IR-8",
+      "audit_id": "AUD-1",
+      "title": "Customer Migration Status Report",
+      "description": "Status of ImpactHours customer migration including any contract modifications and customer communications",
+      "requested_from": "Chief Customer Officer",
+      "requested_by": "Emily Roberts",
+      "request_date": "2025-01-25",
+      "due_date": "2025-02-03",
+      "status": "Pending",
+      "priority": "Medium",
+      "response_notes": null
+    },
+    {
+      "request_id": "REQ-IR-9",
+      "audit_id": "AUD-4",
+      "title": "Incident Response Playbook Documentation",
+      "description": "All incident response playbooks and procedures with last review dates",
+      "requested_from": "CISO",
+      "requested_by": "Sarah Lee",
+      "request_date": "2025-01-20",
+      "due_date": "2025-01-27",
+      "status": "Completed",
+      "priority": "Medium",
+      "response_notes": "Playbooks provided; ImpactHours systems not included in current scope"
+    },
+    {
+      "request_id": "REQ-IR-10",
+      "audit_id": "AUD-8",
+      "title": "ICFR Scoping Documentation",
+      "description": "Preliminary ICFR scoping documentation including significant accounts and processes",
+      "requested_from": "VP Controller",
+      "requested_by": "Robert Kim",
+      "request_date": "2025-06-05",
+      "due_date": "2025-06-15",
+      "status": "Open",
+      "priority": "High",
+      "response_notes": null
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Document Review and Analysis",
+      "description": "Review of policies, procedures, reports, and other documentation to assess design and implementation",
+      "applicable_to": [
+        "Controls",
+        "Processes"
+      ],
+      "evidence_requirements": "Relevant policy documents, procedures, and sample reports",
+      "typical_duration": "1-3 days per control"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Inquiry and Interview",
+      "description": "Structured interviews with process owners and control performers to understand operations",
+      "applicable_to": [
+        "Controls",
+        "Risks",
+        "Processes"
+      ],
+      "evidence_requirements": "Interview notes, documented responses",
+      "typical_duration": "30-60 minutes per interview"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Observation",
+      "description": "Direct observation of control execution or process performance",
+      "applicable_to": [
+        "Controls",
+        "Processes"
+      ],
+      "evidence_requirements": "Observation log with date, time, participants, and observations",
+      "typical_duration": "Variable based on control frequency"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Reperformance",
+      "description": "Independent execution of control or calculation to verify accuracy",
+      "applicable_to": [
+        "Controls"
+      ],
+      "evidence_requirements": "Reperformance workpapers showing inputs, process, and results",
+      "typical_duration": "1-4 hours per sample"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Sample Testing",
+      "description": "Selection and testing of representative samples to assess operating effectiveness",
+      "applicable_to": [
+        "Controls",
+        "Processes"
+      ],
+      "evidence_requirements": "Sample selection documentation, testing workpapers, exception analysis",
+      "typical_duration": "0.5-2 hours per sample item"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Data Analytics",
+      "description": "Analysis of complete data populations to identify anomalies, trends, or control gaps",
+      "applicable_to": [
+        "Controls",
+        "Risks",
+        "Processes"
+      ],
+      "evidence_requirements": "Data extraction documentation, analytics scripts, output reports",
+      "typical_duration": "2-5 days for analysis development and execution"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Configuration Review",
+      "description": "Review of system configurations against security standards and control requirements",
+      "applicable_to": [
+        "Controls"
+      ],
+      "evidence_requirements": "Configuration screenshots, comparison to baseline standards",
+      "typical_duration": "1-3 days per system"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Walkthrough",
+      "description": "End-to-end process walkthrough to understand flow and identify control points",
+      "applicable_to": [
+        "Processes",
+        "Controls"
+      ],
+      "evidence_requirements": "Walkthrough documentation, process flow diagrams",
+      "typical_duration": "2-4 hours per process"
+    },
+    {
+      "method_id": "AM-9",
+      "name": "Risk Assessment Workshop",
+      "description": "Facilitated workshop with stakeholders to identify and assess risks",
+      "applicable_to": [
+        "Risks"
+      ],
+      "evidence_requirements": "Workshop agenda, participant list, risk register output",
+      "typical_duration": "2-4 hours per session"
+    },
+    {
+      "method_id": "AM-10",
+      "name": "Penetration Testing",
+      "description": "Authorized simulated attacks to identify security vulnerabilities",
+      "applicable_to": [
+        "Controls"
+      ],
+      "evidence_requirements": "Scope documentation, testing report, remediation tracking",
+      "typical_duration": "1-2 weeks per engagement"
+    },
+    {
+      "method_id": "AM-11",
+      "name": "Continuous Monitoring",
+      "description": "Ongoing automated monitoring of key risk indicators and control metrics",
+      "applicable_to": [
+        "Controls",
+        "Risks"
+      ],
+      "evidence_requirements": "Dashboard configuration, alert logs, exception reports",
+      "typical_duration": "Continuous"
+    }
+  ]
+}

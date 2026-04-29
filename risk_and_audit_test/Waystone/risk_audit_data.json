@@ -1,0 +1,4926 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Fund Administration Services - Ireland",
+      "taxonomy": {
+        "type": "Business Unit",
+        "region": "EMEA",
+        "jurisdiction": "Ireland",
+        "regulator": "Central Bank of Ireland"
+      },
+      "description": "Core fund administration operations based in Dublin, providing NAV calculation, investor services, and regulatory reporting for UCITS and AIFMD funds",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-15",
+      "next_audit_date": "2025-06-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Fund Administration Services - Luxembourg",
+      "taxonomy": {
+        "type": "Business Unit",
+        "region": "EMEA",
+        "jurisdiction": "Luxembourg",
+        "regulator": "CSSF"
+      },
+      "description": "Luxembourg-based fund administration supporting cross-border fund structures and ManCo services",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-20",
+      "next_audit_date": "2025-09-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Technology & IT Operations",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Information Technology"
+      },
+      "description": "Enterprise IT infrastructure, application management, cybersecurity operations, and technology development initiatives including AI capabilities",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-11-01",
+      "next_audit_date": "2025-05-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Sales & Commercial Operations",
+      "taxonomy": {
+        "type": "Function",
+        "region": "EMEA",
+        "domain": "Revenue"
+      },
+      "description": "Sales organization including business development, client onboarding, contract management, and pre-sales technical resources",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-03-15",
+      "next_audit_date": "2025-03-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Finance & Accounting",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Finance"
+      },
+      "description": "Financial reporting, treasury management, client billing, revenue recognition, and management reporting",
+      "audit_frequency": "Quarterly",
+      "risk_rating": "High",
+      "last_audit_date": "2024-12-15",
+      "next_audit_date": "2025-03-15",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Compliance & Regulatory Affairs",
+      "taxonomy": {
+        "type": "Function",
+        "region": "EMEA",
+        "domain": "Compliance"
+      },
+      "description": "Regulatory compliance monitoring, AML/KYC operations, DORA compliance, and regulatory reporting across jurisdictions",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-08-01",
+      "next_audit_date": "2025-08-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Client Services & Operations",
+      "taxonomy": {
+        "type": "Function",
+        "region": "EMEA",
+        "domain": "Operations"
+      },
+      "description": "Day-to-day client service delivery, query resolution, service level management, and client relationship management",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-05-01",
+      "next_audit_date": "2025-05-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Data Management & Analytics",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Data"
+      },
+      "description": "Enterprise data governance, data quality management, client data handling, and analytics capabilities",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-07-15",
+      "next_audit_date": "2025-07-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Human Resources & Talent Management",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "HR"
+      },
+      "description": "Recruitment, onboarding, performance management, compensation, and organizational development",
+      "audit_frequency": "Biennial",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-02-01",
+      "next_audit_date": "2026-02-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Third Party & Vendor Management",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Procurement"
+      },
+      "description": "Vendor selection, contract management, third-party risk assessment, and outsourcing oversight",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-10-01",
+      "next_audit_date": "2025-10-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Management Company Services",
+      "taxonomy": {
+        "type": "Product Line",
+        "region": "EMEA",
+        "jurisdiction": "Multi"
+      },
+      "description": "AIFM and UCITS ManCo services including substance, governance, and portfolio oversight",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-04-15",
+      "next_audit_date": "2025-04-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Depositary Services",
+      "taxonomy": {
+        "type": "Product Line",
+        "region": "EMEA",
+        "jurisdiction": "Ireland"
+      },
+      "description": "Fund depositary and custody oversight services including asset verification and cash flow monitoring",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-01",
+      "next_audit_date": "2025-06-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-13",
+      "name": "UK Operations",
+      "taxonomy": {
+        "type": "Business Unit",
+        "region": "EMEA",
+        "jurisdiction": "UK",
+        "regulator": "FCA"
+      },
+      "description": "UK-based fund administration and governance services under FCA regulation",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-09-01",
+      "next_audit_date": "2025-09-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-14",
+      "name": "Corporate Governance & Risk Management",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Governance"
+      },
+      "description": "Enterprise risk management, board governance, policy management, and internal control framework",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-11-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-15",
+      "name": "Business Continuity & Operational Resilience",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Resilience"
+      },
+      "description": "Business continuity planning, disaster recovery, operational resilience framework, and DORA compliance",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-08-15",
+      "next_audit_date": "2025-08-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-16",
+      "name": "Transfer Agency Services",
+      "taxonomy": {
+        "type": "Product Line",
+        "region": "EMEA",
+        "jurisdiction": "Multi"
+      },
+      "description": "Investor registration, subscription/redemption processing, and investor communications",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-05-15",
+      "next_audit_date": "2025-05-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-17",
+      "name": "Financial Reporting & NAV Services",
+      "taxonomy": {
+        "type": "Product Line",
+        "region": "EMEA",
+        "jurisdiction": "Multi"
+      },
+      "description": "NAV calculation, fund accounting, financial statement preparation, and regulatory reporting",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-07-01",
+      "next_audit_date": "2025-07-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-18",
+      "name": "AML & Financial Crime Prevention",
+      "taxonomy": {
+        "type": "Function",
+        "region": "EMEA",
+        "domain": "Compliance"
+      },
+      "description": "Anti-money laundering, sanctions screening, KYC/CDD processes, and suspicious activity reporting",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-10-15",
+      "next_audit_date": "2025-04-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-19",
+      "name": "Exit Preparation & Data Room",
+      "taxonomy": {
+        "type": "Project",
+        "region": "Global",
+        "domain": "Strategic"
+      },
+      "description": "Exit process preparation including data room management, due diligence support, and management representations",
+      "audit_frequency": "Continuous",
+      "risk_rating": "High",
+      "last_audit_date": null,
+      "next_audit_date": "2025-02-01",
+      "created_by": "CAE",
+      "created_at": "2024-11-01"
+    },
+    {
+      "entity_id": "AE-20",
+      "name": "Legal & Contract Management",
+      "taxonomy": {
+        "type": "Function",
+        "region": "Global",
+        "domain": "Legal"
+      },
+      "description": "Legal affairs, contract administration, litigation management, and regulatory correspondence",
+      "audit_frequency": "Biennial",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-03-01",
+      "next_audit_date": "2026-03-01",
+      "created_by": "CAE",
+      "created_at": "2023-01-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Regulatory Complexity",
+      "description": "Degree of regulatory oversight and compliance requirements across multiple jurisdictions",
+      "factor_type": "Risk Factor",
+      "weight": 0.15,
+      "scale": {
+        "1": "Single jurisdiction, low oversight",
+        "3": "Multiple jurisdictions, moderate oversight",
+        "5": "Multiple jurisdictions, high regulatory scrutiny"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Financial Impact Potential",
+      "description": "Potential financial loss from operational failures, errors, or client claims",
+      "factor_type": "Risk Factor",
+      "weight": 0.2,
+      "scale": {
+        "1": "<\u20ac100K",
+        "3": "\u20ac100K-\u20ac1M",
+        "5": ">\u20ac1M"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Process Maturity",
+      "description": "Level of process documentation, standardization, and automation",
+      "factor_type": "Control Factor",
+      "weight": 0.1,
+      "scale": {
+        "1": "Fully mature, automated",
+        "3": "Documented, partially automated",
+        "5": "Ad-hoc, manual processes"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Prior Audit Results",
+      "description": "Historical audit findings and remediation track record",
+      "factor_type": "Historical Factor",
+      "weight": 0.15,
+      "scale": {
+        "1": "Clean audits, full remediation",
+        "3": "Minor findings, timely remediation",
+        "5": "Significant findings, delayed remediation"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Technology Dependency",
+      "description": "Reliance on technology systems for critical operations",
+      "factor_type": "Risk Factor",
+      "weight": 0.1,
+      "scale": {
+        "1": "Low technology dependency",
+        "3": "Moderate technology dependency",
+        "5": "Critical technology dependency"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Client Concentration",
+      "description": "Revenue concentration risk from key client relationships",
+      "factor_type": "Risk Factor",
+      "weight": 0.1,
+      "scale": {
+        "1": "Highly diversified",
+        "3": "Moderate concentration",
+        "5": "High concentration in few clients"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-7",
+      "name": "Change Velocity",
+      "description": "Rate of change in systems, processes, or organizational structure",
+      "factor_type": "Risk Factor",
+      "weight": 0.1,
+      "scale": {
+        "1": "Stable environment",
+        "3": "Moderate change",
+        "5": "High change velocity"
+      },
+      "created_by": "CAE"
+    },
+    {
+      "factor_id": "AF-8",
+      "name": "Third Party Reliance",
+      "description": "Dependency on external vendors and service providers",
+      "factor_type": "Risk Factor",
+      "weight": 0.1,
+      "scale": {
+        "1": "Minimal third-party reliance",
+        "3": "Moderate third-party reliance",
+        "5": "Critical third-party dependencies"
+      },
+      "created_by": "CAE"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "ara_id": "ARA-1",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "CBI oversight, AIFMD, UCITS, MiFID II requirements"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 4,
+          "rationale": "NAV errors could result in significant client claims"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 3,
+          "rationale": "Established processes but ongoing automation initiatives"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 3,
+          "rationale": "Minor findings in prior audits, generally timely remediation"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 5,
+          "rationale": "Critical dependency on fund accounting systems"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Some concentration in larger fund complexes"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 3,
+          "rationale": "Regulatory changes driving process updates"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 3,
+          "rationale": "Reliance on pricing vendors and custodians"
+        }
+      ],
+      "overall_risk_score": 3.85,
+      "risk_rating": "High",
+      "audit_priority": 1,
+      "notes": "Core revenue-generating entity with high regulatory exposure"
+    },
+    {
+      "ara_id": "ARA-2",
+      "entity_id": "AE-3",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "DORA compliance, GDPR requirements"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Cyber incident could cause significant reputational and financial damage"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 3,
+          "rationale": "IT processes documented but security posture reactive per pen test findings"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "September pen test identified vulnerabilities"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 5,
+          "rationale": "Technology is core enabler of all operations"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 2,
+          "rationale": "Technology supports all clients equally"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "AI investment, DORA implementation driving change"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 4,
+          "rationale": "Cloud providers, software vendors critical"
+        }
+      ],
+      "overall_risk_score": 3.95,
+      "risk_rating": "High",
+      "audit_priority": 1,
+      "notes": "Cybersecurity vulnerabilities from Q3 pen test warrant priority attention"
+    },
+    {
+      "ara_id": "ARA-3",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 2,
+          "rationale": "Limited direct regulatory requirements"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 3,
+          "rationale": "Sales shortfalls impact revenue but recoverable"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "Q1 84% attainment suggests weak forecasting controls"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "Sales volatility noted in board materials"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 3,
+          "rationale": "CRM and pipeline tools moderately critical"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 3,
+          "rationale": "New client acquisition across segments"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "Team ramping, process improvements ongoing"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 2,
+          "rationale": "Limited vendor dependency"
+        }
+      ],
+      "overall_risk_score": 3.15,
+      "risk_rating": "Medium",
+      "audit_priority": 2,
+      "notes": "Commercial process weaknesses identified; sales forecasting accuracy concern"
+    },
+    {
+      "ara_id": "ARA-4",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "Financial reporting requirements across jurisdictions"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Misstatements could impact exit valuation"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 3,
+          "rationale": "Standard finance processes, some automation"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "24-month CFO vacancy indicates control gaps"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "ERP and financial systems critical"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 3,
+          "rationale": "Revenue recognition varies by client"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "New CFO onboarding, exit preparation"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 2,
+          "rationale": "External auditors, limited other vendors"
+        }
+      ],
+      "overall_risk_score": 3.7,
+      "risk_rating": "High",
+      "audit_priority": 1,
+      "notes": "CFO leadership transition and exit preparation create heightened risk"
+    },
+    {
+      "ara_id": "ARA-5",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "Core regulatory compliance function"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Regulatory breaches could result in fines and license risk"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 3,
+          "rationale": "Compliance monitoring established"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 3,
+          "rationale": "DORA certification achieved, ongoing monitoring needed"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "RegTech tools increasingly critical"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 2,
+          "rationale": "Compliance applies across client base"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "Regulatory landscape evolving rapidly"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 3,
+          "rationale": "Compliance monitoring tools from vendors"
+        }
+      ],
+      "overall_risk_score": 3.75,
+      "risk_rating": "High",
+      "audit_priority": 1,
+      "notes": "Multi-jurisdictional compliance complexity requires robust oversight"
+    },
+    {
+      "ara_id": "ARA-6",
+      "entity_id": "AE-19",
+      "assessment_date": "2025-01-15",
+      "assessor": "Chief Audit Executive",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 3,
+          "rationale": "Standard M&A regulatory requirements"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Exit valuation directly impacted by data accuracy"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "New process, limited precedent internally"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 3,
+          "rationale": "No prior audit history"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Data room and analytics tools critical"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 2,
+          "rationale": "Corporate-wide initiative"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 5,
+          "rationale": "Significant change with tight timelines"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 3,
+          "rationale": "Data room provider, advisors"
+        }
+      ],
+      "overall_risk_score": 3.7,
+      "risk_rating": "High",
+      "audit_priority": 1,
+      "notes": "Exit preparation requires validation of metrics and management representations"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Cybersecurity and IT General Controls Audit",
+      "description": "Comprehensive review of IT security controls, vulnerability management, and DORA compliance following Q3 penetration testing findings",
+      "audit_type": "Compliance",
+      "status": "In Progress",
+      "rating": null,
+      "planned_start_date": "2025-02-01",
+      "planned_end_date": "2025-03-31",
+      "actual_start_date": "2025-02-03",
+      "actual_end_date": null,
+      "lead_auditor": "Senior IT Auditor",
+      "audit_team": [
+        "Senior IT Auditor",
+        "IT Auditor",
+        "External Specialist"
+      ],
+      "scoped_entities": [
+        "AE-3",
+        "AE-15"
+      ],
+      "budget_hours": 320,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Revenue Recognition and Financial Controls Audit",
+      "description": "Detailed review of revenue recognition practices, financial reporting controls, and CFO transition impact assessment",
+      "audit_type": "Financial",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-05-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Financial Auditor",
+      "audit_team": [
+        "Senior Financial Auditor",
+        "Financial Auditor",
+        "Data Analyst"
+      ],
+      "scoped_entities": [
+        "AE-5",
+        "AE-4"
+      ],
+      "budget_hours": 280,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Fund Administration Operations Audit - Ireland",
+      "description": "Review of NAV calculation accuracy, client service delivery, and operational controls for Irish fund administration",
+      "audit_type": "Operational",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-07-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Operational Auditor",
+      "audit_team": [
+        "Senior Operational Auditor",
+        "Operational Auditor",
+        "Subject Matter Expert"
+      ],
+      "scoped_entities": [
+        "AE-1",
+        "AE-17",
+        "AE-16"
+      ],
+      "budget_hours": 360,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Exit Readiness and Data Room Validation Audit",
+      "description": "Independent validation of exit preparation materials, management representations, and operational metrics accuracy",
+      "audit_type": "Special Project",
+      "status": "In Progress",
+      "rating": null,
+      "planned_start_date": "2025-02-01",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": "2025-02-01",
+      "actual_end_date": null,
+      "lead_auditor": "Chief Audit Executive",
+      "audit_team": [
+        "Chief Audit Executive",
+        "Senior Financial Auditor",
+        "Data Analyst"
+      ],
+      "scoped_entities": [
+        "AE-19",
+        "AE-5",
+        "AE-4"
+      ],
+      "budget_hours": 400,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "AML/KYC Compliance Audit",
+      "description": "Review of anti-money laundering controls, customer due diligence processes, and suspicious activity reporting",
+      "audit_type": "Compliance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Compliance Auditor",
+      "audit_team": [
+        "Senior Compliance Auditor",
+        "Compliance Auditor"
+      ],
+      "scoped_entities": [
+        "AE-18",
+        "AE-6"
+      ],
+      "budget_hours": 240,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Commercial Process and Sales Operations Audit",
+      "description": "Assessment of sales forecasting accuracy, pipeline management, and client onboarding controls following Q1 underperformance",
+      "audit_type": "Operational",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Operational Auditor",
+      "audit_team": [
+        "Senior Operational Auditor",
+        "Data Analyst"
+      ],
+      "scoped_entities": [
+        "AE-4",
+        "AE-7"
+      ],
+      "budget_hours": 200,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Client Retention and Service Quality Audit",
+      "description": "Analysis of gross retention drivers, client satisfaction metrics, and service delivery quality against 94% target",
+      "audit_type": "Operational",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Operational Auditor",
+      "audit_team": [
+        "Senior Operational Auditor",
+        "Operational Auditor",
+        "Data Analyst"
+      ],
+      "scoped_entities": [
+        "AE-7",
+        "AE-1",
+        "AE-2"
+      ],
+      "budget_hours": 240,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "Third Party and Vendor Management Audit",
+      "description": "Review of vendor risk management, contract compliance, and critical vendor oversight under DORA requirements",
+      "audit_type": "Compliance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior IT Auditor",
+      "audit_team": [
+        "Senior IT Auditor",
+        "Operational Auditor"
+      ],
+      "scoped_entities": [
+        "AE-10",
+        "AE-3"
+      ],
+      "budget_hours": 200,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-9",
+      "name": "GDPR and Data Protection Audit",
+      "description": "Assessment of GDPR compliance, data handling practices, and privacy controls across operations",
+      "audit_type": "Compliance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Compliance Auditor",
+      "audit_team": [
+        "Senior Compliance Auditor",
+        "IT Auditor"
+      ],
+      "scoped_entities": [
+        "AE-8",
+        "AE-3",
+        "AE-6"
+      ],
+      "budget_hours": 200,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-10",
+      "name": "Management Company Services Audit",
+      "description": "Review of ManCo governance, substance requirements, and portfolio oversight controls",
+      "audit_type": "Compliance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-11-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior Compliance Auditor",
+      "audit_team": [
+        "Senior Compliance Auditor",
+        "Operational Auditor"
+      ],
+      "scoped_entities": [
+        "AE-11",
+        "AE-6"
+      ],
+      "budget_hours": 240,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-11",
+      "name": "AI Investment and Technology ROI Assessment",
+      "description": "Validation of \u20ac800K AI capability investment business case, competitive positioning, and implementation progress",
+      "audit_type": "Special Project",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-11-01",
+      "planned_end_date": "2025-12-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior IT Auditor",
+      "audit_team": [
+        "Senior IT Auditor",
+        "Financial Auditor",
+        "External Specialist"
+      ],
+      "scoped_entities": [
+        "AE-3",
+        "AE-5"
+      ],
+      "budget_hours": 160,
+      "created_by": "CAE"
+    },
+    {
+      "audit_id": "AUD-12",
+      "name": "Business Continuity and DORA Compliance Follow-up",
+      "description": "Follow-up audit on DORA certification maintenance and operational resilience framework effectiveness",
+      "audit_type": "Compliance",
+      "status": "Planned",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Senior IT Auditor",
+      "audit_team": [
+        "Senior IT Auditor",
+        "Compliance Auditor"
+      ],
+      "scoped_entities": [
+        "AE-15",
+        "AE-3"
+      ],
+      "budget_hours": 160,
+      "created_by": "CAE"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "audit_id": "AUD-1",
+      "plan_name": "Cybersecurity Audit Plan 2025",
+      "version": "1.0",
+      "objectives": [
+        "Assess effectiveness of vulnerability remediation from Q3 penetration testing",
+        "Evaluate DORA compliance controls and operational resilience",
+        "Test IT general controls including access management and change management",
+        "Review cybersecurity incident response capabilities"
+      ],
+      "scope_description": "All IT security controls, network infrastructure, cloud environments, and third-party security arrangements",
+      "methodology": "NIST Cybersecurity Framework aligned assessment with DORA-specific control testing",
+      "timeline": [
+        {
+          "phase": "Planning",
+          "start": "2025-02-01",
+          "end": "2025-02-07"
+        },
+        {
+          "phase": "Fieldwork",
+          "start": "2025-02-10",
+          "end": "2025-03-14"
+        },
+        {
+          "phase": "Reporting",
+          "start": "2025-03-17",
+          "end": "2025-03-31"
+        }
+      ],
+      "resources": {
+        "internal_hours": 240,
+        "external_hours": 80
+      },
+      "key_risks": [
+        "RISK-1",
+        "RISK-2",
+        "RISK-15"
+      ],
+      "key_controls": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-4",
+        "C-5"
+      ],
+      "approved_by": "Audit Committee",
+      "approval_date": "2025-01-20"
+    },
+    {
+      "plan_id": "AP-2",
+      "audit_id": "AUD-2",
+      "plan_name": "Revenue Recognition Audit Plan 2025",
+      "version": "1.0",
+      "objectives": [
+        "Validate revenue recognition policies and IFRS 15 compliance",
+        "Test accuracy of revenue accruals and deferrals",
+        "Assess impact of CFO transition on financial controls",
+        "Review sales pipeline to revenue conversion accuracy"
+      ],
+      "scope_description": "All revenue streams, contract management, billing processes, and related financial controls",
+      "methodology": "Substantive testing with control reliance where appropriate, data analytics for revenue patterns",
+      "timeline": [
+        {
+          "phase": "Planning",
+          "start": "2025-03-15",
+          "end": "2025-03-21"
+        },
+        {
+          "phase": "Fieldwork",
+          "start": "2025-03-24",
+          "end": "2025-05-02"
+        },
+        {
+          "phase": "Reporting",
+          "start": "2025-05-05",
+          "end": "2025-05-15"
+        }
+      ],
+      "resources": {
+        "internal_hours": 280,
+        "external_hours": 0
+      },
+      "key_risks": [
+        "RISK-4",
+        "RISK-5",
+        "RISK-6"
+      ],
+      "key_controls": [
+        "C-14",
+        "C-15",
+        "C-16",
+        "C-17"
+      ],
+      "approved_by": "Audit Committee",
+      "approval_date": "2025-01-20"
+    },
+    {
+      "plan_id": "AP-3",
+      "audit_id": "AUD-4",
+      "plan_name": "Exit Readiness Audit Plan 2025",
+      "version": "1.0",
+      "objectives": [
+        "Validate accuracy of operational metrics in data room",
+        "Test completeness and accuracy of management representations",
+        "Assess quality of financial information for due diligence",
+        "Review client contract terms and revenue sustainability"
+      ],
+      "scope_description": "All data room materials, key metrics, management presentations, and supporting documentation",
+      "methodology": "Independent verification and validation testing, third-party confirmation where applicable",
+      "timeline": [
+        {
+          "phase": "Planning",
+          "start": "2025-02-01",
+          "end": "2025-02-07"
+        },
+        {
+          "phase": "Fieldwork",
+          "start": "2025-02-10",
+          "end": "2025-04-11"
+        },
+        {
+          "phase": "Reporting",
+          "start": "2025-04-14",
+          "end": "2025-04-30"
+        }
+      ],
+      "resources": {
+        "internal_hours": 400,
+        "external_hours": 0
+      },
+      "key_risks": [
+        "RISK-7",
+        "RISK-8",
+        "RISK-9"
+      ],
+      "key_controls": [
+        "C-18",
+        "C-19",
+        "C-20"
+      ],
+      "approved_by": "Board of Directors",
+      "approval_date": "2025-01-25"
+    },
+    {
+      "plan_id": "AP-4",
+      "audit_id": "AUD-5",
+      "plan_name": "AML/KYC Compliance Audit Plan 2025",
+      "version": "1.0",
+      "objectives": [
+        "Assess effectiveness of AML/KYC policies and procedures",
+        "Test customer due diligence and enhanced due diligence processes",
+        "Evaluate transaction monitoring and suspicious activity reporting",
+        "Review regulatory reporting accuracy and timeliness"
+      ],
+      "scope_description": "All AML/KYC processes, customer onboarding, ongoing monitoring, and regulatory reporting",
+      "methodology": "Control testing supplemented by sample-based transaction review",
+      "timeline": [
+        {
+          "phase": "Planning",
+          "start": "2025-04-01",
+          "end": "2025-04-07"
+        },
+        {
+          "phase": "Fieldwork",
+          "start": "2025-04-08",
+          "end": "2025-05-16"
+        },
+        {
+          "phase": "Reporting",
+          "start": "2025-05-19",
+          "end": "2025-05-31"
+        }
+      ],
+      "resources": {
+        "internal_hours": 240,
+        "external_hours": 0
+      },
+      "key_risks": [
+        "RISK-10",
+        "RISK-11"
+      ],
+      "key_controls": [
+        "C-21",
+        "C-22",
+        "C-23",
+        "C-24"
+      ],
+      "approved_by": "Audit Committee",
+      "approval_date": "2025-01-20"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-1",
+      "title": "Delayed Remediation of Critical Vulnerabilities from Penetration Testing",
+      "criteria": "DORA Article 11 requires financial entities to implement appropriate ICT risk management practices including timely vulnerability remediation",
+      "condition": "Analysis of vulnerability remediation timelines revealed that 3 of 12 critical vulnerabilities identified in September 2024 penetration testing were not fully remediated until December 2024, exceeding the 30-day remediation SLA for critical findings",
+      "cause": "Insufficient resource allocation to security remediation activities and competing priorities with Q4 operational demands",
+      "effect": "Extended exposure window increased risk of exploitation; potential DORA non-compliance if pattern continues",
+      "recommendation": "Implement dedicated security remediation sprint capacity; establish vulnerability management escalation procedures tied to SLA breaches; enhance executive reporting on remediation status",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Accepted. Security team capacity being enhanced with additional FTE approved for Q1 2025. Escalation procedures being implemented.",
+      "action_owner": "Chief Information Security Officer",
+      "due_date": "2025-04-30",
+      "created_date": "2025-02-28"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-1",
+      "title": "Incomplete ICT Third-Party Risk Management Framework",
+      "criteria": "DORA Article 28 requires financial entities to manage ICT third-party risk through comprehensive contractual arrangements and oversight",
+      "condition": "Review of critical ICT vendor contracts identified that 4 of 15 critical technology vendors lack DORA-compliant contractual provisions including exit strategies and audit rights",
+      "cause": "Legacy contracts predating DORA requirements; insufficient legal resources to complete contract remediation program",
+      "effect": "Non-compliance with DORA third-party risk management requirements; limited ability to exercise oversight rights with certain vendors",
+      "recommendation": "Prioritize contract remediation for critical vendors; establish DORA-compliant contract templates for new engagements; enhance vendor management procedures",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Accepted. Contract remediation program accelerated with external legal support engaged. Target completion Q3 2025.",
+      "action_owner": "Head of Procurement",
+      "due_date": "2025-09-30",
+      "created_date": "2025-02-28"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-4",
+      "title": "Inconsistencies in Client Retention Metric Calculation",
+      "criteria": "Exit data room materials should present accurate and consistently calculated key performance indicators",
+      "condition": "Review of gross retention rate methodology revealed inconsistent treatment of client departures due to fund liquidations versus competitive losses, resulting in 1.3 percentage point variance between alternative calculation methods",
+      "cause": "Lack of documented policy defining retention calculation methodology; historical variations in treatment",
+      "effect": "Potential for buyer challenge during due diligence; risk of misrepresentation if methodology not disclosed",
+      "recommendation": "Document and formalize retention rate calculation methodology; reconcile historical calculations; ensure clear disclosure of methodology in data room",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Accepted. CFO to lead methodology documentation exercise with completion by March 31, 2025.",
+      "action_owner": "Chief Financial Officer",
+      "due_date": "2025-03-31",
+      "created_date": "2025-02-15"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-4",
+      "title": "Incomplete Supporting Documentation for Revenue Pipeline Metrics",
+      "criteria": "Data room materials should be supported by verifiable underlying documentation",
+      "condition": "Testing of Q4 2024 sales pipeline data identified 8 opportunities totaling \u20ac2.1M where probability assignments could not be supported by documented client engagement evidence",
+      "cause": "CRM data quality issues; inconsistent opportunity qualification criteria application by sales team",
+      "effect": "Pipeline metrics may overstate near-term revenue potential; impacts reliability of forward-looking information",
+      "recommendation": "Implement mandatory opportunity qualification checklist; enhance CRM data validation controls; conduct periodic pipeline review with documented outcomes",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Accepted. Sales operations implementing enhanced qualification process and CRM controls.",
+      "action_owner": "Chief Revenue Officer",
+      "due_date": "2025-04-15",
+      "created_date": "2025-02-15"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-4",
+      "title": "CFO Transition Documentation Gaps",
+      "criteria": "Key management transitions should be supported by comprehensive knowledge transfer documentation",
+      "condition": "Review of CFO transition activities identified incomplete knowledge transfer documentation, particularly regarding non-standard accounting treatments and historical regulatory correspondence",
+      "cause": "Extended acting CFO period (24 months) resulted in institutional knowledge gaps; limited transition overlap period",
+      "effect": "Risk of inconsistent accounting treatment application; potential gaps in regulatory matter awareness",
+      "recommendation": "Complete comprehensive knowledge transfer sessions; document all non-standard accounting treatments; establish repository for regulatory correspondence",
+      "severity": "High",
+      "status": "In Remediation",
+      "management_response": "Accepted. Accelerated knowledge transfer sessions underway with former Acting CFO. Documentation project initiated.",
+      "action_owner": "Chief Financial Officer",
+      "due_date": "2025-03-15",
+      "created_date": "2025-02-15"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-1",
+      "title": "Privileged Access Management Control Weaknesses",
+      "criteria": "DORA Article 9 requires appropriate ICT access controls proportionate to risk",
+      "condition": "Review of privileged access identified 12 accounts with administrative access that had not been recertified within the required 90-day cycle; 3 accounts belonged to terminated employees",
+      "cause": "Manual recertification process with insufficient tracking; incomplete integration with HR termination workflow",
+      "effect": "Unauthorized access risk; potential for insider threat exploitation; DORA non-compliance",
+      "recommendation": "Implement automated privileged access recertification workflow; enhance HR-IT integration for timely access removal; deploy privileged access management solution",
+      "severity": "High",
+      "status": "Open",
+      "management_response": "Accepted. Immediate access review completed and terminated accounts disabled. PAM solution evaluation underway.",
+      "action_owner": "Chief Information Security Officer",
+      "due_date": "2025-05-31",
+      "created_date": "2025-02-28"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-1",
+      "title": "Insufficient Security Awareness Training Completion Rates",
+      "criteria": "DORA Article 13 requires staff training on ICT security awareness",
+      "condition": "Analysis of security awareness training records revealed 78% completion rate against 95% target; Operations department showed only 65% completion",
+      "cause": "Insufficient management enforcement; training not integrated into performance objectives; competing operational priorities",
+      "effect": "Increased human error risk in security incidents; non-compliance with regulatory training requirements",
+      "recommendation": "Implement mandatory training completion tied to performance reviews; deploy completion tracking dashboard for managers; consider shorter, more frequent micro-learning modules",
+      "severity": "Medium",
+      "status": "Open",
+      "management_response": "Accepted. HR implementing training completion as gating factor for annual reviews. Enhanced tracking being deployed.",
+      "action_owner": "Chief Human Resources Officer",
+      "due_date": "2025-04-30",
+      "created_date": "2025-02-28"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Cybersecurity Breach and Data Loss",
+      "description": "Risk of unauthorized access to systems resulting in client data breach, operational disruption, or ransomware attack, as evidenced by vulnerabilities identified in Q3 penetration testing",
+      "category": "Technology",
+      "subcategory": "Cybersecurity",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 5,
+      "residual_score": 15,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "Chief Information Security Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-5"
+      ],
+      "related_entities": [
+        "AE-3",
+        "AE-8"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "DORA Non-Compliance",
+      "description": "Risk of failing to maintain compliance with Digital Operational Resilience Act requirements, resulting in regulatory sanctions or reputational damage",
+      "category": "Compliance",
+      "subcategory": "Regulatory",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Compliance Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-3",
+        "AE-15",
+        "AE-6"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-03-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Client Retention Decline",
+      "description": "Risk of gross retention falling below 94% target due to service quality issues, competitive pressure, or client disputes, impacting revenue sustainability",
+      "category": "Strategic",
+      "subcategory": "Client",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 10,
+      "owner": "Chief Operating Officer",
+      "related_objectives": [
+        "OBJ-3",
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-7",
+        "AE-1",
+        "AE-2"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Revenue Recognition Error",
+      "description": "Risk of material misstatement in revenue recognition due to complex contract terms, milestone achievement judgments, or inadequate controls",
+      "category": "Financial",
+      "subcategory": "Reporting",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Financial Officer",
+      "related_objectives": [
+        "OBJ-5"
+      ],
+      "related_entities": [
+        "AE-5",
+        "AE-4"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Sales Execution Volatility",
+      "description": "Risk of sales underperformance due to inadequate sales team ramping, insufficient pre-sales resources, or extended client procurement cycles, as experienced in Q1 with 84% attainment",
+      "category": "Operational",
+      "subcategory": "Commercial",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 10,
+      "owner": "Chief Revenue Officer",
+      "related_objectives": [
+        "OBJ-3",
+        "OBJ-6"
+      ],
+      "related_entities": [
+        "AE-4"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-04-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Financial Leadership Gap",
+      "description": "Risk of inadequate financial oversight and control weakness due to CFO leadership transition after 24-month vacancy",
+      "category": "Operational",
+      "subcategory": "People",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Executive Officer",
+      "related_objectives": [
+        "OBJ-5"
+      ],
+      "related_entities": [
+        "AE-5"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-09-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Exit Process Execution Failure",
+      "description": "Risk of exit process failure or value impairment due to operational performance deterioration, data room quality issues, or management representation inaccuracies during due diligence",
+      "category": "Strategic",
+      "subcategory": "M&A",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "Chief Executive Officer",
+      "related_objectives": [
+        "OBJ-6"
+      ],
+      "related_entities": [
+        "AE-19",
+        "AE-5"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-11-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Management Representation Inaccuracy",
+      "description": "Risk of inaccurate or incomplete management representations in exit materials leading to buyer claims or valuation disputes",
+      "category": "Strategic",
+      "subcategory": "M&A",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Financial Officer",
+      "related_objectives": [
+        "OBJ-6"
+      ],
+      "related_entities": [
+        "AE-19"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-11-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Key Metric Validation Failure",
+      "description": "Risk that key operational and financial metrics presented to buyers cannot be adequately supported or validated",
+      "category": "Strategic",
+      "subcategory": "M&A",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Financial Officer",
+      "related_objectives": [
+        "OBJ-6"
+      ],
+      "related_entities": [
+        "AE-19",
+        "AE-5"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-11-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "AML/KYC Compliance Failure",
+      "description": "Risk of inadequate anti-money laundering controls resulting in regulatory sanctions, client onboarding failures, or reputational damage",
+      "category": "Compliance",
+      "subcategory": "Financial Crime",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Compliance Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-18",
+        "AE-6"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Sanctions Screening Failure",
+      "description": "Risk of failing to identify sanctioned parties in investor or counterparty relationships",
+      "category": "Compliance",
+      "subcategory": "Financial Crime",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Compliance Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-18"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "NAV Calculation Error",
+      "description": "Risk of material NAV miscalculation resulting in investor harm, regulatory action, or client claims",
+      "category": "Operational",
+      "subcategory": "Processing",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Head of Fund Administration",
+      "related_objectives": [
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-17"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "AI Disruption and Competitive Displacement",
+      "description": "Risk of market share loss to AI-native competitors or failure to realize value from technology investments",
+      "category": "Strategic",
+      "subcategory": "Competition",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 10,
+      "owner": "Chief Technology Officer",
+      "related_objectives": [
+        "OBJ-3",
+        "OBJ-7"
+      ],
+      "related_entities": [
+        "AE-3"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-06-01",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "GDPR Non-Compliance",
+      "description": "Risk of personal data protection failures resulting in regulatory fines, data subject claims, or reputational damage",
+      "category": "Compliance",
+      "subcategory": "Data Protection",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Data Protection Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-8",
+        "AE-6"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Business Continuity Failure",
+      "description": "Risk of inability to maintain critical operations during disruption events including cyber incidents, facility issues, or pandemic scenarios",
+      "category": "Operational",
+      "subcategory": "Resilience",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Operating Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-15",
+        "AE-3"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Third Party Service Failure",
+      "description": "Risk of critical third-party vendor failure impacting service delivery to clients",
+      "category": "Operational",
+      "subcategory": "Vendor",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "Chief Operating Officer",
+      "related_objectives": [
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-10",
+        "AE-3"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "Key Person Dependency",
+      "description": "Risk of operational disruption from departure of key personnel without adequate succession planning",
+      "category": "Operational",
+      "subcategory": "People",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 8,
+      "owner": "Chief Human Resources Officer",
+      "related_objectives": [
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-9"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Regulatory Reporting Error",
+      "description": "Risk of inaccurate or late regulatory reporting to CBI, CSSF, or other regulators",
+      "category": "Compliance",
+      "subcategory": "Regulatory",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Compliance Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-6",
+        "AE-1",
+        "AE-2"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-19",
+      "name": "Margin Compression",
+      "description": "Risk of EBITDA margin deterioration from competitive pricing pressure, cost inflation, or operational inefficiency",
+      "category": "Financial",
+      "subcategory": "Profitability",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 10,
+      "owner": "Chief Financial Officer",
+      "related_objectives": [
+        "OBJ-5"
+      ],
+      "related_entities": [
+        "AE-5"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-20",
+      "name": "Liquidity Risk",
+      "description": "Risk of insufficient liquidity to meet operational and investment requirements despite \u20ac30M net cash position",
+      "category": "Financial",
+      "subcategory": "Treasury",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Financial Officer",
+      "related_objectives": [
+        "OBJ-5"
+      ],
+      "related_entities": [
+        "AE-5"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-21",
+      "name": "Client Concentration Risk",
+      "description": "Risk of material revenue impact from loss of top clients or fund complexes",
+      "category": "Strategic",
+      "subcategory": "Client",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 10,
+      "owner": "Chief Revenue Officer",
+      "related_objectives": [
+        "OBJ-3"
+      ],
+      "related_entities": [
+        "AE-4",
+        "AE-7"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-22",
+      "name": "Depositary Liability",
+      "description": "Risk of client asset loss or misappropriation resulting in depositary liability claims",
+      "category": "Operational",
+      "subcategory": "Fiduciary",
+      "risk_source": "Internal/External",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Head of Depositary Services",
+      "related_objectives": [
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-12"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-23",
+      "name": "Transfer Agency Processing Error",
+      "description": "Risk of investor transaction processing errors resulting in client claims or regulatory issues",
+      "category": "Operational",
+      "subcategory": "Processing",
+      "risk_source": "Internal",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Head of Transfer Agency",
+      "related_objectives": [
+        "OBJ-4"
+      ],
+      "related_entities": [
+        "AE-16"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-24",
+      "name": "ManCo Substance and Governance Risk",
+      "description": "Risk of regulatory challenge to management company substance or governance arrangements",
+      "category": "Compliance",
+      "subcategory": "Regulatory",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 5,
+      "residual_score": 5,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Head of Management Company Services",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-11"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-25",
+      "name": "Cross-Border Regulatory Complexity",
+      "description": "Risk of compliance failures arising from multi-jurisdictional regulatory requirements across EMEA operations",
+      "category": "Compliance",
+      "subcategory": "Regulatory",
+      "risk_source": "External",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "Chief Compliance Officer",
+      "related_objectives": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "related_entities": [
+        "AE-6",
+        "AE-1",
+        "AE-2",
+        "AE-13"
+      ],
+      "created_by": "Enterprise Risk Manager",
+      "created_date": "2024-01-15",
+      "last_review_date": "2025-01-15"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "likelihood_rationale": "Q3 penetration test findings partially remediated; ongoing threat landscape",
+      "impact_rationale": "Cyber breach could result in significant regulatory fines, client claims, and reputational damage",
+      "control_effectiveness": "Partially Effective",
+      "trend": "Stable",
+      "notes": "Vulnerability remediation progress monitored; DORA compliance maintained"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-3",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "likelihood_rationale": "Gross retention at 92% vs 94% target indicates elevated churn risk",
+      "impact_rationale": "Client loss directly impacts revenue and market positioning",
+      "control_effectiveness": "Partially Effective",
+      "trend": "Increasing",
+      "notes": "Client satisfaction initiatives underway; competitive pressure from AI-native entrants"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-5",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "likelihood_rationale": "Q1 underperformance (84%) addressed; Q4 recovery to 109%",
+      "impact_rationale": "Sales volatility impacts revenue predictability but recoverable",
+      "control_effectiveness": "Partially Effective",
+      "trend": "Decreasing",
+      "notes": "Sales process improvements implemented; pre-sales resources enhanced"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-7",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "likelihood_rationale": "Exit preparation underway with enhanced controls",
+      "impact_rationale": "Exit failure or value impairment would be highly material",
+      "control_effectiveness": "Effective",
+      "trend": "Stable",
+      "notes": "Data room validation audit in progress; management focus on execution"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-6",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "likelihood_rationale": "New CFO appointed Q3; transition period ongoing",
+      "impact_rationale": "Financial control gaps could impact reporting accuracy and exit preparation",
+      "control_effectiveness": "Partially Effective",
+      "trend": "Decreasing",
+      "notes": "CFO knowledge transfer in progress; enhanced finance team oversight"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-10",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly Review",
+      "assessor": "Enterprise Risk Manager",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "likelihood_rationale": "Established AML program with regular updates",
+      "impact_rationale": "AML failure could result in regulatory sanctions and license risk",
+      "control_effectiveness": "Effective",
+      "trend": "Stable",
+      "notes": "Enhanced sanctions screening implemented; regulatory examination preparation"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "plan_name": "Cybersecurity Enhancement Program",
+      "description": "Comprehensive program to address penetration testing findings and strengthen security posture",
+      "status": "In Progress",
+      "priority": "High",
+      "owner": "Chief Information Security Officer",
+      "actions": [
+        {
+          "action": "Complete critical vulnerability remediation",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement privileged access management solution",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Deploy enhanced endpoint detection and response",
+          "due_date": "2025-06-30",
+          "status": "Planned"
+        },
+        {
+          "action": "Conduct red team exercise",
+          "due_date": "2025-09-30",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 10,
+      "estimated_cost": 350000,
+      "created_date": "2024-10-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-3",
+      "plan_name": "Client Retention Improvement Initiative",
+      "description": "Multi-faceted program to improve client satisfaction and achieve 94% gross retention target",
+      "status": "In Progress",
+      "priority": "High",
+      "owner": "Chief Operating Officer",
+      "actions": [
+        {
+          "action": "Implement client health scoring system",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Deploy proactive client engagement program",
+          "due_date": "2025-04-30",
+          "status": "Planned"
+        },
+        {
+          "action": "Enhance service level monitoring and reporting",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Establish client advisory board",
+          "due_date": "2025-06-30",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 8,
+      "estimated_cost": 150000,
+      "created_date": "2024-06-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-5",
+      "plan_name": "Sales Process Improvement Program",
+      "description": "Initiative to improve sales execution consistency and forecasting accuracy",
+      "status": "In Progress",
+      "priority": "Medium",
+      "owner": "Chief Revenue Officer",
+      "actions": [
+        {
+          "action": "Implement structured opportunity qualification framework",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Enhance pre-sales technical resource capacity",
+          "due_date": "2025-04-30",
+          "status": "Completed"
+        },
+        {
+          "action": "Deploy sales forecasting analytics",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        },
+        {
+          "action": "Implement sales enablement platform",
+          "due_date": "2025-06-30",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 6,
+      "estimated_cost": 200000,
+      "created_date": "2024-04-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-7",
+      "plan_name": "Exit Readiness Assurance Program",
+      "description": "Comprehensive program to ensure successful exit execution with validated materials",
+      "status": "In Progress",
+      "priority": "Critical",
+      "owner": "Chief Executive Officer",
+      "actions": [
+        {
+          "action": "Complete data room documentation and validation",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Finalize management presentation materials",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Complete key metric reconciliation and documentation",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Conduct mock due diligence exercise",
+          "due_date": "2025-04-15",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 6,
+      "estimated_cost": 500000,
+      "created_date": "2024-11-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-6",
+      "plan_name": "CFO Transition Support Program",
+      "description": "Structured program to ensure successful CFO onboarding and control continuity",
+      "status": "In Progress",
+      "priority": "High",
+      "owner": "Chief Executive Officer",
+      "actions": [
+        {
+          "action": "Complete comprehensive knowledge transfer sessions",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Document non-standard accounting treatments",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Establish regulatory correspondence repository",
+          "due_date": "2025-04-15",
+          "status": "Planned"
+        },
+        {
+          "action": "Conduct finance function assessment",
+          "due_date": "2025-05-31",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 4,
+      "estimated_cost": 75000,
+      "created_date": "2024-09-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-6",
+      "risk_id": "RISK-2",
+      "plan_name": "DORA Compliance Sustainment Program",
+      "description": "Program to maintain and enhance DORA compliance following Q3 certification",
+      "status": "Active",
+      "priority": "High",
+      "owner": "Chief Compliance Officer",
+      "actions": [
+        {
+          "action": "Complete ICT third-party contract remediation",
+          "due_date": "2025-09-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement continuous ICT risk monitoring",
+          "due_date": "2025-06-30",
+          "status": "Planned"
+        },
+        {
+          "action": "Conduct annual DORA compliance self-assessment",
+          "due_date": "2025-12-15",
+          "status": "Planned"
+        }
+      ],
+      "target_residual_score": 6,
+      "estimated_cost": 200000,
+      "created_date": "2024-07-01",
+      "last_updated": "2025-01-15"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Vulnerability Management Program",
+      "description": "Structured program for identifying, assessing, prioritizing, and remediating security vulnerabilities including regular scanning and patch management",
+      "control_type": "Preventive",
+      "category": "Technology",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-1",
+        "RISK-2"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Vulnerability scan reports",
+        "Patch management logs",
+        "Remediation tracking"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Privileged Access Management",
+      "description": "Controls over administrative and privileged account access including approval workflows, recertification, and session monitoring",
+      "control_type": "Preventive",
+      "category": "Technology",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-1"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Access recertification records",
+        "Approval workflows",
+        "Session logs"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Network Security Monitoring",
+      "description": "Continuous monitoring of network traffic for security threats including intrusion detection and prevention systems",
+      "control_type": "Detective",
+      "category": "Technology",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-1"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Security alerts",
+        "Incident reports",
+        "Network logs"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Security Awareness Training",
+      "description": "Mandatory security awareness training for all employees covering phishing, social engineering, and data protection",
+      "control_type": "Preventive",
+      "category": "People",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-1",
+        "RISK-14"
+      ],
+      "related_processes": [
+        "PROC-9"
+      ],
+      "evidence_requirements": [
+        "Training completion records",
+        "Phishing simulation results"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Penetration Testing",
+      "description": "Annual external penetration testing of network infrastructure and applications with remediation tracking",
+      "control_type": "Detective",
+      "category": "Technology",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-1"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Penetration test reports",
+        "Remediation evidence"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Business Continuity Planning",
+      "description": "Documented business continuity and disaster recovery plans with regular testing and updates",
+      "control_type": "Corrective",
+      "category": "Operational",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief Operating Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-15",
+        "RISK-2"
+      ],
+      "related_processes": [
+        "PROC-2"
+      ],
+      "evidence_requirements": [
+        "BCP documentation",
+        "Test results",
+        "Recovery time metrics"
+      ],
+      "created_by": "Operations Manager"
+    },
+    {
+      "control_id": "C-7",
+      "name": "ICT Third-Party Risk Assessment",
+      "description": "Risk assessment of critical ICT vendors including due diligence, contract requirements, and ongoing monitoring per DORA requirements",
+      "control_type": "Preventive",
+      "category": "Vendor",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Head of Procurement",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-2",
+        "RISK-16"
+      ],
+      "related_processes": [
+        "PROC-3"
+      ],
+      "evidence_requirements": [
+        "Vendor risk assessments",
+        "Due diligence reports",
+        "Contract reviews"
+      ],
+      "created_by": "Procurement Manager"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Incident Response Procedures",
+      "description": "Documented incident response procedures for cybersecurity and operational incidents including escalation protocols",
+      "control_type": "Corrective",
+      "category": "Technology",
+      "frequency": "Event-Driven",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Information Security Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-1",
+        "RISK-15"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Incident logs",
+        "Response documentation",
+        "Post-incident reviews"
+      ],
+      "created_by": "IT Security Manager"
+    },
+    {
+      "control_id": "C-9",
+      "name": "NAV Calculation Review",
+      "description": "Multi-level review and approval process for NAV calculations including independent validation and reconciliation",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Daily",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Fund Administration",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-12"
+      ],
+      "related_processes": [
+        "PROC-4"
+      ],
+      "evidence_requirements": [
+        "NAV checklists",
+        "Approval records",
+        "Exception reports"
+      ],
+      "created_by": "Fund Administration Manager"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Pricing Source Validation",
+      "description": "Independent validation of security pricing from approved sources with variance thresholds and escalation",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "Head of Fund Administration",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-12"
+      ],
+      "related_processes": [
+        "PROC-4"
+      ],
+      "evidence_requirements": [
+        "Price validation reports",
+        "Variance analysis",
+        "Escalation records"
+      ],
+      "created_by": "Fund Administration Manager"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Reconciliation Controls",
+      "description": "Daily reconciliation of cash, positions, and transactions between internal records and external sources",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "Head of Fund Administration",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-12",
+        "RISK-22"
+      ],
+      "related_processes": [
+        "PROC-4"
+      ],
+      "evidence_requirements": [
+        "Reconciliation reports",
+        "Break resolution logs"
+      ],
+      "created_by": "Fund Administration Manager"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Client Service Level Monitoring",
+      "description": "Continuous monitoring of service delivery against contractual SLAs with escalation and reporting",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Daily",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Client Services",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-3"
+      ],
+      "related_processes": [
+        "PROC-5"
+      ],
+      "evidence_requirements": [
+        "SLA reports",
+        "Breach notifications",
+        "Client feedback"
+      ],
+      "created_by": "Operations Manager"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Client Retention Analysis",
+      "description": "Monthly analysis of client health indicators and retention risk factors with proactive intervention protocols",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Chief Operating Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-3",
+        "RISK-21"
+      ],
+      "related_processes": [
+        "PROC-5"
+      ],
+      "evidence_requirements": [
+        "Client health scorecards",
+        "Retention analytics",
+        "Intervention records"
+      ],
+      "created_by": "Client Services Manager"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Revenue Recognition Policy",
+      "description": "Documented revenue recognition policy aligned with IFRS 15 including contract review and milestone assessment procedures",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Transaction",
+      "automation_level": "Manual",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-4"
+      ],
+      "related_processes": [
+        "PROC-6"
+      ],
+      "evidence_requirements": [
+        "Policy documentation",
+        "Contract reviews",
+        "Revenue calculations"
+      ],
+      "created_by": "Finance Manager"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Contract Review and Approval",
+      "description": "Multi-level review and approval of client contracts including legal, finance, and operations sign-off",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Transaction",
+      "automation_level": "Manual",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-4"
+      ],
+      "related_processes": [
+        "PROC-6"
+      ],
+      "evidence_requirements": [
+        "Approval workflows",
+        "Contract summaries",
+        "Sign-off records"
+      ],
+      "created_by": "Finance Manager"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Monthly Revenue Reconciliation",
+      "description": "Monthly reconciliation of recognized revenue to billing and contract terms with variance analysis",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-4"
+      ],
+      "related_processes": [
+        "PROC-6"
+      ],
+      "evidence_requirements": [
+        "Reconciliation reports",
+        "Variance analysis",
+        "Adjusting entries"
+      ],
+      "created_by": "Finance Manager"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Financial Close Process",
+      "description": "Structured monthly and quarterly financial close process with checklist, review, and approval",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-4",
+        "RISK-6"
+      ],
+      "related_processes": [
+        "PROC-6"
+      ],
+      "evidence_requirements": [
+        "Close checklists",
+        "Review documentation",
+        "Sign-off records"
+      ],
+      "created_by": "Finance Manager"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Data Room Quality Assurance",
+      "description": "Quality assurance review of data room materials including accuracy verification and completeness checks",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-7",
+        "RISK-8",
+        "RISK-9"
+      ],
+      "related_processes": [
+        "PROC-7"
+      ],
+      "evidence_requirements": [
+        "QA checklists",
+        "Verification records",
+        "Update logs"
+      ],
+      "created_by": "M&A Project Manager"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Management Representation Validation",
+      "description": "Independent validation of key management representations and metrics presented in exit materials",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Transaction",
+      "automation_level": "Manual",
+      "owner": "Chief Executive Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-8"
+      ],
+      "related_processes": [
+        "PROC-7"
+      ],
+      "evidence_requirements": [
+        "Validation workpapers",
+        "Supporting documentation",
+        "Sign-off records"
+      ],
+      "created_by": "M&A Project Manager"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Key Metric Documentation",
+      "description": "Documentation of calculation methodology and supporting evidence for all key operational and financial metrics",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief Financial Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-9"
+      ],
+      "related_processes": [
+        "PROC-7"
+      ],
+      "evidence_requirements": [
+        "Methodology documentation",
+        "Supporting calculations",
+        "Review records"
+      ],
+      "created_by": "Finance Manager"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Customer Due Diligence",
+      "description": "Comprehensive KYC/CDD procedures for client onboarding including identification, verification, and risk assessment",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Compliance Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-10"
+      ],
+      "related_processes": [
+        "PROC-8"
+      ],
+      "evidence_requirements": [
+        "CDD files",
+        "Risk assessments",
+        "Verification records"
+      ],
+      "created_by": "Compliance Manager"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Sanctions Screening",
+      "description": "Automated screening of customers and transactions against sanctions lists with alert investigation procedures",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Chief Compliance Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-11"
+      ],
+      "related_processes": [
+        "PROC-8"
+      ],
+      "evidence_requirements": [
+        "Screening logs",
+        "Alert resolution records",
+        "List update confirmations"
+      ],
+      "created_by": "Compliance Manager"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Transaction Monitoring",
+      "description": "Automated monitoring of client transactions for suspicious patterns with investigation and reporting procedures",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Chief Compliance Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-10"
+      ],
+      "related_processes": [
+        "PROC-8"
+      ],
+      "evidence_requirements": [
+        "Alert logs",
+        "Investigation records",
+        "SAR filings"
+      ],
+      "created_by": "Compliance Manager"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Suspicious Activity Reporting",
+      "description": "Procedures for identifying, escalating, and reporting suspicious activity to relevant authorities",
+      "control_type": "Corrective",
+      "category": "Compliance",
+      "frequency": "Event-Driven",
+      "automation_level": "Manual",
+      "owner": "Chief Compliance Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-10"
+      ],
+      "related_processes": [
+        "PROC-8"
+      ],
+      "evidence_requirements": [
+        "SAR records",
+        "Filing confirmations",
+        "Investigation files"
+      ],
+      "created_by": "Compliance Manager"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Regulatory Reporting Controls",
+      "description": "Controls over regulatory report preparation, review, and submission including accuracy checks and deadlines monitoring",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Periodic",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Compliance Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-18"
+      ],
+      "related_processes": [
+        "PROC-10"
+      ],
+      "evidence_requirements": [
+        "Report preparation checklists",
+        "Review records",
+        "Submission confirmations"
+      ],
+      "created_by": "Compliance Manager"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Sales Pipeline Review",
+      "description": "Weekly sales pipeline review including opportunity qualification, probability assessment, and forecast accuracy analysis",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Chief Revenue Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-5"
+      ],
+      "related_processes": [
+        "PROC-11"
+      ],
+      "evidence_requirements": [
+        "Pipeline reports",
+        "Review meeting minutes",
+        "Forecast adjustments"
+      ],
+      "created_by": "Sales Operations Manager"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Opportunity Qualification Framework",
+      "description": "Structured qualification criteria for sales opportunities including required documentation and approval gates",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Transaction",
+      "automation_level": "Manual",
+      "owner": "Chief Revenue Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-5"
+      ],
+      "related_processes": [
+        "PROC-11"
+      ],
+      "evidence_requirements": [
+        "Qualification checklists",
+        "Opportunity records",
+        "Approval documentation"
+      ],
+      "created_by": "Sales Operations Manager"
+    },
+    {
+      "control_id": "C-28",
+      "name": "GDPR Compliance Program",
+      "description": "Comprehensive data protection program including data mapping, consent management, and data subject rights handling",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Data Protection Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-14"
+      ],
+      "related_processes": [
+        "PROC-12"
+      ],
+      "evidence_requirements": [
+        "Data inventory",
+        "Consent records",
+        "DSAR logs"
+      ],
+      "created_by": "DPO"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Investor Transaction Processing Controls",
+      "description": "Multi-level review and approval of investor subscription and redemption transactions",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Transfer Agency",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-23"
+      ],
+      "related_processes": [
+        "PROC-13"
+      ],
+      "evidence_requirements": [
+        "Transaction logs",
+        "Approval records",
+        "Reconciliation reports"
+      ],
+      "created_by": "Transfer Agency Manager"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Depositary Asset Safekeeping",
+      "description": "Controls over asset safekeeping including segregation, verification, and reconciliation with custodians",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Daily",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Depositary Services",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-22"
+      ],
+      "related_processes": [
+        "PROC-14"
+      ],
+      "evidence_requirements": [
+        "Asset verification records",
+        "Reconciliation reports",
+        "Segregation confirmations"
+      ],
+      "created_by": "Depositary Manager"
+    },
+    {
+      "control_id": "C-31",
+      "name": "ManCo Governance Framework",
+      "description": "Governance framework for management company operations including board oversight, substance requirements, and delegation monitoring",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Head of Management Company Services",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-24"
+      ],
+      "related_processes": [
+        "PROC-15"
+      ],
+      "evidence_requirements": [
+        "Board minutes",
+        "Substance documentation",
+        "Delegation agreements"
+      ],
+      "created_by": "ManCo Manager"
+    },
+    {
+      "control_id": "C-32",
+      "name": "Succession Planning",
+      "description": "Formal succession planning for key positions including development plans and emergency coverage",
+      "control_type": "Preventive",
+      "category": "People",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief Human Resources Officer",
+      "status": "Active",
+      "effectiveness": "Partially Effective",
+      "related_risks": [
+        "RISK-17",
+        "RISK-6"
+      ],
+      "related_processes": [
+        "PROC-9"
+      ],
+      "evidence_requirements": [
+        "Succession plans",
+        "Development plans",
+        "Coverage matrices"
+      ],
+      "created_by": "HR Manager"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Change Management Process",
+      "description": "Formal change management process for IT systems including testing, approval, and rollback procedures",
+      "control_type": "Preventive",
+      "category": "Technology",
+      "frequency": "Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Technology Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-1",
+        "RISK-15"
+      ],
+      "related_processes": [
+        "PROC-1"
+      ],
+      "evidence_requirements": [
+        "Change requests",
+        "Test results",
+        "Approval records"
+      ],
+      "created_by": "IT Manager"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Data Backup and Recovery",
+      "description": "Regular data backup procedures with tested recovery capabilities and offsite storage",
+      "control_type": "Corrective",
+      "category": "Technology",
+      "frequency": "Daily",
+      "automation_level": "Automated",
+      "owner": "Chief Technology Officer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-15"
+      ],
+      "related_processes": [
+        "PROC-2"
+      ],
+      "evidence_requirements": [
+        "Backup logs",
+        "Recovery test results",
+        "Offsite storage confirmations"
+      ],
+      "created_by": "IT Manager"
+    },
+    {
+      "control_id": "C-35",
+      "name": "Vendor Performance Monitoring",
+      "description": "Ongoing monitoring of critical vendor performance against SLAs and contractual obligations",
+      "control_type": "Detective",
+      "category": "Vendor",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Head of Procurement",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risks": [
+        "RISK-16"
+      ],
+      "related_processes": [
+        "PROC-3"
+      ],
+      "evidence_requirements": [
+        "Vendor scorecards",
+        "SLA reports",
+        "Issue logs"
+      ],
+      "created_by": "Procurement Manager"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "assessment_date": "2025-02-15",
+      "test_type": "Design and Operating Effectiveness",
+      "test_procedure": "Reviewed vulnerability scan reports and remediation tracking for Q4 2024; tested sample of 15 critical vulnerabilities for remediation timeliness",
+      "test_result": "Fail",
+      "test_evidence": "3 of 12 critical vulnerabilities exceeded 30-day SLA; average remediation time 47 days for critical findings",
+      "exceptions_noted": "Delayed remediation for critical vulnerabilities FND-1",
+      "tester": "Senior IT Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "assessment_date": "2025-02-15",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Reviewed privileged access recertification records and tested sample of 25 privileged accounts for compliance with 90-day recertification cycle",
+      "test_result": "Fail",
+      "test_evidence": "12 accounts overdue for recertification; 3 accounts belonged to terminated employees",
+      "exceptions_noted": "PAM control weaknesses identified FND-6",
+      "tester": "Senior IT Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-4",
+      "assessment_date": "2025-02-15",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Analyzed security awareness training completion rates across all departments",
+      "test_result": "Fail",
+      "test_evidence": "Overall completion rate 78% vs 95% target; Operations at 65%",
+      "exceptions_noted": "Training completion gaps identified FND-7",
+      "tester": "Senior IT Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-7",
+      "assessment_date": "2025-02-15",
+      "test_type": "Design and Operating Effectiveness",
+      "test_procedure": "Reviewed ICT vendor contracts for DORA compliance requirements; assessed vendor risk assessment documentation",
+      "test_result": "Fail",
+      "test_evidence": "4 of 15 critical vendors lack DORA-compliant contractual provisions",
+      "exceptions_noted": "Contract remediation gaps identified FND-2",
+      "tester": "Senior IT Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-9",
+      "assessment_date": "2024-06-30",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Tested sample of 30 NAV calculations for review and approval compliance",
+      "test_result": "Pass",
+      "test_evidence": "All sampled NAVs had documented review and approval; no exceptions identified",
+      "exceptions_noted": "None",
+      "tester": "Senior Operational Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-20",
+      "assessment_date": "2025-02-10",
+      "test_type": "Design and Operating Effectiveness",
+      "test_procedure": "Reviewed key metric calculation documentation; tested sample of 10 metrics for supporting evidence",
+      "test_result": "Fail",
+      "test_evidence": "Gross retention methodology inconsistently applied; pipeline probability assignments unsupported",
+      "exceptions_noted": "Metric documentation gaps FND-3, FND-4",
+      "tester": "Senior Financial Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-17",
+      "assessment_date": "2025-02-10",
+      "test_type": "Design and Operating Effectiveness",
+      "test_procedure": "Reviewed financial close process documentation and CFO transition knowledge transfer",
+      "test_result": "Fail",
+      "test_evidence": "Incomplete knowledge transfer documentation from Acting CFO",
+      "exceptions_noted": "CFO transition gaps FND-5",
+      "tester": "Senior Financial Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-21",
+      "assessment_date": "2024-10-31",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Tested sample of 25 client onboarding CDD files for completeness and risk assessment accuracy",
+      "test_result": "Pass",
+      "test_evidence": "All sampled files contained required documentation; risk assessments appropriately documented",
+      "exceptions_noted": "None",
+      "tester": "Senior Compliance Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-22",
+      "assessment_date": "2024-10-31",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Reviewed sanctions screening configuration and tested sample of 50 alerts for appropriate resolution",
+      "test_result": "Pass",
+      "test_evidence": "Screening lists current; alerts appropriately investigated and documented",
+      "exceptions_noted": "None",
+      "tester": "Senior Compliance Auditor",
+      "reviewer": "Chief Audit Executive"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-6",
+      "assessment_date": "2024-08-31",
+      "test_type": "Operating Effectiveness",
+      "test_procedure": "Reviewed BCP documentation and DR test results; assessed DORA alignment",
+      "test_result": "Pass",
+      "test_evidence": "BCP current and tested; recovery time objectives achieved in testing; DORA certification obtained",
+      "exceptions_noted": "None",
+      "tester": "Senior IT Auditor",
+      "reviewer": "Chief Audit Executive"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-1",
+      "finding_id": "FND-1",
+      "title": "Vulnerability Remediation SLA Non-Compliance",
+      "description": "Critical vulnerabilities not remediated within 30-day SLA requirements",
+      "deficiency_type": "Operating Effectiveness",
+      "severity": "High",
+      "root_cause": "Insufficient security team capacity; competing operational priorities",
+      "business_impact": "Extended exposure to known vulnerabilities; potential for exploitation",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Enhance security team capacity; implement escalation procedures",
+      "remediation_owner": "Chief Information Security Officer",
+      "target_date": "2025-04-30"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-2",
+      "finding_id": "FND-6",
+      "title": "Privileged Access Recertification Failures",
+      "description": "Privileged accounts not recertified within required timeframes; terminated employee accounts not promptly disabled",
+      "deficiency_type": "Operating Effectiveness",
+      "severity": "High",
+      "root_cause": "Manual recertification process; incomplete HR-IT integration",
+      "business_impact": "Unauthorized access risk; potential insider threat",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Implement automated PAM solution; enhance HR-IT access removal workflow",
+      "remediation_owner": "Chief Information Security Officer",
+      "target_date": "2025-05-31"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-4",
+      "finding_id": "FND-7",
+      "title": "Security Training Completion Shortfall",
+      "description": "Security awareness training completion rates below 95% target across organization",
+      "deficiency_type": "Operating Effectiveness",
+      "severity": "Medium",
+      "root_cause": "Insufficient management enforcement; competing operational priorities",
+      "business_impact": "Increased human error risk in security incidents",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Link training completion to performance reviews; implement completion tracking dashboard",
+      "remediation_owner": "Chief Human Resources Officer",
+      "target_date": "2025-04-30"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-7",
+      "finding_id": "FND-2",
+      "title": "ICT Vendor Contract DORA Gaps",
+      "description": "Critical ICT vendor contracts lacking DORA-compliant provisions",
+      "deficiency_type": "Design Effectiveness",
+      "severity": "Medium",
+      "root_cause": "Legacy contracts; insufficient legal resources for remediation",
+      "business_impact": "DORA non-compliance; limited oversight rights",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Accelerate contract remediation program with external legal support",
+      "remediation_owner": "Head of Procurement",
+      "target_date": "2025-09-30"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-20",
+      "finding_id": "FND-3",
+      "title": "Metric Calculation Methodology Inconsistencies",
+      "description": "Key operational metrics calculated inconsistently without documented methodology",
+      "deficiency_type": "Design Effectiveness",
+      "severity": "Medium",
+      "root_cause": "Lack of documented policy; historical variations in approach",
+      "business_impact": "Data room reliability concerns; due diligence risk",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Document and formalize calculation methodology for all key metrics",
+      "remediation_owner": "Chief Financial Officer",
+      "target_date": "2025-03-31"
+    },
+    {
+      "deficiency_id": "CD-6",
+      "control_id": "C-27",
+      "finding_id": "FND-4",
+      "title": "Pipeline Qualification Documentation Gaps",
+      "description": "Sales opportunity probability assignments lack supporting documentation",
+      "deficiency_type": "Operating Effectiveness",
+      "severity": "Medium",
+      "root_cause": "CRM data quality issues; inconsistent qualification criteria application",
+      "business_impact": "Pipeline forecast unreliability; management decision quality",
+      "status": "Open",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Implement mandatory qualification checklist; enhance CRM controls",
+      "remediation_owner": "Chief Revenue Officer",
+      "target_date": "2025-04-15"
+    },
+    {
+      "deficiency_id": "CD-7",
+      "control_id": "C-32",
+      "finding_id": "FND-5",
+      "title": "CFO Transition Knowledge Transfer Gaps",
+      "description": "Incomplete knowledge transfer documentation during CFO leadership transition",
+      "deficiency_type": "Operating Effectiveness",
+      "severity": "High",
+      "root_cause": "Extended acting period; limited transition overlap",
+      "business_impact": "Accounting consistency risk; regulatory correspondence awareness gaps",
+      "status": "In Remediation",
+      "identified_date": "2025-02-15",
+      "remediation_plan": "Complete knowledge transfer sessions; document non-standard treatments",
+      "remediation_owner": "Chief Financial Officer",
+      "target_date": "2025-03-15"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "IT Security and Access Management",
+      "description": "End-to-end IT security management including vulnerability management, access control, and incident response",
+      "owner": "Chief Information Security Officer",
+      "parent_entity": "AE-3",
+      "criticality": "High",
+      "last_review_date": "2025-01-15",
+      "documentation_location": "IT Policy Repository",
+      "related_risks": [
+        "RISK-1",
+        "RISK-2"
+      ],
+      "related_controls": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-5",
+        "C-8",
+        "C-33"
+      ]
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Business Continuity Management",
+      "description": "Business continuity planning, disaster recovery, and operational resilience management",
+      "owner": "Chief Operating Officer",
+      "parent_entity": "AE-15",
+      "criticality": "High",
+      "last_review_date": "2024-08-15",
+      "documentation_location": "BCP Repository",
+      "related_risks": [
+        "RISK-15"
+      ],
+      "related_controls": [
+        "C-6",
+        "C-34"
+      ]
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "Third Party Risk Management",
+      "description": "Vendor selection, onboarding, risk assessment, and ongoing monitoring process",
+      "owner": "Head of Procurement",
+      "parent_entity": "AE-10",
+      "criticality": "Medium",
+      "last_review_date": "2024-10-01",
+      "documentation_location": "Procurement Policy Repository",
+      "related_risks": [
+        "RISK-16",
+        "RISK-2"
+      ],
+      "related_controls": [
+        "C-7",
+        "C-35"
+      ]
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "NAV Calculation and Fund Accounting",
+      "description": "Daily NAV calculation process including pricing, reconciliation, and review",
+      "owner": "Head of Fund Administration",
+      "parent_entity": "AE-17",
+      "criticality": "High",
+      "last_review_date": "2024-07-01",
+      "documentation_location": "Operations Manual",
+      "related_risks": [
+        "RISK-12"
+      ],
+      "related_controls": [
+        "C-9",
+        "C-10",
+        "C-11"
+      ]
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Client Service Delivery",
+      "description": "End-to-end client service delivery including query management, SLA monitoring, and relationship management",
+      "owner": "Head of Client Services",
+      "parent_entity": "AE-7",
+      "criticality": "High",
+      "last_review_date": "2024-05-01",
+      "documentation_location": "Client Services Manual",
+      "related_risks": [
+        "RISK-3",
+        "RISK-21"
+      ],
+      "related_controls": [
+        "C-12",
+        "C-13"
+      ]
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Financial Reporting and Revenue Recognition",
+      "description": "Financial close, revenue recognition, and management reporting process",
+      "owner": "Chief Financial Officer",
+      "parent_entity": "AE-5",
+      "criticality": "High",
+      "last_review_date": "2024-12-15",
+      "documentation_location": "Finance Policy Repository",
+      "related_risks": [
+        "RISK-4",
+        "RISK-6"
+      ],
+      "related_controls": [
+        "C-14",
+        "C-15",
+        "C-16",
+        "C-17"
+      ]
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Exit Preparation and Due Diligence",
+      "description": "Data room management, metric validation, and management representation preparation for exit process",
+      "owner": "Chief Financial Officer",
+      "parent_entity": "AE-19",
+      "criticality": "Critical",
+      "last_review_date": "2025-01-15",
+      "documentation_location": "M&A Project Repository",
+      "related_risks": [
+        "RISK-7",
+        "RISK-8",
+        "RISK-9"
+      ],
+      "related_controls": [
+        "C-18",
+        "C-19",
+        "C-20"
+      ]
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "AML/KYC Compliance",
+      "description": "Customer due diligence, sanctions screening, transaction monitoring, and suspicious activity reporting",
+      "owner": "Chief Compliance Officer",
+      "parent_entity": "AE-18",
+      "criticality": "High",
+      "last_review_date": "2024-10-15",
+      "documentation_location": "AML Policy Repository",
+      "related_risks": [
+        "RISK-10",
+        "RISK-11"
+      ],
+      "related_controls": [
+        "C-21",
+        "C-22",
+        "C-23",
+        "C-24"
+      ]
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "Human Capital Management",
+      "description": "Recruitment, onboarding, performance management, training, and succession planning",
+      "owner": "Chief Human Resources Officer",
+      "parent_entity": "AE-9",
+      "criticality": "Medium",
+      "last_review_date": "2024-02-01",
+      "documentation_location": "HR Policy Repository",
+      "related_risks": [
+        "RISK-17"
+      ],
+      "related_controls": [
+        "C-4",
+        "C-32"
+      ]
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Regulatory Reporting",
+      "description": "Preparation and submission of regulatory reports to CBI, CSSF, and other regulators",
+      "owner": "Chief Compliance Officer",
+      "parent_entity": "AE-6",
+      "criticality": "High",
+      "last_review_date": "2024-08-01",
+      "documentation_location": "Compliance Repository",
+      "related_risks": [
+        "RISK-18"
+      ],
+      "related_controls": [
+        "C-25"
+      ]
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Sales and Pipeline Management",
+      "description": "Sales opportunity qualification, pipeline management, forecasting, and client onboarding",
+      "owner": "Chief Revenue Officer",
+      "parent_entity": "AE-4",
+      "criticality": "Medium",
+      "last_review_date": "2024-03-15",
+      "documentation_location": "Sales Operations Manual",
+      "related_risks": [
+        "RISK-5"
+      ],
+      "related_controls": [
+        "C-26",
+        "C-27"
+      ]
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Data Protection",
+      "description": "GDPR compliance, data subject rights, consent management, and data breach response",
+      "owner": "Data Protection Officer",
+      "parent_entity": "AE-8",
+      "criticality": "High",
+      "last_review_date": "2024-07-15",
+      "documentation_location": "Privacy Policy Repository",
+      "related_risks": [
+        "RISK-14"
+      ],
+      "related_controls": [
+        "C-28"
+      ]
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Transfer Agency Operations",
+      "description": "Investor transaction processing, registration, and investor communications",
+      "owner": "Head of Transfer Agency",
+      "parent_entity": "AE-16",
+      "criticality": "High",
+      "last_review_date": "2024-05-15",
+      "documentation_location": "TA Operations Manual",
+      "related_risks": [
+        "RISK-23"
+      ],
+      "related_controls": [
+        "C-29"
+      ]
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Depositary Services",
+      "description": "Asset safekeeping, cash flow monitoring, and depositary oversight functions",
+      "owner": "Head of Depositary Services",
+      "parent_entity": "AE-12",
+      "criticality": "High",
+      "last_review_date": "2024-06-01",
+      "documentation_location": "Depositary Manual",
+      "related_risks": [
+        "RISK-22"
+      ],
+      "related_controls": [
+        "C-30"
+      ]
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Management Company Governance",
+      "description": "ManCo board governance, substance maintenance, and delegation oversight",
+      "owner": "Head of Management Company Services",
+      "parent_entity": "AE-11",
+      "criticality": "High",
+      "last_review_date": "2024-04-15",
+      "documentation_location": "ManCo Governance Manual",
+      "related_risks": [
+        "RISK-24"
+      ],
+      "related_controls": [
+        "C-31"
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Regulatory Compliance Excellence",
+      "description": "Maintain full compliance with all applicable regulations including DORA, AIFMD, UCITS, MiFID II, and GDPR across all jurisdictions",
+      "category": "Compliance",
+      "owner": "Chief Compliance Officer",
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "key_results": [
+        {
+          "metric": "Zero regulatory enforcement actions",
+          "target": "0",
+          "actual": "0"
+        },
+        {
+          "metric": "DORA compliance maintained",
+          "target": "100%",
+          "actual": "100%"
+        },
+        {
+          "metric": "Regulatory examination findings",
+          "target": "<3",
+          "actual": "2"
+        }
+      ],
+      "related_risks": [
+        "RISK-2",
+        "RISK-10",
+        "RISK-14",
+        "RISK-18",
+        "RISK-24",
+        "RISK-25"
+      ]
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Operational Risk Management",
+      "description": "Maintain robust operational risk management framework with residual risks within defined appetite",
+      "category": "Risk Management",
+      "owner": "Enterprise Risk Manager",
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "key_results": [
+        {
+          "metric": "Critical risks within tolerance",
+          "target": "100%",
+          "actual": "95%"
+        },
+        {
+          "metric": "Control effectiveness score",
+          "target": ">85%",
+          "actual": "82%"
+        },
+        {
+          "metric": "Risk incidents",
+          "target": "<5 material",
+          "actual": "2"
+        }
+      ],
+      "related_risks": [
+        "RISK-1",
+        "RISK-10",
+        "RISK-11",
+        "RISK-12"
+      ]
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Revenue Growth and Client Acquisition",
+      "description": "Achieve annual revenue growth targets through new client acquisition and wallet share expansion",
+      "category": "Financial",
+      "owner": "Chief Revenue Officer",
+      "target_date": "2025-12-31",
+      "status": "At Risk",
+      "key_results": [
+        {
+          "metric": "Annual sales attainment",
+          "target": "100%",
+          "actual": "84% Q1"
+        },
+        {
+          "metric": "New client wins",
+          "target": "25",
+          "actual": "18 YTD"
+        },
+        {
+          "metric": "Pipeline value",
+          "target": "\u20ac50M",
+          "actual": "\u20ac42M"
+        }
+      ],
+      "related_risks": [
+        "RISK-3",
+        "RISK-5",
+        "RISK-13",
+        "RISK-21"
+      ]
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Service Excellence and Client Retention",
+      "description": "Deliver exceptional client service to achieve 94% gross retention rate",
+      "category": "Operational",
+      "owner": "Chief Operating Officer",
+      "target_date": "2025-12-31",
+      "status": "At Risk",
+      "key_results": [
+        {
+          "metric": "Gross retention rate",
+          "target": "94%",
+          "actual": "92%"
+        },
+        {
+          "metric": "Client satisfaction score",
+          "target": ">8.5",
+          "actual": "8.1"
+        },
+        {
+          "metric": "SLA compliance",
+          "target": ">99%",
+          "actual": "98.5%"
+        }
+      ],
+      "related_risks": [
+        "RISK-3",
+        "RISK-12",
+        "RISK-15",
+        "RISK-16",
+        "RISK-17",
+        "RISK-22",
+        "RISK-23"
+      ]
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Financial Performance and Reporting",
+      "description": "Deliver accurate financial reporting and achieve EBITDA margin targets",
+      "category": "Financial",
+      "owner": "Chief Financial Officer",
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "key_results": [
+        {
+          "metric": "EBITDA margin",
+          "target": "12%",
+          "actual": "11.9%"
+        },
+        {
+          "metric": "Financial reporting accuracy",
+          "target": "100%",
+          "actual": "100%"
+        },
+        {
+          "metric": "Audit adjustments",
+          "target": "<\u20ac500K",
+          "actual": "\u20ac0"
+        }
+      ],
+      "related_risks": [
+        "RISK-4",
+        "RISK-6",
+        "RISK-19",
+        "RISK-20"
+      ]
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Successful Exit Execution",
+      "description": "Execute planned exit transaction with validated data room and management representations",
+      "category": "Strategic",
+      "owner": "Chief Executive Officer",
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "key_results": [
+        {
+          "metric": "Data room readiness",
+          "target": "100%",
+          "actual": "85%"
+        },
+        {
+          "metric": "Metric validation completion",
+          "target": "100%",
+          "actual": "70%"
+        },
+        {
+          "metric": "Due diligence findings",
+          "target": "<5 material",
+          "actual": "TBD"
+        }
+      ],
+      "related_risks": [
+        "RISK-7",
+        "RISK-8",
+        "RISK-9"
+      ]
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "Technology and Innovation",
+      "description": "Leverage technology including AI capabilities to enhance service delivery and competitive positioning",
+      "category": "Strategic",
+      "owner": "Chief Technology Officer",
+      "target_date": "2025-12-31",
+      "status": "On Track",
+      "key_results": [
+        {
+          "metric": "AI capability investment",
+          "target": "\u20ac800K",
+          "actual": "\u20ac800K committed"
+        },
+        {
+          "metric": "Process automation rate",
+          "target": "40%",
+          "actual": "35%"
+        },
+        {
+          "metric": "Technology satisfaction score",
+          "target": ">7.5",
+          "actual": "7.2"
+        }
+      ],
+      "related_risks": [
+        "RISK-13"
+      ]
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "Digital Operational Resilience Act (DORA)",
+      "description": "EU regulation on digital operational resilience for the financial sector, establishing requirements for ICT risk management, incident reporting, and third-party risk management",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2025-01-17",
+      "applicability": "All Waystone EMEA entities providing financial services",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-09-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-5",
+        "C-6",
+        "C-7",
+        "C-8"
+      ],
+      "related_entities": [
+        "AE-3",
+        "AE-15",
+        "AE-10"
+      ]
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "Alternative Investment Fund Managers Directive (AIFMD)",
+      "description": "EU directive establishing regulatory framework for alternative investment fund managers including authorization, operating conditions, and transparency requirements",
+      "type": "Directive",
+      "jurisdiction": "European Union",
+      "effective_date": "2011-07-21",
+      "applicability": "Waystone Management Company and Fund Administration services",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-06-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-21",
+        "C-25",
+        "C-31"
+      ],
+      "related_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-11"
+      ]
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "UCITS Directive",
+      "description": "EU directive establishing framework for collective investment undertakings in transferable securities",
+      "type": "Directive",
+      "jurisdiction": "European Union",
+      "effective_date": "2009-07-13",
+      "applicability": "Waystone UCITS fund administration and ManCo services",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-06-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-9",
+        "C-10",
+        "C-11",
+        "C-25",
+        "C-31"
+      ],
+      "related_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-11",
+        "AE-17"
+      ]
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "Markets in Financial Instruments Directive II (MiFID II)",
+      "description": "EU legislative framework regulating firms providing services linked to financial instruments and venues where instruments are traded",
+      "type": "Directive",
+      "jurisdiction": "European Union",
+      "effective_date": "2018-01-03",
+      "applicability": "Waystone entities providing MiFID-regulated services",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-06-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-25"
+      ],
+      "related_entities": [
+        "AE-1",
+        "AE-2",
+        "AE-6"
+      ]
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "General Data Protection Regulation (GDPR)",
+      "description": "EU regulation on data protection and privacy for individuals within the EU and EEA",
+      "type": "Regulation",
+      "jurisdiction": "European Union",
+      "effective_date": "2018-05-25",
+      "applicability": "All Waystone entities processing personal data of EU residents",
+      "compliance_owner": "Data Protection Officer",
+      "last_assessment_date": "2024-07-31",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-4",
+        "C-28"
+      ],
+      "related_entities": [
+        "AE-8",
+        "AE-6"
+      ]
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "Anti-Money Laundering Directives (4th, 5th, 6th AMLD)",
+      "description": "EU directives establishing framework for preventing money laundering and terrorist financing",
+      "type": "Directive",
+      "jurisdiction": "European Union",
+      "effective_date": "2017-06-26",
+      "applicability": "All Waystone entities providing financial services",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-10-31",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-21",
+        "C-22",
+        "C-23",
+        "C-24"
+      ],
+      "related_entities": [
+        "AE-18",
+        "AE-6"
+      ]
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "Central Bank of Ireland Regulatory Framework",
+      "description": "CBI regulatory requirements for fund service providers including authorization, capital, and conduct requirements",
+      "type": "Regulation",
+      "jurisdiction": "Ireland",
+      "effective_date": "2004-01-01",
+      "applicability": "Waystone Ireland entities",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-06-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-25",
+        "C-31"
+      ],
+      "related_entities": [
+        "AE-1",
+        "AE-11",
+        "AE-12"
+      ]
+    },
+    {
+      "standard_id": "STD-8",
+      "name": "CSSF Regulatory Framework",
+      "description": "Luxembourg financial regulator requirements for fund service providers",
+      "type": "Regulation",
+      "jurisdiction": "Luxembourg",
+      "effective_date": "2002-01-01",
+      "applicability": "Waystone Luxembourg entities",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-09-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-25",
+        "C-31"
+      ],
+      "related_entities": [
+        "AE-2"
+      ]
+    },
+    {
+      "standard_id": "STD-9",
+      "name": "FCA Handbook",
+      "description": "UK Financial Conduct Authority regulatory handbook requirements",
+      "type": "Regulation",
+      "jurisdiction": "United Kingdom",
+      "effective_date": "2001-12-01",
+      "applicability": "Waystone UK entities",
+      "compliance_owner": "Chief Compliance Officer",
+      "last_assessment_date": "2024-09-30",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-25"
+      ],
+      "related_entities": [
+        "AE-13"
+      ]
+    },
+    {
+      "standard_id": "STD-10",
+      "name": "IFRS 15 Revenue from Contracts with Customers",
+      "description": "International accounting standard for revenue recognition",
+      "type": "Accounting Standard",
+      "jurisdiction": "International",
+      "effective_date": "2018-01-01",
+      "applicability": "All Waystone entities",
+      "compliance_owner": "Chief Financial Officer",
+      "last_assessment_date": "2024-12-31",
+      "compliance_status": "Compliant",
+      "related_controls": [
+        "C-14",
+        "C-15",
+        "C-16"
+      ],
+      "related_entities": [
+        "AE-5"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "ICT Risk Management Framework",
+      "description": "Financial entities shall have in place an internal governance and control framework that ensures an effective and prudent management of ICT risk (DORA Art. 5)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "ICT risk management policy, governance structure, risk register",
+      "related_controls": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-1",
+      "name": "ICT Third-Party Risk Management",
+      "description": "Financial entities shall manage ICT third-party risk including contractual arrangements with ICT third-party service providers (DORA Art. 28-30)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Vendor risk assessments, contracts, oversight documentation",
+      "related_controls": [
+        "C-7",
+        "C-35"
+      ],
+      "compliance_status": "Partially Compliant",
+      "owner": "Head of Procurement"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-1",
+      "name": "Digital Operational Resilience Testing",
+      "description": "Financial entities shall maintain a comprehensive digital operational resilience testing programme (DORA Art. 24-27)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Testing programme, test results, remediation records",
+      "related_controls": [
+        "C-5",
+        "C-6"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-1",
+      "name": "ICT-Related Incident Reporting",
+      "description": "Financial entities shall classify ICT-related incidents and report major incidents to competent authorities (DORA Art. 17-23)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Incident classification policy, incident logs, regulatory reports",
+      "related_controls": [
+        "C-8"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-6",
+      "name": "Customer Due Diligence",
+      "description": "Obliged entities shall apply customer due diligence measures when establishing a business relationship (AMLD Art. 13)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "CDD policy, customer files, verification records",
+      "related_controls": [
+        "C-21"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Compliance Officer"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-6",
+      "name": "Ongoing Monitoring",
+      "description": "Obliged entities shall apply ongoing monitoring of the business relationship including transaction scrutiny (AMLD Art. 13(1)(d))",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Monitoring procedures, transaction monitoring alerts, investigation records",
+      "related_controls": [
+        "C-23"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Compliance Officer"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-6",
+      "name": "Suspicious Activity Reporting",
+      "description": "Obliged entities shall promptly report suspicious transactions to the financial intelligence unit (AMLD Art. 33)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "SAR policy, SAR filing records, FIU correspondence",
+      "related_controls": [
+        "C-24"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Compliance Officer"
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "STD-5",
+      "name": "Data Protection by Design and Default",
+      "description": "Controllers shall implement appropriate technical and organisational measures to implement data protection principles (GDPR Art. 25)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Privacy impact assessments, data protection controls documentation",
+      "related_controls": [
+        "C-28"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Data Protection Officer"
+    },
+    {
+      "requirement_id": "REQ-9",
+      "standard_id": "STD-5",
+      "name": "Data Breach Notification",
+      "description": "Controllers shall notify supervisory authority of personal data breach within 72 hours (GDPR Art. 33)",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Breach notification procedures, incident logs, regulatory notifications",
+      "related_controls": [
+        "C-8",
+        "C-28"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Data Protection Officer"
+    },
+    {
+      "requirement_id": "REQ-10",
+      "standard_id": "STD-10",
+      "name": "Five-Step Revenue Recognition Model",
+      "description": "Apply five-step model: identify contract, identify performance obligations, determine transaction price, allocate price, recognize revenue when obligations satisfied",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Revenue recognition policy, contract analysis workpapers",
+      "related_controls": [
+        "C-14",
+        "C-15"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Financial Officer"
+    },
+    {
+      "requirement_id": "REQ-11",
+      "standard_id": "STD-2",
+      "name": "AIFM Authorization and Operating Conditions",
+      "description": "AIFMs shall be authorized and comply with operating conditions including substance, governance, and risk management",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Authorization documentation, governance records, substance evidence",
+      "related_controls": [
+        "C-31"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Head of Management Company Services"
+    },
+    {
+      "requirement_id": "REQ-12",
+      "standard_id": "STD-3",
+      "name": "UCITS Depositary Requirements",
+      "description": "UCITS shall appoint a single depositary to safekeep assets and perform oversight functions",
+      "requirement_type": "Mandatory",
+      "compliance_evidence": "Depositary agreements, asset verification records, oversight documentation",
+      "related_controls": [
+        "C-30"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Head of Depositary Services"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "name": "Q4 2024 Vulnerability Scan Report",
+      "description": "Quarterly vulnerability scan results showing identified vulnerabilities and remediation status",
+      "evidence_type": "System Report",
+      "source_system": "Qualys",
+      "collection_date": "2025-01-15",
+      "collected_by": "IT Security Team",
+      "related_controls": [
+        "C-1"
+      ],
+      "related_audits": [
+        "AUD-1"
+      ],
+      "storage_location": "IT Security Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-2",
+      "name": "September 2024 Penetration Test Report",
+      "description": "External penetration test report identifying critical and high vulnerabilities",
+      "evidence_type": "Third Party Report",
+      "source_system": "External Consultant",
+      "collection_date": "2024-09-30",
+      "collected_by": "External Security Firm",
+      "related_controls": [
+        "C-5"
+      ],
+      "related_audits": [
+        "AUD-1"
+      ],
+      "storage_location": "IT Security Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-3",
+      "name": "Privileged Access Recertification Records Q4 2024",
+      "description": "Evidence of privileged access reviews and recertification completion status",
+      "evidence_type": "System Report",
+      "source_system": "Active Directory",
+      "collection_date": "2025-01-31",
+      "collected_by": "IT Security Team",
+      "related_controls": [
+        "C-2"
+      ],
+      "related_audits": [
+        "AUD-1"
+      ],
+      "storage_location": "IT Security Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-4",
+      "name": "Security Awareness Training Completion Report",
+      "description": "Training platform report showing completion rates by department",
+      "evidence_type": "System Report",
+      "source_system": "LMS",
+      "collection_date": "2025-01-31",
+      "collected_by": "HR Team",
+      "related_controls": [
+        "C-4"
+      ],
+      "related_audits": [
+        "AUD-1"
+      ],
+      "storage_location": "HR Repository",
+      "retention_period": "5 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-5",
+      "name": "DORA Compliance Certification",
+      "description": "Documentation of DORA compliance assessment and certification achieved Q3 2024",
+      "evidence_type": "Certificate",
+      "source_system": "Compliance Team",
+      "collection_date": "2024-09-30",
+      "collected_by": "Compliance Team",
+      "related_controls": [
+        "C-6",
+        "C-7",
+        "C-8"
+      ],
+      "related_audits": [
+        "AUD-1",
+        "AUD-12"
+      ],
+      "storage_location": "Compliance Repository",
+      "retention_period": "10 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-6",
+      "name": "ICT Vendor Contract Register",
+      "description": "Register of critical ICT vendors and contract DORA compliance status",
+      "evidence_type": "Register",
+      "source_system": "Procurement System",
+      "collection_date": "2025-02-01",
+      "collected_by": "Procurement Team",
+      "related_controls": [
+        "C-7"
+      ],
+      "related_audits": [
+        "AUD-1",
+        "AUD-8"
+      ],
+      "storage_location": "Procurement Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-7",
+      "name": "Data Room Documentation Index",
+      "description": "Complete index of data room materials with validation status",
+      "evidence_type": "Document",
+      "source_system": "Data Room Platform",
+      "collection_date": "2025-02-15",
+      "collected_by": "M&A Project Team",
+      "related_controls": [
+        "C-18"
+      ],
+      "related_audits": [
+        "AUD-4"
+      ],
+      "storage_location": "M&A Repository",
+      "retention_period": "10 years",
+      "confidentiality": "Highly Confidential"
+    },
+    {
+      "evidence_id": "EV-8",
+      "name": "Client Retention Rate Calculation Workpapers",
+      "description": "Supporting calculations for gross retention rate metric",
+      "evidence_type": "Workpaper",
+      "source_system": "Finance Team",
+      "collection_date": "2025-01-31",
+      "collected_by": "Finance Team",
+      "related_controls": [
+        "C-20"
+      ],
+      "related_audits": [
+        "AUD-4"
+      ],
+      "storage_location": "Finance Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-9",
+      "name": "Sales Pipeline CRM Extract",
+      "description": "CRM data export showing pipeline opportunities and qualification status",
+      "evidence_type": "System Report",
+      "source_system": "Salesforce",
+      "collection_date": "2025-02-01",
+      "collected_by": "Sales Operations",
+      "related_controls": [
+        "C-26",
+        "C-27"
+      ],
+      "related_audits": [
+        "AUD-4",
+        "AUD-6"
+      ],
+      "storage_location": "Sales Repository",
+      "retention_period": "5 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-10",
+      "name": "CFO Knowledge Transfer Documentation",
+      "description": "Knowledge transfer documentation from Acting CFO to new CFO",
+      "evidence_type": "Document",
+      "source_system": "Finance Team",
+      "collection_date": "2025-02-28",
+      "collected_by": "Finance Team",
+      "related_controls": [
+        "C-17",
+        "C-32"
+      ],
+      "related_audits": [
+        "AUD-4",
+        "AUD-2"
+      ],
+      "storage_location": "Finance Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-11",
+      "name": "AML/KYC Policy and Procedures",
+      "description": "Current AML/KYC policies, procedures, and customer due diligence requirements",
+      "evidence_type": "Policy",
+      "source_system": "Compliance Team",
+      "collection_date": "2024-10-01",
+      "collected_by": "Compliance Team",
+      "related_controls": [
+        "C-21",
+        "C-22",
+        "C-23",
+        "C-24"
+      ],
+      "related_audits": [
+        "AUD-5"
+      ],
+      "storage_location": "Compliance Repository",
+      "retention_period": "10 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-12",
+      "name": "Sample CDD Files",
+      "description": "Sample customer due diligence files for audit testing",
+      "evidence_type": "Sample",
+      "source_system": "Client Onboarding System",
+      "collection_date": "2024-10-15",
+      "collected_by": "Compliance Team",
+      "related_controls": [
+        "C-21"
+      ],
+      "related_audits": [
+        "AUD-5"
+      ],
+      "storage_location": "Compliance Repository",
+      "retention_period": "10 years",
+      "confidentiality": "Confidential"
+    },
+    {
+      "evidence_id": "EV-13",
+      "name": "NAV Calculation Review Checklists",
+      "description": "Sample NAV calculation checklists showing review and approval",
+      "evidence_type": "Sample",
+      "source_system": "Fund Accounting System",
+      "collection_date": "2024-06-30",
+      "collected_by": "Fund Administration Team",
+      "related_controls": [
+        "C-9",
+        "C-10",
+        "C-11"
+      ],
+      "related_audits": [
+        "AUD-3"
+      ],
+      "storage_location": "Operations Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-14",
+      "name": "Revenue Recognition Policy",
+      "description": "Current revenue recognition policy aligned with IFRS 15",
+      "evidence_type": "Policy",
+      "source_system": "Finance Team",
+      "collection_date": "2024-12-01",
+      "collected_by": "Finance Team",
+      "related_controls": [
+        "C-14"
+      ],
+      "related_audits": [
+        "AUD-2"
+      ],
+      "storage_location": "Finance Repository",
+      "retention_period": "10 years",
+      "confidentiality": "Internal"
+    },
+    {
+      "evidence_id": "EV-15",
+      "name": "Business Continuity Plan",
+      "description": "Current business continuity plan including DR procedures",
+      "evidence_type": "Policy",
+      "source_system": "Operations Team",
+      "collection_date": "2024-08-01",
+      "collected_by": "Operations Team",
+      "related_controls": [
+        "C-6"
+      ],
+      "related_audits": [
+        "AUD-12"
+      ],
+      "storage_location": "BCP Repository",
+      "retention_period": "7 years",
+      "confidentiality": "Internal"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "IR-1",
+      "audit_id": "AUD-1",
+      "title": "Vulnerability Remediation Tracking Documentation",
+      "description": "Provide complete vulnerability remediation tracking from September 2024 penetration test through current date including timeline analysis",
+      "requested_from": "Chief Information Security Officer",
+      "requested_by": "Senior IT Auditor",
+      "request_date": "2025-02-03",
+      "due_date": "2025-02-10",
+      "status": "Received",
+      "priority": "High",
+      "evidence_received": [
+        "EV-1",
+        "EV-2"
+      ],
+      "notes": "Documentation received; analysis in progress"
+    },
+    {
+      "request_id": "IR-2",
+      "audit_id": "AUD-1",
+      "title": "Privileged Access Listing and Recertification Records",
+      "description": "Provide complete listing of privileged accounts with most recent recertification dates and evidence",
+      "requested_from": "IT Security Manager",
+      "requested_by": "Senior IT Auditor",
+      "request_date": "2025-02-03",
+      "due_date": "2025-02-10",
+      "status": "Received",
+      "priority": "High",
+      "evidence_received": [
+        "EV-3"
+      ],
+      "notes": "Data received; exceptions identified requiring follow-up"
+    },
+    {
+      "request_id": "IR-3",
+      "audit_id": "AUD-1",
+      "title": "ICT Vendor Contract Register and DORA Assessment",
+      "description": "Provide register of critical ICT vendors with DORA compliance assessment for each contract",
+      "requested_from": "Head of Procurement",
+      "requested_by": "Senior IT Auditor",
+      "request_date": "2025-02-03",
+      "due_date": "2025-02-14",
+      "status": "Received",
+      "priority": "Medium",
+      "evidence_received": [
+        "EV-6"
+      ],
+      "notes": "Register received; contract review in progress"
+    },
+    {
+      "request_id": "IR-4",
+      "audit_id": "AUD-4",
+      "title": "Data Room Complete Documentation Index",
+      "description": "Provide complete index of all data room materials with preparation status and validation records",
+      "requested_from": "M&A Project Manager",
+      "requested_by": "Chief Audit Executive",
+      "request_date": "2025-02-01",
+      "due_date": "2025-02-08",
+      "status": "Received",
+      "priority": "High",
+      "evidence_received": [
+        "EV-7"
+      ],
+      "notes": "Index received; sample testing underway"
+    },
+    {
+      "request_id": "IR-5",
+      "audit_id": "AUD-4",
+      "title": "Key Metric Calculation Methodology and Supporting Evidence",
+      "description": "Provide documented calculation methodology for all key operational and financial metrics including gross retention rate",
+      "requested_from": "Chief Financial Officer",
+      "requested_by": "Senior Financial Auditor",
+      "request_date": "2025-02-01",
+      "due_date": "2025-02-10",
+      "status": "Received",
+      "priority": "High",
+      "evidence_received": [
+        "EV-8"
+      ],
+      "notes": "Received; methodology gaps identified"
+    },
+    {
+      "request_id": "IR-6",
+      "audit_id": "AUD-4",
+      "title": "Sales Pipeline Data and Qualification Evidence",
+      "description": "Provide CRM extract of current pipeline with supporting qualification documentation for top 20 opportunities",
+      "requested_from": "Chief Revenue Officer",
+      "requested_by": "Senior Financial Auditor",
+      "request_date": "2025-02-01",
+      "due_date": "2025-02-10",
+      "status": "Received",
+      "priority": "Medium",
+      "evidence_received": [
+        "EV-9"
+      ],
+      "notes": "Data received; documentation gaps for several opportunities"
+    },
+    {
+      "request_id": "IR-7",
+      "audit_id": "AUD-4",
+      "title": "CFO Transition Knowledge Transfer Documentation",
+      "description": "Provide all knowledge transfer documentation from Acting CFO transition",
+      "requested_from": "Chief Financial Officer",
+      "requested_by": "Senior Financial Auditor",
+      "request_date": "2025-02-01",
+      "due_date": "2025-02-15",
+      "status": "Partially Received",
+      "priority": "High",
+      "evidence_received": [
+        "EV-10"
+      ],
+      "notes": "Initial documentation received; additional items requested"
+    },
+    {
+      "request_id": "IR-8",
+      "audit_id": "AUD-5",
+      "title": "AML/KYC Policies and Sample CDD Files",
+      "description": "Provide current AML/KYC policies and sample of 25 recent client onboarding CDD files",
+      "requested_from": "Chief Compliance Officer",
+      "requested_by": "Senior Compliance Auditor",
+      "request_date": "2025-04-01",
+      "due_date": "2025-04-08",
+      "status": "Pending",
+      "priority": "High",
+      "evidence_received": [],
+      "notes": "Request scheduled for audit commencement"
+    },
+    {
+      "request_id": "IR-9",
+      "audit_id": "AUD-2",
+      "title": "Revenue Recognition Policy and Contract Samples",
+      "description": "Provide current revenue recognition policy and sample of 20 contracts for recognition testing",
+      "requested_from": "Chief Financial Officer",
+      "requested_by": "Senior Financial Auditor",
+      "request_date": "2025-03-15",
+      "due_date": "2025-03-22",
+      "status": "Pending",
+      "priority": "High",
+      "evidence_received": [],
+      "notes": "Request scheduled for audit commencement"
+    },
+    {
+      "request_id": "IR-10",
+      "audit_id": "AUD-3",
+      "title": "NAV Calculation Procedures and Sample Checklists",
+      "description": "Provide NAV calculation procedures and sample of 30 completed NAV checklists from Q1-Q2 2025",
+      "requested_from": "Head of Fund Administration",
+      "requested_by": "Senior Operational Auditor",
+      "request_date": "2025-06-01",
+      "due_date": "2025-06-08",
+      "status": "Pending",
+      "priority": "High",
+      "evidence_received": [],
+      "notes": "Request scheduled for audit commencement"
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Control Walkthrough",
+      "description": "End-to-end walkthrough of control execution with process owner to understand design and implementation",
+      "method_type": "Design Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "documentation_requirements": [
+        "Walkthrough narrative",
+        "Process flow",
+        "Control documentation"
+      ],
+      "sample_size_guidance": "N/A - Process understanding",
+      "frequency": "Annual or upon control change"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Sample-Based Transaction Testing",
+      "description": "Selection and testing of sample transactions to verify control operating effectiveness",
+      "method_type": "Operating Effectiveness Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "documentation_requirements": [
+        "Sample selection methodology",
+        "Test procedures",
+        "Exception analysis"
+      ],
+      "sample_size_guidance": "25-40 samples for annual controls; 20-25 for quarterly; 15-20 for monthly",
+      "frequency": "Based on control frequency"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Reperformance",
+      "description": "Independent reperformance of control activities to verify accuracy",
+      "method_type": "Operating Effectiveness Testing",
+      "applicable_control_types": [
+        "Detective",
+        "Corrective"
+      ],
+      "documentation_requirements": [
+        "Reperformance procedures",
+        "Results comparison",
+        "Variance analysis"
+      ],
+      "sample_size_guidance": "5-10 items for detailed reperformance",
+      "frequency": "Annual"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Inquiry and Observation",
+      "description": "Interviews with control owners and direct observation of control execution",
+      "method_type": "Design and Operating Effectiveness",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "documentation_requirements": [
+        "Interview notes",
+        "Observation records",
+        "Corroborating evidence"
+      ],
+      "sample_size_guidance": "N/A - Qualitative assessment",
+      "frequency": "Annual"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Data Analytics Testing",
+      "description": "Use of data analytics to test entire population or identify anomalies for targeted testing",
+      "method_type": "Operating Effectiveness Testing",
+      "applicable_control_types": [
+        "Detective",
+        "Automated"
+      ],
+      "documentation_requirements": [
+        "Analytics methodology",
+        "Query logic",
+        "Exception analysis"
+      ],
+      "sample_size_guidance": "Full population analysis",
+      "frequency": "Based on data availability"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Configuration Review",
+      "description": "Review of system configuration settings to verify automated control implementation",
+      "method_type": "Design Testing",
+      "applicable_control_types": [
+        "Automated"
+      ],
+      "documentation_requirements": [
+        "Configuration screenshots",
+        "Parameter settings",
+        "Change logs"
+      ],
+      "sample_size_guidance": "N/A - Full configuration review",
+      "frequency": "Annual or upon system change"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Documentation Inspection",
+      "description": "Review of control documentation, policies, procedures, and evidence",
+      "method_type": "Design Testing",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "documentation_requirements": [
+        "Document inventory",
+        "Version control verification",
+        "Approval evidence"
+      ],
+      "sample_size_guidance": "All relevant documentation",
+      "frequency": "Annual"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Third Party Report Review",
+      "description": "Review and evaluation of SOC reports, certification reports, and third-party assessments",
+      "method_type": "Operating Effectiveness Testing",
+      "applicable_control_types": [
+        "Vendor Controls"
+      ],
+      "documentation_requirements": [
+        "Report analysis workpaper",
+        "Bridging letter review",
+        "Exception assessment"
+      ],
+      "sample_size_guidance": "All relevant third-party reports",
+      "frequency": "Annual"
+    },
+    {
+      "method_id": "AM-9",
+      "name": "Penetration Testing Results Review",
+      "description": "Review and validation of penetration testing results and remediation evidence",
+      "method_type": "Operating Effectiveness Testing",
+      "applicable_control_types": [
+        "Technology",
+        "Security"
+      ],
+      "documentation_requirements": [
+        "Pen test report",
+        "Remediation tracking",
+        "Retest evidence"
+      ],
+      "sample_size_guidance": "All critical/high findings",
+      "frequency": "Annual or per test cycle"
+    },
+    {
+      "method_id": "AM-10",
+      "name": "Risk Assessment Review",
+      "description": "Evaluation of risk assessment methodology, documentation, and conclusions",
+      "method_type": "Design Testing",
+      "applicable_control_types": [
+        "Risk Management"
+      ],
+      "documentation_requirements": [
+        "Risk register",
+        "Assessment methodology",
+        "Supporting analysis"
+      ],
+      "sample_size_guidance": "Full risk register review; detailed review of high-risk items",
+      "frequency": "Annual"
+    }
+  ]
+}

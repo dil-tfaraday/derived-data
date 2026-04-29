@@ -1,0 +1,4783 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Revenue Operations",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Finance",
+        "region": "EMEA"
+      },
+      "description": "End-to-end revenue cycle including sales, contracts, billing, and collections across all EMEA operations",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-03-15",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "IT Service Delivery - UK",
+      "taxonomy": {
+        "type": "Business Unit",
+        "domain": "Operations",
+        "region": "UK"
+      },
+      "description": "UK-based IT services delivery operations including managed services, consulting, and project delivery",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-20",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "IT Service Delivery - DACH",
+      "taxonomy": {
+        "type": "Business Unit",
+        "domain": "Operations",
+        "region": "DACH"
+      },
+      "description": "DACH region IT services delivery including Frankfurt and Munich practice operations",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-09-10",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-02-01"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Human Resources & Talent Management",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "HR",
+        "region": "EMEA"
+      },
+      "description": "Talent acquisition, retention, compensation, and workforce planning across all regions",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-04-15",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Client Account Management",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Sales",
+        "region": "EMEA"
+      },
+      "description": "Strategic account management, renewals, and client relationship processes",
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "Critical",
+      "last_audit_date": "2024-08-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Information Security & Data Protection",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "IT",
+        "region": "EMEA"
+      },
+      "description": "Cybersecurity, GDPR compliance, and data protection controls across all operations",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-05-20",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Financial Reporting & Controls",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Finance",
+        "region": "EMEA"
+      },
+      "description": "Financial close, reporting, and internal controls over financial reporting",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-02-28",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Procurement & Vendor Management",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Operations",
+        "region": "EMEA"
+      },
+      "description": "Third-party vendor selection, contracting, and ongoing management",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-07-15",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-03-01"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "M&A Integration - Target A",
+      "taxonomy": {
+        "type": "Project",
+        "domain": "Corporate Development",
+        "region": "EMEA"
+      },
+      "description": "Integration of Target A acquisition including synergy realization and cultural alignment",
+      "audit_frequency": "Quarterly",
+      "risk_rating": "High",
+      "last_audit_date": null,
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-10-01"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Sales & Business Development",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Sales",
+        "region": "EMEA"
+      },
+      "description": "New logo acquisition, pipeline management, and sales execution processes",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-05-10",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Automation & Digital Transformation",
+      "taxonomy": {
+        "type": "Project",
+        "domain": "IT",
+        "region": "EMEA"
+      },
+      "description": "Internal automation initiatives including RPA, AI tools, and process digitization",
+      "audit_frequency": "Semi-Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-06-30",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-06-01"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Contract Management",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Legal",
+        "region": "EMEA"
+      },
+      "description": "Client and vendor contract lifecycle management including compliance monitoring",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-04-20",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-13",
+      "name": "Quality Assurance & Service Delivery",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Operations",
+        "region": "EMEA"
+      },
+      "description": "Service quality management, SLA compliance, and continuous improvement",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-08-15",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-14",
+      "name": "Competitive Intelligence & Market Analysis",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Strategy",
+        "region": "EMEA"
+      },
+      "description": "Competitive monitoring, market analysis, and strategic positioning activities",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-03-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-04-01"
+    },
+    {
+      "entity_id": "AE-15",
+      "name": "IT Infrastructure & Operations",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "IT",
+        "region": "EMEA"
+      },
+      "description": "Internal IT systems, infrastructure management, and operational technology",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-09-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-16",
+      "name": "Regulatory Compliance",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Legal",
+        "region": "EMEA"
+      },
+      "description": "Multi-jurisdictional regulatory compliance including employment law and data protection",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-06-15",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-17",
+      "name": "Business Continuity & Disaster Recovery",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Risk",
+        "region": "EMEA"
+      },
+      "description": "Business continuity planning, disaster recovery, and resilience management",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-07-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-18",
+      "name": "Pricing & Margin Management",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Finance",
+        "region": "EMEA"
+      },
+      "description": "Service pricing strategy, margin analysis, and profitability management",
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "last_audit_date": "2024-05-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-02-15"
+    },
+    {
+      "entity_id": "AE-19",
+      "name": "IT Service Delivery - Benelux",
+      "taxonomy": {
+        "type": "Business Unit",
+        "domain": "Operations",
+        "region": "Benelux"
+      },
+      "description": "Benelux region IT services delivery and client operations",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-10-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-05-01"
+    },
+    {
+      "entity_id": "AE-20",
+      "name": "Project Delivery & PMO",
+      "taxonomy": {
+        "type": "Business Process",
+        "domain": "Operations",
+        "region": "EMEA"
+      },
+      "description": "Project management office, delivery methodology, and project governance",
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "last_audit_date": "2024-04-01",
+      "created_by": "Sarah Mitchell",
+      "created_at": "2023-01-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Revenue Impact",
+      "description": "Potential impact on company revenue and financial performance",
+      "weight": 0.2,
+      "scoring_criteria": {
+        "1": "< \u00a3100K",
+        "2": "\u00a3100K-\u00a3500K",
+        "3": "\u00a3500K-\u00a31M",
+        "4": "\u00a31M-\u00a35M",
+        "5": "> \u00a35M"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Customer Concentration Risk",
+      "description": "Dependency on key customer accounts and renewal vulnerability",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "No concentration",
+        "2": "Low concentration",
+        "3": "Moderate concentration",
+        "4": "High concentration",
+        "5": "Critical concentration"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Regulatory Compliance",
+      "description": "Exposure to regulatory requirements and compliance obligations",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "Minimal exposure",
+        "2": "Low exposure",
+        "3": "Moderate exposure",
+        "4": "High exposure",
+        "5": "Critical exposure"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Talent Dependency",
+      "description": "Reliance on key personnel and specialized skills",
+      "weight": 0.12,
+      "scoring_criteria": {
+        "1": "No dependency",
+        "2": "Low dependency",
+        "3": "Moderate dependency",
+        "4": "High dependency",
+        "5": "Critical dependency"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Control Maturity",
+      "description": "Maturity and effectiveness of existing internal controls",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Optimized",
+        "2": "Managed",
+        "3": "Defined",
+        "4": "Developing",
+        "5": "Initial"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Competitive Exposure",
+      "description": "Vulnerability to competitive threats and market dynamics",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Protected position",
+        "2": "Low exposure",
+        "3": "Moderate exposure",
+        "4": "High exposure",
+        "5": "Critical exposure"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-7",
+      "name": "Integration Complexity",
+      "description": "Complexity of M&A integration and change management",
+      "weight": 0.08,
+      "scoring_criteria": {
+        "1": "Simple",
+        "2": "Low complexity",
+        "3": "Moderate complexity",
+        "4": "High complexity",
+        "5": "Very high complexity"
+      },
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "factor_id": "AF-8",
+      "name": "Data Sensitivity",
+      "description": "Sensitivity of data processed and stored",
+      "weight": 0.1,
+      "scoring_criteria": {
+        "1": "Public data",
+        "2": "Internal data",
+        "3": "Confidential",
+        "4": "Highly confidential",
+        "5": "Restricted/PII"
+      },
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "ara_id": "ARA-1",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "Account A loss of \u00a33.4M demonstrates high revenue impact potential"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 5,
+          "rationale": "Renewal rate at 88% vs 95% target indicates critical concentration risk"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Inadequate early warning systems identified in Account A post-mortem"
+        }
+      ],
+      "overall_risk_score": 4.5,
+      "risk_rating": "Critical",
+      "next_audit_date": "2025-03-01",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-2",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-4",
+          "score": 5,
+          "rationale": "Solutions Architect attrition at 14.2% creates critical delivery risk"
+        },
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "Frankfurt practice loss demonstrates significant revenue impact"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Retention controls insufficient for critical functions"
+        }
+      ],
+      "overall_risk_score": 4.2,
+      "risk_rating": "High",
+      "next_audit_date": "2025-04-15",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-3",
+      "entity_id": "AE-9",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-7",
+          "score": 4,
+          "rationale": "\u00a312.5M acquisition requires complex integration"
+        },
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "Synergy realization critical for acquisition ROI"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 3,
+          "rationale": "Integration playbook exists but untested at this scale"
+        }
+      ],
+      "overall_risk_score": 3.8,
+      "risk_rating": "High",
+      "next_audit_date": "2025-04-01",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-4",
+      "entity_id": "AE-10",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "New logo at 82% quota impacts growth trajectory"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Win rates down 3pp due to competitive pressure"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Sales process controls show systematic gaps"
+        }
+      ],
+      "overall_risk_score": 4.0,
+      "risk_rating": "High",
+      "next_audit_date": "2025-05-01",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-5",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "rationale": "GDPR compliance across multiple jurisdictions"
+        },
+        {
+          "factor_id": "AF-8",
+          "score": 5,
+          "rationale": "Customer data handling in IT services creates high sensitivity"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 3,
+          "rationale": "Mature security controls but evolving threat landscape"
+        }
+      ],
+      "overall_risk_score": 3.8,
+      "risk_rating": "High",
+      "next_audit_date": "2025-05-15",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-6",
+      "entity_id": "AE-11",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 3,
+          "rationale": "Automation ROI at risk with 64% adoption"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Change management controls need improvement"
+        },
+        {
+          "factor_id": "AF-7",
+          "score": 3,
+          "rationale": "Technology implementation complexity moderate"
+        }
+      ],
+      "overall_risk_score": 3.3,
+      "risk_rating": "Medium",
+      "next_audit_date": "2025-06-01",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-7",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 5,
+          "rationale": "Revenue recognition complexity with services contracts"
+        },
+        {
+          "factor_id": "AF-2",
+          "score": 4,
+          "rationale": "Customer concentration impacts revenue predictability"
+        },
+        {
+          "factor_id": "AF-3",
+          "score": 3,
+          "rationale": "UK Companies Act reporting requirements"
+        }
+      ],
+      "overall_risk_score": 3.9,
+      "risk_rating": "High",
+      "next_audit_date": "2025-03-15",
+      "assessed_by": "Sarah Mitchell"
+    },
+    {
+      "ara_id": "ARA-8",
+      "entity_id": "AE-14",
+      "assessment_date": "2025-01-15",
+      "factors_scores": [
+        {
+          "factor_id": "AF-6",
+          "score": 5,
+          "rationale": "Late recognition of Infosys threat indicates monitoring gaps"
+        },
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "Market share decline impacts long-term revenue"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Insufficient competitive response mechanisms"
+        }
+      ],
+      "overall_risk_score": 4.0,
+      "risk_rating": "High",
+      "next_audit_date": "2025-03-15",
+      "assessed_by": "Sarah Mitchell"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Client Account Management & Renewal Process Audit",
+      "status": "In Progress",
+      "description": "Comprehensive audit of account management controls, renewal processes, and customer retention mechanisms following Account A loss",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-02-15",
+      "planned_end_date": "2025-04-15",
+      "actual_start_date": "2025-02-15",
+      "actual_end_date": null,
+      "lead_auditor": "James Thompson",
+      "audit_team": [
+        "James Thompson",
+        "Emma Wilson",
+        "Marcus Chen"
+      ],
+      "scope_entities": [
+        "AE-5",
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Target A Acquisition Integration Audit",
+      "status": "Planning",
+      "description": "Audit of M&A integration effectiveness including purchase price allocation, synergy tracking, and cultural integration",
+      "audit_type": "Special",
+      "rating": null,
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Emma Wilson",
+      "audit_team": [
+        "Emma Wilson",
+        "David Roberts",
+        "Lisa Park"
+      ],
+      "scope_entities": [
+        "AE-9"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Talent Management & Retention Audit",
+      "status": "Planning",
+      "description": "Review of talent acquisition, retention controls, and workforce planning focusing on Solutions Architect attrition",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-04-15",
+      "planned_end_date": "2025-06-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Marcus Chen",
+      "audit_team": [
+        "Marcus Chen",
+        "Sophie Adams",
+        "Thomas Wright"
+      ],
+      "scope_entities": [
+        "AE-4"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Revenue Recognition & Financial Controls Audit",
+      "status": "Planning",
+      "description": "Annual audit of revenue recognition practices, customer concentration risk management, and financial reporting controls",
+      "audit_type": "Financial",
+      "rating": null,
+      "planned_start_date": "2025-03-01",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "David Roberts",
+      "audit_team": [
+        "David Roberts",
+        "Jennifer Lee",
+        "Michael Brown"
+      ],
+      "scope_entities": [
+        "AE-1",
+        "AE-7"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "Information Security & GDPR Compliance Audit",
+      "status": "Planning",
+      "description": "Annual review of cybersecurity controls, data protection compliance, and GDPR adherence across EMEA operations",
+      "audit_type": "Compliance",
+      "rating": null,
+      "planned_start_date": "2025-05-15",
+      "planned_end_date": "2025-07-15",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Lisa Park",
+      "audit_team": [
+        "Lisa Park",
+        "James Thompson",
+        "Robert Kim"
+      ],
+      "scope_entities": [
+        "AE-6",
+        "AE-15"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Automation & Digital Transformation ROI Audit",
+      "status": "Planning",
+      "description": "Assessment of automation initiative effectiveness, adoption rates, change management, and ROI realization",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-07-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Sophie Adams",
+      "audit_team": [
+        "Sophie Adams",
+        "Marcus Chen",
+        "Emma Wilson"
+      ],
+      "scope_entities": [
+        "AE-11"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "DACH Service Delivery Audit",
+      "status": "Planning",
+      "description": "Operational audit of DACH region service delivery focusing on Frankfurt practice performance and competitive positioning",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Thomas Wright",
+      "audit_team": [
+        "Thomas Wright",
+        "Jennifer Lee",
+        "Robert Kim"
+      ],
+      "scope_entities": [
+        "AE-3"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "Competitive Intelligence & Strategic Response Audit",
+      "status": "Planning",
+      "description": "Review of competitive monitoring, market analysis processes, and strategic response mechanisms",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Jennifer Lee",
+      "audit_team": [
+        "Jennifer Lee",
+        "Michael Brown",
+        "David Roberts"
+      ],
+      "scope_entities": [
+        "AE-14",
+        "AE-18"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-9",
+      "name": "Q4 2024 Sales Process Audit",
+      "status": "Completed",
+      "description": "Post-mortem audit of Q3-Q4 sales performance decline and Account A loss",
+      "audit_type": "Special",
+      "rating": "Needs Improvement",
+      "planned_start_date": "2024-11-01",
+      "planned_end_date": "2024-12-20",
+      "actual_start_date": "2024-11-01",
+      "actual_end_date": "2024-12-18",
+      "lead_auditor": "James Thompson",
+      "audit_team": [
+        "James Thompson",
+        "Emma Wilson"
+      ],
+      "scope_entities": [
+        "AE-5",
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-10",
+      "name": "Vendor Management & Procurement Audit",
+      "status": "Planning",
+      "description": "Annual audit of third-party vendor selection, management, and compliance monitoring",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-08-01",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Michael Brown",
+      "audit_team": [
+        "Michael Brown",
+        "Sophie Adams",
+        "Thomas Wright"
+      ],
+      "scope_entities": [
+        "AE-8"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-11",
+      "name": "Margin Sustainability & Pricing Audit",
+      "status": "Planning",
+      "description": "Review of EBITDA margin improvement sustainability and pricing strategy effectiveness",
+      "audit_type": "Financial",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-31",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "David Roberts",
+      "audit_team": [
+        "David Roberts",
+        "Lisa Park",
+        "James Thompson"
+      ],
+      "scope_entities": [
+        "AE-18",
+        "AE-1"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "audit_id": "AUD-12",
+      "name": "UK Service Delivery Operational Audit",
+      "status": "Planning",
+      "description": "Annual operational audit of UK service delivery including managed services and consulting",
+      "audit_type": "Operational",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-11-30",
+      "actual_start_date": null,
+      "actual_end_date": null,
+      "lead_auditor": "Emma Wilson",
+      "audit_team": [
+        "Emma Wilson",
+        "Marcus Chen",
+        "Robert Kim"
+      ],
+      "scope_entities": [
+        "AE-2"
+      ],
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "audit_id": "AUD-1",
+      "objectives": [
+        "Evaluate effectiveness of customer early warning systems",
+        "Assess executive engagement protocols for strategic accounts",
+        "Review renewal forecasting accuracy and methodology",
+        "Identify root causes of Account A loss and systemic control gaps"
+      ],
+      "scope": "All strategic accounts (>\u00a3500K annual revenue), renewal processes, account health monitoring systems, executive engagement protocols",
+      "methodology": "Interviews with account managers and executives, document review, data analytics on renewal trends, benchmarking against industry practices",
+      "timeline": {
+        "planning": "2025-02-01 to 2025-02-14",
+        "fieldwork": "2025-02-15 to 2025-03-31",
+        "reporting": "2025-04-01 to 2025-04-15"
+      },
+      "resources": [
+        "James Thompson - 120 hours",
+        "Emma Wilson - 80 hours",
+        "Marcus Chen - 60 hours"
+      ],
+      "deliverables": [
+        "Audit Report",
+        "Control Gap Analysis",
+        "Remediation Roadmap"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-01-25"
+    },
+    {
+      "plan_id": "AP-2",
+      "audit_id": "AUD-2",
+      "objectives": [
+        "Verify purchase price allocation accuracy and completeness",
+        "Assess synergy realization tracking mechanisms",
+        "Evaluate cultural integration effectiveness",
+        "Review integration governance and decision-making"
+      ],
+      "scope": "All Target A integration workstreams, financial integration, operational integration, cultural alignment initiatives",
+      "methodology": "Integration milestone reviews, financial analysis, stakeholder interviews, cultural assessment surveys",
+      "timeline": {
+        "planning": "2025-03-15 to 2025-03-31",
+        "fieldwork": "2025-04-01 to 2025-05-15",
+        "reporting": "2025-05-16 to 2025-05-31"
+      },
+      "resources": [
+        "Emma Wilson - 100 hours",
+        "David Roberts - 80 hours",
+        "Lisa Park - 60 hours"
+      ],
+      "deliverables": [
+        "Integration Audit Report",
+        "Synergy Tracking Assessment",
+        "Risk Register Update"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-02-15"
+    },
+    {
+      "plan_id": "AP-3",
+      "audit_id": "AUD-4",
+      "objectives": [
+        "Verify revenue recognition compliance with IFRS 15",
+        "Assess customer concentration risk management",
+        "Evaluate financial close process effectiveness",
+        "Review internal controls over financial reporting"
+      ],
+      "scope": "All revenue streams, top 20 customer contracts, financial close process, management reporting",
+      "methodology": "Contract sampling, revenue walkthrough testing, financial analysis, control testing",
+      "timeline": {
+        "planning": "2025-02-15 to 2025-02-28",
+        "fieldwork": "2025-03-01 to 2025-04-15",
+        "reporting": "2025-04-16 to 2025-04-30"
+      },
+      "resources": [
+        "David Roberts - 120 hours",
+        "Jennifer Lee - 80 hours",
+        "Michael Brown - 60 hours"
+      ],
+      "deliverables": [
+        "Financial Audit Report",
+        "Revenue Recognition Memo",
+        "Control Assessment"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-02-01"
+    },
+    {
+      "plan_id": "AP-4",
+      "audit_id": "AUD-3",
+      "objectives": [
+        "Evaluate Solutions Architect retention strategies",
+        "Assess compensation competitiveness",
+        "Review succession planning for critical roles",
+        "Identify talent pipeline gaps"
+      ],
+      "scope": "All technical roles with >10% attrition, retention programs, compensation benchmarking, succession planning",
+      "methodology": "Exit interview analysis, compensation benchmarking, talent pipeline review, management interviews",
+      "timeline": {
+        "planning": "2025-04-01 to 2025-04-14",
+        "fieldwork": "2025-04-15 to 2025-05-31",
+        "reporting": "2025-06-01 to 2025-06-15"
+      },
+      "resources": [
+        "Marcus Chen - 100 hours",
+        "Sophie Adams - 80 hours",
+        "Thomas Wright - 60 hours"
+      ],
+      "deliverables": [
+        "Talent Audit Report",
+        "Retention Risk Assessment",
+        "Compensation Analysis"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-03-15"
+    },
+    {
+      "plan_id": "AP-5",
+      "audit_id": "AUD-5",
+      "objectives": [
+        "Verify GDPR compliance across all EMEA jurisdictions",
+        "Assess cybersecurity control effectiveness",
+        "Review data protection impact assessments",
+        "Evaluate UK adequacy decision preparedness"
+      ],
+      "scope": "All data processing activities, security controls, privacy documentation, cross-border data transfers",
+      "methodology": "Technical testing, policy review, compliance checklist, vulnerability assessment",
+      "timeline": {
+        "planning": "2025-05-01 to 2025-05-14",
+        "fieldwork": "2025-05-15 to 2025-06-30",
+        "reporting": "2025-07-01 to 2025-07-15"
+      },
+      "resources": [
+        "Lisa Park - 120 hours",
+        "James Thompson - 80 hours",
+        "Robert Kim - 60 hours"
+      ],
+      "deliverables": [
+        "Security Audit Report",
+        "GDPR Compliance Assessment",
+        "Remediation Plan"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-04-15"
+    },
+    {
+      "plan_id": "AP-6",
+      "audit_id": "AUD-6",
+      "objectives": [
+        "Assess automation initiative ROI realization",
+        "Evaluate adoption barriers and change management",
+        "Review technology investment governance",
+        "Identify optimization opportunities"
+      ],
+      "scope": "Phase 1 automation initiatives, adoption metrics, change management programs, technology investments",
+      "methodology": "ROI analysis, user adoption surveys, process efficiency measurement, stakeholder interviews",
+      "timeline": {
+        "planning": "2025-05-15 to 2025-05-31",
+        "fieldwork": "2025-06-01 to 2025-07-15",
+        "reporting": "2025-07-16 to 2025-07-31"
+      },
+      "resources": [
+        "Sophie Adams - 100 hours",
+        "Marcus Chen - 60 hours",
+        "Emma Wilson - 40 hours"
+      ],
+      "deliverables": [
+        "Automation Audit Report",
+        "ROI Analysis",
+        "Adoption Improvement Plan"
+      ],
+      "approved_by": "Sarah Mitchell",
+      "approved_date": "2025-05-01"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-9",
+      "title": "Inadequate Customer Early Warning System for At-Risk Renewals",
+      "criteria": "Best practice requires systematic monitoring of customer health indicators with defined escalation triggers at least 6 months before renewal",
+      "condition": "Customer health monitoring is manual, inconsistent, and lacks defined escalation triggers. Account A deterioration signals were missed for 5+ months",
+      "cause": "No automated customer health scoring system. Account managers rely on informal relationship assessment without structured data inputs",
+      "effect": "\u00a33.4M Account A lost to competitor. Risk of similar losses in current renewal cohort estimated at \u00a38-12M",
+      "recommendation": "Implement automated customer health scoring system with integration to CRM, support tickets, NPS, and usage data. Define escalation protocols at 90-180-270 day intervals",
+      "severity": "High",
+      "status": "Open",
+      "due_date": "2025-04-30",
+      "owner": "Robert Davies",
+      "management_response": "Accepted. RFP for customer success platform issued. Target implementation Q3 2025",
+      "created_by": "James Thompson",
+      "created_at": "2024-12-18"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-9",
+      "title": "Insufficient Executive Engagement Protocol for Strategic Accounts",
+      "criteria": "Strategic accounts (>\u00a31M revenue) should have quarterly executive engagement and documented relationship maps",
+      "condition": "Executive engagement for Account A was reactive, occurring only in November when competitor frameworks were already established. No C-suite relationship existed",
+      "cause": "No formal executive sponsorship program for strategic accounts. Relationship mapping not maintained. Executive bandwidth not allocated to account management",
+      "effect": "Lost decision-maker access during critical renewal period. Competitor established relationships while Focus Group remained at operational level",
+      "recommendation": "Establish executive sponsorship program with assigned executive sponsors for all accounts >\u00a31M. Mandate quarterly C-suite engagement and relationship mapping updates",
+      "severity": "High",
+      "status": "Open",
+      "due_date": "2025-03-31",
+      "owner": "Chief Commercial Officer",
+      "management_response": "Accepted. Executive sponsorship program design underway with Q2 2025 launch target",
+      "created_by": "James Thompson",
+      "created_at": "2024-12-18"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-9",
+      "title": "Late Recognition of Competitive Threats",
+      "criteria": "Competitive intelligence should identify and escalate significant market changes within 30 days of occurrence",
+      "condition": "Infosys post-acquisition capabilities and bundled service offering were not identified as threats until direct customer impact observed. Market intelligence lag estimated at 4+ months",
+      "cause": "Competitive intelligence function under-resourced. No systematic competitor monitoring. Information sharing between sales teams informal",
+      "effect": "Reactive rather than proactive competitive response. Lost opportunity to preemptively counter competitor positioning. Win rate declined 3 percentage points",
+      "recommendation": "Establish formal competitive intelligence function with defined monitoring scope, escalation protocols, and regular briefings to sales and strategy teams",
+      "severity": "Medium",
+      "status": "Open",
+      "due_date": "2025-05-31",
+      "owner": "VP Strategy",
+      "management_response": "Accepted. Competitive intelligence analyst role approved for Q2 hiring",
+      "created_by": "Emma Wilson",
+      "created_at": "2024-12-18"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-9",
+      "title": "Sales Process Controls Gap - Decision Maker Access",
+      "criteria": "Sales qualification criteria should mandate identification and engagement of economic decision makers within first 30 days of opportunity",
+      "condition": "45% of opportunities in sample lacked documented decision maker engagement beyond procurement contacts. Average time to executive engagement was 78 days",
+      "cause": "Sales qualification criteria do not mandate decision maker identification. CRM fields for decision maker tracking optional. No gate review for executive access",
+      "effect": "Opportunities progress through pipeline without adequate executive sponsorship, increasing loss risk at later stages. Extended sales cycles averaging 2 weeks longer than prior year",
+      "recommendation": "Update sales qualification methodology to mandate decision maker identification at Stage 2. Implement CRM validation for required executive contacts. Add gate review for Stage 3 advancement",
+      "severity": "Medium",
+      "status": "Open",
+      "due_date": "2025-03-31",
+      "owner": "VP Sales",
+      "management_response": "Accepted. Sales methodology update in progress with new qualification criteria effective Q2",
+      "created_by": "James Thompson",
+      "created_at": "2024-12-18"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-9",
+      "title": "New Logo Acquisition Performance Below Target",
+      "criteria": "New logo acquisition should achieve 100% of quota to support growth objectives",
+      "condition": "Q1-Q3 new logo acquisition averaged 82% of quota. Analysis indicates systematic issues in lead qualification, competitive differentiation, and proposal quality",
+      "cause": "Marketing qualified lead quality declining. Sales enablement materials outdated. Proposal process lacks competitive differentiation emphasis",
+      "effect": "Revenue growth deceleration from 8.2% to 6.8% YoY. Pipeline coverage ratio below 3x target at 2.4x",
+      "recommendation": "Conduct lead qualification criteria review with marketing. Update sales enablement materials with competitive positioning. Implement proposal quality review process",
+      "severity": "High",
+      "status": "Open",
+      "due_date": "2025-04-30",
+      "owner": "Chief Commercial Officer",
+      "management_response": "Partially accepted. Lead qualification review initiated. Proposal process enhancement deferred to Q3 due to resource constraints",
+      "created_by": "Emma Wilson",
+      "created_at": "2024-12-18"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Customer Concentration and Renewal Volatility",
+      "description": "High dependency on key accounts creates significant revenue risk when renewals are lost. The Account A loss demonstrates vulnerability to competitor displacement and inadequate early warning capabilities",
+      "category": "Strategic",
+      "subcategory": "Customer Risk",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 5,
+      "residual_score": 15,
+      "risk_owner": "Chief Commercial Officer",
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "linked_entities": [
+        "AE-5",
+        "AE-1"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Solutions Architect Talent Attrition",
+      "description": "Critical Solutions Architect role experiencing 14.2% attrition rate, creating delivery risk, knowledge loss, and customer relationship disruption",
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 4,
+      "residual_impact": 4,
+      "residual_score": 16,
+      "risk_owner": "Chief People Officer",
+      "linked_controls": [
+        "C-8",
+        "C-9",
+        "C-10"
+      ],
+      "linked_entities": [
+        "AE-4"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-03-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Competitive Market Position Erosion",
+      "description": "Market consolidation and larger competitor advantages (e.g., Infosys post-acquisition capabilities) are eroding competitive position. Win rates declining, market share decreasing",
+      "category": "Strategic",
+      "subcategory": "Competition",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 4,
+      "residual_impact": 4,
+      "residual_score": 16,
+      "risk_owner": "CEO",
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "linked_entities": [
+        "AE-14",
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-06-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Target A Integration Execution Risk",
+      "description": "\u00a312.5M acquisition integration may fail to achieve synergy targets, cultural misalignment, or operational disruption affecting combined entity performance",
+      "category": "Strategic",
+      "subcategory": "M&A Integration",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "CFO",
+      "linked_controls": [
+        "C-11",
+        "C-12",
+        "C-13"
+      ],
+      "linked_entities": [
+        "AE-9"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-10-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Automation Initiative ROI Shortfall",
+      "description": "Phase 1 automation adoption at 64% indicates potential resistance to efficiency improvements. Risk of not achieving targeted productivity gains and margin improvement",
+      "category": "Operational",
+      "subcategory": "Technology",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "CTO",
+      "linked_controls": [
+        "C-14",
+        "C-15",
+        "C-16"
+      ],
+      "linked_entities": [
+        "AE-11"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-07-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "GDPR and Multi-Jurisdictional Compliance",
+      "description": "Operations across multiple EMEA jurisdictions create complex data protection compliance obligations. UK adequacy decision uncertainty adds regulatory risk",
+      "category": "Compliance",
+      "subcategory": "Data Protection",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "Data Protection Officer",
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "linked_entities": [
+        "AE-6",
+        "AE-16"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Revenue Recognition Complexity",
+      "description": "IT services contracts with multiple performance obligations create revenue recognition complexity under IFRS 15. Risk of misstatement or late recognition",
+      "category": "Financial",
+      "subcategory": "Accounting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "CFO",
+      "linked_controls": [
+        "C-20",
+        "C-21",
+        "C-22"
+      ],
+      "linked_entities": [
+        "AE-1",
+        "AE-7"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "New Logo Acquisition Underperformance",
+      "description": "Systematic sales execution gaps resulting in consistent underperformance against new logo targets (82% of quota). Impacts growth trajectory and market position",
+      "category": "Operational",
+      "subcategory": "Sales Execution",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 4,
+      "residual_impact": 3,
+      "residual_score": 12,
+      "risk_owner": "VP Sales",
+      "linked_controls": [
+        "C-23",
+        "C-24",
+        "C-25"
+      ],
+      "linked_entities": [
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-04-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "DACH Market Share Loss",
+      "description": "Frankfurt practice experiencing competitive pressure with talent loss to competitors. Risk of regional market position deterioration affecting DACH revenue",
+      "category": "Strategic",
+      "subcategory": "Regional Performance",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "DACH Regional Director",
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-8"
+      ],
+      "linked_entities": [
+        "AE-3"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-05-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Margin Sustainability Under Competitive Pressure",
+      "description": "EBITDA margin improvement from 8.5% to 10.3% may not be sustainable as competitors use aggressive pricing. Risk of margin compression to maintain market share",
+      "category": "Financial",
+      "subcategory": "Profitability",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "CFO",
+      "linked_controls": [
+        "C-28",
+        "C-29",
+        "C-30"
+      ],
+      "linked_entities": [
+        "AE-18"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-08-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Extended Sales Cycle Impact",
+      "description": "Sales cycles extended by two weeks on average due to customer discretionary spending scrutiny. Impacts revenue predictability and cash flow timing",
+      "category": "Operational",
+      "subcategory": "Sales Operations",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "VP Sales",
+      "linked_controls": [
+        "C-23",
+        "C-31",
+        "C-32"
+      ],
+      "linked_entities": [
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-06-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Cybersecurity Threat Exposure",
+      "description": "As an IT services provider handling customer data, cyber attacks could result in data breaches, service disruption, and reputational damage",
+      "category": "Operational",
+      "subcategory": "Cybersecurity",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_owner": "CISO",
+      "linked_controls": [
+        "C-33",
+        "C-34",
+        "C-35"
+      ],
+      "linked_entities": [
+        "AE-6",
+        "AE-15"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Key Personnel Dependency",
+      "description": "Critical knowledge and client relationships concentrated in small number of senior personnel without adequate succession planning",
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_owner": "Chief People Officer",
+      "linked_controls": [
+        "C-36",
+        "C-37",
+        "C-38"
+      ],
+      "linked_entities": [
+        "AE-4"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-02-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "Service Delivery Quality Degradation",
+      "description": "Talent attrition and resource constraints may impact service delivery quality, leading to SLA breaches and customer dissatisfaction",
+      "category": "Operational",
+      "subcategory": "Service Quality",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_owner": "COO",
+      "linked_controls": [
+        "C-39",
+        "C-40",
+        "C-41"
+      ],
+      "linked_entities": [
+        "AE-2",
+        "AE-3",
+        "AE-13"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-03-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Third-Party Vendor Risk",
+      "description": "Dependency on third-party vendors for service delivery and technology creates supply chain and operational risk",
+      "category": "Operational",
+      "subcategory": "Vendor Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "COO",
+      "linked_controls": [
+        "C-42",
+        "C-43",
+        "C-44"
+      ],
+      "linked_entities": [
+        "AE-8"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Employment Law Multi-Jurisdiction Complexity",
+      "description": "Operations across UK and DACH require compliance with varying employment regulations, creating compliance complexity and potential liability",
+      "category": "Compliance",
+      "subcategory": "Employment Law",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 3,
+      "inherent_score": 6,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "Chief People Officer",
+      "linked_controls": [
+        "C-45",
+        "C-46",
+        "C-47"
+      ],
+      "linked_entities": [
+        "AE-4",
+        "AE-16"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "IT Services Regulatory Evolution",
+      "description": "Emerging regulations around AI governance, cybersecurity frameworks, and professional services licensing may require operational changes",
+      "category": "Compliance",
+      "subcategory": "Regulatory Change",
+      "status": "Monitoring",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 3,
+      "residual_impact": 2,
+      "residual_score": 6,
+      "risk_owner": "General Counsel",
+      "linked_controls": [
+        "C-48",
+        "C-49"
+      ],
+      "linked_entities": [
+        "AE-16"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-04-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "EMEA IT Spending Weakness",
+      "description": "Broader EMEA IT spending weakness contributing to revenue growth deceleration and customer budget constraints",
+      "category": "External",
+      "subcategory": "Market Conditions",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 4,
+      "residual_impact": 3,
+      "residual_score": 12,
+      "risk_owner": "CEO",
+      "linked_controls": [
+        "C-50",
+        "C-51"
+      ],
+      "linked_entities": [
+        "AE-1",
+        "AE-10"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-06-01",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-19",
+      "name": "Business Continuity and Operational Resilience",
+      "description": "Inadequate business continuity planning could result in extended service disruption impacting customers and reputation",
+      "category": "Operational",
+      "subcategory": "Resilience",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "COO",
+      "linked_controls": [
+        "C-52",
+        "C-53",
+        "C-54"
+      ],
+      "linked_entities": [
+        "AE-17"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    },
+    {
+      "risk_id": "RISK-20",
+      "name": "Contract Liability Exposure",
+      "description": "IT services contracts may contain liability provisions that could result in significant financial exposure if SLAs are breached or deliverables not met",
+      "category": "Legal",
+      "subcategory": "Contractual",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_owner": "General Counsel",
+      "linked_controls": [
+        "C-55",
+        "C-56",
+        "C-57"
+      ],
+      "linked_entities": [
+        "AE-12"
+      ],
+      "created_by": "Sarah Mitchell",
+      "created_at": "2024-01-15",
+      "last_updated": "2025-01-15"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "velocity": "Fast",
+      "trend": "Stable",
+      "assessment_notes": "Following Account A loss, enhanced monitoring in place but systemic controls still being implemented. Renewal cohort shows 88% vs 95% target",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-2",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "velocity": "Medium",
+      "trend": "Increasing",
+      "assessment_notes": "Attrition rate remains elevated at 14.2%. Q4 retention initiatives showing early results but market competition for talent remains intense",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-3",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "velocity": "Medium",
+      "trend": "Increasing",
+      "assessment_notes": "Win rates declined 3pp. Infosys and other large competitors continuing aggressive pricing. Target A acquisition may help improve positioning",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-4",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "velocity": "Slow",
+      "trend": "Stable",
+      "assessment_notes": "Integration planning proceeding. Key milestones on track. Cultural integration workstream initiated with joint leadership team",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-5",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "velocity": "Slow",
+      "trend": "Stable",
+      "assessment_notes": "Phase 1 adoption at 64%. Change management reinforcement planned. Phase 2 deployment deferred pending adoption improvement",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-6",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "velocity": "Slow",
+      "trend": "Stable",
+      "assessment_notes": "GDPR compliance program mature. UK adequacy decision monitoring ongoing. No material compliance issues in quarter",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-7",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "velocity": "Slow",
+      "trend": "Stable",
+      "assessment_notes": "Revenue recognition controls operating effectively. Target A acquisition adds complexity requiring enhanced review procedures",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-8",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "velocity": "Medium",
+      "trend": "Stable",
+      "assessment_notes": "New logo performance at 82% of quota. Sales process improvements initiated but full impact not yet evident",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-9",
+      "parent_risk_id": "RISK-12",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "velocity": "Fast",
+      "trend": "Stable",
+      "assessment_notes": "No material incidents in quarter. Security posture maintained. Penetration testing scheduled for Q2",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-10",
+      "parent_risk_id": "RISK-18",
+      "assessment_date": "2025-01-15",
+      "assessment_type": "Quarterly",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "velocity": "Slow",
+      "trend": "Improving",
+      "assessment_notes": "EMEA IT spending showing signs of stabilization. Customer budget discussions indicate potential recovery in H2 2025",
+      "assessed_by": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "mitigation_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Customer Health Monitoring Enhancement",
+      "description": "Implement automated customer health scoring system with integrated early warning capabilities and executive escalation protocols",
+      "status": "In Progress",
+      "priority": "Critical",
+      "target_residual_score": 10,
+      "planned_actions": [
+        {
+          "action": "Select and implement customer success platform",
+          "owner": "VP Customer Success",
+          "due_date": "2025-06-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Define customer health scoring methodology",
+          "owner": "VP Customer Success",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Establish executive escalation protocols",
+          "owner": "Chief Commercial Officer",
+          "due_date": "2025-04-30",
+          "status": "Not Started"
+        },
+        {
+          "action": "Train account teams on new processes",
+          "owner": "VP Customer Success",
+          "due_date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ],
+      "budget": 250000,
+      "owner": "Chief Commercial Officer",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2025-07-31",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "mitigation_id": "RMP-2",
+      "risk_id": "RISK-2",
+      "name": "Solutions Architect Retention Program",
+      "description": "Comprehensive retention program targeting Solutions Architect role including compensation review, career development, and engagement initiatives",
+      "status": "In Progress",
+      "priority": "High",
+      "target_residual_score": 9,
+      "planned_actions": [
+        {
+          "action": "Complete compensation benchmarking study",
+          "owner": "HR Director",
+          "due_date": "2025-02-28",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement retention bonus program for critical talent",
+          "owner": "Chief People Officer",
+          "due_date": "2025-03-31",
+          "status": "Not Started"
+        },
+        {
+          "action": "Launch career development framework",
+          "owner": "HR Director",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Establish quarterly engagement pulse surveys",
+          "owner": "HR Director",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        }
+      ],
+      "budget": 500000,
+      "owner": "Chief People Officer",
+      "start_date": "2025-01-01",
+      "target_completion_date": "2025-06-30",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "mitigation_id": "RMP-3",
+      "risk_id": "RISK-3",
+      "name": "Competitive Intelligence Function Enhancement",
+      "description": "Establish formal competitive intelligence function with systematic monitoring, analysis, and response capabilities",
+      "status": "Planning",
+      "priority": "High",
+      "target_residual_score": 12,
+      "planned_actions": [
+        {
+          "action": "Hire dedicated competitive intelligence analyst",
+          "owner": "VP Strategy",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement competitive monitoring tools",
+          "owner": "VP Strategy",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        },
+        {
+          "action": "Establish monthly competitive briefings",
+          "owner": "VP Strategy",
+          "due_date": "2025-06-30",
+          "status": "Not Started"
+        },
+        {
+          "action": "Develop competitive response playbooks",
+          "owner": "VP Strategy",
+          "due_date": "2025-07-31",
+          "status": "Not Started"
+        }
+      ],
+      "budget": 150000,
+      "owner": "VP Strategy",
+      "start_date": "2025-02-01",
+      "target_completion_date": "2025-08-31",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "mitigation_id": "RMP-4",
+      "risk_id": "RISK-4",
+      "name": "Target A Integration Governance Program",
+      "description": "Structured integration governance with milestone tracking, synergy realization monitoring, and cultural alignment initiatives",
+      "status": "In Progress",
+      "priority": "High",
+      "target_residual_score": 6,
+      "planned_actions": [
+        {
+          "action": "Establish Integration Management Office",
+          "owner": "CFO",
+          "due_date": "2025-02-15",
+          "status": "Completed"
+        },
+        {
+          "action": "Define synergy tracking metrics and reporting",
+          "owner": "CFO",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Launch cultural integration program",
+          "owner": "Chief People Officer",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Complete Day 100 integration milestones",
+          "owner": "CFO",
+          "due_date": "2025-05-15",
+          "status": "Not Started"
+        }
+      ],
+      "budget": 300000,
+      "owner": "CFO",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2025-10-31",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "mitigation_id": "RMP-5",
+      "risk_id": "RISK-8",
+      "name": "Sales Excellence Program",
+      "description": "Comprehensive sales process improvement initiative addressing qualification, competitive positioning, and executive engagement",
+      "status": "In Progress",
+      "priority": "High",
+      "target_residual_score": 8,
+      "planned_actions": [
+        {
+          "action": "Revise sales qualification methodology",
+          "owner": "VP Sales",
+          "due_date": "2025-03-31",
+          "status": "In Progress"
+        },
+        {
+          "action": "Update sales enablement materials",
+          "owner": "VP Marketing",
+          "due_date": "2025-04-30",
+          "status": "In Progress"
+        },
+        {
+          "action": "Implement deal review process for opportunities >\u00a3500K",
+          "owner": "VP Sales",
+          "due_date": "2025-03-15",
+          "status": "In Progress"
+        },
+        {
+          "action": "Launch sales coaching program",
+          "owner": "VP Sales",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        }
+      ],
+      "budget": 200000,
+      "owner": "Chief Commercial Officer",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2025-06-30",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "mitigation_id": "RMP-6",
+      "risk_id": "RISK-5",
+      "name": "Automation Adoption Acceleration",
+      "description": "Change management program to improve automation adoption rates and ensure ROI realization",
+      "status": "Planning",
+      "priority": "Medium",
+      "target_residual_score": 6,
+      "planned_actions": [
+        {
+          "action": "Conduct adoption barrier analysis",
+          "owner": "CTO",
+          "due_date": "2025-03-15",
+          "status": "Not Started"
+        },
+        {
+          "action": "Develop targeted training programs",
+          "owner": "CTO",
+          "due_date": "2025-04-30",
+          "status": "Not Started"
+        },
+        {
+          "action": "Implement adoption incentive program",
+          "owner": "CTO",
+          "due_date": "2025-05-15",
+          "status": "Not Started"
+        },
+        {
+          "action": "Establish automation champion network",
+          "owner": "CTO",
+          "due_date": "2025-05-31",
+          "status": "Not Started"
+        }
+      ],
+      "budget": 100000,
+      "owner": "CTO",
+      "start_date": "2025-03-01",
+      "target_completion_date": "2025-08-31",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Customer Health Score Monitoring",
+      "description": "Quarterly review of customer health indicators including NPS, support ticket trends, usage metrics, and relationship mapping",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Customer Success",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "P-1"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Strategic Account Executive Engagement Protocol",
+      "description": "Mandatory quarterly executive engagement for accounts exceeding \u00a3500K annual revenue with documented outcomes and action items",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief Commercial Officer",
+      "status": "Needs Improvement",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "P-1"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Renewal Risk Early Warning System",
+      "description": "Automated alerting system triggered by customer health score deterioration, support escalations, or competitive engagement signals",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "VP Customer Success",
+      "status": "In Development",
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "P-1"
+      ],
+      "effective_date": null,
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Competitive Intelligence Monitoring",
+      "description": "Systematic monitoring of competitor activities, pricing changes, and market positioning through defined intelligence sources",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Strategy",
+      "status": "Needs Improvement",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_processes": [
+        "P-6"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Competitive Win/Loss Analysis",
+      "description": "Structured analysis of competitive wins and losses with root cause identification and strategy adjustment recommendations",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Sales",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-3"
+      ],
+      "linked_processes": [
+        "P-6"
+      ],
+      "effective_date": "2024-03-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Pricing Strategy Review",
+      "description": "Quarterly review of pricing competitiveness against market benchmarks with adjustment recommendations",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-3",
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "P-6",
+        "P-8"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Critical Role Retention Monitoring",
+      "description": "Monthly monitoring of attrition rates for critical roles with trigger-based intervention protocols",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "HR Director",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-2",
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Compensation Benchmarking Review",
+      "description": "Annual comprehensive compensation benchmarking against market data with adjustment recommendations",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "Chief People Officer",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-11-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Exit Interview Analysis",
+      "description": "Structured exit interview process with quarterly trend analysis and action planning",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "HR Director",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-2"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Integration Milestone Tracking",
+      "description": "Weekly tracking of M&A integration milestones with variance analysis and corrective action planning",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Integration PMO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "P-7"
+      ],
+      "effective_date": "2024-11-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Synergy Realization Monitoring",
+      "description": "Monthly tracking of acquisition synergy realization against business case with variance explanation",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "P-7"
+      ],
+      "effective_date": "2024-11-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Cultural Integration Assessment",
+      "description": "Quarterly cultural alignment assessment with employee surveys and focus groups",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief People Officer",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "P-7"
+      ],
+      "effective_date": "2024-11-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Automation Adoption Tracking",
+      "description": "Monthly tracking of automation tool adoption rates with usage analytics and barrier identification",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Automated",
+      "owner": "CTO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_processes": [
+        "P-5"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Technology Investment Governance",
+      "description": "Investment committee review and approval for technology initiatives exceeding \u00a350K with defined ROI criteria",
+      "control_type": "Preventive",
+      "category": "Strategic",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_processes": [
+        "P-5"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Change Management Effectiveness Review",
+      "description": "Post-implementation review of technology change initiatives assessing adoption and benefit realization",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "CTO",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "linked_processes": [
+        "P-5"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-17",
+      "name": "GDPR Compliance Monitoring",
+      "description": "Continuous monitoring of GDPR compliance across all processing activities with automated alerts for non-compliance",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Data Protection Officer",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Data Protection Impact Assessment Process",
+      "description": "Mandatory DPIA for new processing activities involving personal data with documented risk assessment and mitigation",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "Data Protection Officer",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Cross-Border Data Transfer Compliance",
+      "description": "Review and approval process for cross-border data transfers with appropriate transfer mechanisms",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "Data Protection Officer",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Revenue Recognition Review",
+      "description": "Monthly review of revenue recognition for material contracts ensuring IFRS 15 compliance",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Financial Controller",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "linked_processes": [
+        "P-3"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Contract Revenue Terms Review",
+      "description": "Pre-signing review of contract revenue terms by finance for appropriate recognition treatment",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "Financial Controller",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "linked_processes": [
+        "P-3"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Deferred Revenue Reconciliation",
+      "description": "Monthly reconciliation of deferred revenue balances with investigation of variances",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Financial Controller",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "linked_processes": [
+        "P-3"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Sales Pipeline Quality Review",
+      "description": "Weekly review of sales pipeline quality including stage advancement criteria and deal qualification",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Sales",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-8",
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "P-9"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Lead Qualification Criteria Review",
+      "description": "Quarterly review of lead qualification criteria with marketing alignment and conversion analysis",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Marketing",
+      "status": "Needs Improvement",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_processes": [
+        "P-9"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Deal Desk Review for Large Opportunities",
+      "description": "Mandatory deal desk review for opportunities exceeding \u00a3250K covering pricing, terms, and resource requirements",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "VP Sales",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-8"
+      ],
+      "linked_processes": [
+        "P-9"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-26",
+      "name": "DACH Regional Performance Review",
+      "description": "Monthly review of DACH region performance metrics with variance analysis and action planning",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "DACH Regional Director",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "P-10"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Regional Competitive Positioning Review",
+      "description": "Quarterly review of regional competitive positioning with market share analysis",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "DACH Regional Director",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-9"
+      ],
+      "linked_processes": [
+        "P-10"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Margin Analysis and Monitoring",
+      "description": "Monthly analysis of gross and EBITDA margins by service line with trend analysis and variance investigation",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "P-8"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Cost Structure Review",
+      "description": "Quarterly review of cost structure including labor costs, utilization rates, and operational efficiency",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "P-8"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Profitability by Engagement Review",
+      "description": "Monthly review of engagement-level profitability with identification of underperforming accounts",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Financial Controller",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "P-8"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Sales Cycle Length Monitoring",
+      "description": "Monthly monitoring of sales cycle length by segment and opportunity type with trend analysis",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Automated",
+      "owner": "VP Sales Operations",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "P-9"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-32",
+      "name": "Deal Velocity Analysis",
+      "description": "Weekly analysis of deal velocity through pipeline stages with identification of stuck opportunities",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Automated",
+      "owner": "VP Sales Operations",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-11"
+      ],
+      "linked_processes": [
+        "P-9"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Security Vulnerability Management",
+      "description": "Continuous vulnerability scanning with risk-based remediation timelines and escalation protocols",
+      "control_type": "Detective",
+      "category": "IT",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "CISO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Security Incident Detection and Response",
+      "description": "24/7 security monitoring with defined incident response procedures and escalation matrix",
+      "control_type": "Detective",
+      "category": "IT",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "CISO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-35",
+      "name": "Penetration Testing Program",
+      "description": "Semi-annual penetration testing of critical systems with findings remediation tracking",
+      "control_type": "Detective",
+      "category": "IT",
+      "frequency": "Semi-Annually",
+      "automation_level": "Manual",
+      "owner": "CISO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-12-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-36",
+      "name": "Succession Planning Review",
+      "description": "Annual review of succession plans for key positions with identified successors and development plans",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "Chief People Officer",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-37",
+      "name": "Key Person Risk Assessment",
+      "description": "Quarterly assessment of key person dependencies with mitigation planning",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief People Officer",
+      "status": "Partially Effective",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-38",
+      "name": "Knowledge Documentation Requirements",
+      "description": "Mandatory knowledge documentation for critical roles with review and update procedures",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "COO",
+      "status": "Needs Improvement",
+      "linked_risks": [
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-06-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-39",
+      "name": "SLA Performance Monitoring",
+      "description": "Real-time monitoring of SLA performance with automated alerting for breaches",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Continuous",
+      "automation_level": "Automated",
+      "owner": "Head of Service Delivery",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "P-10"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-40",
+      "name": "Quality Assurance Review Process",
+      "description": "Monthly quality assurance review of service delivery with scoring and improvement tracking",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Head of Service Delivery",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "P-10"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-41",
+      "name": "Resource Capacity Planning",
+      "description": "Weekly resource capacity planning with demand forecasting and constraint identification",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Resource Management",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-14"
+      ],
+      "linked_processes": [
+        "P-10"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-42",
+      "name": "Vendor Risk Assessment",
+      "description": "Annual risk assessment of critical vendors with due diligence and ongoing monitoring",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "Head of Procurement",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "P-11"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-43",
+      "name": "Vendor Performance Monitoring",
+      "description": "Quarterly review of vendor performance against contracted SLAs and KPIs",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Procurement",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "P-11"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-44",
+      "name": "Vendor Concentration Monitoring",
+      "description": "Quarterly review of vendor concentration risk with diversification planning",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Head of Procurement",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "linked_processes": [
+        "P-11"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-45",
+      "name": "Multi-Jurisdiction Employment Law Compliance",
+      "description": "Annual review of employment law compliance across all operating jurisdictions",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "HR Director",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-11-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-46",
+      "name": "Employment Contract Review Process",
+      "description": "Legal review of employment contracts ensuring compliance with local regulations",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-47",
+      "name": "Works Council Compliance",
+      "description": "Compliance monitoring for works council requirements in applicable jurisdictions",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "HR Director",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-48",
+      "name": "Regulatory Horizon Scanning",
+      "description": "Monthly monitoring of emerging regulations affecting IT services sector",
+      "control_type": "Detective",
+      "category": "Compliance",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-49",
+      "name": "Regulatory Change Impact Assessment",
+      "description": "Structured assessment of regulatory changes with implementation planning",
+      "control_type": "Preventive",
+      "category": "Compliance",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-50",
+      "name": "Market Condition Monitoring",
+      "description": "Monthly monitoring of EMEA IT spending trends and market conditions",
+      "control_type": "Detective",
+      "category": "Strategic",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Strategy",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_processes": [
+        "P-6"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-51",
+      "name": "Revenue Forecast Sensitivity Analysis",
+      "description": "Quarterly sensitivity analysis of revenue forecasts under different market scenarios",
+      "control_type": "Detective",
+      "category": "Financial",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-18"
+      ],
+      "linked_processes": [
+        "P-3"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-52",
+      "name": "Business Continuity Plan Testing",
+      "description": "Annual testing of business continuity plans with documented results and improvement actions",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "COO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "linked_processes": [
+        "P-12"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-10-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-53",
+      "name": "Disaster Recovery Testing",
+      "description": "Semi-annual disaster recovery testing for critical systems with recovery time validation",
+      "control_type": "Detective",
+      "category": "IT",
+      "frequency": "Semi-Annually",
+      "automation_level": "Manual",
+      "owner": "CTO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "linked_processes": [
+        "P-12"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-11-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-54",
+      "name": "Crisis Communication Plan Review",
+      "description": "Annual review and update of crisis communication procedures and contact lists",
+      "control_type": "Preventive",
+      "category": "Operational",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "Head of Communications",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "linked_processes": [
+        "P-12"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-55",
+      "name": "Contract Liability Review",
+      "description": "Legal review of contract liability provisions for all engagements exceeding \u00a3100K",
+      "control_type": "Preventive",
+      "category": "Legal",
+      "frequency": "Per Occurrence",
+      "automation_level": "Manual",
+      "owner": "General Counsel",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_processes": [
+        "P-13"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-56",
+      "name": "Insurance Coverage Review",
+      "description": "Annual review of professional liability and E&O insurance coverage adequacy",
+      "control_type": "Preventive",
+      "category": "Financial",
+      "frequency": "Annually",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_processes": [
+        "P-13"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "control_id": "C-57",
+      "name": "Contract Compliance Monitoring",
+      "description": "Ongoing monitoring of compliance with contract terms and deliverable obligations",
+      "control_type": "Detective",
+      "category": "Operational",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Delivery",
+      "status": "Effective",
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "linked_processes": [
+        "P-13"
+      ],
+      "effective_date": "2024-01-01",
+      "last_review_date": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Reviewed customer health score documentation for sample of 15 strategic accounts. Verified completeness of health indicators and timeliness of reviews",
+      "test_result": "Fail",
+      "test_evidence": "5 of 15 accounts (33%) had incomplete health score documentation. 3 accounts missing Q4 reviews entirely",
+      "exceptions_noted": "Incomplete documentation for strategic accounts. Health scoring criteria not consistently applied",
+      "tester": "James Thompson",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-10"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Reviewed executive engagement records for strategic accounts exceeding \u00a3500K. Verified quarterly engagement completion and documentation",
+      "test_result": "Fail",
+      "test_evidence": "8 of 22 strategic accounts (36%) did not have documented quarterly executive engagement. Account A had no C-suite engagement documented for 6 months prior to loss",
+      "exceptions_noted": "Executive engagement protocol not consistently followed. Documentation gaps significant",
+      "tester": "Emma Wilson",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-10"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-4",
+      "assessment_date": "2025-01-12",
+      "test_procedure": "Reviewed competitive intelligence reports and monitoring activities for Q4. Assessed timeliness and completeness of competitor analysis",
+      "test_result": "Fail",
+      "test_evidence": "Competitive monitoring is ad-hoc rather than systematic. Infosys acquisition impact was not identified until 4 months after completion",
+      "exceptions_noted": "No formal competitive monitoring process. Intelligence sharing informal and inconsistent",
+      "tester": "Jennifer Lee",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-12"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-8",
+      "assessment_date": "2025-01-08",
+      "test_procedure": "Reviewed attrition monitoring reports and intervention protocols for critical roles. Verified trigger-based escalation",
+      "test_result": "Pass",
+      "test_evidence": "Monthly attrition reports generated consistently. Solutions Architect attrition flagged in March with escalation to CPO. Intervention protocol initiated within SLA",
+      "exceptions_noted": "None material. Recommend enhanced early warning indicators",
+      "tester": "Marcus Chen",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-08"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-11",
+      "assessment_date": "2025-01-15",
+      "test_procedure": "Reviewed integration milestone tracking reports for Target A. Verified weekly cadence and variance analysis",
+      "test_result": "Pass",
+      "test_evidence": "Weekly integration status reports produced since Day 1. Milestone tracking detailed with variance analysis. Governance committee meeting weekly as designed",
+      "exceptions_noted": "None",
+      "tester": "David Roberts",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-14",
+      "assessment_date": "2025-01-12",
+      "test_procedure": "Reviewed automation adoption tracking reports and usage analytics. Verified identification of adoption barriers",
+      "test_result": "Pass",
+      "test_evidence": "Monthly adoption reports produced. Phase 1 adoption at 64% clearly identified. Barrier analysis conducted with specific departmental gaps documented",
+      "exceptions_noted": "Control operating but underlying adoption remains below target",
+      "tester": "Sophie Adams",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-12"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-17",
+      "assessment_date": "2025-01-08",
+      "test_procedure": "Reviewed GDPR compliance monitoring activities including processing records, consent management, and subject access request handling",
+      "test_result": "Pass",
+      "test_evidence": "ROPA maintained and current. SAR response within statutory timelines. Consent management automated. No compliance breaches in period",
+      "exceptions_noted": "None",
+      "tester": "Lisa Park",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-08"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-20",
+      "assessment_date": "2025-01-05",
+      "test_procedure": "Reviewed revenue recognition documentation for sample of 10 material contracts. Verified IFRS 15 compliance",
+      "test_result": "Pass",
+      "test_evidence": "All sampled contracts had documented revenue recognition memos. Performance obligations identified and standalone selling prices determined. No exceptions to policy",
+      "exceptions_noted": "None",
+      "tester": "David Roberts",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-05"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-23",
+      "assessment_date": "2025-01-10",
+      "test_procedure": "Reviewed pipeline quality review documentation and stage advancement criteria application",
+      "test_result": "Partial Pass",
+      "test_evidence": "Weekly reviews documented. However, 25% of opportunities advanced stages without meeting defined criteria. Qualification criteria inconsistently applied",
+      "exceptions_noted": "Stage advancement criteria not consistently enforced. Need for enhanced gate controls",
+      "tester": "James Thompson",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-10"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-33",
+      "assessment_date": "2025-01-05",
+      "test_procedure": "Reviewed vulnerability management process including scan results, remediation tracking, and escalation procedures",
+      "test_result": "Pass",
+      "test_evidence": "Continuous scanning operational. Critical vulnerabilities remediated within 72-hour SLA. High vulnerabilities within 7-day SLA. Exception process documented",
+      "exceptions_noted": "None",
+      "tester": "Robert Kim",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-05"
+    },
+    {
+      "assessment_id": "CA-11",
+      "parent_control_id": "C-36",
+      "assessment_date": "2024-12-15",
+      "test_procedure": "Reviewed succession planning documentation for key positions. Verified identified successors and development plan completeness",
+      "test_result": "Partial Pass",
+      "test_evidence": "Succession plans exist for 65% of key positions. Development plans documented for 50% of identified successors. Several critical roles lack identified successors",
+      "exceptions_noted": "Succession planning coverage incomplete. Solutions Architect succession particularly weak",
+      "tester": "Marcus Chen",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "CA-12",
+      "parent_control_id": "C-39",
+      "assessment_date": "2025-01-08",
+      "test_procedure": "Reviewed SLA monitoring reports and alerting system effectiveness. Verified breach response procedures",
+      "test_result": "Pass",
+      "test_evidence": "Real-time SLA monitoring operational. Automated alerts triggered appropriately. Q4 showed 98.2% SLA compliance across all engagements",
+      "exceptions_noted": "None",
+      "tester": "Thomas Wright",
+      "reviewer": "Sarah Mitchell",
+      "next_assessment_date": "2025-04-08"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-1",
+      "title": "Incomplete Customer Health Score Documentation",
+      "description": "33% of strategic accounts have incomplete health score documentation. Health scoring criteria inconsistently applied across account teams",
+      "identified_date": "2025-01-10",
+      "severity": "High",
+      "root_cause": "Manual process with no automated enforcement. Lack of clear accountability for health score maintenance",
+      "impact": "Increased risk of renewal losses due to delayed identification of at-risk accounts",
+      "remediation_plan": "Implement automated customer health scoring platform with mandatory data fields. Establish monthly health score review cadence with account team accountability",
+      "remediation_owner": "VP Customer Success",
+      "target_remediation_date": "2025-06-30",
+      "status": "Open",
+      "created_by": "James Thompson"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-2",
+      "title": "Executive Engagement Protocol Non-Compliance",
+      "description": "36% of strategic accounts did not have documented quarterly executive engagement. Executive sponsorship program not implemented as designed",
+      "identified_date": "2025-01-10",
+      "severity": "High",
+      "root_cause": "No enforcement mechanism for executive engagement requirements. Executive capacity not formally allocated to account management",
+      "impact": "Relationship gaps at C-suite level contributing to competitive vulnerability as demonstrated in Account A loss",
+      "remediation_plan": "Implement executive sponsorship program with assigned sponsors for accounts >\u00a31M. Add executive engagement to account review scorecards",
+      "remediation_owner": "Chief Commercial Officer",
+      "target_remediation_date": "2025-04-30",
+      "status": "Open",
+      "created_by": "Emma Wilson"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-4",
+      "title": "Inadequate Competitive Intelligence Monitoring",
+      "description": "Competitive monitoring is ad-hoc without systematic process. Significant competitive developments (e.g., Infosys acquisition) identified with 4+ month lag",
+      "identified_date": "2025-01-12",
+      "severity": "High",
+      "root_cause": "No dedicated competitive intelligence function. Monitoring responsibility dispersed without clear ownership",
+      "impact": "Reactive competitive response. Market share erosion and declining win rates",
+      "remediation_plan": "Establish dedicated competitive intelligence function. Implement systematic monitoring tools. Define escalation protocols for significant market changes",
+      "remediation_owner": "VP Strategy",
+      "target_remediation_date": "2025-07-31",
+      "status": "Open",
+      "created_by": "Jennifer Lee"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-23",
+      "title": "Inconsistent Pipeline Stage Advancement Criteria",
+      "description": "25% of opportunities advanced stages without meeting defined qualification criteria. Sales methodology not consistently enforced",
+      "identified_date": "2025-01-10",
+      "severity": "Medium",
+      "root_cause": "CRM stage advancement not system-enforced. Manager review of stage changes inconsistent",
+      "impact": "Inaccurate pipeline forecasting. Resource misallocation. Revenue predictability challenges",
+      "remediation_plan": "Implement CRM validation rules for stage advancement. Add mandatory manager approval for stage changes. Enhanced pipeline review training",
+      "remediation_owner": "VP Sales",
+      "target_remediation_date": "2025-04-30",
+      "status": "Open",
+      "created_by": "James Thompson"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-36",
+      "title": "Incomplete Succession Planning Coverage",
+      "description": "Succession plans exist for only 65% of key positions. Solutions Architect succession planning particularly deficient",
+      "identified_date": "2024-12-15",
+      "severity": "Medium",
+      "root_cause": "No mandatory succession planning requirements. Limited focus on technical role succession",
+      "impact": "Key person risk not adequately mitigated. Knowledge loss risk with departures",
+      "remediation_plan": "Mandate succession plans for all key positions. Develop technical career ladder supporting internal development. Implement knowledge transfer requirements",
+      "remediation_owner": "Chief People Officer",
+      "target_remediation_date": "2025-06-30",
+      "status": "Open",
+      "created_by": "Marcus Chen"
+    },
+    {
+      "deficiency_id": "CD-6",
+      "control_id": "C-24",
+      "title": "Lead Qualification Criteria Misalignment",
+      "description": "Marketing qualified leads showing declining conversion rates. Lead qualification criteria not aligned with sales requirements",
+      "identified_date": "2025-01-15",
+      "severity": "Medium",
+      "root_cause": "Marketing and sales not aligned on lead qualification definitions. Criteria not updated for current market conditions",
+      "impact": "Sales team time spent on unqualified leads. New logo acquisition underperformance",
+      "remediation_plan": "Conduct joint marketing-sales lead qualification workshop. Redefine MQL criteria. Implement lead scoring adjustments",
+      "remediation_owner": "VP Marketing",
+      "target_remediation_date": "2025-04-30",
+      "status": "Open",
+      "created_by": "Emma Wilson"
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "P-1",
+      "name": "Customer Relationship Management",
+      "description": "End-to-end process for managing customer relationships from onboarding through renewal including health monitoring, executive engagement, and retention activities",
+      "owner": "VP Customer Success",
+      "linked_entities": [
+        "AE-5"
+      ],
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "documentation_link": "/processes/CRM-001",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-2",
+      "name": "Talent Management",
+      "description": "Human resources processes including recruitment, onboarding, performance management, retention, and separation",
+      "owner": "Chief People Officer",
+      "linked_entities": [
+        "AE-4"
+      ],
+      "linked_controls": [
+        "C-8",
+        "C-9",
+        "C-10",
+        "C-36",
+        "C-37",
+        "C-38",
+        "C-45",
+        "C-46",
+        "C-47"
+      ],
+      "linked_risks": [
+        "RISK-2",
+        "RISK-13",
+        "RISK-16"
+      ],
+      "documentation_link": "/processes/HR-001",
+      "last_review_date": "2024-11-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-3",
+      "name": "Revenue Recognition",
+      "description": "Process for recognizing revenue in accordance with IFRS 15 including contract review, performance obligation identification, and revenue allocation",
+      "owner": "Financial Controller",
+      "linked_entities": [
+        "AE-1",
+        "AE-7"
+      ],
+      "linked_controls": [
+        "C-20",
+        "C-21",
+        "C-22",
+        "C-51"
+      ],
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "documentation_link": "/processes/FIN-001",
+      "last_review_date": "2024-12-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-4",
+      "name": "Information Security Management",
+      "description": "Processes for managing information security including vulnerability management, incident response, and compliance monitoring",
+      "owner": "CISO",
+      "linked_entities": [
+        "AE-6",
+        "AE-15"
+      ],
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19",
+        "C-33",
+        "C-34",
+        "C-35",
+        "C-48",
+        "C-49"
+      ],
+      "linked_risks": [
+        "RISK-6",
+        "RISK-12",
+        "RISK-17"
+      ],
+      "documentation_link": "/processes/SEC-001",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-5",
+      "name": "Technology Investment Management",
+      "description": "Process for evaluating, approving, and monitoring technology investments including automation initiatives",
+      "owner": "CTO",
+      "linked_entities": [
+        "AE-11"
+      ],
+      "linked_controls": [
+        "C-14",
+        "C-15",
+        "C-16"
+      ],
+      "linked_risks": [
+        "RISK-5"
+      ],
+      "documentation_link": "/processes/IT-001",
+      "last_review_date": "2024-10-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-6",
+      "name": "Strategic Planning and Market Analysis",
+      "description": "Process for competitive intelligence gathering, market analysis, and strategic positioning",
+      "owner": "VP Strategy",
+      "linked_entities": [
+        "AE-14"
+      ],
+      "linked_controls": [
+        "C-4",
+        "C-5",
+        "C-6",
+        "C-50"
+      ],
+      "linked_risks": [
+        "RISK-3",
+        "RISK-18"
+      ],
+      "documentation_link": "/processes/STR-001",
+      "last_review_date": "2024-09-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-7",
+      "name": "M&A Integration Management",
+      "description": "Process for managing acquisition integration including milestone tracking, synergy realization, and cultural alignment",
+      "owner": "CFO",
+      "linked_entities": [
+        "AE-9"
+      ],
+      "linked_controls": [
+        "C-11",
+        "C-12",
+        "C-13"
+      ],
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "documentation_link": "/processes/MA-001",
+      "last_review_date": "2024-11-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-8",
+      "name": "Margin and Profitability Management",
+      "description": "Process for managing service pricing, cost structure, and engagement profitability",
+      "owner": "CFO",
+      "linked_entities": [
+        "AE-18"
+      ],
+      "linked_controls": [
+        "C-6",
+        "C-28",
+        "C-29",
+        "C-30"
+      ],
+      "linked_risks": [
+        "RISK-10"
+      ],
+      "documentation_link": "/processes/FIN-002",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-9",
+      "name": "Sales Pipeline Management",
+      "description": "Process for managing sales pipeline from lead generation through closed-won including qualification, forecasting, and deal review",
+      "owner": "VP Sales",
+      "linked_entities": [
+        "AE-10"
+      ],
+      "linked_controls": [
+        "C-23",
+        "C-24",
+        "C-25",
+        "C-31",
+        "C-32"
+      ],
+      "linked_risks": [
+        "RISK-8",
+        "RISK-11"
+      ],
+      "documentation_link": "/processes/SALES-001",
+      "last_review_date": "2024-11-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-10",
+      "name": "Service Delivery Management",
+      "description": "Process for delivering IT services to customers including resource management, quality assurance, and SLA compliance",
+      "owner": "COO",
+      "linked_entities": [
+        "AE-2",
+        "AE-3",
+        "AE-13",
+        "AE-19"
+      ],
+      "linked_controls": [
+        "C-26",
+        "C-27",
+        "C-39",
+        "C-40",
+        "C-41"
+      ],
+      "linked_risks": [
+        "RISK-9",
+        "RISK-14"
+      ],
+      "documentation_link": "/processes/OPS-001",
+      "last_review_date": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-11",
+      "name": "Vendor Management",
+      "description": "Process for selecting, onboarding, and managing third-party vendors including risk assessment and performance monitoring",
+      "owner": "Head of Procurement",
+      "linked_entities": [
+        "AE-8"
+      ],
+      "linked_controls": [
+        "C-42",
+        "C-43",
+        "C-44"
+      ],
+      "linked_risks": [
+        "RISK-15"
+      ],
+      "documentation_link": "/processes/PROC-001",
+      "last_review_date": "2024-10-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-12",
+      "name": "Business Continuity Management",
+      "description": "Process for business continuity planning, disaster recovery, and crisis management",
+      "owner": "COO",
+      "linked_entities": [
+        "AE-17"
+      ],
+      "linked_controls": [
+        "C-52",
+        "C-53",
+        "C-54"
+      ],
+      "linked_risks": [
+        "RISK-19"
+      ],
+      "documentation_link": "/processes/BC-001",
+      "last_review_date": "2024-10-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "process_id": "P-13",
+      "name": "Contract Lifecycle Management",
+      "description": "Process for managing contracts from initiation through execution and compliance monitoring",
+      "owner": "General Counsel",
+      "linked_entities": [
+        "AE-12"
+      ],
+      "linked_controls": [
+        "C-55",
+        "C-56",
+        "C-57"
+      ],
+      "linked_risks": [
+        "RISK-20"
+      ],
+      "documentation_link": "/processes/LEGAL-001",
+      "last_review_date": "2024-11-15",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Customer Retention Excellence",
+      "description": "Achieve 95% renewal rate for strategic accounts through enhanced customer health monitoring and executive engagement",
+      "type": "Strategic",
+      "owner": "Chief Commercial Officer",
+      "target_date": "2025-12-31",
+      "kpis": [
+        {
+          "metric": "Renewal Rate",
+          "target": "95%",
+          "current": "88%"
+        },
+        {
+          "metric": "Executive Engagement Coverage",
+          "target": "100%",
+          "current": "64%"
+        },
+        {
+          "metric": "Customer Health Score Coverage",
+          "target": "100%",
+          "current": "67%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-1"
+      ],
+      "linked_processes": [
+        "P-1"
+      ],
+      "status": "In Progress",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Talent Retention Improvement",
+      "description": "Reduce Solutions Architect attrition from 14.2% to below 8% through enhanced retention programs",
+      "type": "Operational",
+      "owner": "Chief People Officer",
+      "target_date": "2025-12-31",
+      "kpis": [
+        {
+          "metric": "Solutions Architect Attrition",
+          "target": "<8%",
+          "current": "14.2%"
+        },
+        {
+          "metric": "Engagement Score",
+          "target": "75%",
+          "current": "68%"
+        },
+        {
+          "metric": "Succession Planning Coverage",
+          "target": "100%",
+          "current": "65%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-2",
+        "RISK-13"
+      ],
+      "linked_processes": [
+        "P-2"
+      ],
+      "status": "In Progress",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Revenue Growth Acceleration",
+      "description": "Achieve 10% year-over-year revenue growth through improved new logo acquisition and market expansion",
+      "type": "Strategic",
+      "owner": "CEO",
+      "target_date": "2025-12-31",
+      "kpis": [
+        {
+          "metric": "Revenue Growth YoY",
+          "target": "10%",
+          "current": "6.8%"
+        },
+        {
+          "metric": "New Logo Quota Achievement",
+          "target": "100%",
+          "current": "82%"
+        },
+        {
+          "metric": "Win Rate",
+          "target": "35%",
+          "current": "32%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-3",
+        "RISK-8",
+        "RISK-18"
+      ],
+      "linked_processes": [
+        "P-6",
+        "P-9"
+      ],
+      "status": "In Progress",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Target A Integration Success",
+      "description": "Complete Target A integration achieving 100% of synergy targets within 12 months",
+      "type": "Strategic",
+      "owner": "CFO",
+      "target_date": "2025-10-31",
+      "kpis": [
+        {
+          "metric": "Synergy Realization",
+          "target": "100%",
+          "current": "15%"
+        },
+        {
+          "metric": "Integration Milestones On Track",
+          "target": "100%",
+          "current": "100%"
+        },
+        {
+          "metric": "Employee Retention (Target A)",
+          "target": "90%",
+          "current": "95%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-4"
+      ],
+      "linked_processes": [
+        "P-7"
+      ],
+      "status": "In Progress",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "EBITDA Margin Improvement",
+      "description": "Sustain EBITDA margin at 10%+ through operational efficiency and automation adoption",
+      "type": "Financial",
+      "owner": "CFO",
+      "target_date": "2025-12-31",
+      "kpis": [
+        {
+          "metric": "EBITDA Margin",
+          "target": "10%+",
+          "current": "10.3%"
+        },
+        {
+          "metric": "Automation Adoption Rate",
+          "target": "85%",
+          "current": "64%"
+        },
+        {
+          "metric": "Utilization Rate",
+          "target": "78%",
+          "current": "74%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-5",
+        "RISK-10"
+      ],
+      "linked_processes": [
+        "P-5",
+        "P-8"
+      ],
+      "status": "In Progress",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Data Protection Compliance Excellence",
+      "description": "Maintain zero material GDPR compliance breaches across all EMEA operations",
+      "type": "Compliance",
+      "owner": "Data Protection Officer",
+      "target_date": "2025-12-31",
+      "kpis": [
+        {
+          "metric": "Compliance Breaches",
+          "target": "0",
+          "current": "0"
+        },
+        {
+          "metric": "SAR Response Compliance",
+          "target": "100%",
+          "current": "100%"
+        },
+        {
+          "metric": "DPIA Completion Rate",
+          "target": "100%",
+          "current": "100%"
+        }
+      ],
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "linked_processes": [
+        "P-4"
+      ],
+      "status": "On Track",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "GDPR",
+      "full_name": "General Data Protection Regulation (EU) 2016/679",
+      "description": "European Union regulation on data protection and privacy for all individuals within the EU and EEA",
+      "type": "Regulation",
+      "jurisdiction": "EU/EEA",
+      "effective_date": "2018-05-25",
+      "applicable_entities": [
+        "AE-6",
+        "AE-16"
+      ],
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "compliance_owner": "Data Protection Officer",
+      "last_compliance_review": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "UK Data Protection Act 2018",
+      "full_name": "UK Data Protection Act 2018 and UK GDPR",
+      "description": "UK implementation of GDPR principles post-Brexit with supplementary provisions",
+      "type": "Regulation",
+      "jurisdiction": "UK",
+      "effective_date": "2018-05-25",
+      "applicable_entities": [
+        "AE-6",
+        "AE-16"
+      ],
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "linked_risks": [
+        "RISK-6"
+      ],
+      "compliance_owner": "Data Protection Officer",
+      "last_compliance_review": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "ISO 27001",
+      "full_name": "ISO/IEC 27001:2022 Information Security Management",
+      "description": "International standard for information security management systems (ISMS)",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": "2022-10-25",
+      "applicable_entities": [
+        "AE-6",
+        "AE-15"
+      ],
+      "linked_controls": [
+        "C-33",
+        "C-34",
+        "C-35"
+      ],
+      "linked_risks": [
+        "RISK-12"
+      ],
+      "compliance_owner": "CISO",
+      "last_compliance_review": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "IFRS 15",
+      "full_name": "IFRS 15 Revenue from Contracts with Customers",
+      "description": "International accounting standard for revenue recognition from contracts with customers",
+      "type": "Accounting Standard",
+      "jurisdiction": "International",
+      "effective_date": "2018-01-01",
+      "applicable_entities": [
+        "AE-1",
+        "AE-7"
+      ],
+      "linked_controls": [
+        "C-20",
+        "C-21",
+        "C-22"
+      ],
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "compliance_owner": "CFO",
+      "last_compliance_review": "2025-01-05",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "UK Companies Act 2006",
+      "full_name": "UK Companies Act 2006",
+      "description": "Primary legislation governing company law in the UK including financial reporting requirements",
+      "type": "Regulation",
+      "jurisdiction": "UK",
+      "effective_date": "2006-11-08",
+      "applicable_entities": [
+        "AE-7"
+      ],
+      "linked_controls": [
+        "C-20",
+        "C-22"
+      ],
+      "linked_risks": [
+        "RISK-7"
+      ],
+      "compliance_owner": "CFO",
+      "last_compliance_review": "2024-12-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "German Works Constitution Act",
+      "full_name": "Betriebsverfassungsgesetz (BetrVG)",
+      "description": "German law governing works councils and employee participation in corporate decisions",
+      "type": "Regulation",
+      "jurisdiction": "Germany",
+      "effective_date": "1972-01-15",
+      "applicable_entities": [
+        "AE-3",
+        "AE-4"
+      ],
+      "linked_controls": [
+        "C-47"
+      ],
+      "linked_risks": [
+        "RISK-16"
+      ],
+      "compliance_owner": "HR Director",
+      "last_compliance_review": "2024-11-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "SOC 2 Type II",
+      "full_name": "SOC 2 Type II - Trust Services Criteria",
+      "description": "AICPA standard for service organization controls related to security, availability, processing integrity, confidentiality, and privacy",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": null,
+      "applicable_entities": [
+        "AE-6",
+        "AE-2",
+        "AE-3"
+      ],
+      "linked_controls": [
+        "C-33",
+        "C-34",
+        "C-39",
+        "C-52"
+      ],
+      "linked_risks": [
+        "RISK-12",
+        "RISK-14"
+      ],
+      "compliance_owner": "CISO",
+      "last_compliance_review": "2024-08-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "standard_id": "STD-8",
+      "name": "EU AI Act",
+      "full_name": "European Union Artificial Intelligence Act",
+      "description": "Emerging EU regulation on artificial intelligence systems and their deployment",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2024-08-01",
+      "applicable_entities": [
+        "AE-11",
+        "AE-16"
+      ],
+      "linked_controls": [
+        "C-48",
+        "C-49"
+      ],
+      "linked_risks": [
+        "RISK-17"
+      ],
+      "compliance_owner": "General Counsel",
+      "last_compliance_review": "2025-01-10",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "Lawful Basis for Processing",
+      "description": "Personal data must be processed lawfully, fairly and in a transparent manner with documented lawful basis",
+      "article_reference": "Article 5(1)(a), Article 6",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-17",
+        "C-18"
+      ],
+      "evidence_required": "Record of processing activities documenting lawful basis for each processing activity",
+      "owner": "Data Protection Officer",
+      "last_assessed": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-1",
+      "name": "Data Subject Rights",
+      "description": "Data subjects have rights to access, rectification, erasure, restriction, portability, and objection",
+      "article_reference": "Articles 15-22",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-17"
+      ],
+      "evidence_required": "SAR response procedures and completion records within statutory timelines",
+      "owner": "Data Protection Officer",
+      "last_assessed": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-1",
+      "name": "Cross-Border Data Transfers",
+      "description": "Transfers of personal data to third countries require appropriate safeguards",
+      "article_reference": "Articles 44-49",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-19"
+      ],
+      "evidence_required": "Standard contractual clauses, adequacy decisions, or binding corporate rules in place",
+      "owner": "Data Protection Officer",
+      "last_assessed": "2025-01-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-3",
+      "name": "Information Security Risk Assessment",
+      "description": "Organization must conduct information security risk assessments and implement appropriate controls",
+      "article_reference": "Clause 6.1.2",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-33"
+      ],
+      "evidence_required": "Risk assessment documentation, treatment plans, and residual risk acceptance",
+      "owner": "CISO",
+      "last_assessed": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-3",
+      "name": "Security Incident Management",
+      "description": "Organization must establish procedures for detecting, reporting, and responding to security incidents",
+      "article_reference": "Clause A.5.24-A.5.28",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-34"
+      ],
+      "evidence_required": "Incident response procedures, incident logs, and post-incident reviews",
+      "owner": "CISO",
+      "last_assessed": "2024-12-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-4",
+      "name": "Performance Obligation Identification",
+      "description": "Identify distinct performance obligations in customer contracts for revenue recognition",
+      "article_reference": "IFRS 15.22-30",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-20",
+        "C-21"
+      ],
+      "evidence_required": "Contract analysis documentation identifying performance obligations",
+      "owner": "Financial Controller",
+      "last_assessed": "2025-01-05",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-4",
+      "name": "Transaction Price Allocation",
+      "description": "Allocate transaction price to performance obligations based on standalone selling prices",
+      "article_reference": "IFRS 15.73-90",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-20",
+        "C-21"
+      ],
+      "evidence_required": "Standalone selling price determination and allocation methodology",
+      "owner": "Financial Controller",
+      "last_assessed": "2025-01-05",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "STD-5",
+      "name": "True and Fair View",
+      "description": "Directors must ensure financial statements give a true and fair view of the company's affairs",
+      "article_reference": "Section 393",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-20",
+        "C-22"
+      ],
+      "evidence_required": "External audit opinion, management representations",
+      "owner": "CFO",
+      "last_assessed": "2024-12-15",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-9",
+      "standard_id": "STD-6",
+      "name": "Works Council Consultation",
+      "description": "Works council must be consulted on matters affecting employees including operational changes",
+      "article_reference": "Section 87",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-47"
+      ],
+      "evidence_required": "Works council meeting minutes, consultation documentation",
+      "owner": "HR Director",
+      "last_assessed": "2024-11-01",
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "requirement_id": "REQ-10",
+      "standard_id": "STD-7",
+      "name": "Security Control Design and Operating Effectiveness",
+      "description": "Controls over security must be suitably designed and operating effectively",
+      "article_reference": "CC1-CC9",
+      "compliance_status": "Compliant",
+      "linked_controls": [
+        "C-33",
+        "C-34",
+        "C-35"
+      ],
+      "evidence_required": "Control documentation, test results, independent auditor report",
+      "owner": "CISO",
+      "last_assessed": "2024-08-15",
+      "created_by": "Sarah Mitchell"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "name": "Q4 2024 Customer Health Score Report",
+      "description": "Quarterly customer health score analysis for all strategic accounts with trend analysis",
+      "type": "Report",
+      "linked_controls": [
+        "C-1"
+      ],
+      "linked_audits": [
+        "AUD-1",
+        "AUD-9"
+      ],
+      "collection_date": "2025-01-10",
+      "collected_by": "James Thompson",
+      "storage_location": "/evidence/2025/AUD-1/customer-health-q4-2024.pdf",
+      "retention_period": "7 years",
+      "created_by": "James Thompson"
+    },
+    {
+      "evidence_id": "EV-2",
+      "name": "Executive Engagement Tracker",
+      "description": "Tracker documenting executive engagement activities for strategic accounts",
+      "type": "Spreadsheet",
+      "linked_controls": [
+        "C-2"
+      ],
+      "linked_audits": [
+        "AUD-1",
+        "AUD-9"
+      ],
+      "collection_date": "2025-01-10",
+      "collected_by": "Emma Wilson",
+      "storage_location": "/evidence/2025/AUD-1/exec-engagement-tracker.xlsx",
+      "retention_period": "7 years",
+      "created_by": "Emma Wilson"
+    },
+    {
+      "evidence_id": "EV-3",
+      "name": "Account A Loss Post-Mortem Report",
+      "description": "Detailed analysis of Account A loss including timeline, contributing factors, and lessons learned",
+      "type": "Report",
+      "linked_controls": [
+        "C-1",
+        "C-2",
+        "C-4"
+      ],
+      "linked_audits": [
+        "AUD-9"
+      ],
+      "collection_date": "2024-11-15",
+      "collected_by": "James Thompson",
+      "storage_location": "/evidence/2024/AUD-9/account-a-postmortem.pdf",
+      "retention_period": "7 years",
+      "created_by": "James Thompson"
+    },
+    {
+      "evidence_id": "EV-4",
+      "name": "Solutions Architect Attrition Analysis",
+      "description": "Analysis of Solutions Architect attrition including exit interview themes and market comparisons",
+      "type": "Report",
+      "linked_controls": [
+        "C-8",
+        "C-10"
+      ],
+      "linked_audits": [
+        "AUD-3"
+      ],
+      "collection_date": "2025-01-08",
+      "collected_by": "Marcus Chen",
+      "storage_location": "/evidence/2025/AUD-3/sa-attrition-analysis.pdf",
+      "retention_period": "7 years",
+      "created_by": "Marcus Chen"
+    },
+    {
+      "evidence_id": "EV-5",
+      "name": "Target A Integration Status Report - Week 12",
+      "description": "Weekly integration status report with milestone tracking and issue log",
+      "type": "Report",
+      "linked_controls": [
+        "C-11",
+        "C-12"
+      ],
+      "linked_audits": [
+        "AUD-2"
+      ],
+      "collection_date": "2025-01-15",
+      "collected_by": "Emma Wilson",
+      "storage_location": "/evidence/2025/AUD-2/integration-status-w12.pdf",
+      "retention_period": "7 years",
+      "created_by": "Emma Wilson"
+    },
+    {
+      "evidence_id": "EV-6",
+      "name": "Automation Adoption Dashboard Export",
+      "description": "Phase 1 automation tool adoption metrics and usage analytics",
+      "type": "Report",
+      "linked_controls": [
+        "C-14"
+      ],
+      "linked_audits": [
+        "AUD-6"
+      ],
+      "collection_date": "2025-01-12",
+      "collected_by": "Sophie Adams",
+      "storage_location": "/evidence/2025/AUD-6/automation-adoption-jan2025.pdf",
+      "retention_period": "7 years",
+      "created_by": "Sophie Adams"
+    },
+    {
+      "evidence_id": "EV-7",
+      "name": "GDPR Compliance Assessment Report",
+      "description": "Annual GDPR compliance assessment including processing records review and gap analysis",
+      "type": "Report",
+      "linked_controls": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "linked_audits": [
+        "AUD-5"
+      ],
+      "collection_date": "2025-01-08",
+      "collected_by": "Lisa Park",
+      "storage_location": "/evidence/2025/AUD-5/gdpr-compliance-assessment.pdf",
+      "retention_period": "7 years",
+      "created_by": "Lisa Park"
+    },
+    {
+      "evidence_id": "EV-8",
+      "name": "Revenue Recognition Contract Sample Testing",
+      "description": "Testing workpapers for sample of 10 material contracts assessing IFRS 15 compliance",
+      "type": "Workpaper",
+      "linked_controls": [
+        "C-20",
+        "C-21"
+      ],
+      "linked_audits": [
+        "AUD-4"
+      ],
+      "collection_date": "2025-01-05",
+      "collected_by": "David Roberts",
+      "storage_location": "/evidence/2025/AUD-4/rev-rec-testing-workpapers.xlsx",
+      "retention_period": "7 years",
+      "created_by": "David Roberts"
+    },
+    {
+      "evidence_id": "EV-9",
+      "name": "Pipeline Quality Review Documentation",
+      "description": "Sample of weekly pipeline quality reviews with stage advancement analysis",
+      "type": "Documentation",
+      "linked_controls": [
+        "C-23"
+      ],
+      "linked_audits": [
+        "AUD-1"
+      ],
+      "collection_date": "2025-01-10",
+      "collected_by": "James Thompson",
+      "storage_location": "/evidence/2025/AUD-1/pipeline-quality-reviews.pdf",
+      "retention_period": "7 years",
+      "created_by": "James Thompson"
+    },
+    {
+      "evidence_id": "EV-10",
+      "name": "Vulnerability Scan Results - Q4 2024",
+      "description": "Quarterly vulnerability scan results with remediation tracking",
+      "type": "Report",
+      "linked_controls": [
+        "C-33"
+      ],
+      "linked_audits": [
+        "AUD-5"
+      ],
+      "collection_date": "2025-01-05",
+      "collected_by": "Robert Kim",
+      "storage_location": "/evidence/2025/AUD-5/vuln-scan-q4-2024.pdf",
+      "retention_period": "7 years",
+      "created_by": "Robert Kim"
+    },
+    {
+      "evidence_id": "EV-11",
+      "name": "Competitive Win/Loss Analysis - Q4 2024",
+      "description": "Quarterly competitive win/loss analysis with market trends",
+      "type": "Report",
+      "linked_controls": [
+        "C-5"
+      ],
+      "linked_audits": [
+        "AUD-8"
+      ],
+      "collection_date": "2025-01-12",
+      "collected_by": "Jennifer Lee",
+      "storage_location": "/evidence/2025/AUD-8/win-loss-q4-2024.pdf",
+      "retention_period": "7 years",
+      "created_by": "Jennifer Lee"
+    },
+    {
+      "evidence_id": "EV-12",
+      "name": "SLA Performance Report - December 2024",
+      "description": "Monthly SLA performance metrics across all service delivery engagements",
+      "type": "Report",
+      "linked_controls": [
+        "C-39"
+      ],
+      "linked_audits": [
+        "AUD-7",
+        "AUD-12"
+      ],
+      "collection_date": "2025-01-08",
+      "collected_by": "Thomas Wright",
+      "storage_location": "/evidence/2025/AUD-7/sla-performance-dec2024.pdf",
+      "retention_period": "7 years",
+      "created_by": "Thomas Wright"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "RQ-1",
+      "audit_id": "AUD-1",
+      "title": "Strategic Account Customer Health Documentation",
+      "description": "Please provide customer health score documentation for all strategic accounts (>\u00a3500K annual revenue) for Q3 and Q4 2024",
+      "requested_from": "VP Customer Success",
+      "requested_by": "James Thompson",
+      "request_date": "2025-02-15",
+      "due_date": "2025-02-22",
+      "status": "Open",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "James Thompson"
+    },
+    {
+      "request_id": "RQ-2",
+      "audit_id": "AUD-1",
+      "title": "Executive Engagement Meeting Records",
+      "description": "Please provide meeting records and outcomes from executive engagement activities for strategic accounts in 2024",
+      "requested_from": "Chief Commercial Officer",
+      "requested_by": "Emma Wilson",
+      "request_date": "2025-02-15",
+      "due_date": "2025-02-25",
+      "status": "Open",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "Emma Wilson"
+    },
+    {
+      "request_id": "RQ-3",
+      "audit_id": "AUD-2",
+      "title": "Target A Purchase Price Allocation Documentation",
+      "description": "Please provide purchase price allocation working papers and supporting valuation documentation",
+      "requested_from": "CFO",
+      "requested_by": "Emma Wilson",
+      "request_date": "2025-03-20",
+      "due_date": "2025-04-05",
+      "status": "Not Started",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "Emma Wilson"
+    },
+    {
+      "request_id": "RQ-4",
+      "audit_id": "AUD-2",
+      "title": "Integration Synergy Tracking Model",
+      "description": "Please provide synergy tracking model with baseline assumptions and actual results to date",
+      "requested_from": "Integration PMO",
+      "requested_by": "David Roberts",
+      "request_date": "2025-03-20",
+      "due_date": "2025-04-05",
+      "status": "Not Started",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "David Roberts"
+    },
+    {
+      "request_id": "RQ-5",
+      "audit_id": "AUD-3",
+      "title": "Solutions Architect Exit Interview Summaries",
+      "description": "Please provide anonymized exit interview summaries for all Solutions Architect departures in 2024",
+      "requested_from": "HR Director",
+      "requested_by": "Marcus Chen",
+      "request_date": "2025-04-15",
+      "due_date": "2025-04-25",
+      "status": "Not Started",
+      "priority": "Medium",
+      "evidence_provided": null,
+      "created_by": "Marcus Chen"
+    },
+    {
+      "request_id": "RQ-6",
+      "audit_id": "AUD-3",
+      "title": "Compensation Benchmarking Study Results",
+      "description": "Please provide Q1 2025 compensation benchmarking study results for technical roles",
+      "requested_from": "Chief People Officer",
+      "requested_by": "Sophie Adams",
+      "request_date": "2025-04-15",
+      "due_date": "2025-04-30",
+      "status": "Not Started",
+      "priority": "Medium",
+      "evidence_provided": null,
+      "created_by": "Sophie Adams"
+    },
+    {
+      "request_id": "RQ-7",
+      "audit_id": "AUD-4",
+      "title": "Sample of Customer Contracts for Revenue Recognition Review",
+      "description": "Please provide complete contract documentation for sample of 15 material contracts for revenue recognition testing",
+      "requested_from": "Financial Controller",
+      "requested_by": "David Roberts",
+      "request_date": "2025-03-01",
+      "due_date": "2025-03-10",
+      "status": "Not Started",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "David Roberts"
+    },
+    {
+      "request_id": "RQ-8",
+      "audit_id": "AUD-5",
+      "title": "Record of Processing Activities (ROPA)",
+      "description": "Please provide current Record of Processing Activities for all EMEA processing operations",
+      "requested_from": "Data Protection Officer",
+      "requested_by": "Lisa Park",
+      "request_date": "2025-05-15",
+      "due_date": "2025-05-22",
+      "status": "Not Started",
+      "priority": "High",
+      "evidence_provided": null,
+      "created_by": "Lisa Park"
+    },
+    {
+      "request_id": "RQ-9",
+      "audit_id": "AUD-6",
+      "title": "Automation Investment Business Cases",
+      "description": "Please provide original business cases for Phase 1 automation initiatives with projected vs actual ROI",
+      "requested_from": "CTO",
+      "requested_by": "Sophie Adams",
+      "request_date": "2025-06-01",
+      "due_date": "2025-06-10",
+      "status": "Not Started",
+      "priority": "Medium",
+      "evidence_provided": null,
+      "created_by": "Sophie Adams"
+    },
+    {
+      "request_id": "RQ-10",
+      "audit_id": "AUD-8",
+      "title": "Competitive Intelligence Reports and Analysis",
+      "description": "Please provide all competitive intelligence reports and market analysis produced in 2024",
+      "requested_from": "VP Strategy",
+      "requested_by": "Jennifer Lee",
+      "request_date": "2025-03-15",
+      "due_date": "2025-03-25",
+      "status": "Not Started",
+      "priority": "Medium",
+      "evidence_provided": null,
+      "created_by": "Jennifer Lee"
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Document Review",
+      "description": "Review of policies, procedures, and documentation to assess design and implementation",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "procedure_steps": [
+        "Obtain relevant documentation from control owner",
+        "Review for completeness and currency",
+        "Assess alignment with requirements",
+        "Document observations and gaps"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Inquiry and Observation",
+      "description": "Interviews with process owners and observation of control execution",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "procedure_steps": [
+        "Prepare interview questions based on control objectives",
+        "Conduct interviews with relevant personnel",
+        "Observe control execution where possible",
+        "Corroborate responses with documentation"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Sample Testing",
+      "description": "Selection and testing of sample transactions or items to verify control operation",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "procedure_steps": [
+        "Determine appropriate sample size based on risk and population",
+        "Select sample using appropriate method (random, stratified)",
+        "Test each sample item against control criteria",
+        "Document results and calculate exception rate"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Reperformance",
+      "description": "Independent reperformance of control procedures to verify effectiveness",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Detective",
+        "Corrective"
+      ],
+      "procedure_steps": [
+        "Obtain control procedure documentation",
+        "Select sample for reperformance",
+        "Execute control procedure independently",
+        "Compare results with original control execution"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Data Analytics",
+      "description": "Analysis of full population data to identify exceptions and anomalies",
+      "type": "Automated",
+      "applicable_control_types": [
+        "Detective"
+      ],
+      "procedure_steps": [
+        "Obtain full population data extract",
+        "Define analytical tests based on control objectives",
+        "Execute analytics and identify exceptions",
+        "Investigate significant exceptions"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Automated Control Testing",
+      "description": "Testing of automated controls through system configuration review and transaction testing",
+      "type": "Automated",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective"
+      ],
+      "procedure_steps": [
+        "Review system configuration settings",
+        "Test control trigger conditions",
+        "Verify automated responses and alerts",
+        "Review access controls for configuration changes"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Benchmarking",
+      "description": "Comparison of control design and performance against industry standards and best practices",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Preventive",
+        "Detective",
+        "Corrective"
+      ],
+      "procedure_steps": [
+        "Identify relevant benchmarks and standards",
+        "Document current control state",
+        "Compare against benchmarks",
+        "Identify improvement opportunities"
+      ],
+      "created_by": "Sarah Mitchell"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Risk Assessment Workshop",
+      "description": "Facilitated workshop with stakeholders to identify and assess risks",
+      "type": "Manual",
+      "applicable_control_types": [
+        "Preventive"
+      ],
+      "procedure_steps": [
+        "Prepare workshop materials and risk taxonomy",
+        "Facilitate risk identification session",
+        "Assess likelihood and impact with participants",
+        "Validate and prioritize identified risks"
+      ],
+      "created_by": "Sarah Mitchell"
+    }
+  ]
+}
