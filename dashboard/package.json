@@ -6,6 +6,7 @@
     "aggregate": "node scripts/aggregate.mjs",
     "dev": "npm run aggregate && vite",
     "build": "npm run aggregate && vite build",
+    "build:offline": "node scripts/build-offline-html.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

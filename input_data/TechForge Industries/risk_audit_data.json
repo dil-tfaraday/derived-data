@@ -1,0 +1,5394 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Manufacturing Operations - Munich Plant",
+      "description": "Primary manufacturing facility for industrial automation equipment including assembly lines, quality control, and logistics operations",
+      "taxonomy": {
+        "business_unit": "Manufacturing",
+        "region": "EU-DACH",
+        "function": "Production"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Hans Mueller",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-10-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Enterprise IT Systems",
+      "description": "Core IT infrastructure including SAP S/4HANA ERP, manufacturing execution systems, and data center operations",
+      "taxonomy": {
+        "business_unit": "Information Technology",
+        "region": "Global",
+        "function": "IT Infrastructure"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Klaus Weber",
+      "last_audit_date": "2024-09-20",
+      "next_audit_date": "2025-09-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Commercial Operations",
+      "description": "Sales, marketing, and customer relationship management functions across EU markets",
+      "taxonomy": {
+        "business_unit": "Commercial",
+        "region": "EU",
+        "function": "Sales & Marketing"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Sophie Bergmann",
+      "last_audit_date": "2024-06-10",
+      "next_audit_date": "2025-06-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Financial Reporting & Treasury",
+      "description": "Financial close processes, external reporting, treasury operations, and investor relations",
+      "taxonomy": {
+        "business_unit": "Finance",
+        "region": "Global",
+        "function": "Financial Reporting"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Friedrich Schneider",
+      "last_audit_date": "2024-12-15",
+      "next_audit_date": "2025-12-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Supply Chain Management",
+      "description": "Procurement, vendor management, logistics, and inventory control operations",
+      "taxonomy": {
+        "business_unit": "Operations",
+        "region": "Global",
+        "function": "Supply Chain"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Martin Fischer",
+      "last_audit_date": "2024-08-20",
+      "next_audit_date": "2025-08-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Research & Development",
+      "description": "Product development, software engineering, and intellectual property management",
+      "taxonomy": {
+        "business_unit": "R&D",
+        "region": "EU",
+        "function": "Product Development"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Dr. Elena Vogt",
+      "last_audit_date": "2024-07-15",
+      "next_audit_date": "2025-07-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Regulatory Compliance & Legal",
+      "description": "EU regulatory compliance, export controls, GDPR, and legal affairs",
+      "taxonomy": {
+        "business_unit": "Legal & Compliance",
+        "region": "EU",
+        "function": "Compliance"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Dr. Anna Richter",
+      "last_audit_date": "2024-05-01",
+      "next_audit_date": "2025-05-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Human Resources",
+      "description": "Talent management, payroll, benefits administration, and workforce planning",
+      "taxonomy": {
+        "business_unit": "Human Resources",
+        "region": "EU",
+        "function": "HR Operations"
+      },
+      "audit_frequency": "Biennial",
+      "risk_rating": "Medium",
+      "entity_owner": "Christina Braun",
+      "last_audit_date": "2023-10-01",
+      "next_audit_date": "2025-10-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Quality Management System",
+      "description": "Product quality assurance, ISO certifications, and continuous improvement programs",
+      "taxonomy": {
+        "business_unit": "Quality",
+        "region": "Global",
+        "function": "Quality Assurance"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Thomas Bauer",
+      "last_audit_date": "2024-04-15",
+      "next_audit_date": "2025-04-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Environmental Health & Safety",
+      "description": "Workplace safety, environmental compliance, and sustainability reporting",
+      "taxonomy": {
+        "business_unit": "EHS",
+        "region": "EU",
+        "function": "Safety & Environment"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Michael Hartmann",
+      "last_audit_date": "2024-03-01",
+      "next_audit_date": "2025-03-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "Data Privacy & Information Security",
+      "description": "GDPR compliance, cybersecurity operations, and data protection programs",
+      "taxonomy": {
+        "business_unit": "Information Security",
+        "region": "Global",
+        "function": "Security & Privacy"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Stefan Koch",
+      "last_audit_date": "2024-10-01",
+      "next_audit_date": "2025-10-01",
+      "created_date": "2020-03-15"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "Automotive Vertical Business Unit",
+      "description": "Dedicated business unit serving automotive OEMs and Tier 1 suppliers",
+      "taxonomy": {
+        "business_unit": "Automotive",
+        "region": "EU",
+        "function": "Industry Vertical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Johannes Wolf",
+      "last_audit_date": "2024-11-01",
+      "next_audit_date": "2025-11-01",
+      "created_date": "2021-06-01"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Strategic Importance",
+      "description": "Degree to which the entity supports strategic objectives and revenue generation",
+      "weight": 0.25,
+      "scale": "1-5",
+      "guidance": "5=Critical to strategy, 4=High importance, 3=Moderate, 2=Low, 1=Minimal"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Regulatory Exposure",
+      "description": "Level of regulatory scrutiny and compliance requirements applicable to the entity",
+      "weight": 0.2,
+      "scale": "1-5",
+      "guidance": "5=Heavy regulation, 4=Significant, 3=Moderate, 2=Limited, 1=Minimal"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Financial Impact",
+      "description": "Potential financial exposure from entity operations including revenue and cost",
+      "weight": 0.2,
+      "scale": "1-5",
+      "guidance": "5=>\u20ac50M impact, 4=\u20ac20-50M, 3=\u20ac5-20M, 2=\u20ac1-5M, 1=<\u20ac1M"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Process Complexity",
+      "description": "Complexity of operations, systems, and interdependencies within the entity",
+      "weight": 0.15,
+      "scale": "1-5",
+      "guidance": "5=Highly complex, 4=Complex, 3=Moderate, 2=Simple, 1=Very simple"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Change Velocity",
+      "description": "Rate and magnitude of changes affecting the entity in the assessment period",
+      "weight": 0.1,
+      "scale": "1-5",
+      "guidance": "5=Major transformation, 4=Significant changes, 3=Moderate, 2=Minor, 1=Stable"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Prior Audit Results",
+      "description": "Historical audit performance and remediation track record",
+      "weight": 0.1,
+      "scale": "1-5",
+      "guidance": "5=Unsatisfactory history, 4=Multiple issues, 3=Some findings, 2=Minor issues, 1=Clean"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-1",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 5,
+        "AF-4": 4,
+        "AF-5": 3,
+        "AF-6": 3
+      },
+      "weighted_score": 4.25,
+      "risk_rating": "Critical",
+      "assessor": "Internal Audit Team",
+      "rationale": "Core manufacturing operations with high revenue contribution and significant regulatory oversight under EU machinery directives",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-2",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 4,
+        "AF-3": 5,
+        "AF-4": 5,
+        "AF-5": 5,
+        "AF-6": 4
+      },
+      "weighted_score": 4.65,
+      "risk_rating": "Critical",
+      "assessor": "Internal Audit Team",
+      "rationale": "First full year on SAP S/4HANA following Q3 2024 migration. High change velocity and ITGC criticality for financial reporting",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-3",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 3,
+        "AF-3": 4,
+        "AF-4": 3,
+        "AF-5": 4,
+        "AF-6": 4
+      },
+      "weighted_score": 3.65,
+      "risk_rating": "High",
+      "assessor": "Internal Audit Team",
+      "rationale": "Commercial performance volatility with sales attainment 82-89%. CRO implementing remediation including territory realignment",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-4",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 5,
+        "AF-2": 5,
+        "AF-3": 5,
+        "AF-4": 4,
+        "AF-5": 4,
+        "AF-6": 3
+      },
+      "weighted_score": 4.5,
+      "risk_rating": "Critical",
+      "assessor": "Internal Audit Team",
+      "rationale": "IFRS reporting requirements, first year-end close on new ERP system, complex revenue recognition for manufacturing contracts",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-5",
+      "entity_id": "AE-5",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 3,
+        "AF-3": 4,
+        "AF-4": 4,
+        "AF-5": 3,
+        "AF-6": 3
+      },
+      "weighted_score": 3.55,
+      "risk_rating": "High",
+      "assessor": "Internal Audit Team",
+      "rationale": "Extended customer decision cycles (127 days) impacting inventory management. Chinese competitor pressure on standard products",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-6",
+      "entity_id": "AE-12",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "FY2025",
+      "factor_scores": {
+        "AF-1": 4,
+        "AF-2": 3,
+        "AF-3": 4,
+        "AF-4": 3,
+        "AF-5": 4,
+        "AF-6": 3
+      },
+      "weighted_score": 3.55,
+      "risk_rating": "High",
+      "assessor": "Internal Audit Team",
+      "rationale": "Automotive vertical declined 14% YoY due to EV transition deferrals. Revenue concentration risk at 28% of total revenue",
+      "created_date": "2025-01-15"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "SAP S/4HANA Post-Implementation Review",
+      "status": "Completed",
+      "description": "Comprehensive review of IT general controls, data migration integrity, and process effectiveness following Q3 2024 ERP migration",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-01-15",
+      "planned_end_date": "2025-03-15",
+      "actual_start_date": "2025-01-20",
+      "actual_end_date": "2025-03-20",
+      "lead_auditor": "Dr. Marcus Stein",
+      "audit_team": [
+        "Anna Hoffman",
+        "Peter Kraus",
+        "Lisa Engel"
+      ],
+      "scoped_entity_ids": [
+        "AE-2",
+        "AE-4"
+      ],
+      "finding_ids": [
+        "FND-1",
+        "FND-2",
+        "FND-3"
+      ],
+      "created_date": "2025-01-10"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Commercial Operations Process Review",
+      "status": "Completed",
+      "description": "Assessment of sales pipeline management, forecasting accuracy, commission calculations, and contract approval processes",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": "2025-04-05",
+      "actual_end_date": "2025-06-10",
+      "lead_auditor": "Christina Becker",
+      "audit_team": [
+        "Robert Schulz",
+        "Maria Richter"
+      ],
+      "scoped_entity_ids": [
+        "AE-3",
+        "AE-12"
+      ],
+      "finding_ids": [
+        "FND-4",
+        "FND-5"
+      ],
+      "created_date": "2025-03-15"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Revenue Recognition Compliance Audit",
+      "status": "Completed",
+      "description": "IFRS 15 compliance testing including cut-off procedures, contract modifications, and percentage-of-completion accounting",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-08-31",
+      "actual_start_date": "2025-07-05",
+      "actual_end_date": "2025-09-05",
+      "lead_auditor": "Dr. Marcus Stein",
+      "audit_team": [
+        "Anna Hoffman",
+        "Tobias Meyer"
+      ],
+      "scoped_entity_ids": [
+        "AE-4"
+      ],
+      "finding_ids": [
+        "FND-6"
+      ],
+      "created_date": "2025-06-15"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Inventory Valuation and Obsolescence Review",
+      "status": "Completed",
+      "description": "Testing of inventory costing methods, lower-of-cost-or-market adjustments, and obsolescence reserve adequacy",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-10-15",
+      "actual_start_date": "2025-09-08",
+      "actual_end_date": "2025-10-20",
+      "lead_auditor": "Christina Becker",
+      "audit_team": [
+        "Maria Richter",
+        "Klaus Werner"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-5"
+      ],
+      "finding_ids": [
+        "FND-7",
+        "FND-8"
+      ],
+      "created_date": "2025-08-15"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "GDPR and Data Privacy Compliance Audit",
+      "status": "Completed",
+      "description": "Assessment of personal data processing activities, consent management, and data subject rights procedures",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": "2025-05-05",
+      "actual_end_date": "2025-07-01",
+      "lead_auditor": "Dr. Eva Schmidt",
+      "audit_team": [
+        "Stefan Koch",
+        "Laura Weber"
+      ],
+      "scoped_entity_ids": [
+        "AE-11",
+        "AE-7"
+      ],
+      "finding_ids": [],
+      "created_date": "2025-04-15"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "External Financial Statement Audit",
+      "status": "In-Progress",
+      "description": "Annual external audit of consolidated financial statements under IFRS for FY2025",
+      "audit_type": "External",
+      "rating": null,
+      "planned_start_date": "2025-11-01",
+      "planned_end_date": "2026-02-28",
+      "actual_start_date": "2025-11-05",
+      "actual_end_date": null,
+      "lead_auditor": "KPMG - Dr. Franz Huber",
+      "audit_team": [
+        "KPMG Audit Team"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-2",
+        "AE-3",
+        "AE-4",
+        "AE-5"
+      ],
+      "finding_ids": [],
+      "created_date": "2025-10-15"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Export Controls and Dual-Use Compliance",
+      "status": "Completed",
+      "description": "Review of export control procedures for industrial automation equipment under EU dual-use regulations",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-03-01",
+      "planned_end_date": "2025-04-15",
+      "actual_start_date": "2025-03-05",
+      "actual_end_date": "2025-04-18",
+      "lead_auditor": "Dr. Eva Schmidt",
+      "audit_team": [
+        "Dr. Anna Richter",
+        "Michael Braun"
+      ],
+      "scoped_entity_ids": [
+        "AE-7",
+        "AE-3"
+      ],
+      "finding_ids": [
+        "FND-9"
+      ],
+      "created_date": "2025-02-15"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "FY2025 Annual Audit Plan",
+      "description": "Risk-based internal audit plan focusing on ERP transformation, commercial performance, and regulatory compliance",
+      "fiscal_year": "2025",
+      "status": "Approved",
+      "total_audit_hours": 4200,
+      "planned_audits": [
+        "AUD-1",
+        "AUD-2",
+        "AUD-3",
+        "AUD-4",
+        "AUD-5",
+        "AUD-7"
+      ],
+      "risk_assessment_methodology": "Factor-based scoring with strategic, regulatory, financial, complexity, change, and historical performance weights",
+      "approval_date": "2024-12-15",
+      "approved_by": "Audit Committee",
+      "created_date": "2024-11-01"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-1",
+      "title": "Inadequate User Access Controls in SAP S/4HANA",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Principle of least privilege and segregation of duties per ISO 27001 and SOX requirements",
+      "condition": "42 users identified with excessive access privileges post-migration, including 8 users with conflicting duties across procurement and accounts payable",
+      "cause": "Accelerated go-live timeline resulted in bulk access provisioning without granular role analysis. Legacy role mappings carried forward without SOD validation",
+      "effect": "Increased risk of unauthorized transactions and potential for fraud. Control reliance compromised for financial reporting purposes",
+      "recommendation": "Implement comprehensive user access review, deploy SOD conflict detection tooling, establish quarterly access certification process",
+      "related_control_ids": [
+        "C-15",
+        "C-16"
+      ],
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "owner": "Klaus Weber",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-02-28",
+      "closed_date": null,
+      "management_response": "Agree with findings. Access review project initiated with target completion by Q2. Implementing SAP GRC Access Control module for ongoing monitoring"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-1",
+      "title": "Data Migration Reconciliation Gaps",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "Complete and accurate data migration with full reconciliation between legacy and target systems",
+      "condition": "\u20ac2.3M variance identified between legacy system GL balances and SAP S/4HANA post-migration. Root cause traced to timing differences in cut-over procedures",
+      "cause": "Compressed cut-over window during 12-day processing disruption led to incomplete reconciliation of in-flight transactions",
+      "effect": "Required manual adjusting entries in Q4 close. Additional audit effort to validate financial statement integrity",
+      "recommendation": "Complete retrospective reconciliation and document all adjustments. Establish migration playbook for future system transitions",
+      "related_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "owner": "Friedrich Schneider",
+      "remediation_due_date": "2025-04-30",
+      "identified_date": "2025-03-10",
+      "closed_date": "2025-04-25",
+      "management_response": "Reconciliation completed and documented. All variances resolved through proper adjusting entries. Migration lessons learned incorporated into IT change management procedures"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-1",
+      "title": "Insufficient Change Management Documentation",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "All system changes must be documented, tested, and approved per IT change management policy",
+      "condition": "27% of configuration changes during stabilization period (Oct-Dec 2024) lacked complete documentation or testing evidence",
+      "cause": "Emergency change procedures invoked frequently during stabilization, bypassing standard documentation requirements",
+      "effect": "Reduced audit trail for configuration changes. Potential for undetected errors or unauthorized modifications",
+      "recommendation": "Retroactively document all emergency changes. Strengthen emergency change procedures with mandatory post-implementation review",
+      "related_control_ids": [
+        "C-19"
+      ],
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "owner": "Klaus Weber",
+      "remediation_due_date": "2025-05-31",
+      "identified_date": "2025-03-15",
+      "closed_date": null,
+      "management_response": "Agree. Retrospective documentation in progress. Updated emergency change policy requires CAB review within 5 business days of implementation"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-2",
+      "title": "Pipeline Forecasting Accuracy Deficiencies",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Pipeline forecasts should achieve 85% accuracy for 90-day forward projections",
+      "condition": "Q1-Q2 2025 pipeline forecast accuracy averaged 71%, with automotive vertical at 58% accuracy due to EV transition uncertainty",
+      "cause": "Inconsistent opportunity stage definitions, lack of automated deal scoring, and insufficient validation of customer commitment signals",
+      "effect": "Revenue plan misses of 11-18% quarterly. Production planning inefficiencies and inventory imbalances",
+      "recommendation": "Implement standardized opportunity qualification criteria, deploy AI-based deal scoring, establish cross-functional forecast review cadence",
+      "related_control_ids": [
+        "C-20",
+        "C-21"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "owner": "Sophie Bergmann",
+      "remediation_due_date": "2025-09-30",
+      "identified_date": "2025-05-20",
+      "closed_date": null,
+      "management_response": "CRO-led transformation underway. New forecasting methodology piloted in Q3 with full rollout planned for Q4. Early results show 12% improvement in accuracy"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-2",
+      "title": "Sales Commission Calculation Errors",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "Commission calculations must be accurate within 0.5% and properly documented",
+      "condition": "3.2% error rate identified in Q1 commission calculations, resulting in \u20ac127K in overpayments requiring clawback",
+      "cause": "Manual commission calculation process with complex tiered structure. ERP migration disrupted automated commission feeds",
+      "effect": "Employee relations impact from clawbacks. Additional administrative burden for correction processing",
+      "recommendation": "Implement automated commission calculation in SAP. Establish monthly reconciliation between HR and Finance",
+      "related_control_ids": [
+        "C-22"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "owner": "Sophie Bergmann",
+      "remediation_due_date": "2025-07-31",
+      "identified_date": "2025-05-25",
+      "closed_date": "2025-07-28",
+      "management_response": "SAP commission module configured and deployed. Q3 calculations fully automated with zero errors detected"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-3",
+      "title": "Contract Modification Documentation Gaps",
+      "severity": "Low",
+      "status": "Closed",
+      "criteria": "All contract modifications must be documented and assessed for revenue recognition impact per IFRS 15",
+      "condition": "8 of 45 sampled contract modifications lacked complete assessment documentation for variable consideration changes",
+      "cause": "Informal communication channels for scope changes between project managers and commercial teams",
+      "effect": "Minor delays in revenue adjustments. Potential for estimation errors in percentage-of-completion calculations",
+      "recommendation": "Implement formal contract modification workflow in CRM with mandatory revenue impact assessment",
+      "related_control_ids": [
+        "C-23",
+        "C-24"
+      ],
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "owner": "Friedrich Schneider",
+      "remediation_due_date": "2025-10-31",
+      "identified_date": "2025-08-20",
+      "closed_date": "2025-10-15",
+      "management_response": "Workflow implemented. Training completed for all project managers and commercial staff"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-4",
+      "title": "Inventory Obsolescence Reserve Methodology Weakness",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Obsolescence reserves should reflect current market conditions and product lifecycle analysis",
+      "condition": "Reserve methodology does not adequately address EV transition impact on automotive component inventory. \u20ac4.8M potential understatement identified",
+      "cause": "Historical usage-based reserve methodology insufficient for rapid technology transitions. Automotive vertical inventory aging accelerated",
+      "effect": "Potential inventory overstatement and margin pressure when obsolescence realized",
+      "recommendation": "Revise reserve methodology to incorporate product lifecycle stage and market transition factors. Perform comprehensive automotive inventory review",
+      "related_control_ids": [
+        "C-25",
+        "C-26"
+      ],
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-2"
+      ],
+      "owner": "Friedrich Schneider",
+      "remediation_due_date": "2025-12-31",
+      "identified_date": "2025-10-05",
+      "closed_date": null,
+      "management_response": "Enhanced methodology under development with external valuation support. Q4 close will incorporate revised reserves"
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-4",
+      "title": "Cycle Count Accuracy Below Target",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Perpetual inventory accuracy target of 98% for A-class items, 95% for B-class",
+      "condition": "A-class item accuracy at 94.2%, B-class at 89.7% for Q3 2025 cycle counts",
+      "cause": "ERP migration data quality issues and warehouse management system integration gaps",
+      "effect": "Increased year-end physical count scope required. Production planning disruptions from inventory discrepancies",
+      "recommendation": "Accelerate WMS integration completion. Implement root cause analysis for all variances exceeding \u20ac5K",
+      "related_control_ids": [
+        "C-27"
+      ],
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "owner": "Martin Fischer",
+      "remediation_due_date": "2025-12-15",
+      "identified_date": "2025-10-10",
+      "closed_date": null,
+      "management_response": "WMS integration prioritized for November completion. Additional cycle count resources deployed for Q4"
+    },
+    {
+      "finding_id": "FND-9",
+      "audit_id": "AUD-7",
+      "title": "Export Classification Review Timeliness",
+      "severity": "Low",
+      "status": "Closed",
+      "criteria": "New products must receive export classification within 30 days of product release",
+      "condition": "Average classification time of 47 days for products released in H1 2025",
+      "cause": "Resource constraints in export compliance team during ERP transition period",
+      "effect": "Delayed international product availability. Minor revenue impact estimated at \u20ac180K",
+      "recommendation": "Add contractor support for export compliance. Implement automated classification workflow triggers",
+      "related_control_ids": [
+        "C-28"
+      ],
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "owner": "Dr. Anna Richter",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-04-10",
+      "closed_date": "2025-06-28",
+      "management_response": "Contractor engaged and backlog cleared. Automated workflow implemented reducing average time to 22 days"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "ERP System Stability and Business Continuity",
+      "description": "Risk of operational disruption due to SAP S/4HANA system issues including performance degradation, integration failures, or extended outages affecting order processing and financial operations",
+      "canonical_topic_id": "TECH-004",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-SYS-01",
+        "COSO:Technology-Infrastructure",
+        "NIST-CSF:ID.SC"
+      ],
+      "category": "Technology",
+      "subcategory": "System Reliability",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "mitigating_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "related_entity_ids": [
+        "AE-2",
+        "AE-4"
+      ],
+      "created_date": "2024-07-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Automotive Vertical Revenue Concentration",
+      "description": "Risk of significant revenue decline due to over-reliance on automotive sector (28% of revenue) amid EV transition deferrals and OEM capital expenditure reductions",
+      "canonical_topic_id": "STRAT-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:STRAT-MKT-01",
+        "COSO:Strategic-Market",
+        "FFIEC:Business-Strategy"
+      ],
+      "category": "Strategic",
+      "subcategory": "Market Concentration",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226415",
+      "owner": "Sophie Bergmann",
+      "delegate": "Johannes Wolf",
+      "mitigating_control_ids": [
+        "C-4",
+        "C-5"
+      ],
+      "related_entity_ids": [
+        "AE-3",
+        "AE-12"
+      ],
+      "created_date": "2024-01-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Commercial Performance and Pipeline Management",
+      "description": "Risk of continued revenue underperformance due to extended customer decision cycles, inaccurate forecasting, and sales execution challenges",
+      "canonical_topic_id": "OPS-005",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-COMM-01",
+        "COSO:Operations-Sales",
+        "SOX:Revenue-Cycle"
+      ],
+      "category": "Operational",
+      "subcategory": "Sales Effectiveness",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226412",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-6",
+        "C-7",
+        "C-20",
+        "C-21"
+      ],
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "created_date": "2024-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Revenue Recognition Complexity",
+      "description": "Risk of financial misstatement due to complex IFRS 15 requirements for long-term manufacturing contracts, percentage-of-completion accounting, and variable consideration",
+      "canonical_topic_id": "FIN-003",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REP-01",
+        "COSO:Financial-Reporting",
+        "IFRS15",
+        "SOX:Financial-Reporting"
+      ],
+      "category": "Financial",
+      "subcategory": "Financial Reporting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22648",
+      "owner": "Friedrich Schneider",
+      "delegate": "Tobias Meyer",
+      "mitigating_control_ids": [
+        "C-8",
+        "C-9",
+        "C-23",
+        "C-24"
+      ],
+      "related_entity_ids": [
+        "AE-4"
+      ],
+      "created_date": "2023-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Inventory Valuation and Obsolescence",
+      "description": "Risk of inventory overstatement due to inadequate obsolescence reserves, particularly for automotive components affected by EV transition and extended customer decision cycles",
+      "canonical_topic_id": "FIN-004",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-AST-01",
+        "COSO:Asset-Valuation",
+        "IAS2",
+        "SOX:Financial-Reporting"
+      ],
+      "category": "Financial",
+      "subcategory": "Asset Valuation",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Friedrich Schneider",
+      "delegate": "Martin Fischer",
+      "mitigating_control_ids": [
+        "C-10",
+        "C-25",
+        "C-26",
+        "C-27"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-5"
+      ],
+      "created_date": "2024-03-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Competitive Margin Pressure",
+      "description": "Risk of margin erosion from Chinese competitors in standard product categories requiring strategic shift toward higher-margin software solutions",
+      "canonical_topic_id": "STRAT-002",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:STRAT-COMP-01",
+        "COSO:Strategic-Competitive",
+        "Porter:Competitive-Forces"
+      ],
+      "category": "Strategic",
+      "subcategory": "Competitive Position",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226412",
+      "owner": "Dr. Elena Vogt",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-11",
+        "C-12"
+      ],
+      "related_entity_ids": [
+        "AE-6",
+        "AE-3"
+      ],
+      "created_date": "2024-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "IT General Controls Effectiveness",
+      "description": "Risk of control failures in access management, change control, and IT operations following ERP migration affecting financial reporting reliability",
+      "canonical_topic_id": "TECH-001",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-GOV-01",
+        "COSO:IT-Controls",
+        "COBIT:BAI06",
+        "SOX:ITGC"
+      ],
+      "category": "Technology",
+      "subcategory": "IT Governance",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22648",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "mitigating_control_ids": [
+        "C-15",
+        "C-16",
+        "C-17",
+        "C-19"
+      ],
+      "related_entity_ids": [
+        "AE-2"
+      ],
+      "created_date": "2024-07-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "System Integration and Data Integrity",
+      "description": "Risk of data quality issues and process failures from incomplete integration between SAP S/4HANA and peripheral systems (WMS, MES, CRM)",
+      "canonical_topic_id": "TECH-005",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-DATA-01",
+        "COSO:Data-Quality",
+        "COBIT:DSS06"
+      ],
+      "category": "Technology",
+      "subcategory": "Data Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22649",
+      "owner": "Klaus Weber",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-17",
+        "C-18",
+        "C-19"
+      ],
+      "related_entity_ids": [
+        "AE-2",
+        "AE-1"
+      ],
+      "created_date": "2024-09-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "GDPR and Data Privacy Compliance",
+      "description": "Risk of regulatory penalties and reputational damage from non-compliance with GDPR requirements for connected equipment data and customer information",
+      "canonical_topic_id": "COMP-001",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-PRIV-01",
+        "COSO:Compliance",
+        "GDPR:Art5-7",
+        "ISO27701"
+      ],
+      "category": "Compliance",
+      "subcategory": "Data Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22648",
+      "owner": "Dr. Anna Richter",
+      "delegate": "Stefan Koch",
+      "mitigating_control_ids": [
+        "C-13",
+        "C-14"
+      ],
+      "related_entity_ids": [
+        "AE-7",
+        "AE-11"
+      ],
+      "created_date": "2023-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Export Control and Dual-Use Compliance",
+      "description": "Risk of regulatory violations and sanctions from non-compliance with EU dual-use export regulations for industrial automation equipment",
+      "canonical_topic_id": "COMP-006",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-TRADE-01",
+        "COSO:Compliance",
+        "EU-Dual-Use-Reg"
+      ],
+      "category": "Compliance",
+      "subcategory": "Trade Compliance",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 5,
+      "inherent_score": 10,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22646",
+      "owner": "Dr. Anna Richter",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-28",
+        "C-29"
+      ],
+      "related_entity_ids": [
+        "AE-7",
+        "AE-3"
+      ],
+      "created_date": "2023-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Intellectual Property and Patent Litigation",
+      "description": "Risk of adverse litigation outcome in pending patent dispute proceeding to Q2 FY2026 trial affecting competitive positioning and potential damages",
+      "canonical_topic_id": "LEGAL-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:LEGAL-IP-01",
+        "COSO:Legal-Compliance",
+        "IP-Law"
+      ],
+      "category": "Strategic",
+      "subcategory": "Intellectual Property",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226412",
+      "owner": "Dr. Anna Richter",
+      "delegate": "Dr. Elena Vogt",
+      "mitigating_control_ids": [
+        "C-30",
+        "C-31"
+      ],
+      "related_entity_ids": [
+        "AE-6",
+        "AE-7"
+      ],
+      "created_date": "2024-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "ESG Reporting and CSRD Compliance",
+      "description": "Risk of regulatory non-compliance and stakeholder concerns from inadequate ESG reporting under EU Corporate Sustainability Reporting Directive requirements",
+      "canonical_topic_id": "COMP-007",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-ESG-01",
+        "COSO:Compliance",
+        "EU-CSRD",
+        "GRI"
+      ],
+      "category": "Compliance",
+      "subcategory": "ESG Compliance",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 2,
+      "residual_score": 4,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u22648",
+      "owner": "Michael Hartmann",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-32",
+        "C-33"
+      ],
+      "related_entity_ids": [
+        "AE-10"
+      ],
+      "created_date": "2024-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Supply Chain Disruption",
+      "description": "Risk of production delays and cost increases from supply chain disruptions affecting critical components and raw materials",
+      "canonical_topic_id": "OPS-003",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-SC-01",
+        "COSO:Operations-Supply-Chain",
+        "ISO28000"
+      ],
+      "category": "Operational",
+      "subcategory": "Supply Chain",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Martin Fischer",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-34",
+        "C-35"
+      ],
+      "related_entity_ids": [
+        "AE-5",
+        "AE-1"
+      ],
+      "created_date": "2022-03-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "Workplace Safety and Regulatory Compliance",
+      "description": "Risk of workplace injuries, regulatory penalties, and production disruption from safety incidents in manufacturing operations",
+      "canonical_topic_id": "SAFE-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-SAFE-01",
+        "COSO:Operations-Safety",
+        "ISO45001",
+        "EU-OSH-Framework"
+      ],
+      "category": "Operational",
+      "subcategory": "Workplace Safety",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 3,
+      "residual_score": 3,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22646",
+      "owner": "Michael Hartmann",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-36",
+        "C-37"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-10"
+      ],
+      "created_date": "2020-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "Key Person Dependency",
+      "description": "Risk of knowledge loss and operational disruption from departure of critical personnel in specialized technical and leadership roles",
+      "canonical_topic_id": "HR-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-HR-01",
+        "COSO:Human-Capital",
+        "HR-Risk-Management"
+      ],
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 2,
+      "residual_score": 4,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u22648",
+      "owner": "Christina Braun",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-38",
+        "C-39"
+      ],
+      "related_entity_ids": [
+        "AE-8",
+        "AE-6"
+      ],
+      "created_date": "2021-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Quality Control and Product Liability",
+      "description": "Risk of product defects, customer claims, and regulatory actions from quality control failures in manufacturing processes",
+      "canonical_topic_id": "QUAL-002",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-QUAL-01",
+        "COSO:Operations-Quality",
+        "ISO9001",
+        "EU-Machinery-Directive"
+      ],
+      "category": "Operational",
+      "subcategory": "Quality Control",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 3,
+      "residual_score": 3,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u22646",
+      "owner": "Thomas Bauer",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-40",
+        "C-41"
+      ],
+      "related_entity_ids": [
+        "AE-9",
+        "AE-1"
+      ],
+      "created_date": "2020-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "Cybersecurity and Data Breach",
+      "description": "Risk of data breach, ransomware attack, or other cyber incident affecting operations, customer data, or intellectual property",
+      "canonical_topic_id": "TECH-001",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-SEC-01",
+        "COSO:Technology-Security",
+        "ISO27001",
+        "NIST-CSF"
+      ],
+      "category": "Technology",
+      "subcategory": "Cybersecurity",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-42",
+        "C-43",
+        "C-44"
+      ],
+      "related_entity_ids": [
+        "AE-11",
+        "AE-2"
+      ],
+      "created_date": "2020-01-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Software Revenue Transition Execution",
+      "description": "Risk of failed strategic transition toward software and digital solutions resulting in continued margin pressure and competitive disadvantage",
+      "canonical_topic_id": "STRAT-003",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:STRAT-TRANS-01",
+        "COSO:Strategic-Transformation",
+        "Digital-Transformation"
+      ],
+      "category": "Strategic",
+      "subcategory": "Business Transformation",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Dr. Elena Vogt",
+      "delegate": null,
+      "mitigating_control_ids": [
+        "C-11",
+        "C-45"
+      ],
+      "related_entity_ids": [
+        "AE-6"
+      ],
+      "created_date": "2024-01-01",
+      "last_assessed_date": "2025-10-15"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Expert Assessment",
+      "notes": "Post-migration stabilization ongoing. Q3 2024 12-day disruption heightened awareness. Inherent risk remains elevated",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Disaster recovery tested successfully. Monitoring enhanced but integration gaps remain",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Expert Assessment",
+      "notes": "System performance stable but complexity of integrated landscape maintains inherent risk",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Additional monitoring deployed. Incident response procedures tested and validated",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Expert Assessment",
+      "notes": "One year anniversary of migration. System maturity improving but inherent complexity unchanged",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Significant improvement in residual risk. Full DR test successful, runbooks validated, team expertise matured",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Expert Assessment",
+      "notes": "Inherent risk remains high due to business criticality and system complexity",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Controls operating effectively. Year-end close preparations validated system stability",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-9",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Market Analysis",
+      "notes": "Automotive sector showing early signs of recovery from EV deferrals. OEM capex still constrained",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-10",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Portfolio Analysis",
+      "notes": "Diversification efforts ongoing. Aerospace and energy verticals showing growth potential",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-11",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Market Analysis",
+      "notes": "Automotive vertical revenue declined 14% YoY confirmed. Major OEM customer deferred Q2 orders",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-12",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Portfolio Analysis",
+      "notes": "Controls insufficient to offset market headwinds. Accelerating diversification strategy required",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-13",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Market Analysis",
+      "notes": "Market conditions stabilized but no recovery signal. Concentration remains at 28%",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-14",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Portfolio Analysis",
+      "notes": "Diversification showing results. New energy sector wins offset some automotive decline",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-15",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Market Analysis",
+      "notes": "Inherent market concentration risk unchanged. Structural automotive weakness persists",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-16",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Portfolio Analysis",
+      "notes": "Within risk tolerance. FY26 plan targets automotive concentration below 25%",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-17",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Performance Analysis",
+      "notes": "Sales attainment at 82% in Q4 2024. Extended decision cycles at 127 days vs 112 historical",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-18",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Control Testing",
+      "notes": "CRO remediation plan initiated. Territory realignment and sales enablement programs launched",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-19",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Performance Analysis",
+      "notes": "Q1 attainment improved to 85% but pipeline accuracy remains challenged at 71%",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-20",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Control Testing",
+      "notes": "Early signs of remediation effectiveness. New forecasting methodology showing promise",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-21",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Performance Analysis",
+      "notes": "Market uncertainty continues. Customer decision cycles showing modest improvement to 121 days",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-22",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Control Testing",
+      "notes": "Significant improvement. Q2 attainment at 89%, AI deal scoring pilot showing 12% forecast improvement",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-23",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Performance Analysis",
+      "notes": "External market factors maintain inherent risk level. Internal improvements driving residual reduction",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-24",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sophie Bergmann",
+      "assessment_method": "Control Testing",
+      "notes": "Within tolerance. Full forecasting methodology rollout in Q4. Commission automation complete",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-25",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Technical Assessment",
+      "notes": "IFRS 15 complexity inherent in manufacturing contracts. First close on new ERP adds risk",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-26",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Q4 2024 close completed with additional review procedures. Some manual workarounds required",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-27",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Technical Assessment",
+      "notes": "Contract complexity unchanged. Q1 close smoother than Q4 but still elevated risk",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-28",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Revenue recognition controls maturing. SAP configuration optimized, automated controls functioning",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-29",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Technical Assessment",
+      "notes": "Inherent complexity unchanged. Internal audit review satisfactory with minor documentation finding",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-30",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Controls stable and effective. Contract modification workflow implemented addressing audit finding",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-31",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Technical Assessment",
+      "notes": "Year-end close preparation complete. Inherent risk maintained at acceptable level",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-32",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Within risk tolerance. External auditor reliance on controls anticipated. Documentation complete",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-33",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Inventory Analysis",
+      "notes": "Extended customer cycles impacting inventory turns. Automotive component aging accelerating",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-34",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Standard reserve methodology applied. Quarterly reserve review completed",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-35",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Inventory Analysis",
+      "notes": "Automotive decline 14% YoY. EV transition deferrals creating obsolescence risk for combustion-related components",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-36",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Reserve methodology may be insufficient. Internal review initiated for automotive inventory exposure",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-37",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Inventory Analysis",
+      "notes": "Inherent risk elevated. Audit finding FND-7 identified \u20ac4.8M potential reserve understatement",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-38",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Enhanced methodology under development. External valuation support engaged for Q4 close",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-39",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Inventory Analysis",
+      "notes": "Market conditions maintain elevated inherent risk. Product lifecycle analysis incorporated",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-40",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Friedrich Schneider",
+      "assessment_method": "Control Testing",
+      "notes": "Revised methodology ready for year-end. Within tolerance pending reserve adjustment",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-41",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Competitive Analysis",
+      "notes": "Chinese competitor pricing pressure continues on standard products. Software mix shift underway",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-42",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Competitive Analysis",
+      "notes": "Competitive dynamics unchanged. Market share held in premium segments",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-43",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Competitive Analysis",
+      "notes": "Inherent pressure stable. Software revenue mix improved to 18% from 15% YoY",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-44",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Competitive Analysis",
+      "notes": "Long-term competitive pressure persists. R&D investment sustained at 8% of revenue",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-45",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Control Testing",
+      "notes": "Differentiation strategy effective. Premium positioning maintained in target segments",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-46",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Technical Assessment",
+      "notes": "First full quarter on new platform. ITGC framework requires validation and stabilization",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-47",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Access review initiated. 42 users with excess privileges identified per audit FND-1",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-48",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Technical Assessment",
+      "notes": "Inherent complexity from integrated platform. SOD conflicts being remediated",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-49",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Access remediation 60% complete. SAP GRC implementation underway",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-50",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Technical Assessment",
+      "notes": "ITGC framework matured. Change management documentation gaps addressed",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-51",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Significant improvement. Access remediation complete, GRC monitoring operational",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-52",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Technical Assessment",
+      "notes": "Inherent risk remains elevated due to platform complexity. Controls compensate effectively",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-53",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Well within tolerance. External auditor ITGC testing expected to be satisfactory",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-54",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Integration Assessment",
+      "notes": "Post-migration data reconciliation identified \u20ac2.3M variance per audit FND-2",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-55",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Integration Assessment",
+      "notes": "Migration reconciliation complete. WMS and MES integration gaps remain",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-56",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Integration Assessment",
+      "notes": "Integration complexity inherent in manufacturing environment. Cycle count accuracy impacted per FND-8",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-57",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Integration Assessment",
+      "notes": "WMS integration prioritized for November. Inherent risk from integration complexity persists",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-58",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Klaus Weber",
+      "assessment_method": "Control Testing",
+      "notes": "Data validation controls strengthened. Integration monitoring improved",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-59",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "GDPR requirements well established. Connected equipment data processing creates ongoing obligations",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-60",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "Inherent regulatory exposure unchanged. Internal audit satisfactory rating validates controls",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-61",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "Data privacy landscape stable. No regulatory inquiries or incidents",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-62",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "Inherent regulatory risk maintained. Annual DPIA refresh completed",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-63",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Control Testing",
+      "notes": "Controls effective. Privacy program mature with strong governance",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-64",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Compliance Assessment",
+      "notes": "Geopolitical tensions elevate inherent risk. Export classification backlog identified per audit FND-9",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-65",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Compliance Assessment",
+      "notes": "Export control landscape unchanged. Classification backlog cleared",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-66",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Compliance Assessment",
+      "notes": "Inherent risk from regulatory requirements stable. Automated workflow functioning",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-67",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Compliance Assessment",
+      "notes": "Export control requirements inherent to business. Well-managed program",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-68",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Control Testing",
+      "notes": "Robust controls. Classification time reduced to 22 days. No compliance issues",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-69",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Legal Assessment",
+      "notes": "Patent litigation proceeding as expected. Discovery phase ongoing",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-70",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Legal Assessment",
+      "notes": "Trial confirmed for Q2 FY2026. External counsel assessment remains cautiously optimistic",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-71",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Legal Assessment",
+      "notes": "Pre-trial motions filed. Settlement discussions initiated without resolution",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-72",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Legal Assessment",
+      "notes": "Trial preparation ongoing. Litigation reserve maintained at appropriate level",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-73",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Anna Richter",
+      "assessment_method": "Control Testing",
+      "notes": "IP review process strengthened. Design-around alternatives identified for key patents",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-74",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "CSRD requirements well understood. Reporting framework development underway",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-75",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "Double materiality assessment completed. Data collection processes established",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-76",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "ESRS compliance framework operational. Scope 1 & 2 reporting validated",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-77",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Regulatory Assessment",
+      "notes": "Inherent regulatory requirements stable. First full CSRD report due FY2025",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-78",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 2,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Control Testing",
+      "notes": "Controls effective. Third-party assurance engaged for sustainability report",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-79",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Martin Fischer",
+      "assessment_method": "Supply Chain Assessment",
+      "notes": "Global supply chain risks from geopolitical tensions. Semiconductor supply normalized",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-80",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Martin Fischer",
+      "assessment_method": "Supply Chain Assessment",
+      "notes": "Supply chain conditions stable. No significant disruptions in Q1",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-81",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Martin Fischer",
+      "assessment_method": "Supply Chain Assessment",
+      "notes": "Supply base stable. Alternative sourcing qualified for critical components",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-82",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Martin Fischer",
+      "assessment_method": "Supply Chain Assessment",
+      "notes": "Inherent supply chain risk maintained. Global conditions unchanged",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-83",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Martin Fischer",
+      "assessment_method": "Control Testing",
+      "notes": "Dual sourcing strategy effective. Safety stock levels maintained for critical items",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-84",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Safety Assessment",
+      "notes": "Manufacturing environment inherent hazards. Strong safety culture",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-85",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Safety Assessment",
+      "notes": "Q1 LTIR below industry benchmark. No serious incidents",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-86",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Safety Assessment",
+      "notes": "Safety performance sustained. Regulatory inspection passed without findings",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-87",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Safety Assessment",
+      "notes": "Inherent manufacturing hazards unchanged. ISO 45001 certification maintained",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-88",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 1,
+      "impact": 3,
+      "score": 3,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Michael Hartmann",
+      "assessment_method": "Control Testing",
+      "notes": "Best-in-class safety performance. YTD LTIR 0.8 vs industry 2.1",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-89",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Christina Braun",
+      "assessment_method": "HR Assessment",
+      "notes": "Key person dependencies in specialized engineering and software development roles",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-90",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Christina Braun",
+      "assessment_method": "HR Assessment",
+      "notes": "Turnover stable at 8.5%. Critical role succession plans 75% complete",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-91",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Christina Braun",
+      "assessment_method": "HR Assessment",
+      "notes": "Technical talent market competitive. Knowledge transfer programs operational",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-92",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Christina Braun",
+      "assessment_method": "HR Assessment",
+      "notes": "Inherent key person risk in specialized manufacturing. Mitigation effective",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-93",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 2,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Christina Braun",
+      "assessment_method": "Control Testing",
+      "notes": "Succession plans 90% complete. Cross-training program established for critical roles",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-94",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Thomas Bauer",
+      "assessment_method": "Quality Assessment",
+      "notes": "Manufacturing quality risks inherent in industrial automation. ISO 9001 maintained",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-95",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Thomas Bauer",
+      "assessment_method": "Quality Assessment",
+      "notes": "Customer returns at 0.3% vs target 0.5%. No product liability claims",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-96",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Thomas Bauer",
+      "assessment_method": "Quality Assessment",
+      "notes": "Quality metrics stable. CE marking compliance validated for all products",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-97",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Thomas Bauer",
+      "assessment_method": "Quality Assessment",
+      "notes": "Inherent product quality risks from manufacturing complexity. Strong controls",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-98",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 1,
+      "impact": 3,
+      "score": 3,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Thomas Bauer",
+      "assessment_method": "Control Testing",
+      "notes": "Quality management system effective. YTD COPQ at 1.2% vs target 1.5%",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-99",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Stefan Koch",
+      "assessment_method": "Security Assessment",
+      "notes": "Elevated threat landscape for manufacturing sector. Ransomware attacks increasing",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-100",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Stefan Koch",
+      "assessment_method": "Security Assessment",
+      "notes": "Threat intelligence indicates continued targeting of industrial sector. No incidents Q1",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-101",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Stefan Koch",
+      "assessment_method": "Security Assessment",
+      "notes": "Penetration testing completed with no critical findings. Inherent risk unchanged",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-102",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Stefan Koch",
+      "assessment_method": "Security Assessment",
+      "notes": "Cybersecurity inherent risk maintained at elevated level due to threat environment",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-103",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Stefan Koch",
+      "assessment_method": "Control Testing",
+      "notes": "Defense in depth effective. Zero security incidents YTD. ISO 27001 maintained",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-104",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Strategic Assessment",
+      "notes": "Software transition critical for long-term competitive position. Execution risk inherent",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-105",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Strategic Assessment",
+      "notes": "Software revenue mix at 17% vs 15% PY. Transition progressing",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-106",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Strategic Assessment",
+      "notes": "Software mix improved to 18%. Digital twin and AI product adoption accelerating",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-107",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Strategic Assessment",
+      "notes": "Inherent transition risk maintained. Multi-year journey with continued execution focus",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-108",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Dr. Elena Vogt",
+      "assessment_method": "Control Testing",
+      "notes": "Transition on track. FY25 software revenue target achievable. R&D roadmap aligned",
+      "created_date": "2025-10-15"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "ERP Stability and Resilience Enhancement",
+      "description": "Multi-phase program to enhance SAP S/4HANA operational resilience including DR testing, monitoring enhancement, and incident response optimization",
+      "status": "In-Progress",
+      "planned_actions": [
+        "Quarterly disaster recovery testing with full failover validation",
+        "Enhanced real-time monitoring and alerting implementation",
+        "Incident response runbook updates and tabletop exercises",
+        "Integration stability improvements for peripheral systems"
+      ],
+      "owner": "Klaus Weber",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2025-12-31",
+      "actual_completion_date": null,
+      "target_residual_score": 8,
+      "budget": 450000,
+      "created_date": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-2",
+      "name": "Revenue Diversification Initiative",
+      "description": "Strategic initiative to reduce automotive concentration through accelerated growth in aerospace, energy, and general manufacturing verticals",
+      "status": "In-Progress",
+      "planned_actions": [
+        "Aerospace vertical dedicated sales team expansion",
+        "Energy sector partnership development",
+        "Product portfolio optimization for target verticals",
+        "Marketing campaign for diversification targets"
+      ],
+      "owner": "Sophie Bergmann",
+      "start_date": "2025-02-01",
+      "target_completion_date": "2026-06-30",
+      "actual_completion_date": null,
+      "target_residual_score": 10,
+      "budget": 2500000,
+      "created_date": "2025-02-01"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-3",
+      "name": "Commercial Excellence Program",
+      "description": "CRO-led transformation of sales operations including forecasting methodology, territory optimization, and sales enablement enhancement",
+      "status": "In-Progress",
+      "planned_actions": [
+        "AI-based deal scoring implementation",
+        "Territory realignment based on market opportunity analysis",
+        "Enhanced sales training and certification program",
+        "Automated commission calculation deployment"
+      ],
+      "owner": "Sophie Bergmann",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2025-12-31",
+      "actual_completion_date": null,
+      "target_residual_score": 9,
+      "budget": 1200000,
+      "created_date": "2025-01-15"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-5",
+      "name": "Inventory Valuation Enhancement",
+      "description": "Project to enhance inventory valuation methodology including product lifecycle considerations and technology transition factors",
+      "status": "In-Progress",
+      "planned_actions": [
+        "Revised obsolescence reserve methodology development",
+        "Product lifecycle stage classification implementation",
+        "External valuation support for technology transition inventory",
+        "WMS integration completion for improved accuracy"
+      ],
+      "owner": "Friedrich Schneider",
+      "start_date": "2025-07-01",
+      "target_completion_date": "2025-12-31",
+      "actual_completion_date": null,
+      "target_residual_score": 8,
+      "budget": 350000,
+      "created_date": "2025-07-01"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-7",
+      "name": "ITGC Maturation Program",
+      "description": "Program to strengthen IT general controls following ERP migration including access management, change control, and SOD remediation",
+      "status": "Completed",
+      "planned_actions": [
+        "User access review and remediation",
+        "SAP GRC Access Control implementation",
+        "Change management documentation enhancement",
+        "Quarterly access certification process establishment"
+      ],
+      "owner": "Klaus Weber",
+      "start_date": "2025-02-01",
+      "target_completion_date": "2025-09-30",
+      "actual_completion_date": "2025-09-28",
+      "target_residual_score": 6,
+      "budget": 280000,
+      "created_date": "2025-02-01"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "SAP Disaster Recovery Testing",
+      "description": "Quarterly disaster recovery testing with documented failover and failback procedures for SAP S/4HANA environment",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Execute full DR failover, validate business process functionality, document recovery time and data integrity",
+      "evidence_required": "DR test report, RTO/RPO measurements, system validation checklist",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-10-01"
+    },
+    {
+      "control_id": "C-2",
+      "name": "System Performance Monitoring",
+      "description": "Real-time monitoring of SAP S/4HANA performance metrics with automated alerting for degradation or anomalies",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review monitoring dashboard, validate alert thresholds, test escalation procedures",
+      "evidence_required": "Monitoring reports, alert logs, incident response documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2024-10-01"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Incident Response Procedures",
+      "description": "Documented incident response procedures for critical system outages with defined escalation paths and communication protocols",
+      "control_type": "Corrective",
+      "frequency": "As-Needed",
+      "automation_level": "Manual",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Conduct tabletop exercise, review runbook currency, validate communication channels",
+      "evidence_required": "Tabletop exercise report, runbook review documentation, communication test results",
+      "last_tested_date": "2025-08-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-10-01"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Customer Concentration Monitoring",
+      "description": "Monthly monitoring of revenue concentration by customer and industry vertical with executive reporting",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-2"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review concentration reports, validate calculation methodology, verify executive presentation",
+      "evidence_required": "Monthly concentration report, board presentation, trend analysis",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-01"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Vertical Diversification Tracking",
+      "description": "Quarterly tracking of pipeline and revenue growth in target diversification verticals with variance analysis",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Sophie Bergmann",
+      "delegate": "Johannes Wolf",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-2"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review diversification metrics, validate pipeline accuracy for target verticals, assess progress vs plan",
+      "evidence_required": "Diversification tracking report, pipeline validation, variance analysis",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2024-03-01"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Weekly Pipeline Review",
+      "description": "Weekly sales pipeline review meeting with mandatory opportunity validation and stage progression review",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Attend pipeline review, validate opportunity documentation, assess forecast accuracy",
+      "evidence_required": "Meeting minutes, pipeline snapshots, forecast accuracy reports",
+      "last_tested_date": "2025-09-20",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Sales Performance Monitoring",
+      "description": "Monthly monitoring of individual and team sales performance against plan with exception reporting",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review performance reports, validate data accuracy, assess remediation actions for underperformers",
+      "evidence_required": "Performance dashboards, exception reports, remediation action plans",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Revenue Recognition Policy Compliance",
+      "description": "Quarterly review of revenue recognition compliance with IFRS 15 requirements for complex manufacturing contracts",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Friedrich Schneider",
+      "delegate": "Tobias Meyer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Sample testing of contract revenue recognition, verify POC calculations, assess variable consideration estimates",
+      "evidence_required": "Contract review workpapers, POC validation, estimate support documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Revenue Cut-off Procedures",
+      "description": "Month-end and quarter-end revenue cut-off procedures with documented review of transactions near period boundaries",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Friedrich Schneider",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Test transactions before and after cut-off, verify proper period allocation, assess SAP configuration",
+      "evidence_required": "Cut-off testing workpapers, transaction samples, system configuration documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Inventory Obsolescence Review",
+      "description": "Quarterly review of inventory aging and obsolescence reserve adequacy with documentation of methodology and assumptions",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Friedrich Schneider",
+      "delegate": "Martin Fischer",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review aging analysis, validate reserve methodology, assess adequacy of reserves",
+      "evidence_required": "Aging reports, reserve calculation workpapers, methodology documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Partial",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-11",
+      "name": "R&D Investment Governance",
+      "description": "Quarterly R&D portfolio review with investment allocation decisions aligned to strategic software transition objectives",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Dr. Elena Vogt",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-18"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review portfolio governance decisions, validate alignment to strategy, assess resource allocation",
+      "evidence_required": "Portfolio review minutes, investment decisions, strategic alignment analysis",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-01"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Competitive Intelligence Monitoring",
+      "description": "Monthly competitive intelligence analysis with pricing and capability tracking for key competitors",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Dr. Elena Vogt",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review competitive analysis reports, validate data sources, assess strategic implications",
+      "evidence_required": "Competitive intelligence reports, market analysis, strategic recommendations",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-01"
+    },
+    {
+      "control_id": "C-13",
+      "name": "GDPR Compliance Monitoring",
+      "description": "Quarterly GDPR compliance assessment including data processing inventory review and DPIA updates",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Dr. Anna Richter",
+      "delegate": "Stefan Koch",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review ROPA accuracy, validate DPIA currency, assess consent management effectiveness",
+      "evidence_required": "ROPA documentation, DPIA records, consent audit results",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2018-05-25"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Data Subject Rights Processing",
+      "description": "Defined procedures for processing data subject requests within GDPR timelines with tracking and documentation",
+      "control_type": "Corrective",
+      "frequency": "As-Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Sample test DSR processing, validate response times, assess documentation completeness",
+      "evidence_required": "DSR log, response time metrics, sample request documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2018-05-25"
+    },
+    {
+      "control_id": "C-15",
+      "name": "User Access Review",
+      "description": "Quarterly review of user access rights in SAP S/4HANA and critical systems with certification by access owners",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review access certification completion, test sample of certifications, validate remediation of exceptions",
+      "evidence_required": "Access certification reports, exception remediation documentation, compliance metrics",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-10-01"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Segregation of Duties Monitoring",
+      "description": "Continuous monitoring of segregation of duties conflicts using SAP GRC Access Control with automated alerting",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review SOD conflict reports, validate remediation timeliness, test GRC rule configuration",
+      "evidence_required": "SOD conflict reports, remediation logs, GRC configuration documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Data Migration Reconciliation",
+      "description": "Reconciliation procedures for data migration with validation of completeness and accuracy between source and target systems",
+      "control_type": "Detective",
+      "frequency": "As-Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "Friedrich Schneider",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review reconciliation documentation, validate variance explanations, assess data integrity",
+      "evidence_required": "Reconciliation workpapers, variance analysis, data validation reports",
+      "last_tested_date": "2025-04-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-07-01"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Interface Monitoring",
+      "description": "Automated monitoring of critical system interfaces with error detection and alerting for integration failures",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Klaus Weber",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review interface error logs, validate alert effectiveness, test error handling procedures",
+      "evidence_required": "Interface monitoring reports, error logs, resolution documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2024-10-01"
+    },
+    {
+      "control_id": "C-19",
+      "name": "IT Change Management",
+      "description": "Formal change management process for IT systems with documentation, testing, and approval requirements",
+      "control_type": "Preventive",
+      "frequency": "As-Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "Klaus Weber",
+      "delegate": "Stefan Koch",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7",
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Sample test change requests, validate documentation completeness, assess testing evidence",
+      "evidence_required": "Change request forms, testing documentation, approval records",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Opportunity Stage Validation",
+      "description": "Defined criteria for sales opportunity stage progression with mandatory validation of customer commitment signals",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review stage criteria adherence, sample test opportunities, validate customer documentation",
+      "evidence_required": "Stage criteria documentation, opportunity samples, customer correspondence",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2024-06-01"
+    },
+    {
+      "control_id": "C-21",
+      "name": "AI Deal Scoring",
+      "description": "Automated deal scoring using AI/ML models to assess opportunity quality and forecast accuracy",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Sophie Bergmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review model accuracy metrics, validate scoring logic, assess forecast improvement",
+      "evidence_required": "Model performance reports, accuracy metrics, forecast comparison analysis",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Automated Commission Calculation",
+      "description": "Automated calculation of sales commissions in SAP with reconciliation to HR payroll systems",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Fully-Automated",
+      "owner": "Friedrich Schneider",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Recalculate sample commissions, validate system configuration, reconcile to payroll",
+      "evidence_required": "Commission calculation reports, recalculation workpapers, payroll reconciliation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Contract Modification Workflow",
+      "description": "Formal workflow for contract modifications requiring revenue recognition impact assessment before approval",
+      "control_type": "Preventive",
+      "frequency": "As-Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "Friedrich Schneider",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Test workflow execution, validate impact assessment completeness, review approval documentation",
+      "evidence_required": "Workflow logs, impact assessment forms, approval records",
+      "last_tested_date": "2025-10-15",
+      "last_test_result": "Pass",
+      "created_date": "2025-09-01"
+    },
+    {
+      "control_id": "C-24",
+      "name": "POC Estimation Review",
+      "description": "Monthly review of percentage-of-completion estimates for long-term contracts by project accounting team",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "Friedrich Schneider",
+      "delegate": "Tobias Meyer",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review POC calculations, validate estimate assumptions, assess variance explanations",
+      "evidence_required": "POC worksheets, estimate documentation, variance analysis",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Product Lifecycle Classification",
+      "description": "Classification of inventory items by product lifecycle stage for obsolescence reserve calculation",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Martin Fischer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review classification accuracy, validate lifecycle stage assignments, assess methodology",
+      "evidence_required": "Classification documentation, methodology description, sample testing",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Technology Transition Inventory Review",
+      "description": "Quarterly review of inventory exposure to technology transitions (e.g., EV) with enhanced reserve analysis",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Friedrich Schneider",
+      "delegate": "Martin Fischer",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review technology exposure analysis, validate reserve calculations, assess market assumptions",
+      "evidence_required": "Technology exposure analysis, reserve calculations, market research",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Cycle Count Program",
+      "description": "Perpetual inventory cycle count program with frequency based on ABC classification and variance investigation",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Martin Fischer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review cycle count accuracy metrics, validate variance investigation, assess root cause analysis",
+      "evidence_required": "Cycle count reports, accuracy metrics, variance investigation documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Export Classification Process",
+      "description": "Formal process for export classification of products under EU dual-use regulations with automated workflow",
+      "control_type": "Preventive",
+      "frequency": "As-Needed",
+      "automation_level": "Semi-Automated",
+      "owner": "Dr. Anna Richter",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review classification timeliness, validate accuracy of classifications, test workflow triggers",
+      "evidence_required": "Classification records, timeliness metrics, workflow documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Denied Party Screening",
+      "description": "Automated screening of customers and vendors against denied party lists before transaction processing",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Dr. Anna Richter",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Test screening effectiveness, validate list currency, review hit resolution procedures",
+      "evidence_required": "Screening reports, hit resolution logs, list update documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-30",
+      "name": "IP Clearance Review",
+      "description": "Formal intellectual property clearance review for new product development to identify potential infringement risks",
+      "control_type": "Preventive",
+      "frequency": "As-Needed",
+      "automation_level": "Manual",
+      "owner": "Dr. Anna Richter",
+      "delegate": "Dr. Elena Vogt",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review clearance documentation for recent products, validate external counsel involvement",
+      "evidence_required": "IP clearance reports, freedom-to-operate opinions, legal review documentation",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Patent Portfolio Management",
+      "description": "Regular review of patent portfolio for maintenance decisions and competitive positioning",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Dr. Anna Richter",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review portfolio decisions, validate maintenance payments, assess competitive analysis",
+      "evidence_required": "Portfolio review minutes, maintenance records, competitive analysis",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-32",
+      "name": "ESG Data Collection and Validation",
+      "description": "Systematic collection and validation of ESG metrics required for CSRD reporting including Scope 1 & 2 emissions",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Hartmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Validate data collection completeness, test calculation accuracy, review source documentation",
+      "evidence_required": "Data collection logs, calculation workpapers, source documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Double Materiality Assessment",
+      "description": "Annual double materiality assessment for CSRD compliance with stakeholder input and documentation",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Michael Hartmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review assessment methodology, validate stakeholder engagement, assess documentation",
+      "evidence_required": "Materiality assessment report, stakeholder input records, board approval",
+      "last_tested_date": "2025-03-31",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Supplier Risk Assessment",
+      "description": "Annual risk assessment of critical suppliers including financial stability, capacity, and geographic concentration",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Martin Fischer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review risk assessment documentation, validate scoring methodology, assess mitigation plans",
+      "evidence_required": "Supplier risk assessments, mitigation plans, financial analysis",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2022-01-01"
+    },
+    {
+      "control_id": "C-35",
+      "name": "Dual Sourcing Strategy",
+      "description": "Maintenance of qualified alternative suppliers for critical components with periodic qualification testing",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Martin Fischer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review dual source coverage, validate qualification status, test activation procedures",
+      "evidence_required": "Dual source matrix, qualification records, activation test results",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2022-03-01"
+    },
+    {
+      "control_id": "C-36",
+      "name": "Safety Management System",
+      "description": "Comprehensive safety management system aligned with ISO 45001 including hazard identification and incident reporting",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Hartmann",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-14"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review SMS effectiveness, validate incident reporting, assess corrective action timeliness",
+      "evidence_required": "SMS documentation, incident reports, corrective action logs",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-37",
+      "name": "Safety Training and Certification",
+      "description": "Mandatory safety training program with certification requirements for all manufacturing personnel",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "Michael Hartmann",
+      "delegate": "Christina Braun",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-14"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review training completion rates, validate certification currency, assess training effectiveness",
+      "evidence_required": "Training records, certification logs, effectiveness assessments",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-38",
+      "name": "Succession Planning",
+      "description": "Formal succession planning for critical roles with identified successors and development plans",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Christina Braun",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review succession plan coverage, validate development progress, assess emergency coverage",
+      "evidence_required": "Succession plans, development plans, coverage analysis",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2021-01-01"
+    },
+    {
+      "control_id": "C-39",
+      "name": "Knowledge Transfer Program",
+      "description": "Structured knowledge transfer program for critical technical roles with documentation requirements",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Christina Braun",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review knowledge transfer activities, validate documentation, assess coverage gaps",
+      "evidence_required": "Knowledge transfer logs, documentation inventory, coverage assessment",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2021-01-01"
+    },
+    {
+      "control_id": "C-40",
+      "name": "Quality Management System",
+      "description": "Comprehensive quality management system aligned with ISO 9001 including process controls and non-conformance management",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Thomas Bauer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "related_process_ids": [
+        "PROC-16"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review QMS effectiveness, validate non-conformance handling, assess corrective actions",
+      "evidence_required": "QMS documentation, non-conformance reports, CAPA logs",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-41",
+      "name": "Product Testing and Certification",
+      "description": "Formal product testing program including CE marking compliance validation before market release",
+      "control_type": "Preventive",
+      "frequency": "As-Needed",
+      "automation_level": "Manual",
+      "owner": "Thomas Bauer",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "related_process_ids": [
+        "PROC-16"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review test protocols, validate certification documentation, assess release authorization",
+      "evidence_required": "Test reports, certification records, release documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-42",
+      "name": "Network Security Controls",
+      "description": "Comprehensive network security controls including firewalls, intrusion detection, and network segmentation",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "related_process_ids": [
+        "PROC-17"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review firewall rules, validate IDS effectiveness, assess segmentation architecture",
+      "evidence_required": "Firewall configurations, IDS logs, network diagrams",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-43",
+      "name": "Security Awareness Training",
+      "description": "Mandatory cybersecurity awareness training for all employees with phishing simulation testing",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "related_process_ids": [
+        "PROC-17"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review training completion, analyze phishing test results, assess awareness metrics",
+      "evidence_required": "Training records, phishing test results, awareness survey results",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-44",
+      "name": "Vulnerability Management",
+      "description": "Continuous vulnerability scanning and patch management with defined SLAs for remediation",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Stefan Koch",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "related_process_ids": [
+        "PROC-17"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review vulnerability scan results, validate patch deployment timeliness, assess SLA compliance",
+      "evidence_required": "Vulnerability reports, patch deployment logs, SLA metrics",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-45",
+      "name": "Software Product Roadmap Governance",
+      "description": "Quarterly review of software product roadmap with market alignment validation and investment decisions",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Dr. Elena Vogt",
+      "delegate": null,
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-18"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review roadmap governance decisions, validate market alignment, assess resource allocation",
+      "evidence_required": "Roadmap review minutes, market analysis, investment decisions",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "as_of_date": "2025-09-15",
+      "test_result": "Pass",
+      "test_evidence": "Q3 2025 DR test completed successfully with RTO of 4.2 hours vs target 6 hours. Full business process validation completed",
+      "tester": "Anna Hoffman",
+      "deficiency_ids": [],
+      "created_date": "2025-09-15"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-5",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "Diversification tracking metrics available but aerospace pipeline accuracy at 68% vs 85% target",
+      "tester": "Christina Becker",
+      "deficiency_ids": [
+        "CD-1"
+      ],
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-10",
+      "as_of_date": "2025-09-30",
+      "test_result": "Partial",
+      "test_evidence": "Reserve methodology does not fully address EV transition impact. \u20ac4.8M potential understatement identified",
+      "tester": "Maria Richter",
+      "deficiency_ids": [
+        "CD-2"
+      ],
+      "created_date": "2025-09-30"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-15",
+      "as_of_date": "2025-09-30",
+      "test_result": "Pass",
+      "test_evidence": "Q3 access certification completed with 98% completion rate. All exceptions remediated within 10 days",
+      "tester": "Peter Kraus",
+      "deficiency_ids": [],
+      "created_date": "2025-09-30"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-20",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "Stage criteria documented but adherence inconsistent. 23% of sampled opportunities lacked required customer documentation",
+      "tester": "Robert Schulz",
+      "deficiency_ids": [
+        "CD-3"
+      ],
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-25",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "Classification methodology implemented but criteria for EV transition products require refinement",
+      "tester": "Klaus Werner",
+      "deficiency_ids": [
+        "CD-4"
+      ],
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-27",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "Cycle count accuracy A-class 94.2% vs 98% target, B-class 89.7% vs 95% target",
+      "tester": "Klaus Werner",
+      "deficiency_ids": [
+        "CD-5"
+      ],
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-16",
+      "as_of_date": "2025-10-01",
+      "test_result": "Pass",
+      "test_evidence": "SAP GRC monitoring operational. Zero unresolved SOD conflicts. All new conflicts resolved within 5 days",
+      "tester": "Peter Kraus",
+      "deficiency_ids": [],
+      "created_date": "2025-10-01"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-5",
+      "finding_id": null,
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Pipeline accuracy for diversification verticals below target threshold",
+      "root_cause": "New market entry with limited historical data for opportunity qualification",
+      "remediation_plan": "Implement enhanced qualification criteria specific to aerospace and energy verticals",
+      "remediation_owner": "Sophie Bergmann",
+      "identified_date": "2025-10-01",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-10",
+      "finding_id": "FND-7",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Obsolescence reserve methodology does not adequately address technology transition factors",
+      "root_cause": "Historical usage-based methodology insufficient for rapid technology changes in automotive sector",
+      "remediation_plan": "Revise methodology to incorporate product lifecycle stage and market transition factors with external valuation support",
+      "remediation_owner": "Friedrich Schneider",
+      "identified_date": "2025-10-05",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-20",
+      "finding_id": "FND-4",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Inconsistent adherence to opportunity stage progression criteria",
+      "root_cause": "Stage criteria not fully integrated into CRM workflow with mandatory validation",
+      "remediation_plan": "Implement system-enforced stage progression gates with mandatory documentation upload",
+      "remediation_owner": "Sophie Bergmann",
+      "identified_date": "2025-05-20",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-25",
+      "finding_id": "FND-7",
+      "deficiency_type": "Design",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Product lifecycle classification criteria insufficient for EV transition products",
+      "root_cause": "Classification framework developed before EV transition acceleration",
+      "remediation_plan": "Update classification criteria with specific guidance for technology transition scenarios",
+      "remediation_owner": "Martin Fischer",
+      "identified_date": "2025-10-01",
+      "target_remediation_date": "2025-11-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-27",
+      "finding_id": "FND-8",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Cycle count accuracy below target thresholds for A and B class items",
+      "root_cause": "WMS integration gaps creating data quality issues post-ERP migration",
+      "remediation_plan": "Complete WMS integration and implement root cause analysis for all variances exceeding \u20ac5K",
+      "remediation_owner": "Martin Fischer",
+      "identified_date": "2025-10-10",
+      "target_remediation_date": "2025-12-15",
+      "actual_remediation_date": null
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "IT Service Management",
+      "description": "Management of IT services including incident management, problem management, and disaster recovery",
+      "process_owner": "Klaus Weber",
+      "related_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Strategic Planning and Market Analysis",
+      "description": "Strategic planning processes including market analysis, competitive positioning, and portfolio management",
+      "process_owner": "Sophie Bergmann",
+      "related_control_ids": [
+        "C-4",
+        "C-5"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "Sales and Pipeline Management",
+      "description": "End-to-end sales process from lead generation through opportunity management and forecasting",
+      "process_owner": "Sophie Bergmann",
+      "related_control_ids": [
+        "C-6",
+        "C-7",
+        "C-20",
+        "C-21"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "Revenue Recognition and Accounting",
+      "description": "Revenue recognition processes for complex manufacturing contracts under IFRS 15",
+      "process_owner": "Friedrich Schneider",
+      "related_control_ids": [
+        "C-8",
+        "C-9",
+        "C-23",
+        "C-24"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Inventory Management",
+      "description": "Inventory management including valuation, obsolescence analysis, and physical inventory controls",
+      "process_owner": "Martin Fischer",
+      "related_control_ids": [
+        "C-10",
+        "C-25",
+        "C-26",
+        "C-27"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Research and Development",
+      "description": "Product development lifecycle from concept through market release including IP management",
+      "process_owner": "Dr. Elena Vogt",
+      "related_control_ids": [
+        "C-11",
+        "C-12",
+        "C-30",
+        "C-31",
+        "C-45"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Data Privacy Management",
+      "description": "GDPR compliance management including data processing activities, consent management, and DSR handling",
+      "process_owner": "Dr. Anna Richter",
+      "related_control_ids": [
+        "C-13",
+        "C-14"
+      ],
+      "related_objective_ids": [
+        "OBJ-7"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "IT Governance and Access Management",
+      "description": "IT governance processes including access management, change control, and segregation of duties",
+      "process_owner": "Klaus Weber",
+      "related_control_ids": [
+        "C-15",
+        "C-16",
+        "C-19"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "System Integration and Data Management",
+      "description": "Management of system integrations and data quality including interface monitoring and reconciliation",
+      "process_owner": "Klaus Weber",
+      "related_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Compensation and Benefits Administration",
+      "description": "Employee compensation processes including commission calculation and payroll processing",
+      "process_owner": "Christina Braun",
+      "related_control_ids": [
+        "C-22"
+      ],
+      "related_objective_ids": [
+        "OBJ-8"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Export Compliance",
+      "description": "Export control compliance including product classification and denied party screening",
+      "process_owner": "Dr. Anna Richter",
+      "related_control_ids": [
+        "C-28",
+        "C-29"
+      ],
+      "related_objective_ids": [
+        "OBJ-7"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "ESG Reporting",
+      "description": "Environmental, social, and governance reporting including CSRD compliance and sustainability metrics",
+      "process_owner": "Michael Hartmann",
+      "related_control_ids": [
+        "C-32",
+        "C-33"
+      ],
+      "related_objective_ids": [
+        "OBJ-9"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Supplier Management",
+      "description": "Supplier lifecycle management including qualification, risk assessment, and performance monitoring",
+      "process_owner": "Martin Fischer",
+      "related_control_ids": [
+        "C-34",
+        "C-35"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Environmental Health and Safety",
+      "description": "Workplace safety management including hazard identification, incident reporting, and training",
+      "process_owner": "Michael Hartmann",
+      "related_control_ids": [
+        "C-36",
+        "C-37"
+      ],
+      "related_objective_ids": [
+        "OBJ-9"
+      ],
+      "maturity_level": "Optimized"
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Talent Management",
+      "description": "Talent management including succession planning, performance management, and knowledge transfer",
+      "process_owner": "Christina Braun",
+      "related_control_ids": [
+        "C-38",
+        "C-39"
+      ],
+      "related_objective_ids": [
+        "OBJ-8"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-16",
+      "name": "Quality Management",
+      "description": "Product quality management including QMS, non-conformance handling, and certification",
+      "process_owner": "Thomas Bauer",
+      "related_control_ids": [
+        "C-40",
+        "C-41"
+      ],
+      "related_objective_ids": [
+        "OBJ-10"
+      ],
+      "maturity_level": "Optimized"
+    },
+    {
+      "process_id": "PROC-17",
+      "name": "Information Security Management",
+      "description": "Cybersecurity management including network security, vulnerability management, and security awareness",
+      "process_owner": "Stefan Koch",
+      "related_control_ids": [
+        "C-42",
+        "C-43",
+        "C-44"
+      ],
+      "related_objective_ids": [
+        "OBJ-11"
+      ],
+      "maturity_level": "Managed"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "IT System Reliability and Performance",
+      "description": "Ensure IT systems operate reliably with minimal disruption to business operations",
+      "category": "Operational",
+      "owner": "Klaus Weber",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "System uptime >99.5%",
+        "RTO <6 hours",
+        "Zero critical security incidents"
+      ],
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-7",
+        "RISK-8"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Revenue Diversification",
+      "description": "Reduce automotive vertical concentration below 25% through growth in aerospace, energy, and general manufacturing",
+      "category": "Strategic",
+      "owner": "Sophie Bergmann",
+      "target_date": "2026-12-31",
+      "status": "At-Risk",
+      "kpis": [
+        "Automotive revenue <25%",
+        "Non-automotive growth >15%",
+        "New vertical pipeline >\u20ac50M"
+      ],
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Commercial Excellence",
+      "description": "Achieve consistent sales performance with accurate forecasting and efficient processes",
+      "category": "Operational",
+      "owner": "Sophie Bergmann",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Sales attainment >90%",
+        "Forecast accuracy >85%",
+        "Pipeline coverage >3x"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Financial Reporting Accuracy",
+      "description": "Ensure accurate and timely financial reporting in compliance with IFRS requirements",
+      "category": "Financial",
+      "owner": "Friedrich Schneider",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Zero material misstatements",
+        "Close cycle <10 days",
+        "Unqualified audit opinion"
+      ],
+      "related_risk_ids": [
+        "RISK-4",
+        "RISK-5"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Operational Efficiency",
+      "description": "Optimize manufacturing and supply chain operations for cost efficiency and responsiveness",
+      "category": "Operational",
+      "owner": "Martin Fischer",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Inventory turns >4.5x",
+        "On-time delivery >95%",
+        "Supply chain disruption <5 days"
+      ],
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-13"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Innovation and Software Leadership",
+      "description": "Establish market leadership in industrial software solutions through sustained R&D investment",
+      "category": "Strategic",
+      "owner": "Dr. Elena Vogt",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Software revenue >20%",
+        "New product revenue >15%",
+        "Patent applications >50"
+      ],
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-11",
+        "RISK-18"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "Regulatory Compliance",
+      "description": "Maintain full compliance with applicable EU regulations including GDPR and export controls",
+      "category": "Compliance",
+      "owner": "Dr. Anna Richter",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Zero regulatory findings",
+        "DSR response <30 days",
+        "Export classification <30 days"
+      ],
+      "related_risk_ids": [
+        "RISK-9",
+        "RISK-10"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-8",
+      "name": "Talent Retention and Development",
+      "description": "Retain key talent and develop capabilities to support business growth",
+      "category": "Operational",
+      "owner": "Christina Braun",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Voluntary turnover <10%",
+        "Succession coverage >90%",
+        "Training completion >95%"
+      ],
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-9",
+      "name": "Safety and Sustainability",
+      "description": "Achieve industry-leading safety performance and meet CSRD sustainability reporting requirements",
+      "category": "Compliance",
+      "owner": "Michael Hartmann",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "LTIR <1.0",
+        "Scope 1&2 reduction >5%",
+        "CSRD compliance"
+      ],
+      "related_risk_ids": [
+        "RISK-12",
+        "RISK-14"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-10",
+      "name": "Product Quality Excellence",
+      "description": "Deliver consistently high product quality with minimal customer returns and zero safety incidents",
+      "category": "Operational",
+      "owner": "Thomas Bauer",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Customer returns <0.5%",
+        "COPQ <1.5%",
+        "Zero product recalls"
+      ],
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "created_date": "2025-01-01"
+    },
+    {
+      "objective_id": "OBJ-11",
+      "name": "Cybersecurity Resilience",
+      "description": "Protect company assets and data through robust cybersecurity controls and incident response",
+      "category": "Operational",
+      "owner": "Stefan Koch",
+      "target_date": "2025-12-31",
+      "status": "On-Track",
+      "kpis": [
+        "Zero security breaches",
+        "Patch compliance >95%",
+        "Phishing click rate <5%"
+      ],
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "created_date": "2025-01-01"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "IFRS 15 - Revenue from Contracts with Customers",
+      "description": "International Financial Reporting Standard for revenue recognition from customer contracts",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2018-01-01",
+      "applicable_entities": [
+        "AE-4"
+      ],
+      "compliance_owner": "Friedrich Schneider",
+      "last_assessment_date": "2025-09-30",
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "GDPR - General Data Protection Regulation",
+      "description": "EU regulation on data protection and privacy for individuals within the EU",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2018-05-25",
+      "applicable_entities": [
+        "AE-7",
+        "AE-11"
+      ],
+      "compliance_owner": "Dr. Anna Richter",
+      "last_assessment_date": "2025-09-30",
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "EU Machinery Directive 2006/42/EC",
+      "description": "EU directive setting essential health and safety requirements for machinery",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2009-12-29",
+      "applicable_entities": [
+        "AE-1",
+        "AE-9"
+      ],
+      "compliance_owner": "Thomas Bauer",
+      "last_assessment_date": "2025-09-30",
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "EU Dual-Use Regulation (EU) 2021/821",
+      "description": "EU regulation setting up a Union regime for control of exports of dual-use items",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2021-09-09",
+      "applicable_entities": [
+        "AE-7",
+        "AE-3"
+      ],
+      "compliance_owner": "Dr. Anna Richter",
+      "last_assessment_date": "2025-09-30",
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "EU Corporate Sustainability Reporting Directive (CSRD)",
+      "description": "EU directive requiring companies to report on environmental and social impact",
+      "type": "Regulation",
+      "jurisdiction": "EU",
+      "effective_date": "2024-01-01",
+      "applicable_entities": [
+        "AE-10"
+      ],
+      "compliance_owner": "Michael Hartmann",
+      "last_assessment_date": "2025-09-30",
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "ISO 9001:2015 - Quality Management Systems",
+      "description": "International standard for quality management systems",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": "2015-09-15",
+      "applicable_entities": [
+        "AE-9",
+        "AE-1"
+      ],
+      "compliance_owner": "Thomas Bauer",
+      "last_assessment_date": "2025-04-30",
+      "compliance_status": "Certified"
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "ISO 27001:2022 - Information Security Management",
+      "description": "International standard for information security management systems",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": "2022-10-25",
+      "applicable_entities": [
+        "AE-2",
+        "AE-11"
+      ],
+      "compliance_owner": "Stefan Koch",
+      "last_assessment_date": "2025-06-30",
+      "compliance_status": "Certified"
+    },
+    {
+      "standard_id": "STD-8",
+      "name": "ISO 45001:2018 - Occupational Health and Safety",
+      "description": "International standard for occupational health and safety management systems",
+      "type": "Standard",
+      "jurisdiction": "International",
+      "effective_date": "2018-03-12",
+      "applicable_entities": [
+        "AE-1",
+        "AE-10"
+      ],
+      "compliance_owner": "Michael Hartmann",
+      "last_assessment_date": "2025-03-31",
+      "compliance_status": "Certified"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "Five-Step Revenue Recognition Model",
+      "description": "Apply the five-step model to recognize revenue: identify contract, identify obligations, determine price, allocate price, recognize revenue",
+      "category": "Revenue Recognition",
+      "control_ids": [
+        "C-8",
+        "C-9",
+        "C-23",
+        "C-24"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-2",
+      "name": "Lawful Basis for Processing",
+      "description": "Ensure all personal data processing has a valid lawful basis under GDPR Article 6",
+      "category": "Data Protection",
+      "control_ids": [
+        "C-13"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-2",
+      "name": "Data Subject Rights",
+      "description": "Enable exercise of data subject rights including access, rectification, erasure, and portability",
+      "category": "Data Protection",
+      "control_ids": [
+        "C-14"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-3",
+      "name": "CE Marking Requirements",
+      "description": "Products must meet essential health and safety requirements and display CE marking",
+      "category": "Product Safety",
+      "control_ids": [
+        "C-41"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-4",
+      "name": "Export Classification",
+      "description": "All dual-use items must be properly classified before export",
+      "category": "Export Control",
+      "control_ids": [
+        "C-28"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-4",
+      "name": "Denied Party Screening",
+      "description": "Screen all parties against relevant denied party and sanctions lists",
+      "category": "Export Control",
+      "control_ids": [
+        "C-29"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-5",
+      "name": "Double Materiality Assessment",
+      "description": "Conduct double materiality assessment to identify material sustainability topics",
+      "category": "Sustainability Reporting",
+      "control_ids": [
+        "C-33"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-8",
+      "standard_id": "STD-5",
+      "name": "GHG Emissions Reporting",
+      "description": "Report Scope 1 and Scope 2 greenhouse gas emissions using recognized methodologies",
+      "category": "Sustainability Reporting",
+      "control_ids": [
+        "C-32"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A1",
+      "evidence_type": "Documentation",
+      "description": "SAP S/4HANA user access listing with role assignments as of January 31, 2025",
+      "collected_date": "2025-02-05",
+      "collected_by": "Anna Hoffman",
+      "file_reference": "AUD1-EV001-UserAccessListing.xlsx"
+    },
+    {
+      "evidence_id": "EV-2",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A2",
+      "evidence_type": "Documentation",
+      "description": "Data migration reconciliation workpapers showing source to target validation",
+      "collected_date": "2025-02-15",
+      "collected_by": "Peter Kraus",
+      "file_reference": "AUD1-EV002-MigrationReconciliation.xlsx"
+    },
+    {
+      "evidence_id": "EV-3",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A3",
+      "evidence_type": "Documentation",
+      "description": "IT change management records for configuration changes October-December 2024",
+      "collected_date": "2025-02-20",
+      "collected_by": "Lisa Engel",
+      "file_reference": "AUD1-EV003-ChangeManagementLog.xlsx"
+    },
+    {
+      "evidence_id": "EV-4",
+      "audit_id": "AUD-2",
+      "control_id": null,
+      "request_id": "REQ-A4",
+      "evidence_type": "Report",
+      "description": "Q1 2025 pipeline accuracy analysis with variance by opportunity stage",
+      "collected_date": "2025-04-25",
+      "collected_by": "Robert Schulz",
+      "file_reference": "AUD2-EV001-PipelineAccuracy.pdf"
+    },
+    {
+      "evidence_id": "EV-5",
+      "audit_id": "AUD-2",
+      "control_id": null,
+      "request_id": "REQ-A5",
+      "evidence_type": "Documentation",
+      "description": "Commission calculation workpapers with system vs manual reconciliation",
+      "collected_date": "2025-05-10",
+      "collected_by": "Maria Richter",
+      "file_reference": "AUD2-EV002-CommissionReconciliation.xlsx"
+    },
+    {
+      "evidence_id": "EV-6",
+      "audit_id": "AUD-3",
+      "control_id": null,
+      "request_id": "REQ-A6",
+      "evidence_type": "Documentation",
+      "description": "Sample of 45 contracts with revenue recognition assessment documentation",
+      "collected_date": "2025-07-25",
+      "collected_by": "Anna Hoffman",
+      "file_reference": "AUD3-EV001-RevenueRecognitionSample.xlsx"
+    },
+    {
+      "evidence_id": "EV-7",
+      "audit_id": "AUD-4",
+      "control_id": null,
+      "request_id": "REQ-A7",
+      "evidence_type": "Report",
+      "description": "Inventory aging analysis by product category and lifecycle stage",
+      "collected_date": "2025-09-20",
+      "collected_by": "Klaus Werner",
+      "file_reference": "AUD4-EV001-InventoryAging.xlsx"
+    },
+    {
+      "evidence_id": "EV-8",
+      "audit_id": "AUD-4",
+      "control_id": null,
+      "request_id": "REQ-A8",
+      "evidence_type": "Documentation",
+      "description": "Cycle count accuracy reports by warehouse location and ABC classification",
+      "collected_date": "2025-09-25",
+      "collected_by": "Maria Richter",
+      "file_reference": "AUD4-EV002-CycleCountAccuracy.xlsx"
+    },
+    {
+      "evidence_id": "EV-9",
+      "audit_id": null,
+      "control_id": "C-1",
+      "request_id": null,
+      "evidence_type": "Report",
+      "description": "Q3 2025 disaster recovery test results with RTO/RPO measurements",
+      "collected_date": "2025-09-15",
+      "collected_by": "Stefan Koch",
+      "file_reference": "CTRL-C1-DRTestResults-Q32025.pdf"
+    },
+    {
+      "evidence_id": "EV-10",
+      "audit_id": null,
+      "control_id": "C-16",
+      "request_id": null,
+      "evidence_type": "Report",
+      "description": "SAP GRC SOD conflict monitoring report October 2025",
+      "collected_date": "2025-10-01",
+      "collected_by": "Stefan Koch",
+      "file_reference": "CTRL-C16-SODReport-Oct2025.pdf"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-A1",
+      "audit_id": "AUD-1",
+      "request_description": "Provide complete user access listing from SAP S/4HANA including all role assignments and last login dates",
+      "requestee": "Klaus Weber",
+      "requester": "Dr. Marcus Stein",
+      "request_date": "2025-01-25",
+      "due_date": "2025-02-08",
+      "response_date": "2025-02-05",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-1"
+      ]
+    },
+    {
+      "request_id": "REQ-A2",
+      "audit_id": "AUD-1",
+      "request_description": "Provide data migration reconciliation documentation showing validation of completeness and accuracy",
+      "requestee": "Friedrich Schneider",
+      "requester": "Dr. Marcus Stein",
+      "request_date": "2025-02-01",
+      "due_date": "2025-02-15",
+      "response_date": "2025-02-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-2"
+      ]
+    },
+    {
+      "request_id": "REQ-A3",
+      "audit_id": "AUD-1",
+      "request_description": "Provide change management records for all system configuration changes during stabilization period",
+      "requestee": "Klaus Weber",
+      "requester": "Anna Hoffman",
+      "request_date": "2025-02-10",
+      "due_date": "2025-02-24",
+      "response_date": "2025-02-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-3"
+      ]
+    },
+    {
+      "request_id": "REQ-A4",
+      "audit_id": "AUD-2",
+      "request_description": "Provide Q1 2025 pipeline accuracy analysis including variance analysis by stage and vertical",
+      "requestee": "Sophie Bergmann",
+      "requester": "Christina Becker",
+      "request_date": "2025-04-15",
+      "due_date": "2025-04-30",
+      "response_date": "2025-04-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-4"
+      ]
+    },
+    {
+      "request_id": "REQ-A5",
+      "audit_id": "AUD-2",
+      "request_description": "Provide commission calculation workpapers for Q1 2025 with supporting documentation",
+      "requestee": "Friedrich Schneider",
+      "requester": "Robert Schulz",
+      "request_date": "2025-05-01",
+      "due_date": "2025-05-15",
+      "response_date": "2025-05-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-5"
+      ]
+    },
+    {
+      "request_id": "REQ-A6",
+      "audit_id": "AUD-3",
+      "request_description": "Provide sample of manufacturing contracts with IFRS 15 revenue recognition assessments",
+      "requestee": "Friedrich Schneider",
+      "requester": "Dr. Marcus Stein",
+      "request_date": "2025-07-15",
+      "due_date": "2025-07-30",
+      "response_date": "2025-07-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-6"
+      ]
+    },
+    {
+      "request_id": "REQ-A7",
+      "audit_id": "AUD-4",
+      "request_description": "Provide inventory aging analysis with product lifecycle stage classification",
+      "requestee": "Martin Fischer",
+      "requester": "Christina Becker",
+      "request_date": "2025-09-10",
+      "due_date": "2025-09-25",
+      "response_date": "2025-09-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-7"
+      ]
+    },
+    {
+      "request_id": "REQ-A8",
+      "audit_id": "AUD-4",
+      "request_description": "Provide cycle count accuracy metrics by ABC classification for Q3 2025",
+      "requestee": "Martin Fischer",
+      "requester": "Maria Richter",
+      "request_date": "2025-09-15",
+      "due_date": "2025-09-30",
+      "response_date": "2025-09-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-8"
+      ]
+    },
+    {
+      "request_id": "REQ-A9",
+      "audit_id": "AUD-6",
+      "request_description": "Provide year-end trial balance and supporting schedules for external audit",
+      "requestee": "Friedrich Schneider",
+      "requester": "KPMG - Dr. Franz Huber",
+      "request_date": "2025-11-15",
+      "due_date": "2025-12-15",
+      "response_date": null,
+      "status": "Pending",
+      "evidence_ids": []
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Control Self-Assessment",
+      "description": "Periodic self-assessment by control owners to evaluate control design and operating effectiveness",
+      "methodology": "Structured questionnaire with supporting evidence collection and management attestation",
+      "frequency": "Quarterly",
+      "applicable_to": [
+        "Controls",
+        "Processes"
+      ]
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Independent Control Testing",
+      "description": "Testing of control operating effectiveness by internal audit through sampling and re-performance",
+      "methodology": "Risk-based sampling with statistical validation, re-performance of control activities, evidence inspection",
+      "frequency": "Annual",
+      "applicable_to": [
+        "Controls"
+      ]
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Risk Assessment Workshop",
+      "description": "Facilitated workshop with risk owners and subject matter experts to assess risk likelihood and impact",
+      "methodology": "Delphi technique with structured discussion, voting on likelihood and impact, consensus building",
+      "frequency": "Quarterly",
+      "applicable_to": [
+        "Risks"
+      ]
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Key Risk Indicator Monitoring",
+      "description": "Continuous monitoring of leading and lagging indicators for early warning of risk materialization",
+      "methodology": "Automated data collection from source systems with threshold alerting and trend analysis",
+      "frequency": "Continuous",
+      "applicable_to": [
+        "Risks"
+      ]
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Process Walkthrough",
+      "description": "End-to-end walkthrough of business processes to understand design and identify control points",
+      "methodology": "Interview process participants, observe activities, trace sample transactions through process",
+      "frequency": "Annual",
+      "applicable_to": [
+        "Processes",
+        "Controls"
+      ]
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Automated Control Monitoring",
+      "description": "Continuous automated testing of system-enforced controls through log analysis and exception reporting",
+      "methodology": "Automated extraction and analysis of system logs, configuration verification, exception identification",
+      "frequency": "Continuous",
+      "applicable_to": [
+        "Controls"
+      ]
+    },
+    {
+      "method_id": "AM-7",
+      "name": "External Certification Audit",
+      "description": "Independent assessment by accredited certification body for ISO and other standard certifications",
+      "methodology": "Document review, on-site assessment, sampling, non-conformance identification, certification decision",
+      "frequency": "Annual",
+      "applicable_to": [
+        "Standards"
+      ]
+    }
+  ]
+}

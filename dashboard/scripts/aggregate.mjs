@@ -4,8 +4,41 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "../..");
-const testDir = path.join(root, "risk_and_audit_test");
 const outDir = path.join(__dirname, "../public");
+
+/** Directories under root that contain org folders with risk_audit_data.json (first match wins after env). */
+const DATA_DIR_CANDIDATES = ["input_test", "input_data", "risk_and_audit_test"];
+
+function orgFolderCount(dataRoot) {
+  if (!fs.existsSync(dataRoot)) return 0;
+  let n = 0;
+  for (const d of fs.readdirSync(dataRoot, { withFileTypes: true })) {
+    if (!d.isDirectory()) continue;
+    if (fs.existsSync(path.join(dataRoot, d.name, "risk_audit_data.json"))) n += 1;
+  }
+  return n;
+}
+
+function resolveSyntheticDataRoot(repoRoot) {
+  const env = process.env.SYNTHETIC_DATA_DIR?.trim();
+  if (env) {
+    const p = path.isAbsolute(env) ? env : path.join(repoRoot, env);
+    if (!fs.existsSync(p)) {
+      throw new Error(`SYNTHETIC_DATA_DIR not found: ${p}`);
+    }
+    if (orgFolderCount(p) === 0) {
+      throw new Error(`SYNTHETIC_DATA_DIR has no org folders with risk_audit_data.json: ${p}`);
+    }
+    return p;
+  }
+  for (const name of DATA_DIR_CANDIDATES) {
+    const dir = path.join(repoRoot, name);
+    if (orgFolderCount(dir) > 0) return dir;
+  }
+  return path.join(repoRoot, "risk_and_audit_test");
+}
+
+const testDir = resolveSyntheticDataRoot(root);
 const outFile = path.join(outDir, "aggregate.json");
 
 function mean(arr) {
@@ -27,6 +60,48 @@ function tally(arr, field) {
     o[key] = (o[key] || 0) + 1;
   }
   return o;
+}
+
+/** First non-empty array field length (supports legacy + enhanced synthetic shapes). */
+function firstArrayLen(obj, ...fields) {
+  for (const f of fields) {
+    const a = obj[f];
+    if (Array.isArray(a)) return a.length;
+  }
+  return 0;
+}
+
+function tallyEntityRating(ae) {
+  const o = {};
+  for (const e of ae) {
+    const v = e.risk_tier ?? e.risk_rating;
+    const key = v == null || v === "" ? "Not specified" : String(v);
+    o[key] = (o[key] || 0) + 1;
+  }
+  return o;
+}
+
+function tallyTaxonomy(arr, pathFn) {
+  const o = {};
+  for (const x of arr) {
+    const v = pathFn(x);
+    const key = v == null || v === "" ? "Not specified" : String(v);
+    o[key] = (o[key] || 0) + 1;
+  }
+  return o;
+}
+
+/** Approximate engagement hours from date span when budget_hours is absent (8h per calendar day). */
+function auditSpanHours(a) {
+  const bh = Number(a.budget_hours);
+  if (!Number.isNaN(bh) && bh > 0) return bh;
+  const start = a.actual_start_date || a.planned_start_date;
+  const end = a.actual_end_date || a.planned_end_date;
+  if (!start || !end) return NaN;
+  const d0 = new Date(start).getTime();
+  const d1 = new Date(end).getTime();
+  if (Number.isNaN(d0) || Number.isNaN(d1) || d1 < d0) return NaN;
+  return ((d1 - d0) / (1000 * 60 * 60 * 24)) * 8;
 }
 
 function mergeBreakdowns(target, source) {
@@ -53,8 +128,10 @@ function extractTypes(raw) {
 
   const ae = raw.auditable_entities || [];
   put("auditable_entity", ae.length, {
+    risk_tier: tallyEntityRating(ae),
     audit_frequency: tally(ae, "audit_frequency"),
-    risk_tier: tally(ae, "risk_tier"),
+    region: tallyTaxonomy(ae, (e) => e.taxonomy?.region),
+    business_unit: tallyTaxonomy(ae, (e) => e.taxonomy?.business_unit),
   });
 
   const af = raw.assessment_factors || [];
@@ -73,17 +150,33 @@ function extractTypes(raw) {
   });
 
   const aps = raw.audit_plans || [];
-  put("audit_plan", aps.length, {}, {
-    avg_milestones: mean(aps.map((p) => (Array.isArray(p.key_milestones) ? p.key_milestones.length : 0))),
+  put("audit_plan", aps.length, {
+    status: tally(aps, "status"),
+  }, {
+    avg_milestones: mean(
+      aps.map((p) =>
+        Array.isArray(p.key_milestones)
+          ? p.key_milestones.length
+          : Array.isArray(p.planned_audits)
+            ? p.planned_audits.length
+            : 0
+      )
+    ),
+    avg_planned_audit_slots: mean(aps.map((p) => (Array.isArray(p.planned_audits) ? p.planned_audits.length : 0))),
+    avg_total_plan_hours: (() => {
+      const h = aps.map((p) => Number(p.total_audit_hours)).filter((n) => !Number.isNaN(n) && n > 0);
+      return h.length ? mean(h) : 0;
+    })(),
   });
 
   const aud = raw.audits || [];
-  const hours = aud.map((a) => Number(a.budget_hours)).filter((n) => !Number.isNaN(n));
+  const hours = aud.map(auditSpanHours).filter((n) => !Number.isNaN(n) && n > 0);
   put("audit", aud.length, {
     status: tally(aud, "status"),
     audit_type: tally(aud, "audit_type"),
+    rating: tally(aud, "rating"),
   }, {
-    avg_budget_hours: mean(hours),
+    avg_budget_hours: hours.length ? mean(hours) : 0,
     avg_team_size: mean(aud.map((a) => (Array.isArray(a.audit_team) ? a.audit_team.length : 0))),
   });
 
@@ -96,9 +189,13 @@ function extractTypes(raw) {
   const inh = risks.map((r) => Number(r.inherent_score)).filter((n) => !Number.isNaN(n));
   const res = risks.map((r) => Number(r.residual_score)).filter((n) => !Number.isNaN(n));
   const withCtrl = risks.filter(
-    (r) => (r.linked_control_ids && r.linked_control_ids.length) || (r.linked_controls && r.linked_controls.length)
+    (r) =>
+      firstArrayLen(r, "linked_control_ids", "mitigating_control_ids") > 0 ||
+      firstArrayLen(r, "linked_controls") > 0
   ).length;
   put("risk", risks.length, {
+    canonical_topic_id: tally(risks, "canonical_topic_id"),
+    topic_category: tally(risks, "topic_category"),
     category: tally(risks, "category"),
     status: tally(risks, "status"),
   }, {
@@ -109,9 +206,10 @@ function extractTypes(raw) {
 
   const ra = raw.risk_assessments || [];
   put("risk_assessment", ra.length, {
-    trend: tally(ra, "trend"),
+    trend: tallyTaxonomy(ra, (x) => x.trend ?? x.velocity_indicator),
     assessment_type: tally(ra, "assessment_type"),
     control_effectiveness: tally(ra, "control_effectiveness"),
+    assessment_quarter: tally(ra, "assessment_quarter"),
   });
 
   const rmp = raw.risk_mitigation_plans || [];
@@ -149,17 +247,18 @@ function extractTypes(raw) {
   const proc = raw.processes || [];
   put("process", proc.length, {
     status: tally(proc, "status"),
+    maturity_level: tally(proc, "maturity_level"),
   }, {
-    avg_linked_controls: mean(proc.map((p) => (Array.isArray(p.linked_control_ids) ? p.linked_control_ids.length : 0))),
-    avg_linked_risks: mean(proc.map((p) => (Array.isArray(p.linked_risk_ids) ? p.linked_risk_ids.length : 0))),
+    avg_linked_controls: mean(proc.map((p) => firstArrayLen(p, "linked_control_ids", "related_control_ids"))),
+    avg_linked_risks: mean(proc.map((p) => firstArrayLen(p, "linked_risk_ids", "related_risk_ids"))),
   });
 
   const obj = raw.objectives || [];
   put("objective", obj.length, {
-    category: tally(obj, "category"),
+    category: tallyTaxonomy(obj, (o) => o.category || o.objective_type),
     status: tally(obj, "status"),
   }, {
-    avg_linked_risks: mean(obj.map((o) => (Array.isArray(o.linked_risk_ids) ? o.linked_risk_ids.length : 0))),
+    avg_linked_risks: mean(obj.map((o) => firstArrayLen(o, "linked_risk_ids", "related_risk_ids"))),
   });
 
   const std = raw.standards_regulations || [];
@@ -177,7 +276,9 @@ function extractTypes(raw) {
   });
 
   const ev = raw.evidence || [];
-  const withAudit = ev.filter((e) => e.linked_audit_ids && e.linked_audit_ids.length).length;
+  const withAudit = ev.filter(
+    (e) => firstArrayLen(e, "linked_audit_ids") > 0 || (e.audit_id != null && e.audit_id !== "")
+  ).length;
   put("evidence", ev.length, {
     evidence_type: tally(ev, "evidence_type"),
     source_system: tally(ev, "source_system"),
@@ -255,6 +356,8 @@ if (!fs.existsSync(testDir)) {
   process.exit(0);
 }
 
+console.log("Synthetic data root:", path.relative(root, testDir) || ".");
+
 const dirs = fs
   .readdirSync(testDir, { withFileTypes: true })
   .filter((d) => d.isDirectory())
@@ -314,13 +417,17 @@ for (const folderName of dirs.sort()) {
       .slice()
       .sort((a, b) => Number(b.inherent_score) - Number(a.inherent_score))
       .slice(0, 5)
-      .map((r) => ({
-        name: r.name,
-        category: r.category,
-        inherent_score: r.inherent_score,
-        residual_score: r.residual_score,
-        trend: (riskAssessments.find((x) => x.parent_risk_id === r.risk_id) || {}).trend || null,
-      })),
+      .map((r) => {
+        const raRow = riskAssessments.find((x) => x.parent_risk_id === r.risk_id) || {};
+        return {
+          name: r.name,
+          category: r.category,
+          canonical_topic_id: r.canonical_topic_id ?? null,
+          inherent_score: r.inherent_score,
+          residual_score: r.residual_score,
+          trend: raRow.trend ?? raRow.velocity_indicator ?? null,
+        };
+      }),
     metrics: {
       avg_inherent: round(mean(inherentScores), 2),
       avg_residual: round(mean(residualScores), 2),
@@ -349,7 +456,7 @@ const payload = {
   generated_at: new Date().toISOString(),
   prototype_title: "Risk & Audit — synthetic peer intelligence prototype",
   prototype_summary:
-    "This interface explores how structured audit and risk objects—aligned to the shared Object Library—can power benchmarks and narrative insights when populated by synthetic peer organizations. Select an organization to compare its profile to the full synthetic cohort. Numbers are illustrative only and do not represent real customers.",
+    "This interface explores how structured audit and risk objects—aligned to the shared Object Library—can power benchmarks and narrative insights when populated by synthetic peer organizations. The cohort includes enhanced linkage metadata (canonical risk topics, taxonomy on auditable entities, mitigating controls, time-bounded assessments). Select an organization to compare its profile to the full synthetic cohort. Numbers are illustrative only and do not represent real customers.",
   cohort: {
     organization_count: companies.length,
     type_rollups: typeRollups,

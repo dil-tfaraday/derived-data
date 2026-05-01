@@ -18,7 +18,16 @@ npm run build   # aggregate + production build
 
 ## Data
 
-Synthetic JSON lives under `risk_and_audit_test/` (one folder per organization). The aggregation script reads those folders automatically.
+Synthetic JSON uses **one folder per organization**, each containing `risk_audit_data.json` (and optionally `profile.json`).
+
+The dashboard **`scripts/aggregate.mjs`** picks a data root in this order:
+
+1. **`SYNTHETIC_DATA_DIR`** — path (absolute or relative to repo root) to a folder of org subfolders, if set.
+2. **`input_test/`** — if it exists and has at least one org with `risk_audit_data.json`.
+3. **`input_data/`** — same rule (current default drop when present).
+4. **`risk_and_audit_test/`** — legacy cohort folder.
+
+The aggregator logs which root it used (e.g. `Synthetic data root: input_data`).
 
 ## Deploy to Fly.io (password-protected)
 

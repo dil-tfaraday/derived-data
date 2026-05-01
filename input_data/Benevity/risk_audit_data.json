@@ -1,0 +1,4868 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Enterprise Revenue Operations",
+      "description": "Core revenue recognition, subscription billing, and enterprise customer contract management for Benevity's CSR platform",
+      "taxonomy": {
+        "business_unit": "Revenue Operations",
+        "function": "Finance",
+        "geography": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "VP Revenue Operations",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-11-15",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Customer Success & Retention",
+      "description": "Customer success operations including onboarding, adoption, renewal management, and retention programs for enterprise and former mid-market segments",
+      "taxonomy": {
+        "business_unit": "Customer Success",
+        "function": "Operations",
+        "geography": "North America"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "SVP Customer Success",
+      "last_audit_date": "2024-09-20",
+      "next_audit_date": "2025-09-20",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Platform Technology & Security",
+      "description": "Core SaaS platform infrastructure, application security, data protection, and DevOps operations",
+      "taxonomy": {
+        "business_unit": "Engineering",
+        "function": "Technology",
+        "geography": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "CTO",
+      "last_audit_date": "2024-08-10",
+      "next_audit_date": "2025-08-10",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Corporate Finance & Treasury",
+      "description": "Cash management, financial planning, investor reporting, and capital allocation for late-stage private company operations",
+      "taxonomy": {
+        "business_unit": "Finance",
+        "function": "Corporate",
+        "geography": "Canada HQ"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "CFO",
+      "last_audit_date": "2024-12-01",
+      "next_audit_date": "2025-12-01",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Sales & Go-to-Market",
+      "description": "Enterprise sales operations, pipeline management, new logo acquisition, and strategic account development",
+      "taxonomy": {
+        "business_unit": "Sales",
+        "function": "Commercial",
+        "geography": "AMER"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "CRO",
+      "last_audit_date": "2024-10-15",
+      "next_audit_date": "2025-10-15",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "M&A Integration - ImpactHours",
+      "description": "Acquisition integration workstreams including technology consolidation, customer migration, and operational synergy realization for ImpactHours volunteer tracking platform",
+      "taxonomy": {
+        "business_unit": "Corporate Development",
+        "function": "Strategic Initiatives",
+        "geography": "North America"
+      },
+      "audit_frequency": "As-Needed",
+      "risk_rating": "High",
+      "entity_owner": "VP Corporate Development",
+      "last_audit_date": null,
+      "next_audit_date": "2025-06-30",
+      "created_date": "2025-01-15"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Data Privacy & Compliance",
+      "description": "Privacy program management, regulatory compliance, cross-border data transfers, and ESG reporting compliance",
+      "taxonomy": {
+        "business_unit": "Legal & Compliance",
+        "function": "Risk & Compliance",
+        "geography": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Privacy Officer",
+      "last_audit_date": "2024-07-20",
+      "next_audit_date": "2025-07-20",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Product Development",
+      "description": "Product management, roadmap execution, and feature development including volunteer tracking enhancements",
+      "taxonomy": {
+        "business_unit": "Product",
+        "function": "Technology",
+        "geography": "Global"
+      },
+      "audit_frequency": "Biennial",
+      "risk_rating": "Medium",
+      "entity_owner": "Chief Product Officer",
+      "last_audit_date": "2024-03-15",
+      "next_audit_date": "2026-03-15",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Human Resources & People Operations",
+      "description": "Talent acquisition, retention, compensation, and organizational development during strategic transformation",
+      "taxonomy": {
+        "business_unit": "People",
+        "function": "Corporate",
+        "geography": "Global"
+      },
+      "audit_frequency": "Biennial",
+      "risk_rating": "Medium",
+      "entity_owner": "CHRO",
+      "last_audit_date": "2024-02-28",
+      "next_audit_date": "2026-02-28",
+      "created_date": "2023-01-15"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Third-Party & Vendor Management",
+      "description": "Vendor risk management, contract administration, and supply chain oversight for critical technology and service providers",
+      "taxonomy": {
+        "business_unit": "Procurement",
+        "function": "Operations",
+        "geography": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "entity_owner": "VP Operations",
+      "last_audit_date": "2024-05-10",
+      "next_audit_date": "2025-05-10",
+      "created_date": "2023-01-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Revenue Concentration",
+      "description": "Degree of dependency on top customers for revenue stability",
+      "factor_type": "Quantitative",
+      "weight": 0.15,
+      "scoring_criteria": "1=<10% concentration, 5=>40% concentration",
+      "applicable_entity_types": [
+        "Revenue Operations",
+        "Customer Success"
+      ]
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Data Sensitivity",
+      "description": "Classification level of data processed and stored",
+      "factor_type": "Qualitative",
+      "weight": 0.2,
+      "scoring_criteria": "1=Public only, 5=Highly sensitive PII/financial",
+      "applicable_entity_types": [
+        "Technology",
+        "Privacy"
+      ]
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Regulatory Exposure",
+      "description": "Level of regulatory scrutiny and compliance requirements",
+      "factor_type": "Qualitative",
+      "weight": 0.15,
+      "scoring_criteria": "1=Minimal regulation, 5=Heavy multi-jurisdictional regulation",
+      "applicable_entity_types": [
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Change Velocity",
+      "description": "Rate of organizational, process, or technology change",
+      "factor_type": "Quantitative",
+      "weight": 0.15,
+      "scoring_criteria": "1=Stable, 5=Rapid transformation",
+      "applicable_entity_types": [
+        "All"
+      ]
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Financial Materiality",
+      "description": "Dollar impact potential of issues in this area",
+      "factor_type": "Quantitative",
+      "weight": 0.2,
+      "scoring_criteria": "1=<$500K, 5=>$10M potential impact",
+      "applicable_entity_types": [
+        "Finance",
+        "Revenue Operations"
+      ]
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Control Maturity",
+      "description": "Sophistication and effectiveness of existing controls",
+      "factor_type": "Qualitative",
+      "weight": 0.15,
+      "scoring_criteria": "1=Optimized, 5=Ad-hoc/non-existent",
+      "applicable_entity_types": [
+        "All"
+      ]
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "overall_risk_score": 4.2,
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "Top 50 customers driving 19% spend increases indicates high concentration"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 5,
+          "rationale": "Revenue recognition during acquisition creates material exposure"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "ImpactHours integration and mid-market divestiture create high change"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 3,
+          "rationale": "Controls maturing but gaps in integration accounting"
+        }
+      ],
+      "assessor": "Internal Audit Director",
+      "next_assessment_date": "2025-07-15"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-2",
+      "assessment_date": "2025-01-20",
+      "overall_risk_score": 4.0,
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "rationale": "NRR volatility indicates retention challenges"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 5,
+          "rationale": "Strategic pivot from mid-market creates significant operational change"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Early warning systems insufficient per board findings"
+        }
+      ],
+      "assessor": "Internal Audit Director",
+      "next_assessment_date": "2025-07-20"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-01-25",
+      "overall_risk_score": 4.5,
+      "factor_scores": [
+        {
+          "factor_id": "AF-5",
+          "score": 5,
+          "rationale": "Cash declined $38.4M with net cash at $1.4M - critical liquidity position"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "rationale": "Strategic transformation consuming cash reserves"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Cash flow monitoring gaps identified"
+        }
+      ],
+      "assessor": "Internal Audit Director",
+      "next_assessment_date": "2025-04-25"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-02-01",
+      "overall_risk_score": 4.3,
+      "factor_scores": [
+        {
+          "factor_id": "AF-4",
+          "score": 5,
+          "rationale": "Active acquisition integration with technology and customer migration"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 4,
+          "rationale": "Purchase price allocation and goodwill testing material"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "rationale": "Integration controls being established"
+        }
+      ],
+      "assessor": "Internal Audit Director",
+      "next_assessment_date": "2025-05-01"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "2025 Annual Internal Audit Plan",
+      "plan_year": 2025,
+      "status": "Approved",
+      "total_audit_hours": 2400,
+      "planned_audits": [
+        {
+          "audit_id": "AUD-1",
+          "planned_hours": 320,
+          "priority": "Critical"
+        },
+        {
+          "audit_id": "AUD-2",
+          "planned_hours": 280,
+          "priority": "Critical"
+        },
+        {
+          "audit_id": "AUD-3",
+          "planned_hours": 240,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-4",
+          "planned_hours": 200,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-5",
+          "planned_hours": 280,
+          "priority": "Critical"
+        },
+        {
+          "audit_id": "AUD-6",
+          "planned_hours": 200,
+          "priority": "High"
+        }
+      ],
+      "approval_date": "2024-12-15",
+      "approved_by": "Audit Committee",
+      "created_date": "2024-11-01"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "ImpactHours Acquisition Integration Audit",
+      "status": "Completed",
+      "description": "Assessment of acquisition accounting, integration controls, and purchase price allocation for ImpactHours volunteer tracking platform acquisition",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-02-01",
+      "planned_end_date": "2025-03-31",
+      "actual_start_date": "2025-02-03",
+      "actual_end_date": "2025-04-05",
+      "lead_auditor": "Sarah Chen",
+      "audit_team": [
+        "Michael Torres",
+        "Jennifer Walsh"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-6"
+      ],
+      "finding_ids": [
+        "FND-1",
+        "FND-2",
+        "FND-3"
+      ],
+      "created_date": "2025-01-15"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "Revenue Recognition & ASC 606 Compliance Audit",
+      "status": "Completed",
+      "description": "Comprehensive audit of revenue recognition practices, subscription billing controls, and ASC 606 compliance during strategic transformation",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-04-01",
+      "planned_end_date": "2025-05-31",
+      "actual_start_date": "2025-04-07",
+      "actual_end_date": "2025-06-10",
+      "lead_auditor": "David Kim",
+      "audit_team": [
+        "Amanda Foster",
+        "Robert Singh"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-4"
+      ],
+      "finding_ids": [
+        "FND-4",
+        "FND-5"
+      ],
+      "created_date": "2025-03-01"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Customer Retention & NRR Process Audit",
+      "status": "Completed",
+      "description": "Evaluation of customer success processes, retention monitoring controls, and net revenue retention accuracy",
+      "audit_type": "Internal",
+      "rating": "Unsatisfactory",
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": "2025-03-17",
+      "actual_end_date": "2025-05-05",
+      "lead_auditor": "Jennifer Walsh",
+      "audit_team": [
+        "Thomas Anderson",
+        "Lisa Park"
+      ],
+      "scoped_entity_ids": [
+        "AE-2",
+        "AE-5"
+      ],
+      "finding_ids": [
+        "FND-6",
+        "FND-7",
+        "FND-8"
+      ],
+      "created_date": "2025-02-15"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Data Privacy & Cross-Border Compliance Audit",
+      "status": "Completed",
+      "description": "Assessment of GDPR, PIPEDA, and state privacy law compliance including data residency and cross-border transfer mechanisms",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-07-15",
+      "actual_start_date": "2025-06-03",
+      "actual_end_date": "2025-07-18",
+      "lead_auditor": "Amanda Foster",
+      "audit_team": [
+        "Sarah Chen",
+        "Kevin O'Brien"
+      ],
+      "scoped_entity_ids": [
+        "AE-3",
+        "AE-7"
+      ],
+      "finding_ids": [
+        "FND-9"
+      ],
+      "created_date": "2025-05-01"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "Cash Management & Liquidity Controls Audit",
+      "status": "Completed",
+      "description": "Urgent audit of cash flow monitoring, treasury operations, and liquidity management following significant cash position decline",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-01-15",
+      "planned_end_date": "2025-02-28",
+      "actual_start_date": "2025-01-20",
+      "actual_end_date": "2025-03-05",
+      "lead_auditor": "Robert Singh",
+      "audit_team": [
+        "David Kim",
+        "Michael Torres"
+      ],
+      "scoped_entity_ids": [
+        "AE-4"
+      ],
+      "finding_ids": [
+        "FND-10",
+        "FND-11"
+      ],
+      "created_date": "2025-01-10"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "SOX Readiness Assessment",
+      "status": "In-Progress",
+      "description": "Evaluation of financial reporting control environment maturity and SOX compliance readiness in preparation for potential liquidity event",
+      "audit_type": "Internal",
+      "rating": null,
+      "planned_start_date": "2025-09-01",
+      "planned_end_date": "2025-11-30",
+      "actual_start_date": "2025-09-05",
+      "actual_end_date": null,
+      "lead_auditor": "Sarah Chen",
+      "audit_team": [
+        "David Kim",
+        "Amanda Foster",
+        "Jennifer Walsh"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-4",
+        "AE-3"
+      ],
+      "finding_ids": [],
+      "created_date": "2025-08-01"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-1",
+      "title": "Incomplete Purchase Price Allocation Documentation",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "ASC 805 requires comprehensive documentation of fair value determinations for acquired intangible assets",
+      "condition": "Supporting documentation for customer relationship and technology intangible valuations was incomplete, with key assumptions undocumented",
+      "cause": "Accelerated acquisition timeline reduced time for thorough valuation documentation",
+      "effect": "Risk of material misstatement in goodwill and intangible asset balances; potential restatement exposure",
+      "recommendation": "Complete valuation documentation within 30 days; implement acquisition accounting checklist for future transactions",
+      "related_control_ids": [
+        "C-8",
+        "C-15"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "owner": "VP Corporate Development",
+      "remediation_due_date": "2025-05-15",
+      "identified_date": "2025-03-20",
+      "closed_date": null,
+      "management_response": "Engaged external valuation specialist to complete documentation. Target completion by April 30."
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-1",
+      "title": "Integration Milestone Tracking Deficiencies",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Integration project management standards require formal milestone tracking with variance analysis",
+      "condition": "Integration milestones were tracked informally; 3 of 12 milestones exceeded timeline by >2 weeks without documented variance analysis",
+      "cause": "Lack of formal integration PMO structure during initial months",
+      "effect": "Reduced visibility into integration risks; delayed identification of customer migration issues",
+      "recommendation": "Implement formal integration PMO with weekly milestone reviews and variance reporting",
+      "related_control_ids": [
+        "C-16"
+      ],
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-7"
+      ],
+      "owner": "VP Corporate Development",
+      "remediation_due_date": "2025-04-30",
+      "identified_date": "2025-03-25",
+      "closed_date": null,
+      "management_response": "Integration PMO established with dedicated project manager. Weekly status reporting implemented."
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-1",
+      "title": "Revenue Recognition Timing Issues for Combined Offerings",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "ASC 606 requires proper identification of performance obligations in combined product offerings",
+      "condition": "Initial combined Benevity+ImpactHours contracts did not properly distinguish performance obligations",
+      "cause": "Sales team not adequately trained on new bundling requirements; contract templates not updated",
+      "effect": "Potential revenue recognition errors in Q1 2025 of estimated $400K-$600K",
+      "recommendation": "Retrain sales team; update contract templates; review all Q1 combined contracts for proper allocation",
+      "related_control_ids": [
+        "C-1",
+        "C-2"
+      ],
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "owner": "VP Revenue Operations",
+      "remediation_due_date": "2025-05-30",
+      "identified_date": "2025-04-01",
+      "closed_date": null,
+      "management_response": "Revenue team reviewing all affected contracts. Training scheduled for April 15."
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-2",
+      "title": "Variable Consideration Estimation Inconsistencies",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "ASC 606 requires consistent application of estimation methods for variable consideration",
+      "condition": "Three different estimation methodologies observed across enterprise contracts with similar structures",
+      "cause": "Insufficient guidance documentation for revenue accountants; turnover in revenue team",
+      "effect": "Inconsistent revenue recognition patterns; audit trail complexity",
+      "recommendation": "Develop standardized variable consideration estimation policy; implement quarterly training",
+      "related_control_ids": [
+        "C-1",
+        "C-3"
+      ],
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "owner": "Controller",
+      "remediation_due_date": "2025-07-15",
+      "identified_date": "2025-05-20",
+      "closed_date": null,
+      "management_response": "Policy documentation in progress. Expected completion June 30."
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-2",
+      "title": "Contract Modification Controls Gap",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "All contract modifications require documented approval and revenue impact assessment",
+      "condition": "12% of contract modifications lacked documented approval; 8% lacked revenue impact assessment",
+      "cause": "Contract modification workflow not enforcing mandatory fields",
+      "effect": "Potential unauthorized contract changes; revenue recognition timing errors",
+      "recommendation": "Implement system-enforced approval workflow with mandatory impact assessment",
+      "related_control_ids": [
+        "C-2"
+      ],
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "owner": "VP Revenue Operations",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-05-25",
+      "closed_date": "2025-07-10",
+      "management_response": "Workflow updated with mandatory approval steps. Testing complete."
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-3",
+      "title": "Customer Health Score Reliability Issues",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Customer health scores must incorporate validated leading indicators of churn risk",
+      "condition": "Health score algorithm failed to predict 67% of Q1-Q2 churned accounts; mid-market segment health scores particularly unreliable",
+      "cause": "Algorithm not updated since 2023; distributed workforce usage patterns not incorporated",
+      "effect": "Insufficient early warning for at-risk accounts; contributed to gross retention decline to 88-89%",
+      "recommendation": "Redesign health score algorithm with validated churn predictors; implement quarterly model validation",
+      "related_control_ids": [
+        "C-5",
+        "C-6"
+      ],
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-4"
+      ],
+      "owner": "SVP Customer Success",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-04-15",
+      "closed_date": null,
+      "management_response": "Engaged data science team to redesign algorithm. Pilot testing in June."
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-3",
+      "title": "Implementation Resource Allocation Controls",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Implementation resources must be allocated based on customer complexity and risk assessment",
+      "condition": "No formal resource allocation methodology; implementation delays in 34% of new enterprise customers",
+      "cause": "Resource constraints during mid-market transition; lack of capacity planning model",
+      "effect": "Customer dissatisfaction; delayed time-to-value contributing to early churn risk",
+      "recommendation": "Implement capacity planning model; establish resource allocation governance committee",
+      "related_control_ids": [
+        "C-7"
+      ],
+      "related_risk_ids": [
+        "RISK-4",
+        "RISK-7"
+      ],
+      "owner": "VP Professional Services",
+      "remediation_due_date": "2025-07-31",
+      "identified_date": "2025-04-20",
+      "closed_date": null,
+      "management_response": "Capacity model development underway. New CSM hires authorized."
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-3",
+      "title": "NRR Calculation Methodology Inconsistency",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "NRR calculation must follow documented methodology consistent with investor reporting",
+      "condition": "Mid-market divestiture customers inconsistently excluded from NRR calculations across quarters",
+      "cause": "Segment definition changes during divestiture not formally documented in calculation methodology",
+      "effect": "NRR volatility partially attributable to methodology changes vs. true performance",
+      "recommendation": "Document NRR methodology changes; implement quarterly reconciliation to investor definitions",
+      "related_control_ids": [
+        "C-4"
+      ],
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "owner": "FP&A Director",
+      "remediation_due_date": "2025-05-31",
+      "identified_date": "2025-04-25",
+      "closed_date": "2025-06-15",
+      "management_response": "Methodology documented and reconciliation implemented."
+    },
+    {
+      "finding_id": "FND-9",
+      "audit_id": "AUD-4",
+      "title": "Cross-Border Data Transfer Documentation",
+      "severity": "Low",
+      "status": "Open",
+      "criteria": "All cross-border data transfers must have documented legal basis and transfer impact assessments",
+      "condition": "2 of 15 EU-Canada transfer mechanisms lacked current transfer impact assessments",
+      "cause": "TIA refresh process not fully automated; volume of assessments increased with EMEA expansion",
+      "effect": "Minor compliance documentation gap; low probability of regulatory action",
+      "recommendation": "Automate TIA refresh reminders; complete outstanding assessments within 60 days",
+      "related_control_ids": [
+        "C-11",
+        "C-12"
+      ],
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "owner": "Chief Privacy Officer",
+      "remediation_due_date": "2025-09-15",
+      "identified_date": "2025-07-10",
+      "closed_date": null,
+      "management_response": "Assessments scheduled for completion. Automation enhancement in Q4 roadmap."
+    },
+    {
+      "finding_id": "FND-10",
+      "audit_id": "AUD-5",
+      "title": "Cash Flow Forecasting Accuracy Deficiencies",
+      "severity": "Critical",
+      "status": "In-Progress",
+      "criteria": "Rolling 13-week cash flow forecast variance should not exceed 10% of actual",
+      "condition": "Q3-Q4 2024 cash flow forecast variances exceeded 25%; $38.4M cash decline not adequately anticipated",
+      "cause": "Integration costs, restructuring charges, and new logo underperformance not properly modeled",
+      "effect": "Liquidity position deteriorated without adequate advance warning to management; net cash reduced to $1.4M",
+      "recommendation": "Implement enhanced cash forecasting model; establish weekly liquidity dashboard; create cash reserve policy",
+      "related_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "owner": "Treasurer",
+      "remediation_due_date": "2025-04-15",
+      "identified_date": "2025-02-15",
+      "closed_date": null,
+      "management_response": "New forecasting model implemented. Weekly liquidity reviews initiated with CFO."
+    },
+    {
+      "finding_id": "FND-11",
+      "audit_id": "AUD-5",
+      "title": "Working Capital Monitoring Gaps",
+      "severity": "High",
+      "status": "Closed",
+      "criteria": "Working capital metrics must be monitored weekly with defined escalation thresholds",
+      "condition": "Working capital monitoring was monthly; no defined escalation thresholds; DSO increased 8 days without alerts",
+      "cause": "Treasury function understaffed; monitoring frequency insufficient for growth stage",
+      "effect": "Delayed identification of cash collection slowdowns; contributed to liquidity pressure",
+      "recommendation": "Implement weekly working capital dashboard; define escalation thresholds; consider treasury analyst hire",
+      "related_control_ids": [
+        "C-10"
+      ],
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "owner": "Treasurer",
+      "remediation_due_date": "2025-03-31",
+      "identified_date": "2025-02-20",
+      "closed_date": "2025-04-10",
+      "management_response": "Weekly dashboard implemented. Treasury analyst hired in March."
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Revenue Recognition Complexity During Integration",
+      "description": "Risk of material misstatement in revenue recognition due to ImpactHours acquisition integration, combined product offerings, and ASC 606 complexities",
+      "canonical_topic_id": "FIN-003",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REV-01",
+        "COSO:Financial-Reporting",
+        "ASC606"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Recognition",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "risk_tolerance": 10,
+      "owner": "Controller",
+      "delegate": "Revenue Accounting Manager",
+      "mitigating_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-6"
+      ],
+      "created_date": "2025-01-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Enterprise Customer Retention Deterioration",
+      "description": "Risk of gross retention declining below 90% threshold due to competitive pressure, product gaps in volunteer tracking, and customer concentration in enterprise segment",
+      "canonical_topic_id": "OPS-005",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-CUS-01",
+        "COSO:Operations"
+      ],
+      "category": "Operational",
+      "subcategory": "Customer Retention",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 5,
+      "residual_score": 15,
+      "risk_appetite": "Low",
+      "risk_tolerance": 12,
+      "owner": "SVP Customer Success",
+      "delegate": "VP Enterprise Accounts",
+      "mitigating_control_ids": [
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "related_entity_ids": [
+        "AE-2"
+      ],
+      "created_date": "2024-06-15",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Acquisition Integration Failure",
+      "description": "Risk of ImpactHours integration failing to achieve targeted synergies, customer migration issues, or technology consolidation delays impacting combined platform value",
+      "canonical_topic_id": "STRAT-002",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:ST-MA-01",
+        "COSO:Strategy"
+      ],
+      "category": "Strategic",
+      "subcategory": "M&A Integration",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 12,
+      "owner": "VP Corporate Development",
+      "delegate": "Integration PMO Lead",
+      "mitigating_control_ids": [
+        "C-15",
+        "C-16"
+      ],
+      "related_entity_ids": [
+        "AE-6"
+      ],
+      "created_date": "2025-01-10",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Product Gap Competitive Disadvantage",
+      "description": "Risk of market share loss due to volunteer tracking product gaps for distributed workforces and competitive pressure from Blackbaud enterprise CRM integration and Submittable mid-market positioning",
+      "canonical_topic_id": "STRAT-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:ST-COMP-01",
+        "COSO:Strategy"
+      ],
+      "category": "Strategic",
+      "subcategory": "Competitive Position",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 12,
+      "owner": "Chief Product Officer",
+      "delegate": "VP Product Management",
+      "mitigating_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_entity_ids": [
+        "AE-8"
+      ],
+      "created_date": "2024-09-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Multi-Jurisdictional Privacy Compliance Failure",
+      "description": "Risk of regulatory enforcement or customer trust erosion due to non-compliance with GDPR, PIPEDA, US state privacy laws, and customer data residency requirements",
+      "canonical_topic_id": "COMP-001",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-PRIV-01",
+        "NIST-CSF:PR.DS",
+        "GDPR",
+        "PIPEDA"
+      ],
+      "category": "Compliance",
+      "subcategory": "Data Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "Chief Privacy Officer",
+      "delegate": "Privacy Counsel",
+      "mitigating_control_ids": [
+        "C-11",
+        "C-12",
+        "C-13"
+      ],
+      "related_entity_ids": [
+        "AE-7"
+      ],
+      "created_date": "2023-06-01",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Liquidity and Cash Flow Crisis",
+      "description": "Risk of insufficient liquidity to fund operations due to cash consumption exceeding forecasts, integration costs, and new logo acquisition shortfalls impacting cash generation",
+      "canonical_topic_id": "FIN-001",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-LIQ-01",
+        "COSO:Financial-Reporting"
+      ],
+      "category": "Financial",
+      "subcategory": "Liquidity",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "CFO",
+      "delegate": "Treasurer",
+      "mitigating_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_entity_ids": [
+        "AE-4"
+      ],
+      "created_date": "2024-10-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "Strategic Transformation Execution Risk",
+      "description": "Risk of failed execution of enterprise-focused strategic pivot including mid-market divestiture, organizational restructuring, and go-to-market realignment impacting revenue growth",
+      "canonical_topic_id": "STRAT-003",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:ST-EXEC-01",
+        "COSO:Strategy"
+      ],
+      "category": "Strategic",
+      "subcategory": "Business Transformation",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 12,
+      "owner": "CEO",
+      "delegate": "COO",
+      "mitigating_control_ids": [
+        "C-19",
+        "C-20"
+      ],
+      "related_entity_ids": [
+        "AE-5",
+        "AE-2"
+      ],
+      "created_date": "2024-07-01",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "New Logo Acquisition Pipeline Weakness",
+      "description": "Risk of continued underperformance in new logo acquisition due to sales pipeline management gaps, competitive win rate compression, and enterprise market penetration challenges",
+      "canonical_topic_id": "OPS-006",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-SAL-01",
+        "COSO:Operations"
+      ],
+      "category": "Operational",
+      "subcategory": "Sales Operations",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 12,
+      "owner": "CRO",
+      "delegate": "VP Enterprise Sales",
+      "mitigating_control_ids": [
+        "C-21",
+        "C-22"
+      ],
+      "related_entity_ids": [
+        "AE-5"
+      ],
+      "created_date": "2024-04-01",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Enterprise Customer Concentration",
+      "description": "Risk of revenue volatility and over-reliance on top enterprise customers following mid-market divestiture, with top 50 customers representing significant revenue share",
+      "canonical_topic_id": "FIN-002",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-CONC-01",
+        "COSO:Financial-Reporting"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Concentration",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 12,
+      "owner": "CFO",
+      "delegate": "VP Revenue Operations",
+      "mitigating_control_ids": [
+        "C-4",
+        "C-5"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-2"
+      ],
+      "created_date": "2024-08-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Platform Security and Data Breach",
+      "description": "Risk of unauthorized access to customer data, platform security vulnerabilities, or data breach impacting customer trust and regulatory standing",
+      "canonical_topic_id": "TECH-001",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-SEC-01",
+        "NIST-CSF:PR.AC",
+        "SOC2"
+      ],
+      "category": "Technology",
+      "subcategory": "Information Security",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "CISO",
+      "delegate": "Security Operations Manager",
+      "mitigating_control_ids": [
+        "C-23",
+        "C-24",
+        "C-25"
+      ],
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "created_date": "2023-01-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Platform Availability and Service Disruption",
+      "description": "Risk of SaaS platform downtime or service degradation impacting customer operations and SLA compliance",
+      "canonical_topic_id": "TECH-002",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-AVAIL-01",
+        "NIST-CSF:PR.PT"
+      ],
+      "category": "Technology",
+      "subcategory": "Service Availability",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "CTO",
+      "delegate": "VP Engineering",
+      "mitigating_control_ids": [
+        "C-26",
+        "C-27"
+      ],
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "created_date": "2023-01-15",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Key Person Dependency",
+      "description": "Risk of critical knowledge loss or operational disruption due to departure of key personnel during strategic transformation period",
+      "canonical_topic_id": "HR-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-HR-01",
+        "COSO:Human-Capital"
+      ],
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 9,
+      "owner": "CHRO",
+      "delegate": "VP Talent",
+      "mitigating_control_ids": [
+        "C-28",
+        "C-29"
+      ],
+      "related_entity_ids": [
+        "AE-9"
+      ],
+      "created_date": "2024-03-01",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Third-Party Vendor Dependency",
+      "description": "Risk of operational disruption or data exposure due to critical vendor failures or security incidents in key technology and service provider relationships",
+      "canonical_topic_id": "OPS-003",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-VEN-01",
+        "NIST-CSF:ID.SC"
+      ],
+      "category": "Operational",
+      "subcategory": "Vendor Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": 9,
+      "owner": "VP Operations",
+      "delegate": "Vendor Management Lead",
+      "mitigating_control_ids": [
+        "C-30",
+        "C-31"
+      ],
+      "related_entity_ids": [
+        "AE-10"
+      ],
+      "created_date": "2023-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "Financial Reporting and SOX Readiness Gap",
+      "description": "Risk of material weakness in financial reporting controls impacting investor confidence or delaying potential liquidity event",
+      "canonical_topic_id": "FIN-004",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REP-01",
+        "COSO:Financial-Reporting",
+        "SOX"
+      ],
+      "category": "Financial",
+      "subcategory": "Financial Reporting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": 8,
+      "owner": "CFO",
+      "delegate": "Controller",
+      "mitigating_control_ids": [
+        "C-8",
+        "C-14"
+      ],
+      "related_entity_ids": [
+        "AE-4"
+      ],
+      "created_date": "2024-01-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "ESG Reporting and Compliance",
+      "description": "Risk of reputational damage or regulatory exposure due to inadequate ESG reporting practices as a CSR platform provider",
+      "canonical_topic_id": "COMP-006",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-ESG-01",
+        "GRI",
+        "SASB"
+      ],
+      "category": "Compliance",
+      "subcategory": "ESG Compliance",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 3,
+      "inherent_score": 6,
+      "residual_likelihood": 2,
+      "residual_impact": 2,
+      "residual_score": 4,
+      "risk_appetite": "Low",
+      "risk_tolerance": 6,
+      "owner": "Chief Impact Officer",
+      "delegate": "ESG Reporting Manager",
+      "mitigating_control_ids": [
+        "C-32"
+      ],
+      "related_entity_ids": [
+        "AE-7"
+      ],
+      "created_date": "2024-01-01",
+      "last_assessed_date": "2025-10-01"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "New",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "New risk identified due to ImpactHours acquisition. High inherent risk due to integration complexity and combined product offerings requiring new revenue recognition approaches.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Controls not yet established for integrated revenue recognition. Residual equals inherent until controls implemented.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Inherent risk unchanged. Audit finding FND-3 identified revenue recognition timing issues for combined offerings.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Controls C-1, C-2, C-3 implemented. Training completed for sales team. Residual impact reduced due to control improvements.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Inherent risk stable. Continued integration complexity as customer migration progresses.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Variable consideration policy documented (FND-4 remediation). Likelihood reduced due to standardized estimation methodology.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Inherent risk remains elevated due to continued integration activities. Full integration expected Q1 2026.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Control Self-Assessment",
+      "notes": "Controls operating effectively. FND-5 closed. Score within risk tolerance.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-9",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Gross retention at 88-89% for three consecutive quarters. Mid-market deterioration continuing.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-10",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Customer health score algorithm identified as unreliable. Controls not effectively mitigating churn risk.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-11",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Audit AUD-3 rated Unsatisfactory. Health score algorithm failed to predict 67% of churned accounts.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-12",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Finding FND-6 and FND-7 identified. Remediation plans in development. Score exceeds risk tolerance.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-13",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Enterprise focus provides some inherent mitigation but top customer concentration increases impact.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-14",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Health score algorithm redesign pilot testing. Likelihood reduced but still above tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-15",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "NRR improved to 107% but concentration risk persists with enterprise-only focus.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-16",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "New health score model deployed. Early indicators positive. Score 3 points above tolerance.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-17",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "New",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "New risk from ImpactHours acquisition. Integration risks typical for technology acquisitions.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-18",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Integration PMO being established. Controls not yet mature.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-19",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "FND-1, FND-2 identified. Purchase price allocation documentation gaps. Milestone tracking deficiencies.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-20",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Integration PMO established. Valuation documentation remediation in progress. Score at tolerance.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-21",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Customer migration in progress. Technology consolidation on track.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-22",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Controls operating effectively. FND-1 remediation on track for completion.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-23",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Integration 70% complete. Remaining customer migration scheduled Q4.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-24",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Expert Judgment",
+      "notes": "Score at tolerance. Risk expected to decrease post-integration completion.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-25",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Blackbaud enterprise CRM integration announced. Win rate compression observed in Q4 2024.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-26",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "ImpactHours acquisition addresses volunteer tracking gap. Integration underway.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-27",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Submittable gaining traction in mid-market. Enterprise focus reduces direct competition.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-28",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Volunteer tracking features from ImpactHours in beta. Product roadmap aligned to enterprise needs.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-29",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Competitive landscape stable. Win rates recovering in enterprise segment.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-30",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Combined platform GA release. Competitive analysis processes enhanced.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-31",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Market share position maintained. Revenue growth stable at 14-16%.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-32",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Competitive Intelligence",
+      "notes": "Score at tolerance. Product differentiation improving with unified platform.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-33",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Multi-jurisdictional operations require ongoing compliance monitoring. EMEA expansion increasing complexity.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-34",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Privacy program mature. SCCs and TIAs in place for data transfers.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-35",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "US state privacy law landscape continuing to evolve. California CPRA, Virginia CDPA compliance validated.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-36",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Controls operating effectively. Score at tolerance level.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-37",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "AUD-4 completed. Rating Satisfactory with minor documentation finding FND-9.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-38",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Low severity finding. TIA refresh process improvement underway.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-39",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Inherent risk stable. No new jurisdictions added Q4.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-40",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Regulatory Review",
+      "notes": "Score at tolerance. Privacy program operating effectively.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-41",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 5,
+      "impact": 5,
+      "score": 25,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "CRITICAL: Cash declined $38.4M Q3-Q4 2024. Net cash at $1.4M. Liquidity position severely stressed.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-42",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Cash flow forecasting controls inadequate. Urgent audit AUD-5 initiated. Score significantly exceeds tolerance.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-43",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Liquidity stabilizing. Total liquidity at $78.9M. Cash burn rate reduced through cost actions.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-44",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "FND-10, FND-11 findings issued. New forecasting model implemented. Weekly liquidity reviews initiated.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-45",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Cash position stabilized. Operating margins recovering to sustainable levels.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-46",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "FND-11 closed. Treasury analyst hired. Working capital dashboard operational. Score approaching tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-47",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Inherent liquidity risk remains elevated for late-stage private company with significant cash needs.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-48",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Quantitative Analysis",
+      "notes": "Controls operating effectively. Cash reserve policy established. Score 2 points above tolerance but trending positive.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-49",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Strategic pivot in early execution phase. Mid-market divestiture and enterprise focus creating organizational stress.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-50",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Transformation governance being established. Emergency board authorization noted in control gaps.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-51",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Revenue growth decelerated to 14-16%. Market maturation challenges evident.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-52",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Transformation governance strengthened. Strategic planning cadence improved.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-53",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Customer count volatility stabilizing. Enterprise focus showing early positive signals.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-54",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Controls maturing. Score at tolerance level.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-55",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Transformation continuing. Operating margin recovery positive indicator.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-56",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Executive Review",
+      "notes": "Score at tolerance. Strategic execution tracking to plan.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-57",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "New logo acquisition $3.0M shortfall in Q2 2024 pattern continuing. Pipeline quality concerns.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-58",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Sales pipeline management controls being enhanced. Win rate tracking improved.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-59",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Enterprise pipeline building. Bookings still below plan.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-60",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Forecasting controls enhanced. Pipeline coverage improving to 3.2x.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-61",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Enterprise market penetration challenges persist. Win rates stable.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-62",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Controls operating at design level. Score at tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-63",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Customer count increase to 1,148 positive indicator. Inherent risk stable.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-64",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Pipeline Analysis",
+      "notes": "Score at tolerance. Q4 pipeline healthy for enterprise segment.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-65",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Mid-market divestiture increases enterprise concentration. Top 50 customers driving 19% spend increases.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-66",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Concentration monitoring enhanced. Related party review procedures updated.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-67",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Concentration risk inherent to enterprise strategy. Diversification within enterprise segment ongoing.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-68",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Customer diversification controls showing effect. New logo mix improving.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-69",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Strategic choice to focus enterprise creates structural concentration risk.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-70",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Score at tolerance. Monitoring effective.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-71",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Inherent concentration risk accepted as strategic trade-off.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-72",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Concentration Analysis",
+      "notes": "Score at tolerance. Customer success programs mitigating churn risk.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-73",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "SaaS platform handling sensitive CSR/ESG data. Inherent threat landscape elevated.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-74",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "SOC 2 Type II certified. Security controls mature. Score at tolerance.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-75",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "ImpactHours integration requires security validation of acquired assets.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-76",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "ImpactHours security assessment complete. Integration security controls validated.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-77",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "Threat landscape stable. Annual penetration testing completed.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-78",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "Penetration test findings remediated. Score at tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-79",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "SOC 2 Type II recertification in progress.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-80",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Threat Assessment",
+      "notes": "Controls operating effectively. Score at tolerance.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-81",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "SaaS platform availability critical for enterprise customers. Multi-region infrastructure.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-82",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "99.95% SLA achieved. Disaster recovery tested. Score below tolerance.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-83",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "ImpactHours platform integration increases complexity. Migration risk managed.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-84",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "Platform stability maintained during integration. Score below tolerance.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-85",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "Combined platform operational. Infrastructure capacity adequate.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-86",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "Uptime 99.97% YTD. Score well below tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-87",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "Platform stable. No material availability incidents.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-88",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Availability Analysis",
+      "notes": "Score well below tolerance. Strong operational performance.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-89",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Increasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Strategic transformation creating elevated key person risk. Executive team stability critical.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-90",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Retention programs enhanced for key personnel. Succession planning initiated.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-91",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Key person risk stable. No executive departures.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-92",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Succession plans documented for top 15 roles. Knowledge transfer processes established.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-93",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Inherent risk remains during transformation.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-94",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Score below tolerance. Retention stable.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-95",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Strategic transformation continuing. Key person risk inherent.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-96",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "HR Analytics",
+      "notes": "Score below tolerance. Controls effective.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-97",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Critical vendor dependencies in cloud infrastructure and payment processing.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-98",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Vendor risk management program mature. Annual assessments current.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-99",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "ImpactHours vendor relationships transitioned. Assessment complete.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-100",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Score below tolerance. Vendor oversight effective.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-101",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Critical vendor portfolio stable.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-102",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Score below tolerance.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-103",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Annual vendor recertification cycle complete.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-104",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "Vendor Assessment",
+      "notes": "Score below tolerance. All critical vendors assessed.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-105",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Late-stage private company approaching SOX readiness requirements for potential IPO.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-106",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "SOX readiness program initiated. Gaps identified in ITGC and financial reporting.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-107",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Inherent risk stable. SOX requirements clear.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-108",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "SOX readiness remediation in progress. Key controls documented.",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-109",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Inherent risk unchanged.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-110",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Score at tolerance. AUD-6 SOX readiness audit initiated.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-111",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Inherent risk stable.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-112",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "SOX Assessment",
+      "notes": "Score at tolerance. SOX readiness on track for 2026 compliance.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-113",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "ESG reporting requirements evolving but CSR platform well-positioned.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-114",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 2,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "Strong ESG reporting program as market leader in CSR technology.",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-115",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "No material changes to ESG regulatory landscape.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-116",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 2,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "Score well below tolerance. ESG controls mature.",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-117",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Inherent",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "Inherent risk stable.",
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "RA-118",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-01",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 2,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Risk Management Director",
+      "assessment_method": "ESG Review",
+      "notes": "Score well below tolerance.",
+      "created_date": "2025-10-01"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Revenue Recognition Integration Controls Enhancement",
+      "description": "Comprehensive plan to establish and validate revenue recognition controls for ImpactHours combined offerings",
+      "status": "In-Progress",
+      "target_residual_score": 8,
+      "milestones": [
+        {
+          "name": "Sales team ASC 606 training",
+          "due_date": "2025-04-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Contract template updates",
+          "due_date": "2025-05-30",
+          "status": "Completed"
+        },
+        {
+          "name": "Variable consideration policy",
+          "due_date": "2025-06-30",
+          "status": "Completed"
+        },
+        {
+          "name": "Q1 contract review",
+          "due_date": "2025-05-30",
+          "status": "In-Progress"
+        }
+      ],
+      "owner": "Controller",
+      "created_date": "2025-02-01",
+      "target_completion_date": "2025-06-30"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-2",
+      "name": "Customer Health Score Algorithm Redesign",
+      "description": "Redesign customer health scoring algorithm to improve churn prediction accuracy with focus on enterprise segment",
+      "status": "In-Progress",
+      "target_residual_score": 10,
+      "milestones": [
+        {
+          "name": "Churn driver analysis",
+          "due_date": "2025-04-30",
+          "status": "Completed"
+        },
+        {
+          "name": "Algorithm redesign",
+          "due_date": "2025-05-31",
+          "status": "Completed"
+        },
+        {
+          "name": "Pilot testing",
+          "due_date": "2025-06-30",
+          "status": "Completed"
+        },
+        {
+          "name": "Full deployment",
+          "due_date": "2025-08-31",
+          "status": "Completed"
+        }
+      ],
+      "owner": "SVP Customer Success",
+      "created_date": "2025-03-01",
+      "target_completion_date": "2025-08-31"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-6",
+      "name": "Liquidity Management Enhancement",
+      "description": "Strengthen cash flow forecasting and working capital monitoring to prevent future liquidity stress",
+      "status": "Completed",
+      "target_residual_score": 8,
+      "milestones": [
+        {
+          "name": "13-week forecast model upgrade",
+          "due_date": "2025-03-15",
+          "status": "Completed"
+        },
+        {
+          "name": "Weekly liquidity reviews",
+          "due_date": "2025-02-28",
+          "status": "Completed"
+        },
+        {
+          "name": "Treasury analyst hire",
+          "due_date": "2025-03-31",
+          "status": "Completed"
+        },
+        {
+          "name": "Cash reserve policy",
+          "due_date": "2025-04-30",
+          "status": "Completed"
+        }
+      ],
+      "owner": "Treasurer",
+      "created_date": "2025-01-20",
+      "target_completion_date": "2025-04-30"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Revenue Recognition Review - Combined Offerings",
+      "description": "Monthly review of revenue recognition for combined Benevity+ImpactHours product offerings to ensure ASC 606 compliance",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Revenue Accounting Manager",
+      "delegate": "Senior Revenue Accountant",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Select sample of 25 combined offering contracts and verify proper performance obligation identification and revenue allocation",
+      "evidence_required": "Contract review checklist, allocation calculations, management signoff",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2025-02-01"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Contract Modification Approval Workflow",
+      "description": "System-enforced approval workflow for all contract modifications requiring revenue impact assessment",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Revenue Operations",
+      "delegate": "Deal Desk Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1",
+        "PROC-2"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Attempt to process contract modification without required approvals; verify system rejection",
+      "evidence_required": "System configuration documentation, test results, approval audit log",
+      "last_tested_date": "2025-07-10",
+      "last_test_result": "Pass",
+      "created_date": "2025-06-15"
+    },
+    {
+      "control_id": "C-3",
+      "name": "Variable Consideration Estimation Policy Compliance",
+      "description": "Quarterly review of variable consideration estimates to ensure consistency with documented policy",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Controller",
+      "delegate": "Revenue Accounting Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Compare estimation methodology across sample of contracts to documented policy; identify variances",
+      "evidence_required": "Policy compliance checklist, variance analysis, corrective action documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-4",
+      "name": "NRR Calculation and Reconciliation",
+      "description": "Monthly reconciliation of NRR calculations to investor reporting definitions with documented methodology",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "FP&A Director",
+      "delegate": "Senior Financial Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Recalculate NRR from source data; compare to reported figure; verify methodology consistency",
+      "evidence_required": "Calculation workbook, methodology documentation, reconciliation signoff",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2025-05-15"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Customer Health Score Monitoring",
+      "description": "Weekly automated customer health score review with escalation triggers for at-risk enterprise accounts",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Enterprise Accounts",
+      "delegate": "Enterprise CSM Lead",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify automated alerting triggers for accounts below threshold; review escalation response times",
+      "evidence_required": "Alert logs, escalation records, intervention documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2024-06-01"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Quarterly Business Reviews - Enterprise Accounts",
+      "description": "Structured quarterly business reviews with enterprise customers to identify satisfaction issues and expansion opportunities",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "SVP Customer Success",
+      "delegate": "VP Enterprise Accounts",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review QBR completion rates; assess quality of captured issues; verify follow-up actions",
+      "evidence_required": "QBR records, action item tracker, customer feedback",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Implementation Resource Allocation Governance",
+      "description": "Weekly capacity planning and resource allocation review for customer implementations based on complexity assessment",
+      "control_type": "Preventive",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Professional Services",
+      "delegate": "Implementation Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-4",
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review resource allocation decisions against capacity model; assess implementation delay rates",
+      "evidence_required": "Capacity model, allocation records, delay analysis",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Partial",
+      "created_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Financial Close Checklist and Review",
+      "description": "Monthly financial close checklist including acquisition accounting, segment reporting, and management review signoff",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Controller",
+      "delegate": "Assistant Controller",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review close checklist completion; verify all required signoffs obtained; test for completeness",
+      "evidence_required": "Completed close checklist, signoff log, reconciliation files",
+      "last_tested_date": "2025-10-05",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Rolling Cash Flow Forecast",
+      "description": "Weekly 13-week rolling cash flow forecast with variance analysis against prior forecast and actual results",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Treasurer",
+      "delegate": "Treasury Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Compare forecast to actual; analyze variance drivers; verify escalation of material variances",
+      "evidence_required": "Forecast model, variance analysis, escalation log",
+      "last_tested_date": "2025-10-10",
+      "last_test_result": "Pass",
+      "created_date": "2025-02-15"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Working Capital Dashboard and Escalation",
+      "description": "Weekly working capital metrics dashboard with defined escalation thresholds for DSO, DPO, and cash conversion cycle",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Fully-Automated",
+      "owner": "Treasurer",
+      "delegate": "Treasury Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify dashboard accuracy; test escalation triggers; review response to threshold breaches",
+      "evidence_required": "Dashboard screenshots, alert logs, escalation documentation",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2025-03-15"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Privacy Impact Assessment - New Processing",
+      "description": "Privacy impact assessment required for all new data processing activities or significant changes to existing processing",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Privacy Officer",
+      "delegate": "Privacy Counsel",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review sample of new processing activities; verify PIA completion; assess quality of assessments",
+      "evidence_required": "PIA records, approval documentation, processing inventory",
+      "last_tested_date": "2025-07-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Cross-Border Data Transfer Mechanism Review",
+      "description": "Annual review and refresh of transfer impact assessments for all cross-border data transfers",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Privacy Counsel",
+      "delegate": "Privacy Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review TIA completion status; verify currency of assessments; identify gaps",
+      "evidence_required": "TIA inventory, assessment documents, gap analysis",
+      "last_tested_date": "2025-07-10",
+      "last_test_result": "Partial",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Data Subject Rights Request Management",
+      "description": "Automated tracking and fulfillment of data subject rights requests within regulatory timelines",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Privacy Counsel",
+      "delegate": "Privacy Operations Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review request completion times; verify compliance with regulatory deadlines; assess quality",
+      "evidence_required": "Request logs, response documentation, timing metrics",
+      "last_tested_date": "2025-09-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Management Review of Financial Statements",
+      "description": "Monthly management review of draft financial statements with documented review and inquiry procedures",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "CFO",
+      "delegate": "Controller",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review management inquiry documentation; verify signoff; assess analytical procedures performed",
+      "evidence_required": "Review meeting minutes, inquiry log, analytical review workpapers",
+      "last_tested_date": "2025-10-05",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Acquisition Accounting Review",
+      "description": "Detailed review of acquisition accounting entries including purchase price allocation and intangible asset valuation",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Controller",
+      "delegate": "Technical Accounting Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review acquisition accounting entries against ASC 805 requirements; verify valuation support",
+      "evidence_required": "Valuation reports, allocation workpapers, accounting memo",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Partial",
+      "created_date": "2025-01-15"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Integration PMO Milestone Tracking",
+      "description": "Weekly integration milestone tracking with variance analysis and escalation of delays exceeding one week",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Integration PMO Lead",
+      "delegate": "Integration Project Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review milestone status; verify escalation of delays; assess corrective action effectiveness",
+      "evidence_required": "Project status reports, escalation logs, variance analysis",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2025-03-01"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Competitive Intelligence Review",
+      "description": "Monthly competitive intelligence review with analysis of competitor product announcements and market positioning",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Product Marketing",
+      "delegate": "Competitive Intelligence Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review competitive intelligence reports; assess coverage of key competitors; verify action items",
+      "evidence_required": "CI reports, competitor analysis, product team briefings",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Product Roadmap Governance",
+      "description": "Quarterly product roadmap review with competitive gap analysis and customer feedback incorporation",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Chief Product Officer",
+      "delegate": "VP Product Management",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review roadmap decisions; verify competitive analysis input; assess customer feedback incorporation",
+      "evidence_required": "Roadmap documentation, competitive analysis, customer input summary",
+      "last_tested_date": "2025-09-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Strategic Transformation Steering Committee",
+      "description": "Bi-weekly strategic transformation steering committee review of execution progress and risk mitigation",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "CEO",
+      "delegate": "COO",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review steering committee minutes; verify risk discussion; assess decision follow-through",
+      "evidence_required": "Meeting minutes, action item tracker, risk register updates",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-07-15"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Board Strategic Update",
+      "description": "Monthly board update on strategic transformation progress with key metrics and risk indicators",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "CEO",
+      "delegate": "Chief of Staff",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review board materials; verify completeness of strategic update; assess board feedback incorporation",
+      "evidence_required": "Board presentations, meeting minutes, action items",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-07-15"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Sales Pipeline Stage Gate Review",
+      "description": "Weekly sales pipeline stage gate review to ensure deal qualification and forecast accuracy",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "CRO",
+      "delegate": "VP Enterprise Sales",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Audit stage gate transitions; verify qualification criteria; compare forecast to actuals",
+      "evidence_required": "Pipeline reports, stage transition logs, forecast accuracy metrics",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2024-04-01"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Win/Loss Analysis",
+      "description": "Monthly win/loss analysis with root cause identification and sales process improvement recommendations",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Sales Operations",
+      "delegate": "Sales Analytics Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review win/loss analysis completeness; verify action item generation; track improvement metrics",
+      "evidence_required": "Win/loss reports, root cause analysis, action item tracker",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-04-01"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Vulnerability Management Program",
+      "description": "Continuous vulnerability scanning with risk-based prioritization and remediation tracking",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "CISO",
+      "delegate": "Security Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review vulnerability scan results; verify remediation timeliness; assess risk prioritization",
+      "evidence_required": "Scan reports, remediation tickets, metrics dashboard",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Access Control Review",
+      "description": "Quarterly user access review for all production systems with segregation of duties validation",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Security Operations Manager",
+      "delegate": "IAM Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Select sample of user accounts; verify appropriate access; identify SoD violations",
+      "evidence_required": "Access review reports, manager signoffs, remediation evidence",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Security Incident Response",
+      "description": "Documented security incident response process with escalation procedures and post-incident review",
+      "control_type": "Corrective",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "CISO",
+      "delegate": "Security Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review incident response logs; verify escalation adherence; assess post-incident review quality",
+      "evidence_required": "Incident tickets, escalation logs, post-incident reports",
+      "last_tested_date": "2025-08-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Platform Availability Monitoring",
+      "description": "Real-time platform availability monitoring with automated alerting for service degradation",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Engineering",
+      "delegate": "SRE Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-14"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review alerting configuration; verify response to synthetic test failures; assess uptime metrics",
+      "evidence_required": "Monitoring dashboards, alert logs, incident response records",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Disaster Recovery Testing",
+      "description": "Annual disaster recovery test with documented recovery procedures and lessons learned",
+      "control_type": "Corrective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "CTO",
+      "delegate": "VP Engineering",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-14"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review DR test plan and results; verify RTO/RPO achievement; assess remediation of gaps",
+      "evidence_required": "DR test plan, execution results, lessons learned report",
+      "last_tested_date": "2025-06-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Key Person Succession Planning",
+      "description": "Annual succession planning review for top 20 critical roles with development plans for successors",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "CHRO",
+      "delegate": "VP Talent",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review succession plans; verify development plan progress; assess bench strength metrics",
+      "evidence_required": "Succession plans, development plans, bench strength report",
+      "last_tested_date": "2025-04-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Knowledge Transfer and Documentation",
+      "description": "Critical process documentation and knowledge transfer requirements for key personnel",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Talent",
+      "delegate": "Learning & Development Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review documentation completeness; assess knowledge transfer sessions conducted; verify currency",
+      "evidence_required": "Process documentation, training records, knowledge base audit",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2024-03-01"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Critical Vendor Risk Assessment",
+      "description": "Annual risk assessment of critical vendors including security, financial stability, and operational capability",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Operations",
+      "delegate": "Vendor Management Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-16"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review vendor assessment completion; verify risk rating accuracy; assess remediation plans",
+      "evidence_required": "Vendor assessments, risk ratings, remediation tracker",
+      "last_tested_date": "2025-10-15",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Vendor Performance Monitoring",
+      "description": "Quarterly vendor performance review against SLAs with escalation for underperformance",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Vendor Management Lead",
+      "delegate": "Procurement Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-16"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review SLA achievement; verify escalation of issues; assess corrective action effectiveness",
+      "evidence_required": "SLA dashboards, escalation logs, vendor meeting minutes",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-32",
+      "name": "ESG Reporting Validation",
+      "description": "Annual validation of ESG metrics and disclosures against reporting framework requirements",
+      "control_type": "Detective",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief Impact Officer",
+      "delegate": "ESG Reporting Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-17"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review ESG metrics methodology; verify data accuracy; assess disclosure completeness",
+      "evidence_required": "ESG data workbooks, methodology documentation, disclosure review checklist",
+      "last_tested_date": "2025-03-31",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-01"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "as_of_date": "2025-09-15",
+      "test_result": "Pass",
+      "test_evidence": "Tested 25 combined offering contracts. All properly identified performance obligations and applied correct revenue allocation methodology per updated policy.",
+      "tester": "Internal Audit Senior",
+      "deficiency_ids": [],
+      "created_date": "2025-09-15"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "as_of_date": "2025-07-10",
+      "test_result": "Pass",
+      "test_evidence": "Attempted to submit contract modification without required approvals. System correctly rejected submission. Reviewed 15 approved modifications - all had proper approval chain documented.",
+      "tester": "Internal Audit Manager",
+      "deficiency_ids": [],
+      "created_date": "2025-07-10"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-5",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "Health score algorithm redesigned and deployed. Alert triggers functioning. However, 3 of 15 at-risk accounts reviewed showed delayed escalation response (>48 hours vs. 24-hour target).",
+      "tester": "Internal Audit Senior",
+      "deficiency_ids": [
+        "CD-1"
+      ],
+      "created_date": "2025-10-01"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-7",
+      "as_of_date": "2025-09-30",
+      "test_result": "Partial",
+      "test_evidence": "Capacity model implemented and operational. However, 2 of 10 implementations reviewed showed resource allocation decisions made outside governance process.",
+      "tester": "Internal Audit Senior",
+      "deficiency_ids": [
+        "CD-2"
+      ],
+      "created_date": "2025-09-30"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-9",
+      "as_of_date": "2025-10-10",
+      "test_result": "Pass",
+      "test_evidence": "Reviewed 13 weekly forecasts. Average variance to actual 7.2% (within 10% threshold). All material variances properly escalated per policy.",
+      "tester": "Internal Audit Manager",
+      "deficiency_ids": [],
+      "created_date": "2025-10-10"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-12",
+      "as_of_date": "2025-07-10",
+      "test_result": "Partial",
+      "test_evidence": "Reviewed 15 EU-Canada transfer mechanisms. 13 had current TIAs. 2 TIAs expired in Q1 2025 without refresh. Finding FND-9 issued.",
+      "tester": "Internal Audit Senior",
+      "deficiency_ids": [
+        "CD-3"
+      ],
+      "created_date": "2025-07-10"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-15",
+      "as_of_date": "2025-06-30",
+      "test_result": "Partial",
+      "test_evidence": "Acquisition accounting review control in place. However, initial review did not identify documentation gaps in intangible valuations until audit identified issue.",
+      "tester": "External Audit - Ernst & Young",
+      "deficiency_ids": [
+        "CD-4"
+      ],
+      "created_date": "2025-06-30"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-23",
+      "as_of_date": "2025-10-01",
+      "test_result": "Pass",
+      "test_evidence": "Reviewed vulnerability management program. Critical vulnerabilities remediated within 7 days (target: 14 days). High vulnerabilities remediated within 21 days (target: 30 days).",
+      "tester": "Internal Audit Senior",
+      "deficiency_ids": [],
+      "created_date": "2025-10-01"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-5",
+      "finding_id": "FND-6",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Customer health score escalation response times exceeded 24-hour target in 20% of cases reviewed, averaging 48-72 hours",
+      "root_cause": "New health score algorithm increased alert volume during transition period; CSM team adapting to new prioritization criteria",
+      "remediation_plan": "Implement escalation automation with backup assignment; provide additional training on new algorithm interpretation",
+      "remediation_owner": "VP Enterprise Accounts",
+      "identified_date": "2025-10-01",
+      "target_remediation_date": "2025-11-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-7",
+      "finding_id": "FND-7",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Implementation resource allocation decisions made outside established governance process for 2 of 10 implementations reviewed",
+      "root_cause": "Capacity constraints during peak period led to informal resource decisions; governance process bypass not detected timely",
+      "remediation_plan": "Implement system controls to require governance approval; weekly compliance monitoring by VP Professional Services",
+      "remediation_owner": "VP Professional Services",
+      "identified_date": "2025-09-30",
+      "target_remediation_date": "2025-11-15",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-12",
+      "finding_id": "FND-9",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Open",
+      "description": "Two transfer impact assessments for EU-Canada data transfers not refreshed within required annual timeframe",
+      "root_cause": "Manual TIA tracking process; increased volume from EMEA expansion exceeded process capacity",
+      "remediation_plan": "Implement automated TIA expiration tracking with 60-day advance notification; complete outstanding assessments",
+      "remediation_owner": "Privacy Counsel",
+      "identified_date": "2025-07-10",
+      "target_remediation_date": "2025-09-15",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-15",
+      "finding_id": "FND-1",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Acquisition accounting review control did not include explicit checklist item for intangible asset valuation documentation completeness",
+      "root_cause": "Checklist developed pre-acquisition; not updated for ImpactHours integration complexity; accelerated timeline reduced review depth",
+      "remediation_plan": "Update acquisition accounting checklist with detailed valuation documentation requirements; engage external specialist for complex transactions",
+      "remediation_owner": "Controller",
+      "identified_date": "2025-03-20",
+      "target_remediation_date": "2025-05-15",
+      "actual_remediation_date": null
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "Revenue Recognition and Billing",
+      "description": "End-to-end process for recognizing subscription revenue, processing customer billing, and ensuring ASC 606 compliance",
+      "process_owner": "Controller",
+      "related_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Contract Management",
+      "description": "Customer contract lifecycle management including negotiation, execution, modification, and renewal",
+      "process_owner": "VP Revenue Operations",
+      "related_control_ids": [
+        "C-2"
+      ],
+      "related_objective_ids": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "Financial Planning and Analysis",
+      "description": "Budgeting, forecasting, and financial performance analysis including key metric calculation and investor reporting",
+      "process_owner": "FP&A Director",
+      "related_control_ids": [
+        "C-4"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "Customer Success Management",
+      "description": "Customer health monitoring, engagement, and retention activities for enterprise accounts",
+      "process_owner": "SVP Customer Success",
+      "related_control_ids": [
+        "C-5",
+        "C-6"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Customer Implementation and Onboarding",
+      "description": "New customer implementation, configuration, and onboarding to achieve time-to-value",
+      "process_owner": "VP Professional Services",
+      "related_control_ids": [
+        "C-7"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Financial Close and Reporting",
+      "description": "Monthly and quarterly financial close process including consolidation, reconciliation, and reporting",
+      "process_owner": "Controller",
+      "related_control_ids": [
+        "C-8",
+        "C-14"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Treasury and Cash Management",
+      "description": "Cash flow forecasting, working capital management, and liquidity monitoring",
+      "process_owner": "Treasurer",
+      "related_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "Privacy and Data Protection",
+      "description": "Privacy program management including impact assessments, data subject rights, and cross-border transfers",
+      "process_owner": "Chief Privacy Officer",
+      "related_control_ids": [
+        "C-11",
+        "C-12",
+        "C-13"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "M&A Integration Management",
+      "description": "Acquisition integration planning, execution, and tracking including financial, operational, and technology workstreams",
+      "process_owner": "VP Corporate Development",
+      "related_control_ids": [
+        "C-15",
+        "C-16"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Product Strategy and Roadmap",
+      "description": "Product strategy development, competitive analysis, and roadmap governance",
+      "process_owner": "Chief Product Officer",
+      "related_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Strategic Transformation Governance",
+      "description": "Enterprise strategic transformation oversight, execution tracking, and risk management",
+      "process_owner": "CEO",
+      "related_control_ids": [
+        "C-19",
+        "C-20"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Sales Pipeline Management",
+      "description": "Sales opportunity management, forecasting, and pipeline quality governance",
+      "process_owner": "CRO",
+      "related_control_ids": [
+        "C-21",
+        "C-22"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Information Security Management",
+      "description": "Security operations, vulnerability management, access control, and incident response",
+      "process_owner": "CISO",
+      "related_control_ids": [
+        "C-23",
+        "C-24",
+        "C-25"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Optimized"
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Platform Operations and Availability",
+      "description": "SaaS platform operations, availability monitoring, and disaster recovery",
+      "process_owner": "VP Engineering",
+      "related_control_ids": [
+        "C-26",
+        "C-27"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Talent Management and Succession",
+      "description": "Key talent retention, succession planning, and knowledge management",
+      "process_owner": "CHRO",
+      "related_control_ids": [
+        "C-28",
+        "C-29"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-16",
+      "name": "Vendor Risk Management",
+      "description": "Third-party vendor risk assessment, performance monitoring, and contract management",
+      "process_owner": "VP Operations",
+      "related_control_ids": [
+        "C-30",
+        "C-31"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-17",
+      "name": "ESG Reporting and Compliance",
+      "description": "Environmental, social, and governance metric tracking, validation, and external reporting",
+      "process_owner": "Chief Impact Officer",
+      "related_control_ids": [
+        "C-32"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Defined"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Sustainable Revenue Growth",
+      "description": "Achieve sustainable revenue growth through enterprise customer acquisition and expansion while maintaining pricing discipline",
+      "category": "Financial",
+      "target_metric": "15-18% ARR growth",
+      "measurement_frequency": "Quarterly",
+      "owner": "CRO",
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-8"
+      ],
+      "status": "On-Track"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Enterprise Customer Retention Excellence",
+      "description": "Maintain best-in-class enterprise customer retention and expand customer lifetime value",
+      "category": "Operational",
+      "target_metric": "NRR >110%, Gross Retention >92%",
+      "measurement_frequency": "Monthly",
+      "owner": "SVP Customer Success",
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-9"
+      ],
+      "status": "At-Risk"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Financial Health and Liquidity",
+      "description": "Maintain adequate liquidity and achieve path to profitability while funding strategic investments",
+      "category": "Financial",
+      "target_metric": ">$50M cash, Operating margin >8%",
+      "measurement_frequency": "Monthly",
+      "owner": "CFO",
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-14"
+      ],
+      "status": "Needs-Improvement"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Regulatory Compliance and Trust",
+      "description": "Maintain full compliance with privacy, data protection, and industry regulations across all jurisdictions",
+      "category": "Compliance",
+      "target_metric": "Zero material compliance findings",
+      "measurement_frequency": "Quarterly",
+      "owner": "Chief Privacy Officer",
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-15"
+      ],
+      "status": "On-Track"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Strategic Transformation Success",
+      "description": "Successfully execute enterprise-focused strategic pivot including ImpactHours integration and mid-market transition",
+      "category": "Strategic",
+      "target_metric": "Integration milestones on-time, Synergy targets achieved",
+      "measurement_frequency": "Monthly",
+      "owner": "CEO",
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-4",
+        "RISK-7"
+      ],
+      "status": "On-Track"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Operational Excellence",
+      "description": "Deliver reliable platform operations and maintain organizational capability during transformation",
+      "category": "Operational",
+      "target_metric": "99.9% uptime, <5% key person turnover",
+      "measurement_frequency": "Monthly",
+      "owner": "COO",
+      "related_risk_ids": [
+        "RISK-11",
+        "RISK-12",
+        "RISK-13"
+      ],
+      "status": "On-Track"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "ASC 606 - Revenue from Contracts with Customers",
+      "issuing_body": "FASB",
+      "description": "US GAAP standard for revenue recognition requiring identification of performance obligations and allocation of transaction price",
+      "applicable_jurisdictions": [
+        "United States",
+        "Canada"
+      ],
+      "effective_date": "2018-01-01",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "GDPR - General Data Protection Regulation",
+      "issuing_body": "European Union",
+      "description": "Comprehensive data protection regulation governing processing of personal data of EU residents",
+      "applicable_jurisdictions": [
+        "European Union",
+        "European Economic Area"
+      ],
+      "effective_date": "2018-05-25",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "PIPEDA - Personal Information Protection and Electronic Documents Act",
+      "issuing_body": "Government of Canada",
+      "description": "Canadian federal privacy law governing private sector collection, use, and disclosure of personal information",
+      "applicable_jurisdictions": [
+        "Canada"
+      ],
+      "effective_date": "2001-01-01",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "SOC 2 Type II",
+      "issuing_body": "AICPA",
+      "description": "Service organization control framework for security, availability, processing integrity, confidentiality, and privacy",
+      "applicable_jurisdictions": [
+        "Global"
+      ],
+      "effective_date": "2017-04-01",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "compliance_status": "Compliant"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "SOX - Sarbanes-Oxley Act (Readiness)",
+      "issuing_body": "US Securities and Exchange Commission",
+      "description": "US federal law requiring internal control over financial reporting for public companies",
+      "applicable_jurisdictions": [
+        "United States"
+      ],
+      "effective_date": "2002-07-30",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "compliance_status": "In-Progress"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "CCPA/CPRA - California Consumer Privacy Act",
+      "issuing_body": "State of California",
+      "description": "California state privacy law providing consumer rights over personal information",
+      "applicable_jurisdictions": [
+        "California, United States"
+      ],
+      "effective_date": "2020-01-01",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "compliance_status": "Compliant"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "Performance Obligation Identification",
+      "description": "Contracts must be analyzed to identify distinct performance obligations for proper revenue allocation",
+      "requirement_type": "Mandatory",
+      "related_control_ids": [
+        "C-1",
+        "C-2"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-15"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-2",
+      "name": "Transfer Impact Assessment",
+      "description": "Cross-border data transfers to third countries must have documented transfer impact assessments",
+      "requirement_type": "Mandatory",
+      "related_control_ids": [
+        "C-12"
+      ],
+      "compliance_status": "Partially-Compliant",
+      "last_assessed_date": "2025-07-10"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-4",
+      "name": "Access Control",
+      "description": "Logical and physical access to systems and data must be restricted to authorized individuals",
+      "requirement_type": "Mandatory",
+      "related_control_ids": [
+        "C-24"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-30"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-5",
+      "name": "Internal Control over Financial Reporting",
+      "description": "Management must establish and maintain adequate internal control over financial reporting",
+      "requirement_type": "Mandatory",
+      "related_control_ids": [
+        "C-8",
+        "C-14",
+        "C-15"
+      ],
+      "compliance_status": "In-Progress",
+      "last_assessed_date": "2025-10-01"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-2",
+      "name": "Data Subject Rights Response",
+      "description": "Data subject rights requests must be fulfilled within 30 days of receipt",
+      "requirement_type": "Mandatory",
+      "related_control_ids": [
+        "C-13"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-01"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "audit_id": "AUD-1",
+      "request_id": "REQ-AUD-1",
+      "evidence_type": "Document",
+      "description": "ImpactHours purchase price allocation memorandum and supporting valuation documentation",
+      "collected_date": "2025-03-10",
+      "collected_by": "Sarah Chen",
+      "file_reference": "AUD-1/PPA_Memo_ImpactHours_2025.pdf"
+    },
+    {
+      "evidence_id": "EV-2",
+      "audit_id": "AUD-1",
+      "request_id": "REQ-AUD-2",
+      "evidence_type": "System Extract",
+      "description": "Integration milestone tracking report from PMO system Q1-Q2 2025",
+      "collected_date": "2025-03-15",
+      "collected_by": "Michael Torres",
+      "file_reference": "AUD-1/Integration_Milestones_Q1Q2.xlsx"
+    },
+    {
+      "evidence_id": "EV-3",
+      "audit_id": "AUD-2",
+      "request_id": "REQ-AUD-3",
+      "evidence_type": "Document",
+      "description": "Sample of 25 combined offering contracts for revenue recognition testing",
+      "collected_date": "2025-05-01",
+      "collected_by": "Amanda Foster",
+      "file_reference": "AUD-2/Contract_Sample_Combined_Offerings.zip"
+    },
+    {
+      "evidence_id": "EV-4",
+      "audit_id": "AUD-3",
+      "request_id": "REQ-AUD-4",
+      "evidence_type": "System Extract",
+      "description": "Customer health score algorithm output and churn prediction results Q1-Q2 2025",
+      "collected_date": "2025-04-10",
+      "collected_by": "Thomas Anderson",
+      "file_reference": "AUD-3/Health_Score_Analysis.xlsx"
+    },
+    {
+      "evidence_id": "EV-5",
+      "audit_id": "AUD-5",
+      "request_id": "REQ-AUD-5",
+      "evidence_type": "System Extract",
+      "description": "13-week rolling cash flow forecast models and variance analysis Q4 2024 - Q1 2025",
+      "collected_date": "2025-02-05",
+      "collected_by": "Robert Singh",
+      "file_reference": "AUD-5/Cash_Forecast_Analysis.xlsx"
+    },
+    {
+      "evidence_id": "EV-6",
+      "control_id": "C-23",
+      "request_id": null,
+      "evidence_type": "System Report",
+      "description": "Quarterly vulnerability scan report with remediation status",
+      "collected_date": "2025-10-01",
+      "collected_by": "Security Operations",
+      "file_reference": "Controls/C-23/Vuln_Scan_Q3_2025.pdf"
+    },
+    {
+      "evidence_id": "EV-7",
+      "control_id": "C-24",
+      "request_id": null,
+      "evidence_type": "System Report",
+      "description": "Q3 2025 user access review completion report with manager attestations",
+      "collected_date": "2025-09-30",
+      "collected_by": "IAM Lead",
+      "file_reference": "Controls/C-24/Access_Review_Q3_2025.pdf"
+    },
+    {
+      "evidence_id": "EV-8",
+      "audit_id": "AUD-4",
+      "request_id": "REQ-AUD-6",
+      "evidence_type": "Document",
+      "description": "Transfer impact assessments for EU-Canada data flows",
+      "collected_date": "2025-07-05",
+      "collected_by": "Amanda Foster",
+      "file_reference": "AUD-4/TIA_EU_Canada.zip"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-AUD-1",
+      "audit_id": "AUD-1",
+      "request_description": "Purchase price allocation documentation including third-party valuation reports for intangible assets",
+      "requestee": "Technical Accounting Manager",
+      "requester": "Sarah Chen",
+      "request_date": "2025-02-10",
+      "due_date": "2025-02-24",
+      "response_date": "2025-03-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-1"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-2",
+      "audit_id": "AUD-1",
+      "request_description": "Integration project milestone tracking reports and variance analysis for ImpactHours integration",
+      "requestee": "Integration PMO Lead",
+      "requester": "Michael Torres",
+      "request_date": "2025-02-15",
+      "due_date": "2025-02-28",
+      "response_date": "2025-03-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-2"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-3",
+      "audit_id": "AUD-2",
+      "request_description": "Sample selection of 25 combined product offering contracts from Q1 2025 for revenue recognition testing",
+      "requestee": "Revenue Accounting Manager",
+      "requester": "David Kim",
+      "request_date": "2025-04-15",
+      "due_date": "2025-04-30",
+      "response_date": "2025-05-01",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-3"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-4",
+      "audit_id": "AUD-3",
+      "request_description": "Customer health score algorithm documentation and churn prediction accuracy analysis",
+      "requestee": "VP Enterprise Accounts",
+      "requester": "Jennifer Walsh",
+      "request_date": "2025-03-20",
+      "due_date": "2025-04-03",
+      "response_date": "2025-04-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-4"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-5",
+      "audit_id": "AUD-5",
+      "request_description": "Rolling 13-week cash flow forecasts and variance analysis from Q4 2024 through Q1 2025",
+      "requestee": "Treasurer",
+      "requester": "Robert Singh",
+      "request_date": "2025-01-25",
+      "due_date": "2025-02-01",
+      "response_date": "2025-02-05",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-5"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-6",
+      "audit_id": "AUD-4",
+      "request_description": "All transfer impact assessments for EU to Canada personal data transfers",
+      "requestee": "Privacy Counsel",
+      "requester": "Amanda Foster",
+      "request_date": "2025-06-15",
+      "due_date": "2025-06-30",
+      "response_date": "2025-07-05",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-8"
+      ]
+    },
+    {
+      "request_id": "REQ-AUD-7",
+      "audit_id": "AUD-6",
+      "request_description": "IT General Computer Controls documentation for SOX readiness assessment",
+      "requestee": "IT Director",
+      "requester": "Sarah Chen",
+      "request_date": "2025-09-10",
+      "due_date": "2025-09-30",
+      "response_date": null,
+      "status": "Pending",
+      "evidence_ids": []
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Control Self-Assessment",
+      "description": "Process owners assess control design and operating effectiveness using standardized questionnaire",
+      "applicable_object_types": [
+        "Controls",
+        "Risks"
+      ],
+      "frequency": "Quarterly",
+      "evidence_requirements": [
+        "Self-assessment questionnaire",
+        "Supporting documentation",
+        "Management signoff"
+      ]
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Sample Testing",
+      "description": "Select statistical sample of transactions and verify control execution and effectiveness",
+      "applicable_object_types": [
+        "Controls"
+      ],
+      "frequency": "Quarterly",
+      "evidence_requirements": [
+        "Sample selection methodology",
+        "Test results",
+        "Exception documentation"
+      ]
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Quantitative Analysis",
+      "description": "Data-driven analysis of key metrics and performance indicators to assess risk levels",
+      "applicable_object_types": [
+        "Risks"
+      ],
+      "frequency": "Monthly",
+      "evidence_requirements": [
+        "Data extracts",
+        "Analysis workpapers",
+        "Trend analysis"
+      ]
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Expert Judgment",
+      "description": "Subject matter expert assessment based on experience and industry knowledge",
+      "applicable_object_types": [
+        "Risks",
+        "Controls"
+      ],
+      "frequency": "As-Needed",
+      "evidence_requirements": [
+        "Expert credentials",
+        "Assessment rationale",
+        "Benchmarking data"
+      ]
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Walkthroughs",
+      "description": "End-to-end process walkthrough with process owners to verify control design and implementation",
+      "applicable_object_types": [
+        "Controls",
+        "Processes"
+      ],
+      "frequency": "Annual",
+      "evidence_requirements": [
+        "Walkthrough notes",
+        "Process flow documentation",
+        "Interview records"
+      ]
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Automated Continuous Monitoring",
+      "description": "System-based monitoring of control indicators with automated exception alerting",
+      "applicable_object_types": [
+        "Controls"
+      ],
+      "frequency": "Continuous",
+      "evidence_requirements": [
+        "Monitoring configuration",
+        "Alert logs",
+        "Exception reports"
+      ]
+    }
+  ]
+}

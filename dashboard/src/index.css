@@ -222,32 +222,6 @@ select {
   color: var(--muted);
 }
 
-.table-wrap {
-  overflow-x: auto;
-  margin-top: 0.5rem;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.82rem;
-}
-
-th,
-td {
-  text-align: left;
-  padding: 0.45rem 0.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-th {
-  color: var(--muted);
-  font-weight: 600;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
 .loading,
 .error {
   padding: 2rem;
@@ -622,6 +596,12 @@ th {
   letter-spacing: 0.04em;
 }
 
+td.mono-cell {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  color: #cbd5e1;
+}
+
 /* Cohort roadmap (final tab) */
 .toolbar-muted .field label {
   opacity: 0.65;
@@ -745,4 +725,709 @@ select:disabled {
 
 .roadmap-list li {
   margin-bottom: 0.4rem;
+}
+
+/* “What's new” — enhanced cohort highlights */
+.highlights-panel .highlights-stats {
+  margin-bottom: 1.25rem;
+}
+
+.inline-code {
+  font-family: var(--mono);
+  font-size: 0.82em;
+  padding: 0.12em 0.35em;
+  border-radius: 4px;
+  background: rgba(61, 156, 245, 0.12);
+  color: #93c5fd;
+}
+
+.highlights-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.85rem 1.25rem;
+  margin: 0;
+}
+
+.highlights-stat {
+  margin: 0;
+}
+
+.highlights-stat dt {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+.highlights-stat dd {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.highlights-generated {
+  margin: 1rem 0 0;
+  font-size: 0.8rem;
+}
+
+.highlights-sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.highlight-theme-card h3 {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.highlight-item-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.highlight-item-list li {
+  margin-bottom: 0.55rem;
+}
+
+.highlight-item-list strong {
+  color: #cbd5e1;
+  font-weight: 600;
+}
+
+.highlight-item-body {
+  color: var(--muted);
+}
+
+.highlights-footer {
+  font-size: 0.85rem;
+  max-width: 62ch;
+  line-height: 1.5;
+}
+
+/* ─── GRC Brain design system ─────────────────────────────────────────────── */
+
+:root {
+  --brain: #a78bfa;
+  --brain-soft: rgba(167, 139, 250, 0.14);
+  --brain-border: rgba(167, 139, 250, 0.28);
+  --brain-glow: rgba(167, 139, 250, 0.08);
+}
+
+/* Badge in hero */
+.brain-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-family: var(--font);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, background 0.15s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.brain-badge:hover {
+  border-color: var(--brain-border);
+  color: var(--brain);
+  background: var(--brain-soft);
+}
+
+.brain-badge-live {
+  border-color: var(--brain-border);
+  color: var(--brain);
+  background: var(--brain-glow);
+}
+
+.brain-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.brain-dot-live {
+  background: var(--brain);
+  box-shadow: 0 0 6px var(--brain);
+  animation: brain-pulse 2s ease-in-out infinite;
+}
+
+.brain-dot-off {
+  background: #4b5563;
+}
+
+.brain-dot-unknown {
+  background: #f59e0b;
+}
+
+@keyframes brain-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.brain-pill {
+  background: var(--brain-soft);
+  color: var(--brain);
+  border: 1px solid var(--brain-border);
+}
+
+/* Hero top row */
+.hero-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-top-row > div:first-child {
+  flex: 1;
+}
+
+/* Per-tab brain insight panel */
+.brain-insight-panel {
+  background: var(--brain-glow);
+  border: 1px solid var(--brain-border);
+  border-left: 3px solid var(--brain);
+  border-radius: 10px;
+  padding: 1rem 1.15rem 0.9rem;
+  margin-bottom: 1.25rem;
+}
+
+.brain-panel-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.brain-panel-icon {
+  font-size: 1rem;
+  color: var(--brain);
+  line-height: 1;
+}
+
+.brain-panel-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--brain);
+}
+
+.brain-panel-conf {
+  margin-left: auto;
+  font-size: 0.68rem;
+  color: var(--brain);
+  opacity: 0.7;
+}
+
+.brain-panel-loading {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--brain);
+  opacity: 0.65;
+  animation: brain-fade 1.4s ease-in-out infinite;
+}
+
+@keyframes brain-fade {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 0.35; }
+}
+
+.brain-panel-text {
+  margin: 0 0 0.65rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+.brain-panel-sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.65rem;
+}
+
+.brain-sources-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--brain);
+  opacity: 0.7;
+}
+
+.brain-source-chip {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: var(--brain-soft);
+  color: var(--brain);
+  border: 1px solid var(--brain-border);
+}
+
+.brain-ask-more-btn {
+  display: inline-block;
+  font-family: var(--font);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--brain);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+.brain-ask-more-btn:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.brain-ask-risks-btn {
+  margin-top: 0.75rem;
+  display: block;
+}
+
+/* What's new callout card */
+.brain-callout-card {
+  background: var(--brain-glow);
+  border: 1px solid var(--brain-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1.5rem;
+}
+
+.brain-callout-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 1.1rem;
+}
+
+.brain-icon {
+  color: var(--brain);
+  font-size: 1.1rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.brain-icon-lg {
+  font-size: 1.6rem;
+  margin-top: 0.1rem;
+}
+
+.brain-callout-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--brain);
+}
+
+.brain-callout-sub {
+  margin: 0;
+  font-size: 0.83rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 70ch;
+}
+
+.brain-callout-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 780px) {
+  .brain-callout-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.brain-callout-item {
+  background: rgba(0,0,0,0.18);
+  border: 1px solid var(--brain-border);
+  border-radius: 8px;
+  padding: 0.75rem 0.9rem;
+}
+
+.brain-callout-item strong {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #ddd6fe;
+  margin-bottom: 0.3rem;
+}
+
+.brain-callout-item p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.brain-callout-cta {
+  font-family: var(--font);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--brain);
+  background: var(--brain-soft);
+  border: 1px solid var(--brain-border);
+  border-radius: 6px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.brain-callout-cta:hover {
+  background: rgba(167, 139, 250, 0.22);
+  color: #c4b5fd;
+}
+
+.brain-callout-demos + .brain-callout-cta {
+  margin-top: 0.85rem;
+}
+
+.brain-callout-demos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.brain-callout-demo-btn {
+  font-family: var(--font);
+  font-size: 0.73rem;
+  font-weight: 500;
+  color: var(--brain);
+  background: transparent;
+  border: 1px solid var(--brain-border);
+  border-radius: 20px;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.brain-callout-demo-btn:hover {
+  background: var(--brain-soft);
+  border-color: var(--brain);
+}
+
+/* Top risks header */
+.top-risks-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Chat drawer */
+@media (min-width: 900px) {
+  .app-chat-open {
+    padding-right: calc(440px + 1.25rem);
+    transition: padding-right 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.chat-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 39;
+}
+
+.chat-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(440px, 100vw);
+  background: #10141c;
+  border-left: 1px solid var(--brain-border);
+  display: flex;
+  flex-direction: column;
+  z-index: 40;
+  transform: translateX(100%);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -8px 0 40px rgba(0,0,0,0.5);
+}
+
+.chat-drawer-open {
+  transform: translateX(0);
+}
+
+.chat-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.1rem 0.85rem;
+  border-bottom: 1px solid var(--brain-border);
+  background: rgba(167, 139, 250, 0.06);
+  flex-shrink: 0;
+}
+
+.chat-drawer-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--brain);
+}
+
+.brain-subtitle {
+  font-size: 0.68rem;
+  font-weight: 400;
+  color: var(--brain);
+  opacity: 0.6;
+  margin-left: 0.15rem;
+}
+
+.chat-header-actions {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.chat-action-btn {
+  font-family: var(--font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.3rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+}
+
+.chat-action-btn:hover {
+  color: var(--brain);
+  background: var(--brain-soft);
+  border-color: var(--brain-border);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.chat-empty {
+  margin: auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.chat-empty-lead {
+  margin: 0 0 0.25rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.chat-starters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.chat-starter-btn {
+  font-family: var(--font);
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--brain-border);
+  background: var(--brain-glow);
+  color: #c4b5fd;
+  cursor: pointer;
+  line-height: 1.45;
+  transition: background 0.15s, color 0.15s;
+}
+
+.chat-starter-btn:hover {
+  background: var(--brain-soft);
+  color: var(--brain);
+}
+
+.chat-msg {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 92%;
+}
+
+.chat-msg-user {
+  align-self: flex-end;
+}
+
+.chat-msg-brain {
+  align-self: flex-start;
+}
+
+.chat-msg-role {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.55;
+}
+
+.chat-msg-user .chat-msg-role {
+  color: var(--you);
+  align-self: flex-end;
+}
+
+.chat-msg-brain .chat-msg-role {
+  color: var(--brain);
+}
+
+.chat-msg-body {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 0.7rem 0.9rem;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
+
+.chat-msg-user .chat-msg-body {
+  background: rgba(34, 197, 94, 0.12);
+  border: 1px solid rgba(34, 197, 94, 0.2);
+  color: #dcfce7;
+  border-radius: 10px 10px 4px 10px;
+}
+
+.chat-msg-brain .chat-msg-body {
+  background: var(--brain-glow);
+  border: 1px solid var(--brain-border);
+  color: #e2e8f0;
+  border-radius: 10px 10px 10px 4px;
+}
+
+.chat-thinking {
+  color: var(--brain);
+  opacity: 0.65;
+  animation: brain-fade 1.4s ease-in-out infinite;
+}
+
+.chat-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0 0.1rem;
+}
+
+.chat-source-chip {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  background: var(--brain-soft);
+  color: var(--brain);
+  border: 1px solid var(--brain-border);
+}
+
+.chat-confidence {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 0.1rem;
+}
+
+.chat-conf-bar {
+  display: block;
+  height: 3px;
+  max-width: 120px;
+  border-radius: 2px;
+  background: var(--brain);
+  opacity: 0.5;
+}
+
+.chat-conf-label {
+  font-size: 0.65rem;
+  color: var(--brain);
+  opacity: 0.55;
+}
+
+.chat-input-row {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.85rem 1.1rem;
+  border-top: 1px solid var(--brain-border);
+  background: rgba(167, 139, 250, 0.04);
+  flex-shrink: 0;
+}
+
+.chat-input {
+  flex: 1;
+  font-family: var(--font);
+  font-size: 0.88rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 8px;
+  border: 1px solid var(--brain-border);
+  background: var(--bg);
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.chat-input:focus {
+  border-color: var(--brain);
+}
+
+.chat-input::placeholder {
+  color: var(--muted);
+  opacity: 0.65;
+}
+
+.chat-send-btn {
+  font-family: var(--font);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  background: var(--brain);
+  color: #1e1333;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  flex-shrink: 0;
+}
+
+.chat-send-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.chat-send-btn:not(:disabled):hover {
+  opacity: 0.88;
 }

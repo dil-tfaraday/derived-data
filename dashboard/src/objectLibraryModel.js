@@ -508,6 +508,75 @@ export const OBJECT_LIBRARY_TABS = [
 ];
 
 /**
+ * First tab in the dashboard: summarizes enhancements in the `input_data/` cohort and how the prototype uses them.
+ * Not an Object Library domain type — no `insights`; App renders a dedicated highlights panel.
+ */
+export const WHATS_NEW_TAB = {
+  id: "whats_new",
+  shortLabel: "What's new",
+  title: "Enhanced synthetic cohort",
+  lens: "Data & prototype",
+  description:
+    "The current synthetic extract (`input_data/`) adds structured fields for peer benchmarks: canonical risk topics, richer graph links, entity taxonomy, time-banded assessments, and audit metadata that supports derived metrics when budget hours are missing. Aggregates refresh when you run the aggregate script; charts on other tabs read these fields automatically.",
+  highlightSections: [
+    {
+      title: "Risk register",
+      items: [
+        {
+          label: "Canonical topics",
+          body: "`canonical_topic_id` and `topic_category` drive the first risk breakdown chart and the top-risks table so topic prevalence is stable across organizations.",
+        },
+        {
+          label: "Control linkage",
+          body: "Coverage counts include `mitigating_control_ids` as well as primary linked controls.",
+        },
+        {
+          label: "Assessments",
+          body: "`assessment_quarter`, dates, and `trend` / `velocity_indicator` feed assessment roll-ups and the risk snapshot column.",
+        },
+      ],
+    },
+    {
+      title: "Audit universe",
+      items: [
+        {
+          label: "Auditable entities",
+          body: "`risk_tier` or `risk_rating`, plus `taxonomy` (e.g. region, business unit) and `audit_frequency` in breakdowns.",
+        },
+        {
+          label: "Audits",
+          body: "`rating` tallies; average effort uses `budget_hours` when present, otherwise an estimate from planned or actual start/end dates.",
+        },
+        {
+          label: "Audit plans",
+          body: "Milestones from `key_milestones` or `planned_audits`; averages include planned slots and `total_audit_hours` when populated.",
+        },
+      ],
+    },
+    {
+      title: "Processes, objectives, evidence",
+      items: [
+        {
+          label: "Processes",
+          body: "Link density uses `related_control_ids` / `related_risk_ids` alongside legacy `linked_*` arrays; `maturity_level` is tallied.",
+        },
+        {
+          label: "Objectives",
+          body: "Category from `category` or `objective_type`; risk links include `related_risk_ids`.",
+        },
+        {
+          label: "Evidence",
+          body: "Audit linkage rate counts `linked_audit_ids` or a non-empty `audit_id`.",
+        },
+      ],
+    },
+  ],
+};
+
+/** Object library domain tabs plus the leading “What's new” overview tab. */
+export const PROTOTYPE_OBJECT_TABS = [WHATS_NEW_TAB, ...OBJECT_LIBRARY_TABS];
+
+/**
  * Final tab: not an Object Library type — guidance for improving synthetic cohorts and generation prompts.
  * Shape differs from domain tabs: uses enhancementSections instead of insights.
  */
@@ -626,5 +695,5 @@ export const COHORT_ENHANCEMENTS_TAB = {
   ],
 };
 
-/** Object Library domain tabs only; cohort roadmap is promoted in the hero (see App). */
-export const ALL_PROTOTYPE_TABS = OBJECT_LIBRARY_TABS;
+/** Domain tabs plus “What's new”; cohort roadmap remains a separate hero toggle (see App). */
+export const ALL_PROTOTYPE_TABS = PROTOTYPE_OBJECT_TABS;

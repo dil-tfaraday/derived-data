@@ -2,6 +2,7 @@
 FROM node:20-alpine AS builder
 WORKDIR /build
 COPY risk_and_audit_test ./risk_and_audit_test
+COPY input_data ./input_data
 COPY dashboard ./dashboard
 WORKDIR /build/dashboard
 RUN npm ci && npm run build

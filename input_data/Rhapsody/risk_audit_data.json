@@ -1,0 +1,4604 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Interoperability Platform Core",
+      "description": "Core healthcare interoperability platform including HL7 FHIR, API gateway, and message transformation services enabling data exchange between healthcare systems",
+      "taxonomy": {
+        "type": "Technology",
+        "domain": "Healthcare IT",
+        "criticality": "Mission-Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "VP Engineering",
+      "last_audit_date": "2024-09-15",
+      "next_audit_date": "2025-09-15",
+      "created_date": "2020-03-01"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "AI-Powered Clinical Intelligence Module",
+      "description": "New AI feature tier providing clinical decision support, predictive analytics, and intelligent routing capabilities for 134 premium customers",
+      "taxonomy": {
+        "type": "Technology",
+        "domain": "Artificial Intelligence",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Product Officer",
+      "last_audit_date": "2025-03-20",
+      "next_audit_date": "2026-03-20",
+      "created_date": "2024-06-15"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Revenue Operations",
+      "description": "End-to-end revenue cycle including subscription billing, usage-based pricing for AI tier, contract management, and ASC 606 revenue recognition",
+      "taxonomy": {
+        "type": "Financial",
+        "domain": "Revenue",
+        "criticality": "Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Financial Officer",
+      "last_audit_date": "2025-02-28",
+      "next_audit_date": "2026-02-28",
+      "created_date": "2018-01-15"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Commercial Organization",
+      "description": "Sales, marketing, and customer success functions responsible for pipeline generation, deal execution, and customer retention across enterprise and mid-market segments",
+      "taxonomy": {
+        "type": "Operational",
+        "domain": "Sales",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Revenue Officer",
+      "last_audit_date": "2025-06-30",
+      "next_audit_date": "2026-06-30",
+      "created_date": "2018-01-15"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "HIPAA Security Program",
+      "description": "Comprehensive HIPAA compliance framework including administrative, physical, and technical safeguards for PHI protection across all platform services",
+      "taxonomy": {
+        "type": "Compliance",
+        "domain": "Healthcare Privacy",
+        "criticality": "Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Chief Information Security Officer",
+      "last_audit_date": "2025-04-15",
+      "next_audit_date": "2026-04-15",
+      "created_date": "2018-06-01"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Cloud Infrastructure",
+      "description": "AWS-hosted infrastructure supporting platform operations including compute, storage, networking, and disaster recovery capabilities",
+      "taxonomy": {
+        "type": "Technology",
+        "domain": "Infrastructure",
+        "criticality": "Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "VP Infrastructure",
+      "last_audit_date": "2025-05-30",
+      "next_audit_date": "2026-05-30",
+      "created_date": "2019-02-01"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Third-Party Risk Management",
+      "description": "Vendor management program covering 47 critical vendors including cloud providers, data processors, and integration partners",
+      "taxonomy": {
+        "type": "Operational",
+        "domain": "Vendor Management",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "entity_owner": "VP Procurement",
+      "last_audit_date": "2024-11-15",
+      "next_audit_date": "2025-11-15",
+      "created_date": "2020-01-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Product Development",
+      "description": "Software development lifecycle including agile processes, code review, testing, and deployment for platform features and AI capabilities",
+      "taxonomy": {
+        "type": "Technology",
+        "domain": "Engineering",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "entity_owner": "VP Engineering",
+      "last_audit_date": "2025-07-15",
+      "next_audit_date": "2026-07-15",
+      "created_date": "2018-01-15"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Customer Data Management",
+      "description": "Customer data lifecycle management including data ingestion, storage, processing, retention, and deletion across all platform services",
+      "taxonomy": {
+        "type": "Technology",
+        "domain": "Data Management",
+        "criticality": "Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Chief Data Officer",
+      "last_audit_date": "2025-03-31",
+      "next_audit_date": "2026-03-31",
+      "created_date": "2019-06-01"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Corporate Treasury",
+      "description": "Cash management, investment operations, and financial planning supporting $49.8M cash position and Series D preparation",
+      "taxonomy": {
+        "type": "Financial",
+        "domain": "Treasury",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "entity_owner": "VP Finance",
+      "last_audit_date": "2025-01-31",
+      "next_audit_date": "2026-01-31",
+      "created_date": "2018-01-15"
+    },
+    {
+      "entity_id": "AE-11",
+      "name": "FDA/Medical Device Compliance",
+      "description": "Regulatory compliance program for FDA Software as Medical Device (SaMD) requirements applicable to AI clinical decision support features",
+      "taxonomy": {
+        "type": "Compliance",
+        "domain": "Medical Device",
+        "criticality": "High"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "VP Regulatory Affairs",
+      "last_audit_date": "2025-08-15",
+      "next_audit_date": "2026-08-15",
+      "created_date": "2024-03-01"
+    },
+    {
+      "entity_id": "AE-12",
+      "name": "SOC 2 Controls Environment",
+      "description": "Trust services criteria implementation covering security, availability, processing integrity, confidentiality, and privacy",
+      "taxonomy": {
+        "type": "Compliance",
+        "domain": "SOC 2",
+        "criticality": "Critical"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Information Security Officer",
+      "last_audit_date": "2025-10-30",
+      "next_audit_date": "2026-10-30",
+      "created_date": "2019-09-01"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Inherent Risk Score",
+      "description": "Assessment of risk exposure before application of mitigating controls, based on likelihood and impact matrices",
+      "factor_type": "Quantitative",
+      "weight": 0.4,
+      "scale": "1-5",
+      "created_date": "2020-01-15"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Control Effectiveness",
+      "description": "Evaluation of control design and operating effectiveness in mitigating identified risks",
+      "factor_type": "Qualitative",
+      "weight": 0.3,
+      "scale": "Effective|Partially-Effective|Ineffective",
+      "created_date": "2020-01-15"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Regulatory Impact",
+      "description": "Assessment of potential regulatory consequences including fines, enforcement actions, and reputational damage",
+      "factor_type": "Qualitative",
+      "weight": 0.15,
+      "scale": "Critical|High|Medium|Low",
+      "created_date": "2020-01-15"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Financial Materiality",
+      "description": "Quantitative threshold for financial statement impact, set at 5% of ARR for material items",
+      "factor_type": "Quantitative",
+      "weight": 0.15,
+      "scale": "Material|Significant|Immaterial",
+      "created_date": "2020-01-15"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Data Sensitivity Classification",
+      "description": "Classification of data processed based on PHI, PII, and business confidentiality requirements",
+      "factor_type": "Qualitative",
+      "weight": 0.2,
+      "scale": "PHI|PII|Confidential|Internal|Public",
+      "created_date": "2021-03-01"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Velocity of Change",
+      "description": "Rate of change in risk profile over assessment periods, indicating trend direction",
+      "factor_type": "Quantitative",
+      "weight": 0.1,
+      "scale": "Increasing|Stable|Decreasing",
+      "created_date": "2023-01-15"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "ara_id": "ARA-1",
+      "entity_id": "AE-1",
+      "assessment_date": "2025-01-15",
+      "inherent_risk_score": 20,
+      "residual_risk_score": 12,
+      "risk_rating": "High",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-3",
+        "AF-5"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "Core platform handles 2.3B+ healthcare transactions annually. Q1 assessment reflects new CMS interoperability enforcement creating compliance tailwinds but operational complexity",
+      "next_assessment_date": "2025-04-15"
+    },
+    {
+      "ara_id": "ARA-2",
+      "entity_id": "AE-2",
+      "assessment_date": "2025-01-20",
+      "inherent_risk_score": 20,
+      "residual_risk_score": 16,
+      "risk_rating": "High",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-3",
+        "AF-5"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "New AI module with 134 customers on premium tier. FDA SaMD implications under evaluation. Limited control maturity given Q2 2024 launch",
+      "next_assessment_date": "2025-04-20"
+    },
+    {
+      "ara_id": "ARA-3",
+      "entity_id": "AE-3",
+      "assessment_date": "2025-01-25",
+      "inherent_risk_score": 16,
+      "residual_risk_score": 10,
+      "risk_rating": "Medium",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-4"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "Revenue recognition complexity increasing with AI tier introduction. Multi-element arrangements require enhanced ASC 606 documentation",
+      "next_assessment_date": "2025-04-25"
+    },
+    {
+      "ara_id": "ARA-4",
+      "entity_id": "AE-4",
+      "assessment_date": "2025-02-01",
+      "inherent_risk_score": 16,
+      "residual_risk_score": 14,
+      "risk_rating": "High",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-4",
+        "AF-6"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "Q1 sales attainment at 82% signals commercial execution challenges. Three enterprise account losses to Epic noted. Process controls immature",
+      "next_assessment_date": "2025-05-01"
+    },
+    {
+      "ara_id": "ARA-5",
+      "entity_id": "AE-5",
+      "assessment_date": "2025-02-05",
+      "inherent_risk_score": 25,
+      "residual_risk_score": 10,
+      "risk_rating": "High",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-3",
+        "AF-5"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "HIPAA program mature but expanding scope with AI features processing PHI. Annual risk assessment completed with no material gaps identified",
+      "next_assessment_date": "2025-05-05"
+    },
+    {
+      "ara_id": "ARA-6",
+      "entity_id": "AE-6",
+      "assessment_date": "2025-02-10",
+      "inherent_risk_score": 20,
+      "residual_risk_score": 8,
+      "risk_rating": "Medium",
+      "factors_assessed": [
+        "AF-1",
+        "AF-2",
+        "AF-5"
+      ],
+      "assessor": "Chief Audit Executive",
+      "notes": "AWS infrastructure well-controlled with multi-region redundancy. Recent DR test successful with 4-hour RTO achieved",
+      "next_assessment_date": "2025-05-10"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Q1 2025 Revenue Recognition Controls Audit",
+      "status": "Completed",
+      "description": "Comprehensive review of revenue recognition controls for subscription and AI tier products, focusing on ASC 606 compliance and multi-element arrangement accounting",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-01-15",
+      "planned_end_date": "2025-02-28",
+      "actual_start_date": "2025-01-15",
+      "actual_end_date": "2025-03-05",
+      "lead_auditor": "Maria Santos, CIA",
+      "audit_team": [
+        "James Park",
+        "Lisa Chen"
+      ],
+      "scoped_entity_ids": [
+        "AE-3"
+      ],
+      "finding_ids": [
+        "FND-1",
+        "FND-2"
+      ],
+      "created_date": "2025-01-02"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "AI Module Product Controls Assessment",
+      "status": "Completed",
+      "description": "Initial audit of AI-powered clinical intelligence module covering product development controls, model validation, customer success metrics, and FDA SaMD compliance readiness",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-02-15",
+      "planned_end_date": "2025-03-31",
+      "actual_start_date": "2025-02-15",
+      "actual_end_date": "2025-04-10",
+      "lead_auditor": "David Kim, CISA",
+      "audit_team": [
+        "Sarah Wong",
+        "Michael Torres"
+      ],
+      "scoped_entity_ids": [
+        "AE-2",
+        "AE-8"
+      ],
+      "finding_ids": [
+        "FND-3",
+        "FND-4",
+        "FND-5"
+      ],
+      "created_date": "2025-02-01"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "HIPAA Security Rule Compliance Audit",
+      "status": "Completed",
+      "description": "Annual HIPAA Security Rule compliance assessment covering administrative, physical, and technical safeguards with focus on AI module PHI handling",
+      "audit_type": "External",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-03-15",
+      "planned_end_date": "2025-04-30",
+      "actual_start_date": "2025-03-15",
+      "actual_end_date": "2025-04-25",
+      "lead_auditor": "External - BDO LLP",
+      "audit_team": [
+        "BDO Healthcare IT Team"
+      ],
+      "scoped_entity_ids": [
+        "AE-5",
+        "AE-9"
+      ],
+      "finding_ids": [
+        "FND-6"
+      ],
+      "created_date": "2025-02-15"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "Commercial Process Effectiveness Review",
+      "status": "Completed",
+      "description": "Operational audit of sales processes, pipeline management, forecasting accuracy, and quota-setting methodologies following 18-month underperformance period",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-30",
+      "actual_start_date": "2025-05-01",
+      "actual_end_date": "2025-07-05",
+      "lead_auditor": "Maria Santos, CIA",
+      "audit_team": [
+        "Robert Chen",
+        "Emily Davis"
+      ],
+      "scoped_entity_ids": [
+        "AE-4"
+      ],
+      "finding_ids": [
+        "FND-7",
+        "FND-8"
+      ],
+      "created_date": "2025-04-15"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "SOC 2 Type II Examination",
+      "status": "Completed",
+      "description": "Annual SOC 2 Type II examination covering security, availability, and confidentiality trust services criteria for platform services",
+      "audit_type": "External",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-07-01",
+      "planned_end_date": "2025-10-31",
+      "actual_start_date": "2025-07-01",
+      "actual_end_date": "2025-10-30",
+      "lead_auditor": "External - Deloitte LLP",
+      "audit_team": [
+        "Deloitte Risk Advisory"
+      ],
+      "scoped_entity_ids": [
+        "AE-12",
+        "AE-6",
+        "AE-1"
+      ],
+      "finding_ids": [
+        "FND-9"
+      ],
+      "created_date": "2025-06-01"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Series D Financial Readiness Assessment",
+      "status": "Completed",
+      "description": "Pre-financing audit of financial controls, revenue quality, operational metrics, and corporate governance to support Series D due diligence",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-08-15",
+      "planned_end_date": "2025-09-30",
+      "actual_start_date": "2025-08-15",
+      "actual_end_date": "2025-10-05",
+      "lead_auditor": "David Kim, CISA",
+      "audit_team": [
+        "Maria Santos, CIA",
+        "James Park"
+      ],
+      "scoped_entity_ids": [
+        "AE-3",
+        "AE-10",
+        "AE-4"
+      ],
+      "finding_ids": [],
+      "created_date": "2025-07-15"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "Third-Party Risk Management Review",
+      "status": "Completed",
+      "description": "Assessment of vendor risk management program covering 47 critical vendors including cloud providers and integration partners",
+      "audit_type": "Internal",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-09-15",
+      "planned_end_date": "2025-11-15",
+      "actual_start_date": "2025-09-15",
+      "actual_end_date": "2025-11-10",
+      "lead_auditor": "Lisa Chen, CISA",
+      "audit_team": [
+        "Michael Torres"
+      ],
+      "scoped_entity_ids": [
+        "AE-7"
+      ],
+      "finding_ids": [
+        "FND-10"
+      ],
+      "created_date": "2025-08-15"
+    },
+    {
+      "audit_id": "AUD-8",
+      "name": "FDA SaMD Compliance Readiness",
+      "status": "In-Progress",
+      "description": "Regulatory readiness assessment for FDA Software as Medical Device requirements applicable to AI clinical decision support features",
+      "audit_type": "Internal",
+      "rating": null,
+      "planned_start_date": "2025-10-01",
+      "planned_end_date": "2025-12-15",
+      "actual_start_date": "2025-10-01",
+      "actual_end_date": null,
+      "lead_auditor": "External - KPMG Healthcare Advisory",
+      "audit_team": [
+        "KPMG Medical Device Team",
+        "VP Regulatory Affairs"
+      ],
+      "scoped_entity_ids": [
+        "AE-11",
+        "AE-2"
+      ],
+      "finding_ids": [
+        "FND-11",
+        "FND-12"
+      ],
+      "created_date": "2025-09-01"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "2025 Annual Audit Plan",
+      "description": "Risk-based audit plan addressing revenue recognition complexity, AI product controls, HIPAA compliance, commercial effectiveness, and Series D readiness",
+      "fiscal_year": 2025,
+      "status": "Approved",
+      "total_audit_hours": 2400,
+      "planned_audits": [
+        "AUD-1",
+        "AUD-2",
+        "AUD-3",
+        "AUD-4",
+        "AUD-5",
+        "AUD-6",
+        "AUD-7",
+        "AUD-8"
+      ],
+      "risk_assessment_basis": "Enterprise risk assessment completed Q4 2024 with board approval January 2025",
+      "approval_date": "2025-01-10",
+      "approved_by": "Audit Committee",
+      "created_date": "2024-12-15"
+    },
+    {
+      "plan_id": "AP-2",
+      "name": "2026 Annual Audit Plan - Draft",
+      "description": "Preliminary audit plan incorporating lessons learned from 2025, expanded AI/ML controls coverage, and public company readiness assessment",
+      "fiscal_year": 2026,
+      "status": "Draft",
+      "total_audit_hours": 2800,
+      "planned_audits": [],
+      "risk_assessment_basis": "Q4 2025 enterprise risk assessment in progress",
+      "approval_date": null,
+      "approved_by": null,
+      "created_date": "2025-10-01"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-1",
+      "title": "Insufficient Documentation for Multi-Element Revenue Arrangements",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "ASC 606-10-25 requires identification of distinct performance obligations and allocation of transaction price using standalone selling prices",
+      "condition": "Review of 15 AI tier contracts identified 8 (53%) lacking complete standalone selling price documentation for distinct performance obligations",
+      "cause": "Rapid AI tier rollout outpaced revenue accounting policy updates; sales contracts did not clearly delineate AI feature pricing from base subscription",
+      "effect": "Potential misallocation of $2.3M in AI tier revenue across performance obligations; risk of restatement if material",
+      "recommendation": "Update revenue recognition policy for AI tier, establish SSP documentation requirements, implement contract review checklist",
+      "related_control_ids": [
+        "C-12",
+        "C-13"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "owner": "Controller",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-02-20",
+      "closed_date": null,
+      "management_response": "Agreed. New AI tier revenue recognition policy drafted and under legal review. Target implementation Q2 2025"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-1",
+      "title": "Inadequate Usage-Based Billing Controls",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "Usage-based billing requires automated metering, threshold alerts, and reconciliation to customer contracts",
+      "condition": "AI tier usage metering relies on manual data extraction from product analytics; no automated reconciliation to billing system",
+      "cause": "Usage-based pricing component added without corresponding billing system integration",
+      "effect": "2 customers identified with billing discrepancies totaling $47K; potential revenue leakage estimated at $150K annually",
+      "recommendation": "Implement automated metering integration between product analytics and billing system; establish monthly reconciliation control",
+      "related_control_ids": [
+        "C-14"
+      ],
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "owner": "VP Finance",
+      "remediation_due_date": "2025-05-31",
+      "identified_date": "2025-02-25",
+      "closed_date": "2025-05-28",
+      "management_response": "Automated integration deployed May 2025. Monthly reconciliation added to close procedures"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-2",
+      "title": "AI Model Validation Documentation Gaps",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "AI/ML models require documented validation including training data provenance, bias testing, accuracy metrics, and ongoing monitoring thresholds",
+      "condition": "3 of 5 AI models in production lack complete validation documentation; bias testing performed but not documented per policy",
+      "cause": "ML engineering team prioritized speed-to-market; documentation requirements not enforced during rapid feature rollout",
+      "effect": "FDA SaMD submission risk; potential clinical decision support accuracy issues; reputational damage if model failures occur",
+      "recommendation": "Implement AI model validation checklist; require documentation sign-off before production deployment; conduct retrospective documentation for existing models",
+      "related_control_ids": [
+        "C-15",
+        "C-16"
+      ],
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-6"
+      ],
+      "owner": "VP Engineering",
+      "remediation_due_date": "2025-08-31",
+      "identified_date": "2025-03-15",
+      "closed_date": null,
+      "management_response": "Accepted. Model validation framework under development with target completion July 2025. Retrospective documentation 80% complete"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-2",
+      "title": "Insufficient AI Feature Customer Success Metrics",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Customer success programs require defined success metrics, usage tracking, and proactive intervention triggers",
+      "condition": "AI tier customer success relies on general platform metrics; no AI-specific adoption or value realization tracking in place",
+      "cause": "Customer success team not trained on AI features; metrics framework not extended for new product tier",
+      "effect": "Unable to measure AI tier ROI; churn risk for 134 AI customers unquantified; NRR impact unclear",
+      "recommendation": "Define AI-specific success metrics; implement usage dashboards; establish intervention triggers at defined adoption thresholds",
+      "related_control_ids": [
+        "C-17"
+      ],
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "owner": "VP Customer Success",
+      "remediation_due_date": "2025-07-31",
+      "identified_date": "2025-03-20",
+      "closed_date": null,
+      "management_response": "Agreed. AI customer success playbook in development. Beta metrics dashboard deployed for top 20 AI customers"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-2",
+      "title": "Clinical Decision Support Disclaimer Inconsistency",
+      "severity": "High",
+      "status": "Closed",
+      "criteria": "FDA guidance requires clear disclaimers for clinical decision support tools that are not intended to replace clinical judgment",
+      "condition": "Review of product UI identified 2 screens where CDS disclaimer was not prominently displayed per FDA guidance",
+      "cause": "UI update deployed without legal/regulatory review; disclaimer placement not included in design checklist",
+      "effect": "Potential FDA enforcement risk; liability exposure if clinical decisions made without proper disclaimer visibility",
+      "recommendation": "Implement UI change control requiring regulatory review; remediate identified screens immediately; audit all CDS-related UI",
+      "related_control_ids": [
+        "C-18"
+      ],
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "owner": "VP Product",
+      "remediation_due_date": "2025-04-30",
+      "identified_date": "2025-03-25",
+      "closed_date": "2025-04-15",
+      "management_response": "Immediate remediation completed. UI change control process updated to require regulatory sign-off"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-3",
+      "title": "PHI Access Logging Gap in AI Module",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "HIPAA Security Rule \u00a7164.312(b) requires audit controls recording and examining activity in systems containing PHI",
+      "condition": "AI module batch processing jobs accessing PHI not captured in standard access logging; discovered 30-day gap in audit trail",
+      "cause": "Batch processing framework uses different logging mechanism than interactive API; integration oversight during AI module deployment",
+      "effect": "Unable to demonstrate complete audit trail for PHI access during 30-day period; HIPAA compliance gap",
+      "recommendation": "Extend access logging to batch processing; implement log completeness monitoring; conduct gap remediation with documentation",
+      "related_control_ids": [
+        "C-5",
+        "C-6"
+      ],
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "owner": "Chief Information Security Officer",
+      "remediation_due_date": "2025-05-31",
+      "identified_date": "2025-04-10",
+      "closed_date": "2025-05-20",
+      "management_response": "Logging extended to batch processing. Gap documented and root cause analysis completed. No evidence of unauthorized access during gap period"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-4",
+      "title": "Pipeline Forecasting Accuracy Below Threshold",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Sales forecasting accuracy should be within \u00b115% of actual results for reliable financial planning",
+      "condition": "Q1-Q2 2025 forecast accuracy averaged 71% (29% variance); enterprise segment particularly weak at 58% accuracy",
+      "cause": "Over-reliance on sales rep judgment; insufficient pipeline stage conversion rate analytics; enterprise deal complexity not factored",
+      "effect": "Financial planning unreliability; cash flow forecasting errors; board reporting credibility concerns",
+      "recommendation": "Implement data-driven forecasting model; establish stage-specific conversion rates; require deal-level probability justification",
+      "related_control_ids": [
+        "C-19",
+        "C-20"
+      ],
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-4"
+      ],
+      "owner": "Chief Revenue Officer",
+      "remediation_due_date": "2025-09-30",
+      "identified_date": "2025-06-15",
+      "closed_date": null,
+      "management_response": "New forecasting methodology piloted Q3 with improved accuracy. Full rollout planned Q4"
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-4",
+      "title": "Quota Setting Process Lacks Market Validation",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Sales quotas should be set based on market opportunity analysis, historical performance, and capacity planning",
+      "condition": "2024-2025 quotas set primarily on growth targets without bottoms-up market sizing or capacity analysis",
+      "cause": "Board pressure for aggressive growth; insufficient market intelligence function; limited historical data for AI tier",
+      "effect": "18-month quota underperformance pattern; sales team morale impact; turnover risk in enterprise segment",
+      "recommendation": "Implement quota setting framework incorporating TAM analysis, historical win rates, and capacity constraints",
+      "related_control_ids": [
+        "C-21"
+      ],
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "owner": "Chief Revenue Officer",
+      "remediation_due_date": "2025-11-30",
+      "identified_date": "2025-06-20",
+      "closed_date": null,
+      "management_response": "External market sizing engagement underway. New quota methodology for 2026 planning cycle"
+    },
+    {
+      "finding_id": "FND-9",
+      "audit_id": "AUD-5",
+      "title": "Privileged Access Review Frequency",
+      "severity": "Low",
+      "status": "Closed",
+      "criteria": "SOC 2 CC6.1 requires periodic review of privileged access rights",
+      "condition": "Privileged access reviews conducted quarterly instead of monthly as documented in policy",
+      "cause": "Policy update not reflected in operational procedures; resource constraints in security team",
+      "effect": "Minor deviation from documented controls; no evidence of inappropriate access during review period",
+      "recommendation": "Align policy to quarterly review cadence or increase review frequency to monthly",
+      "related_control_ids": [
+        "C-7"
+      ],
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "owner": "Chief Information Security Officer",
+      "remediation_due_date": "2025-11-15",
+      "identified_date": "2025-10-15",
+      "closed_date": "2025-11-01",
+      "management_response": "Policy updated to reflect quarterly review cadence with enhanced scope. Approved by security committee"
+    },
+    {
+      "finding_id": "FND-10",
+      "audit_id": "AUD-7",
+      "title": "Vendor Risk Assessment Backlog",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Critical vendors require annual risk assessments; high-risk vendors require semi-annual assessments",
+      "condition": "12 of 47 critical vendors (26%) have assessments older than 12 months; 3 high-risk vendors missed semi-annual review",
+      "cause": "Vendor management team turnover; manual assessment process; prioritization of new vendor onboarding",
+      "effect": "Potential unidentified vendor risks; contractual compliance gaps; customer audit inquiry exposure",
+      "recommendation": "Clear assessment backlog by Q4 2025; implement automated assessment scheduling; hire additional vendor risk analyst",
+      "related_control_ids": [
+        "C-22",
+        "C-23"
+      ],
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "owner": "VP Procurement",
+      "remediation_due_date": "2025-12-31",
+      "identified_date": "2025-10-20",
+      "closed_date": null,
+      "management_response": "Backlog remediation plan approved. 8 assessments completed as of November 30; remaining 4 scheduled December"
+    },
+    {
+      "finding_id": "FND-11",
+      "audit_id": "AUD-8",
+      "title": "Quality Management System Gaps for SaMD",
+      "severity": "High",
+      "status": "Open",
+      "criteria": "FDA 21 CFR Part 820 requires documented quality management system for medical device manufacturers",
+      "condition": "Current QMS does not address SaMD-specific requirements including software lifecycle, risk management per ISO 14971, and design controls",
+      "cause": "AI features developed under general software development processes; SaMD classification determination pending",
+      "effect": "FDA submission timeline at risk; potential enforcement action if features marketed without clearance",
+      "recommendation": "Engage regulatory consultant for SaMD classification; implement ISO 13485 QMS elements; establish design history file",
+      "related_control_ids": [
+        "C-24"
+      ],
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "owner": "VP Regulatory Affairs",
+      "remediation_due_date": "2026-03-31",
+      "identified_date": "2025-11-01",
+      "closed_date": null,
+      "management_response": "Regulatory consultant engaged. SaMD classification analysis in progress. QMS enhancement roadmap under development"
+    },
+    {
+      "finding_id": "FND-12",
+      "audit_id": "AUD-8",
+      "title": "Clinical Validation Evidence Insufficient",
+      "severity": "High",
+      "status": "Open",
+      "criteria": "FDA guidance for CDS software requires clinical validation demonstrating safety and effectiveness",
+      "condition": "AI clinical decision support features deployed with internal testing only; no formal clinical validation studies conducted",
+      "cause": "Aggressive time-to-market pressure; clinical validation expertise gap; unclear regulatory pathway",
+      "effect": "Cannot support FDA submission; potential patient safety concerns; liability exposure",
+      "recommendation": "Design and conduct clinical validation study; engage clinical validation partner; establish ongoing performance monitoring",
+      "related_control_ids": [
+        "C-15",
+        "C-24"
+      ],
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-6"
+      ],
+      "owner": "Chief Medical Officer",
+      "remediation_due_date": "2026-06-30",
+      "identified_date": "2025-11-10",
+      "closed_date": null,
+      "management_response": "Clinical validation study protocol drafted. IRB submission planned Q1 2026"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "Commercial Execution Underperformance",
+      "description": "Persistent commercial underperformance with volatile sales attainment (82%-100% across 2025) creates revenue predictability challenges and market positioning risk against Epic in enterprise segments",
+      "canonical_topic_id": "COMM-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:ST-COMM-01",
+        "COSO:Strategic-Commercial"
+      ],
+      "category": "Strategic",
+      "subcategory": "Commercial Execution",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "Residual score \u226410",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales",
+      "mitigating_control_ids": [
+        "C-19",
+        "C-20",
+        "C-21"
+      ],
+      "related_entity_ids": [
+        "AE-4"
+      ],
+      "created_date": "2024-01-15",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Net Revenue Retention Decline",
+      "description": "NRR declining from 109% to 107% signals customer expansion headwinds, potentially impacting growth trajectory and Series D valuation",
+      "canonical_topic_id": "FIN-002",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REV-02",
+        "COSO:Financial-Revenue"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Quality",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Low",
+      "risk_tolerance": "NRR \u2265105%",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Customer Success",
+      "mitigating_control_ids": [
+        "C-17",
+        "C-25"
+      ],
+      "related_entity_ids": [
+        "AE-4",
+        "AE-3"
+      ],
+      "created_date": "2024-06-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Revenue Recognition Complexity",
+      "description": "Rapid ARR growth from $187.2M to $214.8M with new AI product tiers introduces revenue recognition complexity around multi-element arrangements and usage-based billing",
+      "canonical_topic_id": "FIN-003",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-ACC-03",
+        "ASC606",
+        "SOX:Financial-Reporting"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Recognition",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Zero material misstatements",
+      "owner": "Chief Financial Officer",
+      "delegate": "Controller",
+      "mitigating_control_ids": [
+        "C-12",
+        "C-13",
+        "C-14"
+      ],
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "created_date": "2024-09-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "Cash Flow Forecasting Volatility",
+      "description": "Monthly burn volatility ($2.4M to $0.1M) and fluctuating runway calculations (22-28 months) indicate potential weaknesses in financial planning accuracy",
+      "canonical_topic_id": "FIN-004",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-CASH-04",
+        "COSO:Financial-Liquidity"
+      ],
+      "category": "Financial",
+      "subcategory": "Cash Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "Forecast accuracy \u00b115%",
+      "owner": "Chief Financial Officer",
+      "delegate": "VP Finance",
+      "mitigating_control_ids": [
+        "C-26",
+        "C-27"
+      ],
+      "related_entity_ids": [
+        "AE-10"
+      ],
+      "created_date": "2024-03-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "AI Model Quality and Accuracy",
+      "description": "Aggressive AI feature rollout with 134 customers on premium tier introduces risk of model accuracy issues, bias, and clinical decision support failures",
+      "canonical_topic_id": "TECH-001",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-AI-01",
+        "NIST-AI-RMF:Measure",
+        "COSO:Technology-AI"
+      ],
+      "category": "Technology",
+      "subcategory": "AI/ML Risk",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Model accuracy \u226595%",
+      "owner": "Chief Product Officer",
+      "delegate": "VP Engineering",
+      "mitigating_control_ids": [
+        "C-15",
+        "C-16",
+        "C-28"
+      ],
+      "related_entity_ids": [
+        "AE-2",
+        "AE-8"
+      ],
+      "created_date": "2024-06-15",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "FDA SaMD Regulatory Exposure",
+      "description": "AI-powered clinical decision support features may trigger FDA Software as Medical Device requirements, creating regulatory enforcement and market access risk",
+      "canonical_topic_id": "COMP-001",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-FDA-01",
+        "FDA-SaMD",
+        "21CFR820"
+      ],
+      "category": "Compliance",
+      "subcategory": "Medical Device Regulation",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 5,
+      "inherent_score": 20,
+      "residual_likelihood": 3,
+      "residual_impact": 5,
+      "residual_score": 15,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Full regulatory compliance",
+      "owner": "VP Regulatory Affairs",
+      "delegate": "Director Regulatory Compliance",
+      "mitigating_control_ids": [
+        "C-18",
+        "C-24"
+      ],
+      "related_entity_ids": [
+        "AE-11",
+        "AE-2"
+      ],
+      "created_date": "2024-06-15",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "HIPAA PHI Security Breach",
+      "description": "As healthcare interoperability platform processing 2.3B+ transactions, a PHI security breach would cause significant regulatory, financial, and reputational damage",
+      "canonical_topic_id": "COMP-005",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-HIPAA-05",
+        "HIPAA-Security",
+        "NIST-CSF:PR.DS"
+      ],
+      "category": "Compliance",
+      "subcategory": "Healthcare Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Zero breaches",
+      "owner": "Chief Information Security Officer",
+      "delegate": "VP Security Operations",
+      "mitigating_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "related_entity_ids": [
+        "AE-5",
+        "AE-9"
+      ],
+      "created_date": "2018-06-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Epic Enterprise Competitive Displacement",
+      "description": "Structural competitive pressure from Epic in enterprise segments resulting in lost accounts and market share erosion in high-value customer segments",
+      "canonical_topic_id": "STRAT-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:ST-COMP-01",
+        "COSO:Strategic-Competition"
+      ],
+      "category": "Strategic",
+      "subcategory": "Competitive Position",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 4,
+      "residual_impact": 3,
+      "residual_score": 12,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "Enterprise churn <10%",
+      "owner": "Chief Executive Officer",
+      "delegate": "Chief Revenue Officer",
+      "mitigating_control_ids": [
+        "C-29",
+        "C-30"
+      ],
+      "related_entity_ids": [
+        "AE-4",
+        "AE-1"
+      ],
+      "created_date": "2023-06-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Platform Availability and Performance",
+      "description": "Critical healthcare interoperability platform requires 99.99% availability; service disruption impacts patient care workflows and customer trust",
+      "canonical_topic_id": "OPS-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OPS-AVAIL-01",
+        "NIST-CSF:PR.DS",
+        "SOC2:A1"
+      ],
+      "category": "Operational",
+      "subcategory": "Service Availability",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "99.99% uptime",
+      "owner": "VP Infrastructure",
+      "delegate": "Director Site Reliability",
+      "mitigating_control_ids": [
+        "C-8",
+        "C-9",
+        "C-10",
+        "C-11"
+      ],
+      "related_entity_ids": [
+        "AE-6",
+        "AE-1"
+      ],
+      "created_date": "2019-02-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "Third-Party Vendor Risk",
+      "description": "Dependency on 47 critical vendors including AWS, data processors, and integration partners creates supply chain and operational continuity risks",
+      "canonical_topic_id": "OPS-003",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OPS-VENDOR-03",
+        "NIST-CSF:ID.SC",
+        "COSO:Operational-ThirdParty"
+      ],
+      "category": "Operational",
+      "subcategory": "Vendor Management",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "No critical vendor failures",
+      "owner": "VP Procurement",
+      "delegate": "Director Vendor Management",
+      "mitigating_control_ids": [
+        "C-22",
+        "C-23"
+      ],
+      "related_entity_ids": [
+        "AE-7"
+      ],
+      "created_date": "2020-01-15",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Series D Execution Risk",
+      "description": "With four term sheets ($780M-$920M pre-money), valuation expectations may exceed market conditions given 25-48% step-up requirements from Series C",
+      "canonical_topic_id": "FIN-005",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-CAP-05",
+        "COSO:Financial-Capital"
+      ],
+      "category": "Financial",
+      "subcategory": "Capital Markets",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "Successful close at \u2265$800M",
+      "owner": "Chief Executive Officer",
+      "delegate": "Chief Financial Officer",
+      "mitigating_control_ids": [
+        "C-31",
+        "C-32"
+      ],
+      "related_entity_ids": [
+        "AE-10",
+        "AE-3"
+      ],
+      "created_date": "2025-06-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "Key Person Dependency - Engineering Leadership",
+      "description": "Critical dependency on VP Engineering and ML Engineering leads for AI feature development and platform architecture decisions",
+      "canonical_topic_id": "HR-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-HR-01",
+        "COSO:Human-Capital"
+      ],
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Moderate",
+      "risk_tolerance": "Succession plans in place",
+      "owner": "Chief People Officer",
+      "delegate": "VP Engineering",
+      "mitigating_control_ids": [
+        "C-33",
+        "C-34"
+      ],
+      "related_entity_ids": [
+        "AE-8",
+        "AE-2"
+      ],
+      "created_date": "2024-01-15",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "CMS Interoperability Compliance",
+      "description": "CMS enforcement of 21st Century Cures Act interoperability requirements creates compliance obligations while providing market tailwinds",
+      "canonical_topic_id": "COMP-006",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-CMS-06",
+        "CMS-Interoperability",
+        "21stCenturyCures"
+      ],
+      "category": "Compliance",
+      "subcategory": "Healthcare Regulation",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Full compliance",
+      "owner": "VP Regulatory Affairs",
+      "delegate": "Director Compliance",
+      "mitigating_control_ids": [
+        "C-35",
+        "C-36"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-5"
+      ],
+      "created_date": "2021-01-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "State Healthcare Data Privacy Regulations",
+      "description": "Multi-state operations require compliance with varying state healthcare technology and data privacy regulations beyond federal HIPAA requirements",
+      "canonical_topic_id": "COMP-007",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-STATE-07",
+        "CCPA",
+        "State-Privacy"
+      ],
+      "category": "Compliance",
+      "subcategory": "Data Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 3,
+      "inherent_score": 9,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Zero state violations",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Privacy Officer",
+      "mitigating_control_ids": [
+        "C-37",
+        "C-38"
+      ],
+      "related_entity_ids": [
+        "AE-5",
+        "AE-9"
+      ],
+      "created_date": "2020-01-01",
+      "last_assessed_date": "2025-12-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "SOC 2 Control Environment Maintenance",
+      "description": "Maintaining SOC 2 Type II attestation requires continuous control monitoring and evidence collection across security, availability, and confidentiality criteria",
+      "canonical_topic_id": "COMP-008",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-SOC2-08",
+        "SOC2-TSC",
+        "AICPA"
+      ],
+      "category": "Compliance",
+      "subcategory": "SOC 2",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 1,
+      "residual_impact": 4,
+      "residual_score": 4,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Clean SOC 2 opinion",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Security Compliance",
+      "mitigating_control_ids": [
+        "C-7",
+        "C-39",
+        "C-40"
+      ],
+      "related_entity_ids": [
+        "AE-12"
+      ],
+      "created_date": "2019-09-01",
+      "last_assessed_date": "2025-12-15"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 5,
+      "impact": 4,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Chief Audit Executive",
+      "assessment_method": "Quantitative analysis of sales attainment data",
+      "notes": "Q1 sales attainment at 82% - significant miss. Enterprise segment lost 2 accounts to Epic. Commercial execution controls immature",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief Audit Executive",
+      "assessment_method": "Quantitative analysis of sales attainment data",
+      "notes": "Q2 sales attainment improved to 91%. New forecasting methodology piloted. Mid-market share gained (4.2% to 4.5%)",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief Audit Executive",
+      "assessment_method": "Quantitative analysis of sales attainment data",
+      "notes": "Q3 sales attainment at 100%. Lost third enterprise account to Epic but strong mid-market performance (4.9% share). Win rate improved to 27%",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Audit Executive",
+      "assessment_method": "Quantitative analysis of sales attainment data",
+      "notes": "Q4 sales attainment at 100%. Commercial audit findings being addressed. New quota methodology planned for 2026",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "VP Customer Success",
+      "assessment_method": "NRR trend analysis and customer health scoring",
+      "notes": "NRR at 109% but declining trend observed. AI tier upsell offsetting core platform contraction in some accounts",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Customer Success",
+      "assessment_method": "NRR trend analysis and customer health scoring",
+      "notes": "NRR at 108%. Customer success playbook for AI tier in development. Three at-risk accounts identified for intervention",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Customer Success",
+      "assessment_method": "NRR trend analysis and customer health scoring",
+      "notes": "NRR stabilized at 107%. AI customer success playbook deployed. At-risk account interventions successful (2 of 3 retained)",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Customer Success",
+      "assessment_method": "NRR trend analysis and customer health scoring",
+      "notes": "NRR at 107%. AI tier adoption metrics improving. Customer health scoring system enhanced",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-9",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Controller",
+      "assessment_method": "Revenue recognition control testing",
+      "notes": "AI tier launch introducing multi-element complexity. 53% of sampled contracts lacking SSP documentation. Audit finding issued",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-10",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Controller",
+      "assessment_method": "Revenue recognition control testing",
+      "notes": "New AI tier revenue recognition policy implemented. SSP documentation rate improved to 85%. Usage billing automation deployed",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-11",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Controller",
+      "assessment_method": "Revenue recognition control testing",
+      "notes": "Contract review checklist fully implemented. SSP documentation at 98%. Usage billing reconciliation control operating effectively",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-12",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Controller",
+      "assessment_method": "Revenue recognition control testing",
+      "notes": "Revenue recognition controls mature. Series D readiness audit confirmed no material concerns. External auditor comfort letter obtained",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-13",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "VP Finance",
+      "assessment_method": "Forecast variance analysis",
+      "notes": "Monthly burn volatile ($2.4M Q4 2024 average). Forecast accuracy at 68%. Cash declined from $62.4M to $58.2M",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-14",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Finance",
+      "assessment_method": "Forecast variance analysis",
+      "notes": "Burn rate declining to $1.2M average. Rolling forecast model implemented. Forecast accuracy improved to 82%",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-15",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Finance",
+      "assessment_method": "Forecast variance analysis",
+      "notes": "Approaching breakeven (~$0.5M monthly burn). Forecast accuracy at 88%. Cash position $52.1M with 26-month runway",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-16",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Finance",
+      "assessment_method": "Forecast variance analysis",
+      "notes": "Near breakeven (~$0.1M monthly burn). Cash position $49.8M. Series D term sheets provide optionality",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-17",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "VP Engineering",
+      "assessment_method": "AI model performance monitoring and validation review",
+      "notes": "AI module rapid rollout to 134 customers. Model validation documentation gaps identified. Bias testing performed but undocumented",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-18",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Engineering",
+      "assessment_method": "AI model performance monitoring and validation review",
+      "notes": "Audit finding issued for validation gaps. Model validation framework development initiated. Retrospective documentation 40% complete",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-19",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Engineering",
+      "assessment_method": "AI model performance monitoring and validation review",
+      "notes": "Model validation framework deployed. Retrospective documentation 80% complete. Ongoing monitoring dashboards implemented",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-20",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Engineering",
+      "assessment_method": "AI model performance monitoring and validation review",
+      "notes": "All production models now have complete validation documentation. Model accuracy at 96.2%. Bias monitoring automated",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-21",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory gap assessment",
+      "notes": "FDA SaMD classification analysis initiated. Clinical decision support features potentially in scope. Regulatory consultant engaged",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-22",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 5,
+      "score": 20,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory gap assessment",
+      "notes": "Preliminary SaMD classification indicates Class II device pathway. QMS gaps significant. Regulatory timeline risk elevated",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-23",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory gap assessment",
+      "notes": "QMS enhancement roadmap approved. ISO 13485 implementation initiated. Clinical validation study design underway",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-24",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory gap assessment",
+      "notes": "FDA SaMD readiness audit initiated. QMS gaps being addressed per remediation plan. Clinical validation protocol drafted",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-25",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Information Security Officer",
+      "assessment_method": "Security control testing and threat assessment",
+      "notes": "HIPAA security program mature. Annual risk assessment completed. No material gaps identified in core platform",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-26",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Chief Information Security Officer",
+      "assessment_method": "Security control testing and threat assessment",
+      "notes": "AI module PHI access logging gap discovered during external audit. 30-day audit trail gap documented. Remediation in progress",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-27",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief Information Security Officer",
+      "assessment_method": "Security control testing and threat assessment",
+      "notes": "Logging gap remediated. Batch processing audit trail complete. No evidence of unauthorized access during gap period",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-28",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Information Security Officer",
+      "assessment_method": "Security control testing and threat assessment",
+      "notes": "HIPAA compliance audit completed with satisfactory rating. All AI module PHI controls operational. Enhanced monitoring in place",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-29",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Revenue Officer",
+      "assessment_method": "Competitive win/loss analysis",
+      "notes": "Epic competitive pressure continues in enterprise. Two accounts lost in Q1. Win rate vs Epic at 18%",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-30",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Revenue Officer",
+      "assessment_method": "Competitive win/loss analysis",
+      "notes": "Competitive battlecard updated. AI differentiation messaging deployed. No enterprise losses in Q2",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-31",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief Revenue Officer",
+      "assessment_method": "Competitive win/loss analysis",
+      "notes": "Third enterprise account lost to Epic. However, mid-market strategy successful with 4.9% share. Impact reduced via market segment rebalancing",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-32",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief Revenue Officer",
+      "assessment_method": "Competitive win/loss analysis",
+      "notes": "Strategic pivot to mid-market validated. Enterprise churn contained at 8% (below 10% tolerance). AI tier differentiation proving effective",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-33",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Infrastructure",
+      "assessment_method": "Availability metrics and incident analysis",
+      "notes": "Platform availability at 99.97%. Two P2 incidents in Q1 with total downtime of 23 minutes. DR test successful",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-34",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Infrastructure",
+      "assessment_method": "Availability metrics and incident analysis",
+      "notes": "Platform availability at 99.99%. Zero P1/P2 incidents. Capacity planning enhanced for AI workload growth",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-35",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Infrastructure",
+      "assessment_method": "Availability metrics and incident analysis",
+      "notes": "Platform availability at 99.995%. One P2 incident with 8-minute downtime. Multi-region failover tested successfully",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-36",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Infrastructure",
+      "assessment_method": "Availability metrics and incident analysis",
+      "notes": "YTD availability at 99.99%. SOC 2 availability criteria met. Capacity adequate for 30% growth",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-37",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Procurement",
+      "assessment_method": "Vendor risk assessment review",
+      "notes": "47 critical vendors under management. AWS concentration risk accepted. 85% of vendors with current assessments",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-38",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "VP Procurement",
+      "assessment_method": "Vendor risk assessment review",
+      "notes": "Vendor management team turnover created assessment backlog. 74% of vendors with current assessments. Remediation plan initiated",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-39",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Procurement",
+      "assessment_method": "Vendor risk assessment review",
+      "notes": "New vendor risk analyst hired. Assessment backlog 50% cleared. Automated scheduling implemented",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-40",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Procurement",
+      "assessment_method": "Vendor risk assessment review",
+      "notes": "Audit finding being remediated. 87% of vendors with current assessments. Target 100% by year-end",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-41",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Chief Financial Officer",
+      "assessment_method": "Capital markets assessment",
+      "notes": "Series D process initiated. Two term sheets received at $800M and $850M pre-money. Investor diligence in progress",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-42",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief Financial Officer",
+      "assessment_method": "Capital markets assessment",
+      "notes": "Four term sheets ($780M-$920M). Financial readiness audit clean. Board evaluating lead investor selection",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-43",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief People Officer",
+      "assessment_method": "Succession planning review",
+      "notes": "Key person dependency identified for VP Engineering and ML Engineering lead. Succession plans incomplete",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-44",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief People Officer",
+      "assessment_method": "Succession planning review",
+      "notes": "Succession plans documented for VP Engineering. ML Engineering lead retention package approved. Knowledge documentation initiative launched",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-45",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Chief People Officer",
+      "assessment_method": "Succession planning review",
+      "notes": "All critical engineering roles have documented succession plans. Two internal candidates identified for VP Engineering successor",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-46",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Chief People Officer",
+      "assessment_method": "Succession planning review",
+      "notes": "Succession planning program mature. Cross-training completed for critical systems knowledge",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-47",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory compliance assessment",
+      "notes": "CMS interoperability compliance maintained. Platform certified for FHIR R4. Monitoring CMS enforcement actions",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-48",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory compliance assessment",
+      "notes": "CMS enforcement creating market tailwinds. Compliance posture strong. New customer wins attributed to interoperability mandate",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-49",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory compliance assessment",
+      "notes": "Full compliance with CMS interoperability requirements. Proactive monitoring of upcoming rule changes",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-50",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "VP Regulatory Affairs",
+      "assessment_method": "Regulatory compliance assessment",
+      "notes": "CMS compliance sustained. Regulatory tailwinds contributing to mid-market growth. 2026 rule changes analyzed",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-51",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Privacy Officer",
+      "assessment_method": "State privacy law compliance review",
+      "notes": "Operating in 38 states with varying requirements. CCPA compliance confirmed. Texas data privacy law monitoring",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-52",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Privacy Officer",
+      "assessment_method": "State privacy law compliance review",
+      "notes": "State privacy law tracker implemented. Compliance controls updated for new Texas requirements. No violations reported",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-53",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Privacy Officer",
+      "assessment_method": "State privacy law compliance review",
+      "notes": "Multistate compliance framework operationalized. Privacy impact assessments standardized across jurisdictions",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-54",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Privacy Officer",
+      "assessment_method": "State privacy law compliance review",
+      "notes": "Full compliance across all operating states. 2026 state law changes identified and implementation planned",
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "RA-55",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-01-31",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Director Security Compliance",
+      "assessment_method": "SOC 2 control testing",
+      "notes": "SOC 2 Type II controls operating effectively. Preparing for annual examination starting Q3",
+      "created_date": "2025-01-31"
+    },
+    {
+      "assessment_id": "RA-56",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-04-30",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Director Security Compliance",
+      "assessment_method": "SOC 2 control testing",
+      "notes": "Pre-audit readiness assessment completed. Minor control documentation gaps identified and remediated",
+      "created_date": "2025-04-30"
+    },
+    {
+      "assessment_id": "RA-57",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-07-31",
+      "assessment_quarter": "Q3",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Director Security Compliance",
+      "assessment_method": "SOC 2 control testing",
+      "notes": "SOC 2 examination underway. Deloitte fieldwork progressing well. One minor finding related to access review frequency",
+      "created_date": "2025-07-31"
+    },
+    {
+      "assessment_id": "RA-58",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-31",
+      "assessment_quarter": "Q4",
+      "likelihood": 1,
+      "impact": 4,
+      "score": 4,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Director Security Compliance",
+      "assessment_method": "SOC 2 control testing",
+      "notes": "SOC 2 Type II examination completed with satisfactory opinion. One minor finding remediated. Report issued October 30",
+      "created_date": "2025-10-31"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "Commercial Execution Improvement Program",
+      "description": "Comprehensive program to improve sales forecasting accuracy, quota setting methodology, and competitive positioning",
+      "status": "In-Progress",
+      "milestones": [
+        {
+          "milestone": "New forecasting model piloted",
+          "target_date": "2025-07-31",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Quota methodology redesigned",
+          "target_date": "2025-11-30",
+          "status": "In-Progress"
+        },
+        {
+          "milestone": "Competitive battlecard refresh",
+          "target_date": "2025-04-30",
+          "status": "Completed"
+        }
+      ],
+      "owner": "Chief Revenue Officer",
+      "start_date": "2025-03-01",
+      "target_completion_date": "2025-12-31",
+      "budget_allocated": 450000,
+      "created_date": "2025-02-15"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-3",
+      "name": "Revenue Recognition Control Enhancement",
+      "description": "Implementation of enhanced revenue recognition controls for AI tier multi-element arrangements and usage-based billing",
+      "status": "Completed",
+      "milestones": [
+        {
+          "milestone": "AI tier revenue policy finalized",
+          "target_date": "2025-04-30",
+          "status": "Completed"
+        },
+        {
+          "milestone": "SSP documentation process implemented",
+          "target_date": "2025-05-31",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Usage billing automation deployed",
+          "target_date": "2025-05-31",
+          "status": "Completed"
+        }
+      ],
+      "owner": "Controller",
+      "start_date": "2025-02-01",
+      "target_completion_date": "2025-06-30",
+      "budget_allocated": 125000,
+      "created_date": "2025-01-25"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-5",
+      "name": "AI Model Governance Framework Implementation",
+      "description": "Establishment of comprehensive AI model validation, monitoring, and governance framework",
+      "status": "In-Progress",
+      "milestones": [
+        {
+          "milestone": "Model validation framework designed",
+          "target_date": "2025-06-30",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Retrospective documentation complete",
+          "target_date": "2025-08-31",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Ongoing monitoring dashboards",
+          "target_date": "2025-09-30",
+          "status": "Completed"
+        }
+      ],
+      "owner": "VP Engineering",
+      "start_date": "2025-03-15",
+      "target_completion_date": "2025-09-30",
+      "budget_allocated": 275000,
+      "created_date": "2025-03-10"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-6",
+      "name": "FDA SaMD Compliance Roadmap",
+      "description": "Multi-year program to achieve FDA compliance for AI clinical decision support features",
+      "status": "In-Progress",
+      "milestones": [
+        {
+          "milestone": "SaMD classification determined",
+          "target_date": "2025-09-30",
+          "status": "Completed"
+        },
+        {
+          "milestone": "QMS enhancement roadmap approved",
+          "target_date": "2025-10-31",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Clinical validation protocol drafted",
+          "target_date": "2025-12-31",
+          "status": "In-Progress"
+        },
+        {
+          "milestone": "FDA submission",
+          "target_date": "2026-09-30",
+          "status": "Not Started"
+        }
+      ],
+      "owner": "VP Regulatory Affairs",
+      "start_date": "2025-01-15",
+      "target_completion_date": "2026-09-30",
+      "budget_allocated": 1200000,
+      "created_date": "2025-01-10"
+    },
+    {
+      "plan_id": "RMP-5",
+      "risk_id": "RISK-10",
+      "name": "Vendor Risk Assessment Remediation",
+      "description": "Program to clear vendor assessment backlog and implement sustainable vendor risk management process",
+      "status": "In-Progress",
+      "milestones": [
+        {
+          "milestone": "Additional analyst hired",
+          "target_date": "2025-08-31",
+          "status": "Completed"
+        },
+        {
+          "milestone": "Assessment backlog cleared",
+          "target_date": "2025-12-31",
+          "status": "In-Progress"
+        },
+        {
+          "milestone": "Automated scheduling implemented",
+          "target_date": "2025-09-30",
+          "status": "Completed"
+        }
+      ],
+      "owner": "VP Procurement",
+      "start_date": "2025-06-01",
+      "target_completion_date": "2025-12-31",
+      "budget_allocated": 95000,
+      "created_date": "2025-05-20"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "PHI Encryption at Rest",
+      "description": "AES-256 encryption applied to all PHI data stored in databases, file systems, and backups",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Security Engineering",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify encryption configuration and key management practices; test data at rest encryption effectiveness",
+      "evidence_required": "Encryption configuration screenshots, key management audit logs, penetration test results",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-06-01"
+    },
+    {
+      "control_id": "C-2",
+      "name": "PHI Encryption in Transit",
+      "description": "TLS 1.3 encryption enforced for all API communications and data transfers involving PHI",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Security Engineering",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "SSL/TLS configuration scan; verify minimum TLS version enforcement; test certificate management",
+      "evidence_required": "SSL Labs scan results, network capture analysis, certificate inventory",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-06-01"
+    },
+    {
+      "control_id": "C-3",
+      "name": "PHI Access Control - Role-Based",
+      "description": "Role-based access control system restricting PHI access to authorized personnel based on job function and minimum necessary principle",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Identity Management",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4",
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review RBAC configuration; test access segregation; validate minimum necessary implementation",
+      "evidence_required": "RBAC policy documentation, access matrix, user access reviews",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-06-01"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Multi-Factor Authentication",
+      "description": "MFA required for all system access including employee accounts, administrative access, and customer portal",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Identity Management",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify MFA enrollment rates; test bypass controls; review MFA method strength",
+      "evidence_required": "MFA enrollment reports, authentication logs, bypass exception logs",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-03-01"
+    },
+    {
+      "control_id": "C-5",
+      "name": "PHI Access Audit Logging",
+      "description": "Comprehensive audit logging of all PHI access, modification, and transmission events with tamper-proof storage",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "VP Security Operations",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4",
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify log completeness; test log integrity; review retention compliance",
+      "evidence_required": "Sample audit logs, log integrity verification, retention configuration",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-06-01"
+    },
+    {
+      "control_id": "C-6",
+      "name": "Security Monitoring and Alerting",
+      "description": "24x7 security monitoring with automated alerting for anomalous access patterns, potential breaches, and policy violations",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "VP Security Operations",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review alert rules; test detection capabilities; verify escalation procedures",
+      "evidence_required": "SIEM configuration, alert samples, incident response documentation",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-06-01"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Privileged Access Review",
+      "description": "Quarterly review of privileged access rights with documented approval and recertification",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Director Identity Management",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9",
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review access review documentation; verify timeliness; test removal of inappropriate access",
+      "evidence_required": "Access review sign-offs, remediation evidence, exception documentation",
+      "last_tested_date": "2025-10-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-09-01"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Multi-Region High Availability",
+      "description": "Platform deployed across multiple AWS regions with automatic failover capabilities ensuring continuous availability",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "Director Site Reliability",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review failover configuration; test regional failover; verify RTO/RPO compliance",
+      "evidence_required": "Architecture diagrams, failover test results, availability metrics",
+      "last_tested_date": "2025-07-31",
+      "last_test_result": "Pass",
+      "created_date": "2020-02-01"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Automated Capacity Scaling",
+      "description": "Auto-scaling infrastructure responding to load patterns with defined thresholds and performance SLAs",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "Director Site Reliability",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review scaling policies; load test scaling response; verify cost optimization",
+      "evidence_required": "Scaling configuration, load test results, capacity metrics",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-02-01"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Disaster Recovery Testing",
+      "description": "Semi-annual disaster recovery testing validating RTO of 4 hours and RPO of 1 hour",
+      "control_type": "Detective",
+      "frequency": "Semi-Annually",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "Director Site Reliability",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7",
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Execute DR test scenario; measure RTO/RPO achievement; document lessons learned",
+      "evidence_required": "DR test plan, execution evidence, RTO/RPO measurements, remediation items",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2020-02-01"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Performance Monitoring and Alerting",
+      "description": "Real-time performance monitoring with SLA-based alerting for latency, throughput, and error rates",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "Director Site Reliability",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review monitoring coverage; validate alert thresholds; test escalation procedures",
+      "evidence_required": "Monitoring dashboards, alert configuration, incident response logs",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-06-01"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Revenue Recognition Policy Compliance",
+      "description": "Documented revenue recognition policies aligned with ASC 606 with mandatory compliance review for new products",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Manual",
+      "owner": "Controller",
+      "delegate": "Senior Revenue Accountant",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review policy documentation; test compliance for sample contracts; verify training completion",
+      "evidence_required": "Revenue recognition policy, compliance checklists, training records",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-15"
+    },
+    {
+      "control_id": "C-13",
+      "name": "SSP Documentation Review",
+      "description": "Standalone selling price documentation required for all performance obligations in multi-element arrangements",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Controller",
+      "delegate": "Senior Revenue Accountant",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Sample contract review; verify SSP documentation completeness; test allocation methodology",
+      "evidence_required": "SSP analysis workbooks, allocation calculations, supporting price data",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2025-03-01"
+    },
+    {
+      "control_id": "C-14",
+      "name": "Usage-Based Billing Reconciliation",
+      "description": "Monthly reconciliation of usage metering data to billing system with variance investigation threshold of $1,000",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "delegate": "Billing Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-1",
+        "PROC-2"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review reconciliation documentation; verify variance investigation; test data completeness",
+      "evidence_required": "Reconciliation workbooks, variance analysis, remediation documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-15",
+      "name": "AI Model Validation Framework",
+      "description": "Comprehensive validation framework for AI/ML models including bias testing, accuracy measurement, and documentation requirements",
+      "control_type": "Preventive",
+      "frequency": "Per-Model-Release",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Engineering",
+      "delegate": "ML Engineering Lead",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review validation documentation; verify bias testing; test accuracy metrics",
+      "evidence_required": "Model validation reports, bias testing results, accuracy benchmarks",
+      "last_tested_date": "2025-10-31",
+      "last_test_result": "Pass",
+      "created_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-16",
+      "name": "AI Model Performance Monitoring",
+      "description": "Continuous monitoring of AI model performance in production with drift detection and alerting",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Engineering",
+      "delegate": "ML Engineering Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review monitoring configuration; verify alert thresholds; test drift detection",
+      "evidence_required": "Monitoring dashboards, drift alerts, model retraining logs",
+      "last_tested_date": "2025-10-31",
+      "last_test_result": "Pass",
+      "created_date": "2025-07-01"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Customer Health Scoring",
+      "description": "Automated customer health scoring with intervention triggers for at-risk accounts",
+      "control_type": "Detective",
+      "frequency": "Daily",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Customer Success",
+      "delegate": "Director Customer Success",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review scoring algorithm; verify intervention triggers; test escalation procedures",
+      "evidence_required": "Health score reports, intervention logs, escalation documentation",
+      "last_tested_date": "2025-07-31",
+      "last_test_result": "Partial",
+      "created_date": "2021-06-01"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Clinical Decision Support Disclaimer Control",
+      "description": "Mandatory disclaimer display on all clinical decision support features with UI change control requiring regulatory review",
+      "control_type": "Preventive",
+      "frequency": "Per-Release",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Product",
+      "delegate": "Product Manager - AI",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-9",
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "UI audit for disclaimer presence; verify change control compliance; test regulatory review workflow",
+      "evidence_required": "UI screenshots, change control records, regulatory sign-offs",
+      "last_tested_date": "2025-08-31",
+      "last_test_result": "Pass",
+      "created_date": "2025-04-15"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Pipeline Stage Management",
+      "description": "Standardized pipeline stages with defined entry/exit criteria and conversion rate tracking",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales Operations",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review stage definitions; verify entry criteria compliance; analyze conversion rates",
+      "evidence_required": "Pipeline stage documentation, CRM configuration, conversion analytics",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Partial",
+      "created_date": "2022-01-15"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Sales Forecast Review",
+      "description": "Weekly sales forecast review with deal-level probability validation and management override documentation",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Manual",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales Operations",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-11",
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review forecast accuracy; verify override documentation; test probability validation",
+      "evidence_required": "Forecast reports, override logs, accuracy tracking",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Partial",
+      "created_date": "2022-01-15"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Quota Setting Methodology",
+      "description": "Annual quota setting process incorporating market analysis, historical performance, and capacity planning",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales Operations",
+      "status": "Active",
+      "effectiveness": "Ineffective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review quota methodology; verify market analysis inputs; test capacity alignment",
+      "evidence_required": "Quota setting documentation, market analysis, capacity models",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Fail",
+      "created_date": "2022-01-15"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Vendor Risk Assessment",
+      "description": "Annual risk assessment for all critical vendors with semi-annual review for high-risk vendors",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Procurement",
+      "delegate": "Director Vendor Management",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review assessment coverage; verify timeliness; test risk rating methodology",
+      "evidence_required": "Vendor assessments, risk ratings, remediation tracking",
+      "last_tested_date": "2025-10-20",
+      "last_test_result": "Partial",
+      "created_date": "2020-01-15"
+    },
+    {
+      "control_id": "C-23",
+      "name": "Vendor Security Questionnaire",
+      "description": "Standardized security questionnaire required for all vendors with access to PHI or critical systems",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Procurement",
+      "delegate": "Director Vendor Management",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review questionnaire coverage; verify response validation; test remediation tracking",
+      "evidence_required": "Security questionnaires, validation documentation, remediation evidence",
+      "last_tested_date": "2025-10-20",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-15"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Quality Management System - SaMD",
+      "description": "Quality management system for Software as Medical Device development per FDA 21 CFR Part 820 and ISO 13485",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Regulatory Affairs",
+      "delegate": "Director Quality Assurance",
+      "status": "Active",
+      "effectiveness": "Ineffective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-9",
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review QMS documentation; verify design controls; test CAPA process",
+      "evidence_required": "QMS procedures, design history files, CAPA records",
+      "last_tested_date": "2025-11-01",
+      "last_test_result": "Fail",
+      "created_date": "2025-03-01"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Customer Expansion Tracking",
+      "description": "Monthly tracking of customer expansion opportunities with upsell/cross-sell pipeline management",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Customer Success",
+      "delegate": "Director Customer Success",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review expansion pipeline; verify tracking accuracy; test handoff procedures",
+      "evidence_required": "Expansion pipeline reports, conversion tracking, handoff documentation",
+      "last_tested_date": "2025-07-31",
+      "last_test_result": "Pass",
+      "created_date": "2021-06-01"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Rolling Cash Flow Forecast",
+      "description": "13-week rolling cash flow forecast with weekly update and variance analysis",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "delegate": "Director FP&A",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review forecast accuracy; verify update frequency; test variance investigation",
+      "evidence_required": "Cash flow forecasts, variance analysis, remediation actions",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-15"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Expense Approval Workflow",
+      "description": "Tiered expense approval workflow with budget validation and policy compliance checks",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Finance",
+      "delegate": "Controller",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review approval thresholds; test budget validation; verify policy compliance",
+      "evidence_required": "Approval workflow configuration, exception reports, budget variance reports",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2019-01-15"
+    },
+    {
+      "control_id": "C-28",
+      "name": "AI Model Bias Testing",
+      "description": "Pre-deployment bias testing for all AI models with documented fairness metrics and remediation requirements",
+      "control_type": "Preventive",
+      "frequency": "Per-Model-Release",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Engineering",
+      "delegate": "ML Engineering Lead",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review bias testing methodology; verify fairness metrics; test remediation process",
+      "evidence_required": "Bias testing reports, fairness metrics, remediation documentation",
+      "last_tested_date": "2025-10-31",
+      "last_test_result": "Pass",
+      "created_date": "2025-06-01"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Competitive Intelligence Program",
+      "description": "Structured competitive intelligence gathering and analysis with quarterly battlecard updates",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Marketing",
+      "delegate": "Director Product Marketing",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review intelligence sources; verify battlecard currency; test sales enablement effectiveness",
+      "evidence_required": "Competitive analysis, battlecards, sales feedback",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2022-06-01"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Win/Loss Analysis",
+      "description": "Structured win/loss analysis for all enterprise deals with competitive factor tracking",
+      "control_type": "Detective",
+      "frequency": "Per-Deal",
+      "automation_level": "Manual",
+      "owner": "VP Sales",
+      "delegate": "VP Sales Operations",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review analysis completion rates; verify competitive factor tracking; test insights utilization",
+      "evidence_required": "Win/loss reports, competitive factor analysis, strategy adjustments",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2022-06-01"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Investor Relations Data Room",
+      "description": "Maintained data room with current financial data, metrics, and due diligence materials for investor processes",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Financial Officer",
+      "delegate": "VP Finance",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-14"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review data room currency; verify data accuracy; test access controls",
+      "evidence_required": "Data room contents, update logs, access logs",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-06-01"
+    },
+    {
+      "control_id": "C-32",
+      "name": "Board Financial Reporting",
+      "description": "Monthly board financial package with standardized metrics, variance analysis, and management commentary",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Financial Officer",
+      "delegate": "Director FP&A",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-12",
+        "PROC-14"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review report accuracy; verify timeliness; test variance explanation quality",
+      "evidence_required": "Board packages, variance analysis, management responses",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2019-01-15"
+    },
+    {
+      "control_id": "C-33",
+      "name": "Succession Planning Program",
+      "description": "Annual succession planning for critical roles with documented development plans and emergency coverage",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "Chief People Officer",
+      "delegate": "VP Talent Development",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review succession plan coverage; verify development plan progress; test emergency coverage",
+      "evidence_required": "Succession plans, development plans, emergency contact lists",
+      "last_tested_date": "2025-07-31",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-34",
+      "name": "Knowledge Documentation",
+      "description": "Systematic documentation of critical system and process knowledge with regular reviews",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Engineering",
+      "delegate": "Director Engineering",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-15"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review documentation coverage; verify currency; test knowledge transfer effectiveness",
+      "evidence_required": "Documentation inventory, review logs, knowledge transfer records",
+      "last_tested_date": "2025-07-31",
+      "last_test_result": "Pass",
+      "created_date": "2024-01-15"
+    },
+    {
+      "control_id": "C-35",
+      "name": "CMS Interoperability Compliance Monitoring",
+      "description": "Continuous monitoring of CMS interoperability requirements with proactive rule change tracking",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Regulatory Affairs",
+      "delegate": "Director Compliance",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review compliance status; verify rule change tracking; test implementation readiness",
+      "evidence_required": "Compliance reports, rule change analysis, implementation plans",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2021-01-01"
+    },
+    {
+      "control_id": "C-36",
+      "name": "FHIR Certification Maintenance",
+      "description": "Maintenance of FHIR R4 certification with annual recertification and version update tracking",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Engineering",
+      "delegate": "Director Platform Engineering",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Verify certification status; test FHIR compliance; review version compatibility",
+      "evidence_required": "Certification documentation, compliance test results, version roadmap",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2021-01-01"
+    },
+    {
+      "control_id": "C-37",
+      "name": "State Privacy Law Tracker",
+      "description": "Automated tracking of state privacy law requirements with implementation planning and compliance verification",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Privacy Officer",
+      "delegate": "Privacy Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review law tracking accuracy; verify implementation status; test compliance controls",
+      "evidence_required": "Law tracker reports, implementation evidence, compliance assessments",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-38",
+      "name": "Privacy Impact Assessment",
+      "description": "Privacy impact assessments required for new products, features, and significant changes affecting personal data",
+      "control_type": "Preventive",
+      "frequency": "Per-Change",
+      "automation_level": "Manual",
+      "owner": "Privacy Officer",
+      "delegate": "Privacy Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-4",
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review PIA completion rates; verify assessment quality; test remediation tracking",
+      "evidence_required": "PIA documentation, remediation plans, sign-off records",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-01-01"
+    },
+    {
+      "control_id": "C-39",
+      "name": "SOC 2 Control Evidence Collection",
+      "description": "Continuous collection and organization of SOC 2 control evidence with automated gathering where possible",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Semi-Automated",
+      "owner": "Director Security Compliance",
+      "delegate": "Security Compliance Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review evidence completeness; verify automation coverage; test retrieval procedures",
+      "evidence_required": "Evidence repository, collection logs, automation configuration",
+      "last_tested_date": "2025-10-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-09-01"
+    },
+    {
+      "control_id": "C-40",
+      "name": "SOC 2 Control Testing",
+      "description": "Quarterly internal testing of SOC 2 controls with gap remediation tracking",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Director Security Compliance",
+      "delegate": "Security Compliance Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review test coverage; verify remediation tracking; test control effectiveness",
+      "evidence_required": "Test results, remediation tracking, effectiveness metrics",
+      "last_tested_date": "2025-10-15",
+      "last_test_result": "Pass",
+      "created_date": "2019-09-01"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-12",
+      "as_of_date": "2025-02-28",
+      "test_result": "Fail",
+      "test_evidence": "Sample of 15 AI tier contracts reviewed; 8 (53%) lacking complete SSP documentation for distinct performance obligations",
+      "tester": "Maria Santos, CIA",
+      "deficiency_ids": [
+        "CD-1"
+      ],
+      "created_date": "2025-02-28"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-12",
+      "as_of_date": "2025-09-30",
+      "test_result": "Pass",
+      "test_evidence": "Sample of 20 contracts reviewed; 19 (95%) with complete SSP documentation. One exception documented and remediated",
+      "tester": "James Park",
+      "deficiency_ids": [],
+      "created_date": "2025-09-30"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-14",
+      "as_of_date": "2025-02-28",
+      "test_result": "Fail",
+      "test_evidence": "Manual data extraction process identified; no automated reconciliation. Two billing discrepancies ($47K) found",
+      "tester": "Maria Santos, CIA",
+      "deficiency_ids": [
+        "CD-2"
+      ],
+      "created_date": "2025-02-28"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-14",
+      "as_of_date": "2025-09-30",
+      "test_result": "Pass",
+      "test_evidence": "Automated integration operational. Monthly reconciliation reviewed for May-August; all variances within threshold and documented",
+      "tester": "James Park",
+      "deficiency_ids": [],
+      "created_date": "2025-09-30"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-15",
+      "as_of_date": "2025-03-31",
+      "test_result": "Fail",
+      "test_evidence": "3 of 5 production AI models lacking complete validation documentation. Bias testing performed but not documented per policy",
+      "tester": "David Kim, CISA",
+      "deficiency_ids": [
+        "CD-3"
+      ],
+      "created_date": "2025-03-31"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-15",
+      "as_of_date": "2025-10-31",
+      "test_result": "Pass",
+      "test_evidence": "All 5 production models have complete validation documentation. Framework implemented and operating effectively",
+      "tester": "David Kim, CISA",
+      "deficiency_ids": [],
+      "created_date": "2025-10-31"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-5",
+      "as_of_date": "2025-04-25",
+      "test_result": "Fail",
+      "test_evidence": "AI module batch processing PHI access not captured in standard logging. 30-day audit trail gap identified",
+      "tester": "BDO LLP",
+      "deficiency_ids": [
+        "CD-4"
+      ],
+      "created_date": "2025-04-25"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-5",
+      "as_of_date": "2025-09-15",
+      "test_result": "Pass",
+      "test_evidence": "Logging extended to batch processing. Log completeness verified for June-August. No gaps identified",
+      "tester": "Deloitte LLP",
+      "deficiency_ids": [],
+      "created_date": "2025-09-15"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-21",
+      "as_of_date": "2025-06-30",
+      "test_result": "Fail",
+      "test_evidence": "Quota setting based primarily on growth targets without bottoms-up market sizing. 18-month underperformance pattern",
+      "tester": "Maria Santos, CIA",
+      "deficiency_ids": [
+        "CD-5"
+      ],
+      "created_date": "2025-06-30"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-22",
+      "as_of_date": "2025-10-20",
+      "test_result": "Partial",
+      "test_evidence": "12 of 47 critical vendors (26%) with assessments older than 12 months. Backlog remediation in progress",
+      "tester": "Lisa Chen, CISA",
+      "deficiency_ids": [
+        "CD-6"
+      ],
+      "created_date": "2025-10-20"
+    },
+    {
+      "assessment_id": "CA-11",
+      "parent_control_id": "C-7",
+      "as_of_date": "2025-10-15",
+      "test_result": "Pass",
+      "test_evidence": "Quarterly access reviews completed for Q1-Q3. Policy updated to reflect quarterly cadence. No inappropriate access identified",
+      "tester": "Deloitte LLP",
+      "deficiency_ids": [],
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "CA-12",
+      "parent_control_id": "C-24",
+      "as_of_date": "2025-11-01",
+      "test_result": "Fail",
+      "test_evidence": "QMS does not address SaMD-specific requirements. Design controls and ISO 14971 risk management not implemented",
+      "tester": "KPMG Healthcare Advisory",
+      "deficiency_ids": [
+        "CD-7"
+      ],
+      "created_date": "2025-11-01"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-12",
+      "finding_id": "FND-1",
+      "deficiency_type": "Operating",
+      "severity": "Significant",
+      "status": "Closed",
+      "description": "Revenue recognition policy not consistently applied to AI tier contracts; SSP documentation incomplete for 53% of sampled contracts",
+      "root_cause": "Rapid AI tier rollout outpaced revenue accounting policy updates; insufficient training for contract administrators",
+      "remediation_plan": "Update AI tier revenue recognition policy; implement contract review checklist; provide training to all relevant personnel",
+      "remediation_owner": "Controller",
+      "identified_date": "2025-02-20",
+      "target_remediation_date": "2025-06-30",
+      "actual_remediation_date": "2025-06-15"
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-14",
+      "finding_id": "FND-2",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Closed",
+      "description": "Usage-based billing lacks automated reconciliation control; manual process creates billing accuracy risk",
+      "root_cause": "Usage-based pricing component added without corresponding billing system integration",
+      "remediation_plan": "Implement automated metering integration; establish monthly reconciliation control with variance thresholds",
+      "remediation_owner": "VP Finance",
+      "identified_date": "2025-02-25",
+      "target_remediation_date": "2025-05-31",
+      "actual_remediation_date": "2025-05-28"
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-15",
+      "finding_id": "FND-3",
+      "deficiency_type": "Operating",
+      "severity": "Significant",
+      "status": "Closed",
+      "description": "AI model validation framework not consistently applied; 60% of production models lacking complete documentation",
+      "root_cause": "Speed-to-market pressure; documentation requirements not enforced during rapid feature rollout",
+      "remediation_plan": "Implement mandatory validation checklist; require documentation sign-off before production; conduct retrospective documentation",
+      "remediation_owner": "VP Engineering",
+      "identified_date": "2025-03-15",
+      "target_remediation_date": "2025-08-31",
+      "actual_remediation_date": "2025-08-25"
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-5",
+      "finding_id": "FND-6",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Closed",
+      "description": "PHI access audit logging does not cover batch processing jobs; 30-day audit trail gap in AI module",
+      "root_cause": "Batch processing framework uses different logging mechanism; integration oversight during AI module deployment",
+      "remediation_plan": "Extend access logging to batch processing; implement log completeness monitoring; document gap and root cause",
+      "remediation_owner": "Chief Information Security Officer",
+      "identified_date": "2025-04-10",
+      "target_remediation_date": "2025-05-31",
+      "actual_remediation_date": "2025-05-20"
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-21",
+      "finding_id": "FND-8",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Quota setting methodology lacks market validation and capacity analysis; contributes to persistent underperformance",
+      "root_cause": "Board pressure for aggressive growth; insufficient market intelligence function; limited historical data for AI tier",
+      "remediation_plan": "Implement quota setting framework incorporating TAM analysis, historical win rates, and capacity constraints",
+      "remediation_owner": "Chief Revenue Officer",
+      "identified_date": "2025-06-20",
+      "target_remediation_date": "2025-11-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-6",
+      "control_id": "C-22",
+      "finding_id": "FND-10",
+      "deficiency_type": "Operating",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Vendor risk assessment coverage below policy requirements; 26% of critical vendors with overdue assessments",
+      "root_cause": "Team turnover; manual process; prioritization of new vendor onboarding over existing vendor reviews",
+      "remediation_plan": "Clear assessment backlog; implement automated scheduling; hire additional vendor risk analyst",
+      "remediation_owner": "VP Procurement",
+      "identified_date": "2025-10-20",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-7",
+      "control_id": "C-24",
+      "finding_id": "FND-11",
+      "deficiency_type": "Design",
+      "severity": "Material",
+      "status": "Open",
+      "description": "QMS does not address FDA SaMD requirements including design controls, ISO 14971 risk management, and design history files",
+      "root_cause": "AI features developed under general software processes; SaMD classification determination pending; regulatory expertise gap",
+      "remediation_plan": "Engage regulatory consultant; implement ISO 13485 QMS elements; establish design history files for AI features",
+      "remediation_owner": "VP Regulatory Affairs",
+      "identified_date": "2025-11-01",
+      "target_remediation_date": "2026-03-31",
+      "actual_remediation_date": null
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "Revenue Recognition Process",
+      "description": "End-to-end revenue recognition including contract review, performance obligation identification, SSP determination, and allocation",
+      "process_owner": "Controller",
+      "related_control_ids": [
+        "C-12",
+        "C-13",
+        "C-14"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Subscription Billing Process",
+      "description": "Monthly subscription billing including usage metering, invoice generation, and collections management",
+      "process_owner": "Billing Manager",
+      "related_control_ids": [
+        "C-14"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "Customer Success Management",
+      "description": "Customer lifecycle management including onboarding, health monitoring, expansion identification, and renewal management",
+      "process_owner": "VP Customer Success",
+      "related_control_ids": [
+        "C-17",
+        "C-25"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "PHI Data Protection",
+      "description": "Comprehensive PHI protection including encryption, access control, monitoring, and incident response",
+      "process_owner": "Chief Information Security Officer",
+      "related_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-5",
+        "C-37",
+        "C-38"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Optimized"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Identity and Access Management",
+      "description": "User provisioning, authentication, authorization, and access review processes",
+      "process_owner": "Director Identity Management",
+      "related_control_ids": [
+        "C-3",
+        "C-4",
+        "C-7"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Security Monitoring and Compliance",
+      "description": "Continuous security monitoring, threat detection, and compliance evidence collection",
+      "process_owner": "VP Security Operations",
+      "related_control_ids": [
+        "C-5",
+        "C-6",
+        "C-39",
+        "C-40"
+      ],
+      "related_objective_ids": [
+        "OBJ-3",
+        "OBJ-5"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Infrastructure Operations",
+      "description": "Cloud infrastructure management including capacity planning, availability management, and performance optimization",
+      "process_owner": "Director Site Reliability",
+      "related_control_ids": [
+        "C-8",
+        "C-9",
+        "C-10",
+        "C-11"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Optimized"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "Business Continuity Management",
+      "description": "Business continuity and disaster recovery planning, testing, and maintenance",
+      "process_owner": "VP Infrastructure",
+      "related_control_ids": [
+        "C-10"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "AI/ML Development Lifecycle",
+      "description": "AI model development, validation, deployment, and monitoring including bias testing and performance tracking",
+      "process_owner": "ML Engineering Lead",
+      "related_control_ids": [
+        "C-15",
+        "C-16",
+        "C-18",
+        "C-24",
+        "C-28",
+        "C-38"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Regulatory Compliance Management",
+      "description": "Healthcare regulatory compliance including HIPAA, FDA, CMS, and state requirements monitoring and implementation",
+      "process_owner": "VP Regulatory Affairs",
+      "related_control_ids": [
+        "C-18",
+        "C-24",
+        "C-35",
+        "C-36"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Sales Operations",
+      "description": "Sales process management including pipeline management, forecasting, quota setting, and competitive intelligence",
+      "process_owner": "VP Sales Operations",
+      "related_control_ids": [
+        "C-19",
+        "C-20",
+        "C-21",
+        "C-29",
+        "C-30"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Financial Planning and Analysis",
+      "description": "Budgeting, forecasting, variance analysis, and financial reporting processes",
+      "process_owner": "Director FP&A",
+      "related_control_ids": [
+        "C-20",
+        "C-26",
+        "C-27",
+        "C-32"
+      ],
+      "related_objective_ids": [
+        "OBJ-1"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "Third-Party Risk Management",
+      "description": "Vendor onboarding, risk assessment, monitoring, and offboarding processes",
+      "process_owner": "Director Vendor Management",
+      "related_control_ids": [
+        "C-22",
+        "C-23"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-14",
+      "name": "Investor Relations",
+      "description": "Investor communications, data room maintenance, and financing process support",
+      "process_owner": "VP Finance",
+      "related_control_ids": [
+        "C-31",
+        "C-32"
+      ],
+      "related_objective_ids": [
+        "OBJ-7"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-15",
+      "name": "Talent Management",
+      "description": "Talent acquisition, development, succession planning, and retention programs",
+      "process_owner": "Chief People Officer",
+      "related_control_ids": [
+        "C-33",
+        "C-34"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Managed"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Financial Reporting Accuracy",
+      "description": "Ensure accurate and compliant financial reporting including revenue recognition per ASC 606",
+      "category": "Financial",
+      "owner": "Chief Financial Officer",
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-4"
+      ],
+      "key_results": [
+        "Zero material misstatements",
+        "Revenue recognition accuracy >99%",
+        "Audit adjustments <0.5% of revenue"
+      ],
+      "status": "On-Track",
+      "created_date": "2024-01-15"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Revenue Growth and Retention",
+      "description": "Achieve revenue growth targets while maintaining strong customer retention metrics",
+      "category": "Strategic",
+      "owner": "Chief Revenue Officer",
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-2",
+        "RISK-8"
+      ],
+      "key_results": [
+        "ARR growth >15%",
+        "Net Revenue Retention >105%",
+        "Sales attainment >95%"
+      ],
+      "status": "At-Risk",
+      "created_date": "2024-01-15"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Healthcare Data Security",
+      "description": "Maintain robust security controls protecting PHI and ensuring HIPAA compliance",
+      "category": "Compliance",
+      "owner": "Chief Information Security Officer",
+      "related_risk_ids": [
+        "RISK-7",
+        "RISK-14"
+      ],
+      "key_results": [
+        "Zero PHI breaches",
+        "HIPAA audit satisfaction",
+        "SOC 2 clean opinion"
+      ],
+      "status": "On-Track",
+      "created_date": "2024-01-15"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Operational Resilience",
+      "description": "Ensure continuous platform availability and operational continuity",
+      "category": "Operational",
+      "owner": "VP Infrastructure",
+      "related_risk_ids": [
+        "RISK-9",
+        "RISK-10",
+        "RISK-12"
+      ],
+      "key_results": [
+        "Platform availability >99.99%",
+        "DR RTO <4 hours",
+        "Critical vendor coverage 100%"
+      ],
+      "status": "On-Track",
+      "created_date": "2024-01-15"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Regulatory Compliance",
+      "description": "Maintain compliance with all applicable healthcare regulations including HIPAA, FDA, and CMS requirements",
+      "category": "Compliance",
+      "owner": "VP Regulatory Affairs",
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-13",
+        "RISK-15"
+      ],
+      "key_results": [
+        "Full CMS interoperability compliance",
+        "FDA SaMD pathway defined",
+        "Zero regulatory violations"
+      ],
+      "status": "At-Risk",
+      "created_date": "2024-01-15"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "AI Product Excellence",
+      "description": "Deliver high-quality AI features with robust validation and monitoring",
+      "category": "Strategic",
+      "owner": "Chief Product Officer",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "key_results": [
+        "Model accuracy >95%",
+        "AI tier customer satisfaction >8.5",
+        "Zero critical AI incidents"
+      ],
+      "status": "On-Track",
+      "created_date": "2024-06-15"
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "Series D Execution",
+      "description": "Successfully execute Series D financing at favorable terms",
+      "category": "Financial",
+      "owner": "Chief Executive Officer",
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "key_results": [
+        "Close at >$800M pre-money",
+        "Lead investor selection by Q4",
+        "Clean due diligence"
+      ],
+      "status": "On-Track",
+      "created_date": "2025-06-01"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "HIPAA Security Rule",
+      "description": "Health Insurance Portability and Accountability Act Security Rule establishing national standards for protecting electronic PHI",
+      "issuing_body": "U.S. Department of Health and Human Services",
+      "category": "Healthcare Privacy",
+      "applicable_jurisdictions": [
+        "United States"
+      ],
+      "version": "2013 Omnibus Rule",
+      "effective_date": "2013-09-23",
+      "related_entity_ids": [
+        "AE-5",
+        "AE-9",
+        "AE-1",
+        "AE-2"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-04-25",
+      "created_date": "2018-01-15"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "FDA 21 CFR Part 820",
+      "description": "Quality System Regulation for medical device manufacturers including design controls and production requirements",
+      "issuing_body": "U.S. Food and Drug Administration",
+      "category": "Medical Device",
+      "applicable_jurisdictions": [
+        "United States"
+      ],
+      "version": "Current",
+      "effective_date": "1996-06-01",
+      "related_entity_ids": [
+        "AE-11",
+        "AE-2"
+      ],
+      "compliance_status": "Non-Compliant",
+      "last_assessment_date": "2025-11-01",
+      "created_date": "2024-03-01"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "CMS Interoperability and Patient Access Final Rule",
+      "description": "Requirements for payers and providers to share patient data using standardized APIs under the 21st Century Cures Act",
+      "issuing_body": "Centers for Medicare & Medicaid Services",
+      "category": "Healthcare Interoperability",
+      "applicable_jurisdictions": [
+        "United States"
+      ],
+      "version": "CMS-9115-F",
+      "effective_date": "2020-07-01",
+      "related_entity_ids": [
+        "AE-1"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-09-30",
+      "created_date": "2020-07-01"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "SOC 2 Type II",
+      "description": "Service Organization Control 2 Type II attestation for trust services criteria covering security, availability, and confidentiality",
+      "issuing_body": "American Institute of Certified Public Accountants",
+      "category": "Security Attestation",
+      "applicable_jurisdictions": [
+        "Global"
+      ],
+      "version": "2017 Trust Services Criteria",
+      "effective_date": "2018-01-01",
+      "related_entity_ids": [
+        "AE-12",
+        "AE-6"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-10-30",
+      "created_date": "2019-09-01"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "ASC 606",
+      "description": "Revenue from Contracts with Customers accounting standard governing revenue recognition",
+      "issuing_body": "Financial Accounting Standards Board",
+      "category": "Financial Reporting",
+      "applicable_jurisdictions": [
+        "United States"
+      ],
+      "version": "ASC 606",
+      "effective_date": "2018-01-01",
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-09-30",
+      "created_date": "2018-01-15"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "California Consumer Privacy Act",
+      "description": "California state privacy law granting consumers rights over personal information collected by businesses",
+      "issuing_body": "State of California",
+      "category": "Data Privacy",
+      "applicable_jurisdictions": [
+        "California, United States"
+      ],
+      "version": "CCPA/CPRA",
+      "effective_date": "2020-01-01",
+      "related_entity_ids": [
+        "AE-5",
+        "AE-9"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessment_date": "2025-09-30",
+      "created_date": "2020-01-01"
+    },
+    {
+      "standard_id": "STD-7",
+      "name": "ISO 13485",
+      "description": "Quality management systems for medical device manufacturers",
+      "issuing_body": "International Organization for Standardization",
+      "category": "Medical Device Quality",
+      "applicable_jurisdictions": [
+        "Global"
+      ],
+      "version": "ISO 13485:2016",
+      "effective_date": "2016-03-01",
+      "related_entity_ids": [
+        "AE-11"
+      ],
+      "compliance_status": "Non-Compliant",
+      "last_assessment_date": "2025-11-01",
+      "created_date": "2025-03-01"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "Administrative Safeguards",
+      "description": "Administrative actions and policies to protect PHI including risk analysis, security management, and workforce training",
+      "requirement_text": "45 CFR 164.308 - Implement administrative safeguards to protect PHI",
+      "category": "Administrative",
+      "priority": "High",
+      "related_control_ids": [
+        "C-3",
+        "C-7"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer",
+      "created_date": "2018-01-15"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-1",
+      "name": "Technical Safeguards",
+      "description": "Technology and policies protecting PHI including access controls, audit controls, and encryption",
+      "requirement_text": "45 CFR 164.312 - Implement technical safeguards to protect PHI",
+      "category": "Technical",
+      "priority": "High",
+      "related_control_ids": [
+        "C-1",
+        "C-2",
+        "C-4",
+        "C-5",
+        "C-6"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer",
+      "created_date": "2018-01-15"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-2",
+      "name": "Design Controls",
+      "description": "Procedures for design and development planning, input, output, review, verification, validation, and transfer",
+      "requirement_text": "21 CFR 820.30 - Establish and maintain procedures to control device design",
+      "category": "Quality Management",
+      "priority": "High",
+      "related_control_ids": [
+        "C-24"
+      ],
+      "compliance_status": "Non-Compliant",
+      "owner": "VP Regulatory Affairs",
+      "created_date": "2024-03-01"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-3",
+      "name": "Patient Access API",
+      "description": "Implementation of Patient Access API allowing patients to access their health information using third-party applications",
+      "requirement_text": "Implement and maintain FHIR-based Patient Access API per CMS-9115-F",
+      "category": "Interoperability",
+      "priority": "High",
+      "related_control_ids": [
+        "C-35",
+        "C-36"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "VP Engineering",
+      "created_date": "2020-07-01"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-4",
+      "name": "Security Trust Services Criteria",
+      "description": "Controls to protect information and systems from unauthorized access",
+      "requirement_text": "CC1-CC9 Common Criteria for Security",
+      "category": "Security",
+      "priority": "High",
+      "related_control_ids": [
+        "C-1",
+        "C-2",
+        "C-3",
+        "C-4",
+        "C-5",
+        "C-6",
+        "C-7"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Chief Information Security Officer",
+      "created_date": "2019-09-01"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-5",
+      "name": "Performance Obligation Identification",
+      "description": "Identify distinct goods and services promised in contracts as separate performance obligations",
+      "requirement_text": "ASC 606-10-25 - Identify performance obligations in contract",
+      "category": "Revenue Recognition",
+      "priority": "High",
+      "related_control_ids": [
+        "C-12",
+        "C-13"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Controller",
+      "created_date": "2018-01-15"
+    },
+    {
+      "requirement_id": "REQ-7",
+      "standard_id": "STD-6",
+      "name": "Right to Access",
+      "description": "Consumer right to know what personal information is collected and disclosed",
+      "requirement_text": "CCPA Section 1798.100 - Consumer right to access personal information",
+      "category": "Data Privacy",
+      "priority": "Medium",
+      "related_control_ids": [
+        "C-37",
+        "C-38"
+      ],
+      "compliance_status": "Compliant",
+      "owner": "Privacy Officer",
+      "created_date": "2020-01-01"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A1",
+      "evidence_type": "Document",
+      "description": "AI tier revenue recognition policy and procedures documentation",
+      "collected_date": "2025-02-10",
+      "collected_by": "James Park",
+      "file_reference": "REV-POL-2025-AI-Tier.pdf"
+    },
+    {
+      "evidence_id": "EV-2",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A2",
+      "evidence_type": "Spreadsheet",
+      "description": "Sample of 15 AI tier contracts with SSP documentation review",
+      "collected_date": "2025-02-15",
+      "collected_by": "Lisa Chen",
+      "file_reference": "AI-Contract-Sample-Analysis.xlsx"
+    },
+    {
+      "evidence_id": "EV-3",
+      "audit_id": "AUD-2",
+      "control_id": null,
+      "request_id": "REQ-A3",
+      "evidence_type": "Document",
+      "description": "AI model validation documentation for 5 production models",
+      "collected_date": "2025-03-10",
+      "collected_by": "Sarah Wong",
+      "file_reference": "AI-Model-Validation-Package.zip"
+    },
+    {
+      "evidence_id": "EV-4",
+      "audit_id": "AUD-3",
+      "control_id": null,
+      "request_id": "REQ-A4",
+      "evidence_type": "System Report",
+      "description": "PHI access audit logs for January-April 2025",
+      "collected_date": "2025-04-20",
+      "collected_by": "BDO LLP",
+      "file_reference": "PHI-Access-Logs-Q1-2025.zip"
+    },
+    {
+      "evidence_id": "EV-5",
+      "audit_id": "AUD-4",
+      "control_id": null,
+      "request_id": "REQ-A5",
+      "evidence_type": "Spreadsheet",
+      "description": "Sales forecast accuracy analysis Q1-Q2 2025",
+      "collected_date": "2025-06-20",
+      "collected_by": "Robert Chen",
+      "file_reference": "Forecast-Accuracy-H1-2025.xlsx"
+    },
+    {
+      "evidence_id": "EV-6",
+      "audit_id": "AUD-5",
+      "control_id": null,
+      "request_id": "REQ-A6",
+      "evidence_type": "Document",
+      "description": "SOC 2 control matrix and evidence package",
+      "collected_date": "2025-10-15",
+      "collected_by": "Deloitte LLP",
+      "file_reference": "SOC2-Evidence-Package-2025.zip"
+    },
+    {
+      "evidence_id": "EV-7",
+      "audit_id": null,
+      "control_id": "C-10",
+      "request_id": null,
+      "evidence_type": "Test Report",
+      "description": "Disaster recovery test execution report - September 2025",
+      "collected_date": "2025-09-20",
+      "collected_by": "Director Site Reliability",
+      "file_reference": "DR-Test-Report-Sep2025.pdf"
+    },
+    {
+      "evidence_id": "EV-8",
+      "audit_id": null,
+      "control_id": "C-16",
+      "request_id": null,
+      "evidence_type": "Dashboard Screenshot",
+      "description": "AI model performance monitoring dashboard - October 2025",
+      "collected_date": "2025-10-31",
+      "collected_by": "ML Engineering Lead",
+      "file_reference": "AI-Monitoring-Dashboard-Oct2025.png"
+    },
+    {
+      "evidence_id": "EV-9",
+      "audit_id": "AUD-6",
+      "control_id": null,
+      "request_id": "REQ-A7",
+      "evidence_type": "Document",
+      "description": "Series D data room contents and access log",
+      "collected_date": "2025-09-25",
+      "collected_by": "VP Finance",
+      "file_reference": "DataRoom-Contents-SeriesD.xlsx"
+    },
+    {
+      "evidence_id": "EV-10",
+      "audit_id": "AUD-8",
+      "control_id": null,
+      "request_id": "REQ-A8",
+      "evidence_type": "Document",
+      "description": "FDA SaMD classification analysis and regulatory pathway assessment",
+      "collected_date": "2025-11-05",
+      "collected_by": "KPMG Healthcare Advisory",
+      "file_reference": "SaMD-Classification-Analysis.pdf"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-A1",
+      "audit_id": "AUD-1",
+      "request_description": "Provide current AI tier revenue recognition policy and any updates since product launch",
+      "requestee": "Controller",
+      "requester": "Maria Santos, CIA",
+      "request_date": "2025-01-20",
+      "due_date": "2025-02-05",
+      "response_date": "2025-02-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-1"
+      ]
+    },
+    {
+      "request_id": "REQ-A2",
+      "audit_id": "AUD-1",
+      "request_description": "Provide sample of 15 AI tier contracts executed in Q4 2024 - Q1 2025 with supporting SSP documentation",
+      "requestee": "Senior Revenue Accountant",
+      "requester": "Lisa Chen",
+      "request_date": "2025-01-25",
+      "due_date": "2025-02-10",
+      "response_date": "2025-02-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-2"
+      ]
+    },
+    {
+      "request_id": "REQ-A3",
+      "audit_id": "AUD-2",
+      "request_description": "Provide model validation documentation including bias testing results for all production AI models",
+      "requestee": "ML Engineering Lead",
+      "requester": "Sarah Wong",
+      "request_date": "2025-02-20",
+      "due_date": "2025-03-05",
+      "response_date": "2025-03-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-3"
+      ]
+    },
+    {
+      "request_id": "REQ-A4",
+      "audit_id": "AUD-3",
+      "request_description": "Provide PHI access audit logs for all systems including AI module for January-April 2025",
+      "requestee": "VP Security Operations",
+      "requester": "BDO LLP",
+      "request_date": "2025-04-01",
+      "due_date": "2025-04-15",
+      "response_date": "2025-04-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-4"
+      ]
+    },
+    {
+      "request_id": "REQ-A5",
+      "audit_id": "AUD-4",
+      "request_description": "Provide sales forecast accuracy reports and variance analysis for Q1-Q2 2025",
+      "requestee": "VP Sales Operations",
+      "requester": "Robert Chen",
+      "request_date": "2025-06-05",
+      "due_date": "2025-06-15",
+      "response_date": "2025-06-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-5"
+      ]
+    },
+    {
+      "request_id": "REQ-A6",
+      "audit_id": "AUD-5",
+      "request_description": "Provide complete SOC 2 control matrix with supporting evidence for examination period",
+      "requestee": "Director Security Compliance",
+      "requester": "Deloitte LLP",
+      "request_date": "2025-09-01",
+      "due_date": "2025-10-01",
+      "response_date": "2025-10-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-6"
+      ]
+    },
+    {
+      "request_id": "REQ-A7",
+      "audit_id": "AUD-6",
+      "request_description": "Provide Series D data room contents list and access log for due diligence",
+      "requestee": "VP Finance",
+      "requester": "David Kim, CISA",
+      "request_date": "2025-09-01",
+      "due_date": "2025-09-20",
+      "response_date": "2025-09-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-9"
+      ]
+    },
+    {
+      "request_id": "REQ-A8",
+      "audit_id": "AUD-8",
+      "request_description": "Provide FDA SaMD classification analysis and regulatory pathway documentation",
+      "requestee": "VP Regulatory Affairs",
+      "requester": "KPMG Healthcare Advisory",
+      "request_date": "2025-10-15",
+      "due_date": "2025-11-01",
+      "response_date": "2025-11-05",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-10"
+      ]
+    },
+    {
+      "request_id": "REQ-A9",
+      "audit_id": "AUD-7",
+      "request_description": "Provide vendor risk assessment documentation for all 47 critical vendors",
+      "requestee": "Director Vendor Management",
+      "requester": "Lisa Chen, CISA",
+      "request_date": "2025-09-20",
+      "due_date": "2025-10-15",
+      "response_date": "2025-10-18",
+      "status": "Fulfilled",
+      "evidence_ids": []
+    },
+    {
+      "request_id": "REQ-A10",
+      "audit_id": "AUD-8",
+      "request_description": "Provide clinical validation study protocol and IRB submission plan for AI CDS features",
+      "requestee": "Chief Medical Officer",
+      "requester": "KPMG Healthcare Advisory",
+      "request_date": "2025-11-01",
+      "due_date": "2025-12-01",
+      "response_date": null,
+      "status": "Pending",
+      "evidence_ids": []
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Document Review",
+      "description": "Review and analysis of policies, procedures, and supporting documentation for design and implementation assessment",
+      "method_type": "Examination",
+      "applicable_to": [
+        "Controls",
+        "Processes",
+        "Compliance"
+      ],
+      "created_date": "2020-01-15"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Control Testing",
+      "description": "Direct testing of control effectiveness through sampling, observation, and reperformance",
+      "method_type": "Testing",
+      "applicable_to": [
+        "Controls"
+      ],
+      "created_date": "2020-01-15"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Interview",
+      "description": "Structured interviews with process owners and control operators to assess understanding and execution",
+      "method_type": "Inquiry",
+      "applicable_to": [
+        "Controls",
+        "Processes",
+        "Risks"
+      ],
+      "created_date": "2020-01-15"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Data Analytics",
+      "description": "Automated analysis of system data to identify anomalies, trends, and control exceptions",
+      "method_type": "Analysis",
+      "applicable_to": [
+        "Controls",
+        "Processes",
+        "Risks"
+      ],
+      "created_date": "2021-06-01"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Walkthrough",
+      "description": "End-to-end process walkthrough to understand flow, controls, and potential gaps",
+      "method_type": "Observation",
+      "applicable_to": [
+        "Processes",
+        "Controls"
+      ],
+      "created_date": "2020-01-15"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Risk Assessment Workshop",
+      "description": "Facilitated workshop with stakeholders to identify, assess, and prioritize risks",
+      "method_type": "Facilitation",
+      "applicable_to": [
+        "Risks"
+      ],
+      "created_date": "2020-01-15"
+    },
+    {
+      "method_id": "AM-7",
+      "name": "Penetration Testing",
+      "description": "Simulated cyber attacks to identify vulnerabilities in systems and applications",
+      "method_type": "Testing",
+      "applicable_to": [
+        "Controls",
+        "Systems"
+      ],
+      "created_date": "2019-06-01"
+    },
+    {
+      "method_id": "AM-8",
+      "name": "Regulatory Gap Analysis",
+      "description": "Systematic comparison of current state against regulatory requirements to identify compliance gaps",
+      "method_type": "Analysis",
+      "applicable_to": [
+        "Compliance",
+        "Controls"
+      ],
+      "created_date": "2020-01-15"
+    }
+  ]
+}

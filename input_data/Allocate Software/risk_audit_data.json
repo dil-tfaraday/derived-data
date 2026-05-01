@@ -1,0 +1,4646 @@
+{
+  "auditable_entities": [
+    {
+      "entity_id": "AE-1",
+      "name": "Revenue Operations",
+      "description": "Subscription billing, revenue recognition, and ARR management for HealthRoster and related products across NHS and private healthcare customers",
+      "taxonomy": {
+        "business_unit": "Finance",
+        "function": "Revenue Management",
+        "region": "EMEA"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Chief Financial Officer",
+      "last_audit_date": "2024-09-15",
+      "next_audit_date": "2025-09-15",
+      "created_date": "2022-01-15"
+    },
+    {
+      "entity_id": "AE-2",
+      "name": "Product Development",
+      "description": "HealthRoster 7.0 development, technical debt management, and product engineering operations including cloud infrastructure",
+      "taxonomy": {
+        "business_unit": "Engineering",
+        "function": "Product Development",
+        "region": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Chief Technology Officer",
+      "last_audit_date": "2024-06-20",
+      "next_audit_date": "2025-06-20",
+      "created_date": "2020-03-10"
+    },
+    {
+      "entity_id": "AE-3",
+      "name": "Customer Success & Renewals",
+      "description": "Customer retention, NRR management, and renewal operations including enterprise account management",
+      "taxonomy": {
+        "business_unit": "Commercial",
+        "function": "Customer Success",
+        "region": "EMEA"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "VP Customer Success",
+      "last_audit_date": "2024-11-10",
+      "next_audit_date": "2025-11-10",
+      "created_date": "2021-05-22"
+    },
+    {
+      "entity_id": "AE-4",
+      "name": "Data Protection & Privacy",
+      "description": "GDPR compliance, NHS Digital DSPT attestation, and patient data protection controls",
+      "taxonomy": {
+        "business_unit": "Legal & Compliance",
+        "function": "Data Protection",
+        "region": "UK/EU"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Data Protection Officer",
+      "last_audit_date": "2024-03-25",
+      "next_audit_date": "2025-03-25",
+      "created_date": "2018-05-25"
+    },
+    {
+      "entity_id": "AE-5",
+      "name": "Sales Operations",
+      "description": "New customer acquisition, pipeline management, and NHS/HSE procurement processes",
+      "taxonomy": {
+        "business_unit": "Commercial",
+        "function": "Sales",
+        "region": "EMEA"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "VP Sales",
+      "last_audit_date": "2024-08-15",
+      "next_audit_date": "2025-08-15",
+      "created_date": "2019-02-14"
+    },
+    {
+      "entity_id": "AE-6",
+      "name": "Information Security",
+      "description": "Cybersecurity operations, cloud security, and NHS-mandated security controls",
+      "taxonomy": {
+        "business_unit": "Technology",
+        "function": "Security",
+        "region": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Critical",
+      "entity_owner": "Chief Information Security Officer",
+      "last_audit_date": "2024-07-30",
+      "next_audit_date": "2025-07-30",
+      "created_date": "2019-09-01"
+    },
+    {
+      "entity_id": "AE-7",
+      "name": "Corporate Development",
+      "description": "M&A evaluation, integration planning, and strategic partnership management including ComplianceNow acquisition",
+      "taxonomy": {
+        "business_unit": "Executive",
+        "function": "Strategy",
+        "region": "Global"
+      },
+      "audit_frequency": "As-Needed",
+      "risk_rating": "High",
+      "entity_owner": "Chief Executive Officer",
+      "last_audit_date": "2024-12-01",
+      "next_audit_date": "2025-12-01",
+      "created_date": "2023-06-15"
+    },
+    {
+      "entity_id": "AE-8",
+      "name": "Financial Planning & Treasury",
+      "description": "Cash management, FX exposure, operating expense controls, and EBITDA margin optimization",
+      "taxonomy": {
+        "business_unit": "Finance",
+        "function": "Treasury",
+        "region": "EMEA"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "VP Finance",
+      "last_audit_date": "2024-10-20",
+      "next_audit_date": "2025-10-20",
+      "created_date": "2020-01-10"
+    },
+    {
+      "entity_id": "AE-9",
+      "name": "Regulatory Compliance",
+      "description": "Medical device regulation compliance, FCA payment processing requirements, and NHS Digital standards",
+      "taxonomy": {
+        "business_unit": "Legal & Compliance",
+        "function": "Regulatory",
+        "region": "UK/EU"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "High",
+      "entity_owner": "Head of Compliance",
+      "last_audit_date": "2024-04-15",
+      "next_audit_date": "2025-04-15",
+      "created_date": "2019-06-01"
+    },
+    {
+      "entity_id": "AE-10",
+      "name": "Third Party & Vendor Management",
+      "description": "Cloud infrastructure providers, sub-processors, and critical vendor oversight",
+      "taxonomy": {
+        "business_unit": "Operations",
+        "function": "Procurement",
+        "region": "Global"
+      },
+      "audit_frequency": "Annual",
+      "risk_rating": "Medium",
+      "entity_owner": "VP Operations",
+      "last_audit_date": "2024-05-10",
+      "next_audit_date": "2025-05-10",
+      "created_date": "2021-03-15"
+    }
+  ],
+  "assessment_factors": [
+    {
+      "factor_id": "AF-1",
+      "name": "Revenue Concentration Risk",
+      "description": "Assessment of customer concentration impact on revenue stability, particularly NHS and HSE dependencies",
+      "factor_type": "Quantitative",
+      "weight": 0.2,
+      "scoring_criteria": {
+        "1": "Top customer <10% of ARR",
+        "2": "Top customer 10-15% of ARR",
+        "3": "Top customer 15-20% of ARR",
+        "4": "Top customer 20-25% of ARR",
+        "5": "Top customer >25% of ARR"
+      },
+      "created_date": "2023-01-15"
+    },
+    {
+      "factor_id": "AF-2",
+      "name": "Regulatory Compliance Maturity",
+      "description": "Assessment of compliance program effectiveness across GDPR, NHS DSPT, and MDR requirements",
+      "factor_type": "Qualitative",
+      "weight": 0.18,
+      "scoring_criteria": {
+        "1": "Fully compliant with continuous monitoring",
+        "2": "Compliant with minor gaps",
+        "3": "Substantially compliant with remediation plans",
+        "4": "Significant compliance gaps identified",
+        "5": "Material non-compliance with regulatory exposure"
+      },
+      "created_date": "2023-01-15"
+    },
+    {
+      "factor_id": "AF-3",
+      "name": "Technology Debt Level",
+      "description": "Assessment of technical debt impact on engineering productivity and product scalability",
+      "factor_type": "Quantitative",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "Tech debt <15% of engineering capacity",
+        "2": "Tech debt 15-25% of engineering capacity",
+        "3": "Tech debt 25-35% of engineering capacity",
+        "4": "Tech debt 35-45% of engineering capacity",
+        "5": "Tech debt >45% of engineering capacity"
+      },
+      "created_date": "2023-01-15"
+    },
+    {
+      "factor_id": "AF-4",
+      "name": "Competitive Position",
+      "description": "Assessment of market position relative to well-funded competitors like Rotageek",
+      "factor_type": "Qualitative",
+      "weight": 0.12,
+      "scoring_criteria": {
+        "1": "Clear market leader with sustainable differentiation",
+        "2": "Strong position with defensible advantages",
+        "3": "Competitive position with moderate differentiation",
+        "4": "Weakening position against aggressive competitors",
+        "5": "Significant competitive threats with limited differentiation"
+      },
+      "created_date": "2023-01-15"
+    },
+    {
+      "factor_id": "AF-5",
+      "name": "Data Security Posture",
+      "description": "Assessment of information security controls protecting NHS patient data and corporate systems",
+      "factor_type": "Quantitative",
+      "weight": 0.2,
+      "scoring_criteria": {
+        "1": "Mature security program with no significant findings",
+        "2": "Strong controls with minor improvements needed",
+        "3": "Adequate controls with moderate gaps",
+        "4": "Material security gaps requiring remediation",
+        "5": "Critical security deficiencies present"
+      },
+      "created_date": "2023-01-15"
+    },
+    {
+      "factor_id": "AF-6",
+      "name": "Financial Performance Volatility",
+      "description": "Assessment of revenue and margin predictability against internal targets",
+      "factor_type": "Quantitative",
+      "weight": 0.15,
+      "scoring_criteria": {
+        "1": "Consistent performance within 5% of targets",
+        "2": "Minor variance 5-10% of targets",
+        "3": "Moderate variance 10-15% of targets",
+        "4": "Significant variance 15-20% of targets",
+        "5": "Material variance >20% of targets"
+      },
+      "created_date": "2023-01-15"
+    }
+  ],
+  "audit_risk_assessments": [
+    {
+      "assessment_id": "ARA-1",
+      "entity_id": "AE-1",
+      "as_of_date": "2025-01-15",
+      "assessment_period": "2025",
+      "inherent_risk_score": 20,
+      "control_effectiveness_score": 12,
+      "residual_risk_score": 15,
+      "risk_rating": "High",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "notes": "Ireland HSE contract represents dangerous concentration"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 4,
+          "notes": "Q1 at 84% of target with pipeline volatility"
+        }
+      ],
+      "assessor": "Sarah Mitchell",
+      "notes": "Revenue recognition timing concerns heightened by Q1 underperformance and Q4 renewal concentration",
+      "created_date": "2025-01-15"
+    },
+    {
+      "assessment_id": "ARA-2",
+      "entity_id": "AE-4",
+      "as_of_date": "2025-02-20",
+      "assessment_period": "2025",
+      "inherent_risk_score": 20,
+      "control_effectiveness_score": 8,
+      "residual_risk_score": 12,
+      "risk_rating": "High",
+      "factor_scores": [
+        {
+          "factor_id": "AF-2",
+          "score": 3,
+          "notes": "DSPT attestation current but MDR applicability uncertain"
+        },
+        {
+          "factor_id": "AF-5",
+          "score": 3,
+          "notes": "Strong NHS security controls but expanding attack surface"
+        }
+      ],
+      "assessor": "Sarah Mitchell",
+      "notes": "Data protection controls adequate but require enhanced monitoring for clinical workflow interfaces",
+      "created_date": "2025-02-20"
+    },
+    {
+      "assessment_id": "ARA-3",
+      "entity_id": "AE-2",
+      "as_of_date": "2025-01-20",
+      "assessment_period": "2025",
+      "inherent_risk_score": 16,
+      "control_effectiveness_score": 10,
+      "residual_risk_score": 12,
+      "risk_rating": "High",
+      "factor_scores": [
+        {
+          "factor_id": "AF-3",
+          "score": 4,
+          "notes": "38% engineering capacity consumed by technical debt"
+        },
+        {
+          "factor_id": "AF-4",
+          "score": 3,
+          "notes": "HealthRoster 7.0 provides differentiation but extended timeline"
+        }
+      ],
+      "assessor": "David Chen",
+      "notes": "Product development capitalization policies require review given 18-month development cycle",
+      "created_date": "2025-01-20"
+    },
+    {
+      "assessment_id": "ARA-4",
+      "entity_id": "AE-7",
+      "as_of_date": "2025-03-10",
+      "assessment_period": "2025",
+      "inherent_risk_score": 16,
+      "control_effectiveness_score": 8,
+      "residual_risk_score": 12,
+      "risk_rating": "High",
+      "factor_scores": [
+        {
+          "factor_id": "AF-4",
+          "score": 4,
+          "notes": "ComplianceNow acquisition introduces integration risk"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 3,
+          "notes": "Purchase price allocation complexity"
+        }
+      ],
+      "assessor": "David Chen",
+      "notes": "M&A integration capabilities untested; acquisition accounting requires enhanced attention",
+      "created_date": "2025-03-10"
+    },
+    {
+      "assessment_id": "ARA-5",
+      "entity_id": "AE-3",
+      "as_of_date": "2025-02-15",
+      "assessment_period": "2025",
+      "inherent_risk_score": 16,
+      "control_effectiveness_score": 10,
+      "residual_risk_score": 10,
+      "risk_rating": "Medium",
+      "factor_scores": [
+        {
+          "factor_id": "AF-1",
+          "score": 4,
+          "notes": "Q4 renewal cohort at 28% of ARR creates concentration"
+        },
+        {
+          "factor_id": "AF-6",
+          "score": 3,
+          "notes": "NRR at 115-116% but dependent on enterprise upgrades"
+        }
+      ],
+      "assessor": "Sarah Mitchell",
+      "notes": "Customer success metrics strong but Q4 renewal concentration presents material churn exposure",
+      "created_date": "2025-02-15"
+    }
+  ],
+  "audits": [
+    {
+      "audit_id": "AUD-1",
+      "name": "Revenue Recognition and ARR Quality Review",
+      "status": "Completed",
+      "description": "Comprehensive review of ASC 606 compliance, revenue timing practices, and ARR calculation methodology with focus on Q1 catch-up performance and Ireland HSE contract",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-02-01",
+      "planned_end_date": "2025-03-15",
+      "actual_start_date": "2025-02-03",
+      "actual_end_date": "2025-03-18",
+      "lead_auditor": "Sarah Mitchell",
+      "audit_team": [
+        "Sarah Mitchell",
+        "James Wong",
+        "Rebecca Foster"
+      ],
+      "scoped_entity_ids": [
+        "AE-1",
+        "AE-3",
+        "AE-5"
+      ],
+      "finding_ids": [
+        "FND-1",
+        "FND-2",
+        "FND-3"
+      ],
+      "created_date": "2025-01-10"
+    },
+    {
+      "audit_id": "AUD-2",
+      "name": "NHS DSPT Compliance and Data Protection Assessment",
+      "status": "Completed",
+      "description": "Annual assessment of NHS Digital Data Security and Protection Toolkit compliance and GDPR controls for patient data processing",
+      "audit_type": "Regulatory",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-03-01",
+      "planned_end_date": "2025-03-25",
+      "actual_start_date": "2025-03-03",
+      "actual_end_date": "2025-03-25",
+      "lead_auditor": "David Chen",
+      "audit_team": [
+        "David Chen",
+        "Emma Richards",
+        "Michael O'Brien"
+      ],
+      "scoped_entity_ids": [
+        "AE-4",
+        "AE-6"
+      ],
+      "finding_ids": [
+        "FND-4"
+      ],
+      "created_date": "2025-02-01"
+    },
+    {
+      "audit_id": "AUD-3",
+      "name": "Product Development Capitalization and Technical Debt Review",
+      "status": "Completed",
+      "description": "Review of HealthRoster 7.0 development cost capitalization, technical debt remediation spend, and impairment indicators",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-05-01",
+      "planned_end_date": "2025-06-15",
+      "actual_start_date": "2025-05-05",
+      "actual_end_date": "2025-06-20",
+      "lead_auditor": "James Wong",
+      "audit_team": [
+        "James Wong",
+        "Sarah Mitchell",
+        "Tom Harrison"
+      ],
+      "scoped_entity_ids": [
+        "AE-2",
+        "AE-8"
+      ],
+      "finding_ids": [
+        "FND-5",
+        "FND-6"
+      ],
+      "created_date": "2025-04-01"
+    },
+    {
+      "audit_id": "AUD-4",
+      "name": "ComplianceNow Acquisition Due Diligence Review",
+      "status": "Completed",
+      "description": "Pre-close due diligence on ComplianceNow acquisition including purchase price allocation methodology and integration risk assessment",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-07-15",
+      "planned_end_date": "2025-08-30",
+      "actual_start_date": "2025-07-15",
+      "actual_end_date": "2025-09-05",
+      "lead_auditor": "Sarah Mitchell",
+      "audit_team": [
+        "Sarah Mitchell",
+        "David Chen",
+        "Rebecca Foster"
+      ],
+      "scoped_entity_ids": [
+        "AE-7",
+        "AE-1"
+      ],
+      "finding_ids": [
+        "FND-7",
+        "FND-8"
+      ],
+      "created_date": "2025-06-15"
+    },
+    {
+      "audit_id": "AUD-5",
+      "name": "Information Security Penetration Testing and Controls Assessment",
+      "status": "Completed",
+      "description": "Annual security assessment including penetration testing, vulnerability assessment, and security control effectiveness evaluation",
+      "audit_type": "External",
+      "rating": "Satisfactory",
+      "planned_start_date": "2025-06-01",
+      "planned_end_date": "2025-07-15",
+      "actual_start_date": "2025-06-03",
+      "actual_end_date": "2025-07-12",
+      "lead_auditor": "External - CyberDefense Ltd",
+      "audit_team": [
+        "CyberDefense Team",
+        "David Chen",
+        "Infrastructure Team"
+      ],
+      "scoped_entity_ids": [
+        "AE-6",
+        "AE-2"
+      ],
+      "finding_ids": [
+        "FND-9"
+      ],
+      "created_date": "2025-05-01"
+    },
+    {
+      "audit_id": "AUD-6",
+      "name": "Q4 Renewal Cohort and Customer Concentration Review",
+      "status": "Completed",
+      "description": "Focused review of Q4 renewal cohort representing 28% of ARR, customer credit analysis, and concentration risk assessment",
+      "audit_type": "Internal",
+      "rating": "Needs-Improvement",
+      "planned_start_date": "2025-09-15",
+      "planned_end_date": "2025-10-30",
+      "actual_start_date": "2025-09-18",
+      "actual_end_date": "2025-11-02",
+      "lead_auditor": "Rebecca Foster",
+      "audit_team": [
+        "Rebecca Foster",
+        "James Wong",
+        "Emma Richards"
+      ],
+      "scoped_entity_ids": [
+        "AE-3",
+        "AE-1"
+      ],
+      "finding_ids": [
+        "FND-10",
+        "FND-11"
+      ],
+      "created_date": "2025-08-15"
+    },
+    {
+      "audit_id": "AUD-7",
+      "name": "FX Exposure and Treasury Controls Assessment",
+      "status": "In-Progress",
+      "description": "Review of unhedged currency exposure from international expansion, cash management controls, and treasury policy compliance",
+      "audit_type": "Internal",
+      "rating": null,
+      "planned_start_date": "2025-11-01",
+      "planned_end_date": "2025-12-15",
+      "actual_start_date": "2025-11-04",
+      "actual_end_date": null,
+      "lead_auditor": "James Wong",
+      "audit_team": [
+        "James Wong",
+        "Sarah Mitchell"
+      ],
+      "scoped_entity_ids": [
+        "AE-8",
+        "AE-1"
+      ],
+      "finding_ids": [],
+      "created_date": "2025-10-01"
+    }
+  ],
+  "audit_plans": [
+    {
+      "plan_id": "AP-1",
+      "name": "2025 Annual Audit Plan",
+      "description": "Enterprise risk-based internal audit plan for FY2025 addressing key risk areas including revenue recognition, regulatory compliance, and M&A integration",
+      "fiscal_year": "2025",
+      "status": "Approved",
+      "total_audit_hours": 2400,
+      "planned_audits": [
+        {
+          "audit_id": "AUD-1",
+          "planned_hours": 320,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-2",
+          "planned_hours": 280,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-3",
+          "planned_hours": 300,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-4",
+          "planned_hours": 400,
+          "priority": "Critical"
+        },
+        {
+          "audit_id": "AUD-5",
+          "planned_hours": 200,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-6",
+          "planned_hours": 280,
+          "priority": "High"
+        },
+        {
+          "audit_id": "AUD-7",
+          "planned_hours": 240,
+          "priority": "Medium"
+        }
+      ],
+      "risk_coverage": {
+        "financial_risks": [
+          "RISK-1",
+          "RISK-2",
+          "RISK-3"
+        ],
+        "operational_risks": [
+          "RISK-4",
+          "RISK-5",
+          "RISK-6"
+        ],
+        "compliance_risks": [
+          "RISK-7",
+          "RISK-8"
+        ],
+        "strategic_risks": [
+          "RISK-9",
+          "RISK-10"
+        ]
+      },
+      "approved_by": "Audit Committee",
+      "approval_date": "2024-12-15",
+      "created_date": "2024-11-20"
+    }
+  ],
+  "audit_findings": [
+    {
+      "finding_id": "FND-1",
+      "audit_id": "AUD-1",
+      "title": "Inadequate Pipeline Forecasting Controls for Public Sector Deals",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Revenue forecasting should incorporate NHS budget cycle timing with documented probability adjustments",
+      "condition": "Pipeline forecasting model does not adequately account for NHS procurement delays, resulting in $2.8M in qualified pipeline pushing between quarters without systematic probability adjustments",
+      "cause": "Sales operations lacks integration with NHS budget cycle intelligence; opportunity stage definitions do not distinguish public sector procurement complexity",
+      "effect": "Q1 revenue at 84% of target with material catch-up required in Q2; financial forecasting unreliable for board reporting",
+      "recommendation": "Implement NHS-specific pipeline stage gates with procurement milestone tracking; adjust probability weightings based on budget cycle timing",
+      "related_control_ids": [
+        "C-2",
+        "C-3"
+      ],
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-4"
+      ],
+      "owner": "VP Sales",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-03-10",
+      "closed_date": null,
+      "management_response": "Agreed. Implementing NHS procurement milestone tracking in Q2 with updated probability models by Q3"
+    },
+    {
+      "finding_id": "FND-2",
+      "audit_id": "AUD-1",
+      "title": "Ireland HSE Contract Revenue Recognition Methodology Documentation Gap",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "Multi-year contracts require documented revenue recognition methodology with clear performance obligation identification per ASC 606",
+      "condition": "Ireland HSE $4.2M TCV contract lacks detailed documentation of performance obligation unbundling and recognition methodology across the three-year term",
+      "cause": "Finance team capacity constraints during contract negotiation; template documentation not adapted for large multi-year public sector contracts",
+      "effect": "Audit trail insufficient for external auditor review; potential for inconsistent revenue timing treatment",
+      "recommendation": "Create detailed revenue recognition memo for HSE contract; establish template for large multi-year public sector agreements",
+      "related_control_ids": [
+        "C-1",
+        "C-4"
+      ],
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-5"
+      ],
+      "owner": "VP Finance",
+      "remediation_due_date": "2025-04-30",
+      "identified_date": "2025-03-12",
+      "closed_date": "2025-04-25",
+      "management_response": "Completed documentation. Template established for future large contracts"
+    },
+    {
+      "finding_id": "FND-3",
+      "audit_id": "AUD-1",
+      "title": "Premium Tier Upgrade Revenue Validation Controls",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Premium tier upgrades should be validated against underlying customer usage metrics to ensure appropriate recognition timing",
+      "condition": "Premium tier upgrades generating $2.9M incremental ARR lack systematic validation against actual feature utilization; recognition timing based on contract execution rather than feature activation",
+      "cause": "Product telemetry not integrated with billing system; customer success team lacks visibility into feature adoption at point of upgrade",
+      "effect": "Risk of recognizing revenue before performance obligation substantially satisfied; potential for customer disputes on upgrade value",
+      "recommendation": "Implement usage-based validation checkpoint prior to upgrade revenue recognition; integrate product telemetry with finance systems",
+      "related_control_ids": [
+        "C-1",
+        "C-5"
+      ],
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "owner": "Director of Revenue Operations",
+      "remediation_due_date": "2025-07-31",
+      "identified_date": "2025-03-15",
+      "closed_date": null,
+      "management_response": "Product and finance teams collaborating on telemetry integration. Target Q3 implementation"
+    },
+    {
+      "finding_id": "FND-4",
+      "audit_id": "AUD-2",
+      "title": "Medical Device Regulation Applicability Assessment Incomplete",
+      "severity": "Low",
+      "status": "In-Progress",
+      "criteria": "Workforce management systems with clinical workflow interfaces require documented MDR applicability assessment under UK medical device regulations",
+      "condition": "Formal MDR applicability assessment not completed for clinical scheduling features interfacing with patient care workflows",
+      "cause": "Regulatory team focus on DSPT compliance; MDR requirements not previously triggered by legacy product architecture",
+      "effect": "Potential regulatory exposure if clinical workflow features deemed medical device software; gap in compliance documentation",
+      "recommendation": "Engage regulatory counsel to complete MDR applicability assessment; document classification rationale",
+      "related_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "owner": "Head of Compliance",
+      "remediation_due_date": "2025-06-30",
+      "identified_date": "2025-03-20",
+      "closed_date": null,
+      "management_response": "External counsel engaged. Assessment in progress with expected completion Q2"
+    },
+    {
+      "finding_id": "FND-5",
+      "audit_id": "AUD-3",
+      "title": "HealthRoster 7.0 Capitalization Policy Boundary Ambiguity",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Software development capitalization must have clear criteria distinguishing research from development phases per IAS 38/ASC 350",
+      "condition": "18-month HealthRoster 7.0 development project lacks clear documentation of research-to-development transition point; $4.1M capitalized with ambiguous phase classification",
+      "cause": "Extended development timeline blurred traditional phase boundaries; agile methodology creates continuous feature development complicating stage-gate determination",
+      "effect": "Potential overstatement of capitalized development costs; risk of impairment if features abandoned or significantly modified",
+      "recommendation": "Establish clear milestone-based capitalization gates aligned with agile sprint reviews; implement prospective cost tracking by feature",
+      "related_control_ids": [
+        "C-11",
+        "C-12"
+      ],
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "owner": "Controller",
+      "remediation_due_date": "2025-08-31",
+      "identified_date": "2025-06-10",
+      "closed_date": null,
+      "management_response": "Working with external auditors on revised capitalization framework. Target Q3 implementation"
+    },
+    {
+      "finding_id": "FND-6",
+      "audit_id": "AUD-3",
+      "title": "Technical Debt Remediation Spend Classification",
+      "severity": "Medium",
+      "status": "Closed",
+      "criteria": "Technical debt remediation should be evaluated for capitalization eligibility based on enhancement versus maintenance criteria",
+      "condition": "38% engineering capacity allocated to technical debt lacks consistent classification between capitalizable enhancements and period expense maintenance",
+      "cause": "Technical debt backlog contains mixed items without accounting classification; engineering project management system not integrated with finance",
+      "effect": "Inconsistent expense/capitalize treatment; engineering productivity metrics unreliable for financial planning",
+      "recommendation": "Implement technical debt categorization framework with accounting treatment guidance; integrate Jira with financial systems",
+      "related_control_ids": [
+        "C-11",
+        "C-13"
+      ],
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-12"
+      ],
+      "owner": "VP Engineering",
+      "remediation_due_date": "2025-07-31",
+      "identified_date": "2025-06-15",
+      "closed_date": "2025-07-28",
+      "management_response": "Classification framework implemented. Jira-finance integration completed"
+    },
+    {
+      "finding_id": "FND-7",
+      "audit_id": "AUD-4",
+      "title": "ComplianceNow Integration Risk Assessment Gaps",
+      "severity": "High",
+      "status": "In-Progress",
+      "criteria": "Acquisition integration planning should include documented risk assessment with mitigation strategies prior to close",
+      "condition": "ComplianceNow integration plan lacks comprehensive risk assessment covering technology integration, customer migration, and organizational change impacts",
+      "cause": "M&A team lacks prior integration experience; deal timeline compressed risk assessment activities",
+      "effect": "Potential integration delays and cost overruns; risk of customer attrition during transition; synergy realization uncertainty",
+      "recommendation": "Complete detailed integration risk register with mitigation plans; establish integration governance structure with clear escalation paths",
+      "related_control_ids": [
+        "C-14",
+        "C-15"
+      ],
+      "related_risk_ids": [
+        "RISK-10",
+        "RISK-11"
+      ],
+      "owner": "Chief Executive Officer",
+      "remediation_due_date": "2025-10-31",
+      "identified_date": "2025-08-25",
+      "closed_date": null,
+      "management_response": "Integration management office established. Detailed risk assessment in development"
+    },
+    {
+      "finding_id": "FND-8",
+      "audit_id": "AUD-4",
+      "title": "Purchase Price Allocation Methodology Documentation",
+      "severity": "Medium",
+      "status": "In-Progress",
+      "criteria": "Purchase price allocation requires documented methodology for intangible asset identification and valuation per ASC 805",
+      "condition": "Initial PPA framework lacks detailed methodology for customer relationship and technology intangible valuation; reliance on high-level external valuation without internal validation",
+      "cause": "Limited internal M&A accounting expertise; external valuation scope narrowly defined",
+      "effect": "Risk of PPA errors requiring subsequent adjustment; goodwill impairment testing complexity",
+      "recommendation": "Engage transaction accounting specialists; develop internal PPA review procedures; document key assumptions and sensitivities",
+      "related_control_ids": [
+        "C-14",
+        "C-1"
+      ],
+      "related_risk_ids": [
+        "RISK-11"
+      ],
+      "owner": "Controller",
+      "remediation_due_date": "2025-11-30",
+      "identified_date": "2025-08-28",
+      "closed_date": null,
+      "management_response": "Big Four firm engaged for PPA support. Internal review process being documented"
+    },
+    {
+      "finding_id": "FND-9",
+      "audit_id": "AUD-5",
+      "title": "API Authentication Token Rotation Policy Enhancement",
+      "severity": "Low",
+      "status": "Closed",
+      "criteria": "API authentication tokens should rotate at intervals aligned with industry best practices (90 days maximum for sensitive integrations)",
+      "condition": "NHS integration API tokens configured for 180-day rotation; penetration testing identified extended exposure window for compromised credentials",
+      "cause": "Original token rotation policy set during initial NHS integration; not revisited with security policy updates",
+      "effect": "Extended credential exposure window if API token compromised; inconsistent with NHS Digital security recommendations",
+      "recommendation": "Reduce API token rotation to 90 days for NHS integrations; implement automated rotation alerting",
+      "related_control_ids": [
+        "C-6",
+        "C-7"
+      ],
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "owner": "Chief Information Security Officer",
+      "remediation_due_date": "2025-08-31",
+      "identified_date": "2025-07-08",
+      "closed_date": "2025-08-15",
+      "management_response": "Token rotation reduced to 90 days. Automated rotation implemented"
+    },
+    {
+      "finding_id": "FND-10",
+      "audit_id": "AUD-6",
+      "title": "Q4 Renewal Cohort Concentration Monitoring",
+      "severity": "High",
+      "status": "Open",
+      "criteria": "Renewal cohorts representing >20% of ARR should have enhanced monitoring and early warning triggers",
+      "condition": "Q4 renewal cohort at 28% of ARR lacks differentiated monitoring; standard renewal playbook applied without concentration-specific escalation procedures",
+      "cause": "Renewal cohort analysis not integrated into customer success operations; historical focus on NRR rather than concentration metrics",
+      "effect": "Insufficient early warning for potential material churn event; board visibility gap on concentration risk",
+      "recommendation": "Implement quarterly cohort concentration analysis; establish escalation triggers for cohorts >15% of ARR; add concentration metrics to board reporting",
+      "related_control_ids": [
+        "C-16",
+        "C-17"
+      ],
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-5"
+      ],
+      "owner": "VP Customer Success",
+      "remediation_due_date": "2025-12-31",
+      "identified_date": "2025-10-28",
+      "closed_date": null,
+      "management_response": "Cohort concentration dashboard in development. Targeting Q4 implementation"
+    },
+    {
+      "finding_id": "FND-11",
+      "audit_id": "AUD-6",
+      "title": "Enterprise Customer Credit Assessment Frequency",
+      "severity": "Medium",
+      "status": "Open",
+      "criteria": "Enterprise customers representing >5% of ARR should have semi-annual credit assessments",
+      "condition": "Enterprise customer credit assessments performed annually; no interim assessment triggered by macroeconomic changes or customer financial events",
+      "cause": "Credit assessment process designed for mid-market customer base; enterprise segment growth outpaced policy updates",
+      "effect": "Credit deterioration may not be identified timely; accounts receivable concentration risk not monitored adequately",
+      "recommendation": "Implement semi-annual credit review for enterprise customers; establish event-driven credit assessment triggers",
+      "related_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "owner": "VP Finance",
+      "remediation_due_date": "2025-12-31",
+      "identified_date": "2025-10-30",
+      "closed_date": null,
+      "management_response": "Updating credit policy to include semi-annual enterprise reviews and event triggers"
+    }
+  ],
+  "risks": [
+    {
+      "risk_id": "RISK-1",
+      "name": "NHS Budget Cycle Revenue Volatility",
+      "description": "Quarterly revenue unpredictability due to NHS procurement delays and budget cycle dependencies, evidenced by Q1 performance at 84% of target with $2.8M qualified pipeline pushing between quarters",
+      "canonical_topic_id": "FIN-001",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REV-01",
+        "COSO:Revenue-Variability"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Predictability",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Maximum 15% quarterly variance from forecast",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales",
+      "mitigating_control_ids": [
+        "C-2",
+        "C-3",
+        "C-16"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-5"
+      ],
+      "created_date": "2023-06-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-2",
+      "name": "Revenue Recognition Timing Manipulation Risk",
+      "description": "Risk of inappropriate revenue timing through deal acceleration or deferral to manage quarterly targets, heightened by Q1-Q2 catch-up performance pattern",
+      "canonical_topic_id": "FIN-003",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "SOX:Financial-Reporting",
+        "ASC606:Revenue-Recognition",
+        "ISO31000:FIN-REP-02"
+      ],
+      "category": "Financial",
+      "subcategory": "Revenue Recognition",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Zero tolerance for material misstatement",
+      "owner": "Chief Financial Officer",
+      "delegate": "Controller",
+      "mitigating_control_ids": [
+        "C-1",
+        "C-4",
+        "C-5"
+      ],
+      "related_entity_ids": [
+        "AE-1"
+      ],
+      "created_date": "2022-01-10",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-3",
+      "name": "Q4 Renewal Cohort Concentration Churn Exposure",
+      "description": "Material churn risk from Q4 renewal cohort representing 28% of annual ARR creating single-quarter concentration vulnerability",
+      "canonical_topic_id": "FIN-002",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REV-03",
+        "COSO:Customer-Concentration"
+      ],
+      "category": "Financial",
+      "subcategory": "Customer Concentration",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "risk_tolerance": "No single quarter renewal cohort >20% of ARR",
+      "owner": "VP Customer Success",
+      "delegate": "Director Customer Success",
+      "mitigating_control_ids": [
+        "C-16",
+        "C-17"
+      ],
+      "related_entity_ids": [
+        "AE-3"
+      ],
+      "created_date": "2024-03-20",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-4",
+      "name": "New Customer Acquisition Execution Volatility",
+      "description": "Significant execution volatility in new customer acquisition due to public sector procurement complexity and competitive pressure from well-funded Rotageek",
+      "canonical_topic_id": "OPS-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-SALES-01",
+        "COSO:Sales-Execution"
+      ],
+      "category": "Operational",
+      "subcategory": "Sales Execution",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Quarterly new ARR within 85% of target",
+      "owner": "Chief Revenue Officer",
+      "delegate": "VP Sales",
+      "mitigating_control_ids": [
+        "C-2",
+        "C-19",
+        "C-20"
+      ],
+      "related_entity_ids": [
+        "AE-5"
+      ],
+      "created_date": "2024-01-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-5",
+      "name": "Ireland HSE Customer Concentration",
+      "description": "Dangerous customer concentration risk from Ireland HSE contract at $4.2M TCV representing disproportionate revenue dependency on single public sector customer",
+      "canonical_topic_id": "FIN-002",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-REV-03",
+        "COSO:Customer-Concentration"
+      ],
+      "category": "Financial",
+      "subcategory": "Customer Concentration",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Low",
+      "risk_tolerance": "No single customer >10% of ARR",
+      "owner": "Chief Financial Officer",
+      "delegate": "VP Customer Success",
+      "mitigating_control_ids": [
+        "C-17",
+        "C-18"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-3"
+      ],
+      "created_date": "2024-09-10",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-6",
+      "name": "Technical Debt Engineering Productivity Constraint",
+      "description": "Product scalability constraints and reduced innovation capacity due to technical debt consuming 38% of engineering resources",
+      "canonical_topic_id": "TECH-002",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-DEV-02",
+        "COSO:Technology-Infrastructure"
+      ],
+      "category": "Technology",
+      "subcategory": "Technical Debt",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Technical debt allocation <30% of engineering capacity",
+      "owner": "Chief Technology Officer",
+      "delegate": "VP Engineering",
+      "mitigating_control_ids": [
+        "C-11",
+        "C-13"
+      ],
+      "related_entity_ids": [
+        "AE-2"
+      ],
+      "created_date": "2023-09-20",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-7",
+      "name": "NHS Patient Data Security Breach",
+      "description": "Risk of unauthorized access to NHS patient data through HealthRoster system interfaces with clinical workflows, triggering GDPR breach notification and NHS contract termination",
+      "canonical_topic_id": "TECH-001",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-SEC-01",
+        "NIST:PR.DS",
+        "GDPR:Art32"
+      ],
+      "category": "Technology",
+      "subcategory": "Data Security",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 2,
+      "residual_impact": 5,
+      "residual_score": 10,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Zero tolerance for patient data breach",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Data Protection Officer",
+      "mitigating_control_ids": [
+        "C-6",
+        "C-7",
+        "C-8"
+      ],
+      "related_entity_ids": [
+        "AE-4",
+        "AE-6"
+      ],
+      "created_date": "2019-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-8",
+      "name": "Medical Device Regulation Compliance Gap",
+      "description": "Potential regulatory exposure from workforce management systems interfacing with clinical workflows without completed MDR applicability assessment under UK medical device regulations",
+      "canonical_topic_id": "COMP-001",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-REG-03",
+        "MDR:2017/745"
+      ],
+      "category": "Compliance",
+      "subcategory": "Medical Device Regulation",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Full regulatory compliance required",
+      "owner": "Head of Compliance",
+      "delegate": "Regulatory Affairs Manager",
+      "mitigating_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_entity_ids": [
+        "AE-9"
+      ],
+      "created_date": "2024-06-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-9",
+      "name": "Competitive Market Share Erosion",
+      "description": "Intensifying competitive pressure from well-funded Rotageek ($45M+ funding) forcing defensive pricing strategies and threatening market share gains (6.8% to 7.8%)",
+      "canonical_topic_id": "STRAT-001",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:STRAT-COMP-01",
+        "COSO:Competitive-Position"
+      ],
+      "category": "Strategic",
+      "subcategory": "Competitive Dynamics",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 4,
+      "inherent_score": 16,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Maintain market share within 0.5% of prior year",
+      "owner": "Chief Executive Officer",
+      "delegate": "Chief Revenue Officer",
+      "mitigating_control_ids": [
+        "C-19",
+        "C-20",
+        "C-21"
+      ],
+      "related_entity_ids": [
+        "AE-5",
+        "AE-7"
+      ],
+      "created_date": "2024-02-20",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-10",
+      "name": "ComplianceNow Acquisition Integration Failure",
+      "description": "Risk of acquisition value destruction through integration failures including technology consolidation delays, customer attrition, and synergy shortfall from ComplianceNow acquisition",
+      "canonical_topic_id": "STRAT-002",
+      "topic_category": "Strategic",
+      "taxonomy_codes": [
+        "ISO31000:STRAT-MA-01",
+        "COSO:Strategic-Transactions"
+      ],
+      "category": "Strategic",
+      "subcategory": "M&A Integration",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 5,
+      "inherent_score": 15,
+      "residual_likelihood": 3,
+      "residual_impact": 4,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Integration milestones within 90 days of plan",
+      "owner": "Chief Executive Officer",
+      "delegate": "Integration PMO Lead",
+      "mitigating_control_ids": [
+        "C-14",
+        "C-15"
+      ],
+      "related_entity_ids": [
+        "AE-7"
+      ],
+      "created_date": "2025-06-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-11",
+      "name": "Acquisition Accounting Misstatement",
+      "description": "Risk of material misstatement in ComplianceNow purchase price allocation including intangible asset identification and goodwill calculation",
+      "canonical_topic_id": "FIN-004",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ASC805:Business-Combinations",
+        "ISO31000:FIN-REP-03"
+      ],
+      "category": "Financial",
+      "subcategory": "Acquisition Accounting",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Zero tolerance for material misstatement",
+      "owner": "Chief Financial Officer",
+      "delegate": "Controller",
+      "mitigating_control_ids": [
+        "C-1",
+        "C-14"
+      ],
+      "related_entity_ids": [
+        "AE-1",
+        "AE-7"
+      ],
+      "created_date": "2025-07-01",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-12",
+      "name": "EBITDA Margin Underperformance",
+      "description": "Consistent EBITDA margin underperformance versus internal targets (11.0% vs 14% target in Q1) with operating expenses growing faster than revenue",
+      "canonical_topic_id": "FIN-005",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-PERF-01",
+        "COSO:Financial-Performance"
+      ],
+      "category": "Financial",
+      "subcategory": "Profitability",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 3,
+      "residual_impact": 3,
+      "residual_score": 9,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "EBITDA margin within 2% of target",
+      "owner": "Chief Financial Officer",
+      "delegate": "VP Finance",
+      "mitigating_control_ids": [
+        "C-22",
+        "C-23"
+      ],
+      "related_entity_ids": [
+        "AE-8"
+      ],
+      "created_date": "2024-04-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-13",
+      "name": "Currency Exposure from International Expansion",
+      "description": "Unhedged foreign currency exposure from international expansion creating earnings volatility and cash flow unpredictability",
+      "canonical_topic_id": "FIN-006",
+      "topic_category": "Financial",
+      "taxonomy_codes": [
+        "ISO31000:FIN-FX-01",
+        "COSO:Currency-Risk"
+      ],
+      "category": "Financial",
+      "subcategory": "Currency Risk",
+      "status": "Active",
+      "inherent_likelihood": 4,
+      "inherent_impact": 3,
+      "inherent_score": 12,
+      "residual_likelihood": 4,
+      "residual_impact": 3,
+      "residual_score": 12,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "FX impact <3% of revenue",
+      "owner": "VP Finance",
+      "delegate": "Treasury Manager",
+      "mitigating_control_ids": [
+        "C-24"
+      ],
+      "related_entity_ids": [
+        "AE-8"
+      ],
+      "created_date": "2024-08-10",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-14",
+      "name": "GDPR Personal Data Processing Compliance",
+      "description": "Risk of GDPR non-compliance in personal data processing activities including employee scheduling data and NHS workforce information",
+      "canonical_topic_id": "COMP-002",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "GDPR:Art5",
+        "GDPR:Art6",
+        "ISO31000:COMP-PRIV-01"
+      ],
+      "category": "Compliance",
+      "subcategory": "Data Privacy",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Very Low",
+      "risk_tolerance": "Full GDPR compliance required",
+      "owner": "Data Protection Officer",
+      "delegate": "Privacy Manager",
+      "mitigating_control_ids": [
+        "C-8",
+        "C-25"
+      ],
+      "related_entity_ids": [
+        "AE-4"
+      ],
+      "created_date": "2018-05-25",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-15",
+      "name": "HealthRoster 7.0 Development Delay",
+      "description": "Risk of extended HealthRoster 7.0 development timeline beyond 18 months impacting competitive positioning and product roadmap commitments",
+      "canonical_topic_id": "TECH-003",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-DEV-01",
+        "COSO:Product-Development"
+      ],
+      "category": "Technology",
+      "subcategory": "Product Development",
+      "status": "Active",
+      "inherent_likelihood": 3,
+      "inherent_impact": 4,
+      "inherent_score": 12,
+      "residual_likelihood": 2,
+      "residual_impact": 4,
+      "residual_score": 8,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Major releases within 3 months of plan",
+      "owner": "Chief Technology Officer",
+      "delegate": "VP Product",
+      "mitigating_control_ids": [
+        "C-11",
+        "C-26"
+      ],
+      "related_entity_ids": [
+        "AE-2"
+      ],
+      "created_date": "2024-01-10",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-16",
+      "name": "Key Person Dependency - Executive Team",
+      "description": "Operational continuity risk from key person dependencies in executive leadership and specialized technical roles",
+      "canonical_topic_id": "HR-001",
+      "topic_category": "Operational",
+      "taxonomy_codes": [
+        "ISO31000:OP-HR-01",
+        "COSO:Human-Capital"
+      ],
+      "category": "Operational",
+      "subcategory": "Human Capital",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "Succession plans for all executive roles",
+      "owner": "Chief Executive Officer",
+      "delegate": "VP Human Resources",
+      "mitigating_control_ids": [
+        "C-27",
+        "C-28"
+      ],
+      "related_entity_ids": [
+        "AE-2",
+        "AE-5"
+      ],
+      "created_date": "2022-06-15",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-17",
+      "name": "FCA Payment Processing Compliance",
+      "description": "Risk of non-compliance with FCA regulations regarding automated subscription billing and customer payment data handling",
+      "canonical_topic_id": "COMP-003",
+      "topic_category": "Compliance",
+      "taxonomy_codes": [
+        "ISO31000:COMP-REG-02",
+        "FCA:Payment-Services"
+      ],
+      "category": "Compliance",
+      "subcategory": "Payment Regulations",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 3,
+      "inherent_score": 6,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Low",
+      "risk_tolerance": "Full FCA compliance required",
+      "owner": "Head of Compliance",
+      "delegate": "Billing Operations Manager",
+      "mitigating_control_ids": [
+        "C-29"
+      ],
+      "related_entity_ids": [
+        "AE-9",
+        "AE-1"
+      ],
+      "created_date": "2021-03-20",
+      "last_assessed_date": "2025-10-15"
+    },
+    {
+      "risk_id": "RISK-18",
+      "name": "Third Party Cloud Provider Dependency",
+      "description": "Operational risk from dependency on cloud infrastructure providers for HealthRoster service availability",
+      "canonical_topic_id": "TECH-004",
+      "topic_category": "Technology",
+      "taxonomy_codes": [
+        "ISO31000:TECH-VENDOR-01",
+        "NIST:ID.SC"
+      ],
+      "category": "Technology",
+      "subcategory": "Vendor Dependency",
+      "status": "Active",
+      "inherent_likelihood": 2,
+      "inherent_impact": 4,
+      "inherent_score": 8,
+      "residual_likelihood": 2,
+      "residual_impact": 3,
+      "residual_score": 6,
+      "risk_appetite": "Medium",
+      "risk_tolerance": "99.9% service availability SLA",
+      "owner": "Chief Technology Officer",
+      "delegate": "VP Infrastructure",
+      "mitigating_control_ids": [
+        "C-30",
+        "C-31"
+      ],
+      "related_entity_ids": [
+        "AE-6",
+        "AE-10"
+      ],
+      "created_date": "2020-09-15",
+      "last_assessed_date": "2025-10-15"
+    }
+  ],
+  "risk_assessments": [
+    {
+      "assessment_id": "RA-1",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-01-20",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Quantitative analysis of Q1 pipeline movement and NHS budget cycle alignment",
+      "notes": "Q1 performance at 84% of target with $2.8M pipeline push. NHS procurement delays accelerating risk exposure.",
+      "created_date": "2025-01-20"
+    },
+    {
+      "assessment_id": "RA-2",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-04-15",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Review of Q2 catch-up performance and pipeline forecasting improvements",
+      "notes": "Q2 catch-up performance materializing. New NHS budget cycle tracking implemented reducing forecast variance.",
+      "created_date": "2025-04-15"
+    },
+    {
+      "assessment_id": "RA-3",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-07-18",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Quarterly pipeline review and forecast accuracy analysis",
+      "notes": "Forecast accuracy improving with NHS-specific pipeline stages. Residual risk stable but inherent risk unchanged due to structural NHS dependencies.",
+      "created_date": "2025-07-18"
+    },
+    {
+      "assessment_id": "RA-4",
+      "parent_risk_id": "RISK-1",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end pipeline analysis and control effectiveness review",
+      "notes": "Controls maturing but NHS budget cycle dependency remains structural. Recommend continued monitoring.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-5",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-01-22",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Review of Q1 revenue recognition practices and deal timing patterns",
+      "notes": "Q1-Q2 catch-up pattern creates elevated risk of timing manipulation. Enhanced review procedures needed.",
+      "created_date": "2025-01-22"
+    },
+    {
+      "assessment_id": "RA-6",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-04-18",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Substantive testing of Q2 revenue transactions and HSE contract review",
+      "notes": "HSE contract documentation completed. Enhanced deal review controls reducing residual risk.",
+      "created_date": "2025-04-18"
+    },
+    {
+      "assessment_id": "RA-7",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-07-20",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Control testing and revenue cut-off analysis",
+      "notes": "Revenue recognition controls operating effectively. No timing anomalies identified in Q3.",
+      "created_date": "2025-07-20"
+    },
+    {
+      "assessment_id": "RA-8",
+      "parent_risk_id": "RISK-2",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end revenue quality review and control assessment",
+      "notes": "Controls mature and effective. Premium tier upgrade validation remains area for continued improvement.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-9",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-01-25",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Cohort concentration analysis and renewal pipeline review",
+      "notes": "Q4 renewal cohort at 28% of ARR identified. Monitoring enhanced but structural concentration unchanged.",
+      "created_date": "2025-01-25"
+    },
+    {
+      "assessment_id": "RA-10",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-04-20",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Customer health score review and renewal probability analysis",
+      "notes": "Q4 cohort health scores stable. Early engagement programs initiated but concentration risk persists.",
+      "created_date": "2025-04-20"
+    },
+    {
+      "assessment_id": "RA-11",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-07-22",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Q4 cohort deep dive and competitive intelligence review",
+      "notes": "Competitive pressure on two major Q4 renewals identified. Impact increased due to elevated churn signals.",
+      "created_date": "2025-07-22"
+    },
+    {
+      "assessment_id": "RA-12",
+      "parent_risk_id": "RISK-3",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Pre-renewal status review and executive engagement assessment",
+      "notes": "Executive engagement securing at-risk renewals. One major account renewed early. Residual risk declining.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-13",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-01-28",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "James Wong",
+      "assessment_method": "Pipeline conversion analysis and competitive win/loss review",
+      "notes": "Q1 acquisition at 84% of target. Rotageek competitive pressure intensifying with defensive pricing required.",
+      "created_date": "2025-01-28"
+    },
+    {
+      "assessment_id": "RA-14",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-04-22",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "James Wong",
+      "assessment_method": "Q2 acquisition review and competitive positioning assessment",
+      "notes": "Catch-up performance improving metrics. New competitive intelligence program providing earlier visibility.",
+      "created_date": "2025-04-22"
+    },
+    {
+      "assessment_id": "RA-15",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-07-25",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Market share analysis and sales execution review",
+      "notes": "Market share gains holding at 7.8%. Sales execution improvements reducing volatility.",
+      "created_date": "2025-07-25"
+    },
+    {
+      "assessment_id": "RA-16",
+      "parent_risk_id": "RISK-4",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end acquisition analysis and control effectiveness review",
+      "notes": "Acquisition volatility reduced through improved forecasting and competitive monitoring.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-17",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-01-30",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Contract analysis and customer concentration review",
+      "notes": "Ireland HSE $4.2M TCV contract creates significant concentration. Enhanced monitoring established.",
+      "created_date": "2025-01-30"
+    },
+    {
+      "assessment_id": "RA-18",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-04-25",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "HSE relationship health assessment and expansion planning review",
+      "notes": "Strong HSE relationship health. Expansion opportunities reducing relative concentration as ARR grows.",
+      "created_date": "2025-04-25"
+    },
+    {
+      "assessment_id": "RA-19",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-07-28",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Quarterly concentration analysis and customer health review",
+      "notes": "Concentration percentage declining as new customer acquisition diversifies base.",
+      "created_date": "2025-07-28"
+    },
+    {
+      "assessment_id": "RA-20",
+      "parent_risk_id": "RISK-5",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end concentration review and credit assessment",
+      "notes": "HSE contract performing well. Credit assessment completed with satisfactory results.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-21",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-02-05",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Engineering capacity analysis and technical debt inventory review",
+      "notes": "38% engineering capacity on technical debt confirmed. Remediation roadmap in place but progress slow.",
+      "created_date": "2025-02-05"
+    },
+    {
+      "assessment_id": "RA-22",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-05-10",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "David Chen",
+      "assessment_method": "Technical debt burn-down tracking and capacity utilization review",
+      "notes": "Technical debt allocation reduced to 34% through focused remediation sprints.",
+      "created_date": "2025-05-10"
+    },
+    {
+      "assessment_id": "RA-23",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-08-12",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Quarterly engineering metrics review",
+      "notes": "Technical debt holding at 32%. Classification framework implemented improving visibility.",
+      "created_date": "2025-08-12"
+    },
+    {
+      "assessment_id": "RA-24",
+      "parent_risk_id": "RISK-6",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end technical debt and capitalization review",
+      "notes": "Technical debt management controls maturing. Recommend continued quarterly monitoring.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-25",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-02-10",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Security control assessment and threat landscape review",
+      "notes": "NHS security controls strong. API token rotation policy identified for improvement.",
+      "created_date": "2025-02-10"
+    },
+    {
+      "assessment_id": "RA-26",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-05-15",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Penetration test results review and remediation tracking",
+      "notes": "Pre-penetration test assessment. Controls operating effectively with minor improvements planned.",
+      "created_date": "2025-05-15"
+    },
+    {
+      "assessment_id": "RA-27",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-08-15",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Post-penetration test assessment and remediation validation",
+      "notes": "API token rotation improved to 90 days. Penetration test findings remediated.",
+      "created_date": "2025-08-15"
+    },
+    {
+      "assessment_id": "RA-28",
+      "parent_risk_id": "RISK-7",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 5,
+      "score": 10,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end security posture assessment",
+      "notes": "Security controls effective. NHS DSPT compliance maintained. Continuous monitoring in place.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-29",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-02-15",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Regulatory landscape review and product classification analysis",
+      "notes": "MDR applicability assessment initiated. External counsel engaged for classification opinion.",
+      "created_date": "2025-02-15"
+    },
+    {
+      "assessment_id": "RA-30",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-05-18",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "External counsel opinion review and compliance gap assessment",
+      "notes": "Preliminary assessment suggests clinical scheduling features likely outside MDR scope. Final opinion pending.",
+      "created_date": "2025-05-18"
+    },
+    {
+      "assessment_id": "RA-31",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-08-20",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Final regulatory opinion review",
+      "notes": "External counsel confirms non-device classification. Documentation complete for regulatory file.",
+      "created_date": "2025-08-20"
+    },
+    {
+      "assessment_id": "RA-32",
+      "parent_risk_id": "RISK-8",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end regulatory compliance review",
+      "notes": "MDR classification documented. Ongoing monitoring for product changes that could affect classification.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-33",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-02-18",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 4,
+      "score": 16,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Increasing",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Competitive intelligence review and pricing analysis",
+      "notes": "Rotageek $45M+ funding creating aggressive market pressure. Defensive pricing required on multiple deals.",
+      "created_date": "2025-02-18"
+    },
+    {
+      "assessment_id": "RA-34",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-05-20",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "James Wong",
+      "assessment_method": "Market share tracking and win/loss analysis",
+      "notes": "Market share gains holding at 7.8%. Product differentiation messaging strengthened.",
+      "created_date": "2025-05-20"
+    },
+    {
+      "assessment_id": "RA-35",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-08-22",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Competitive positioning review and customer feedback analysis",
+      "notes": "Competitive pressure stable. HealthRoster 7.0 preview generating positive customer response.",
+      "created_date": "2025-08-22"
+    },
+    {
+      "assessment_id": "RA-36",
+      "parent_risk_id": "RISK-9",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end competitive analysis",
+      "notes": "Market position defended. ComplianceNow acquisition expected to strengthen competitive differentiation.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-37",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-07-20",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 5,
+      "score": 15,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Acquisition due diligence risk assessment",
+      "notes": "ComplianceNow integration risk assessment initiated. Limited internal M&A integration experience identified.",
+      "created_date": "2025-07-20"
+    },
+    {
+      "assessment_id": "RA-38",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-09-10",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "David Chen",
+      "assessment_method": "Integration planning review",
+      "notes": "Integration management office established. External integration support engaged.",
+      "created_date": "2025-09-10"
+    },
+    {
+      "assessment_id": "RA-39",
+      "parent_risk_id": "RISK-10",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Pre-close integration readiness assessment",
+      "notes": "Integration governance structure operational. Risk register developed with mitigation plans.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-40",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-07-25",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "New",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "PPA methodology review",
+      "notes": "Initial PPA framework gaps identified. External accounting support engaged.",
+      "created_date": "2025-07-25"
+    },
+    {
+      "assessment_id": "RA-41",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-09-15",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "James Wong",
+      "assessment_method": "External valuation review and internal validation",
+      "notes": "Big Four engagement for PPA support. Methodology documentation improving.",
+      "created_date": "2025-09-15"
+    },
+    {
+      "assessment_id": "RA-42",
+      "parent_risk_id": "RISK-11",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Pre-close accounting readiness review",
+      "notes": "PPA controls strengthened. Internal review procedures documented.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-43",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-02-20",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Margin variance analysis",
+      "notes": "Q1 EBITDA at 11.0% vs 14% target. OpEx growth outpacing revenue.",
+      "created_date": "2025-02-20"
+    },
+    {
+      "assessment_id": "RA-44",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-05-22",
+      "assessment_quarter": "Q2",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "James Wong",
+      "assessment_method": "Cost optimization review and margin tracking",
+      "notes": "Cost optimization initiatives gaining traction. Margin trending toward target.",
+      "created_date": "2025-05-22"
+    },
+    {
+      "assessment_id": "RA-45",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-08-25",
+      "assessment_quarter": "Q3",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Operating expense analysis",
+      "notes": "OpEx controls strengthened. Margin improvement trajectory maintained.",
+      "created_date": "2025-08-25"
+    },
+    {
+      "assessment_id": "RA-46",
+      "parent_risk_id": "RISK-12",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 3,
+      "impact": 3,
+      "score": 9,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end margin review",
+      "notes": "EBITDA margin improved but still below target. Continued focus required.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-47",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-02-25",
+      "assessment_quarter": "Q1",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "FX exposure analysis",
+      "notes": "Currency exposure from international expansion remains unhedged. Treasury policy review recommended.",
+      "created_date": "2025-02-25"
+    },
+    {
+      "assessment_id": "RA-48",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-05-25",
+      "assessment_quarter": "Q2",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Currency exposure tracking and hedging evaluation",
+      "notes": "Hedging program evaluation in progress. Exposure growing with international revenue.",
+      "created_date": "2025-05-25"
+    },
+    {
+      "assessment_id": "RA-49",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-08-28",
+      "assessment_quarter": "Q3",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "FX impact analysis",
+      "notes": "Hedging program design approved by board. Implementation pending.",
+      "created_date": "2025-08-28"
+    },
+    {
+      "assessment_id": "RA-50",
+      "parent_risk_id": "RISK-13",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 4,
+      "impact": 3,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end treasury review",
+      "notes": "FX exposure remains unhedged. Audit in progress to assess controls and recommend improvements.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-51",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-03-01",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "GDPR compliance assessment",
+      "notes": "Data protection controls mature. Annual DSPT attestation completed successfully.",
+      "created_date": "2025-03-01"
+    },
+    {
+      "assessment_id": "RA-52",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-06-05",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Emma Richards",
+      "assessment_method": "Data processing activity review",
+      "notes": "Processing activities documented and lawful bases confirmed.",
+      "created_date": "2025-06-05"
+    },
+    {
+      "assessment_id": "RA-53",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-09-08",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Privacy impact assessment review",
+      "notes": "PIAs current for major processing activities. Subject access request process operating effectively.",
+      "created_date": "2025-09-08"
+    },
+    {
+      "assessment_id": "RA-54",
+      "parent_risk_id": "RISK-14",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end privacy compliance review",
+      "notes": "GDPR compliance program mature and effective. Continuous improvement in place.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-55",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-03-05",
+      "assessment_quarter": "Q1",
+      "likelihood": 3,
+      "impact": 4,
+      "score": 12,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Development progress review and milestone tracking",
+      "notes": "HealthRoster 7.0 on revised timeline. Technical debt remediation competing for resources.",
+      "created_date": "2025-03-05"
+    },
+    {
+      "assessment_id": "RA-56",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-06-10",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "David Chen",
+      "assessment_method": "Sprint velocity analysis and milestone review",
+      "notes": "Development velocity improved. Key milestones on track.",
+      "created_date": "2025-06-10"
+    },
+    {
+      "assessment_id": "RA-57",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-09-12",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Release readiness assessment",
+      "notes": "Beta release successful. Customer feedback incorporated. GA on schedule.",
+      "created_date": "2025-09-12"
+    },
+    {
+      "assessment_id": "RA-58",
+      "parent_risk_id": "RISK-15",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end product development review",
+      "notes": "HealthRoster 7.0 GA imminent. Delivery risk substantially mitigated.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-59",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-03-10",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Succession planning review",
+      "notes": "Executive succession plans documented. Key technical roles identified for development.",
+      "created_date": "2025-03-10"
+    },
+    {
+      "assessment_id": "RA-60",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-06-15",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "Rebecca Foster",
+      "assessment_method": "Talent development program review",
+      "notes": "Leadership development program implemented. Deputy assignments in place.",
+      "created_date": "2025-06-15"
+    },
+    {
+      "assessment_id": "RA-61",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-09-18",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Key person retention analysis",
+      "notes": "Retention incentives in place for key roles. Succession pipeline developing.",
+      "created_date": "2025-09-18"
+    },
+    {
+      "assessment_id": "RA-62",
+      "parent_risk_id": "RISK-16",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end human capital review",
+      "notes": "Key person dependency risk well-managed. Continued investment in talent development.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-63",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-03-15",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Payment processing compliance review",
+      "notes": "FCA compliance controls operating effectively. Payment service provider oversight adequate.",
+      "created_date": "2025-03-15"
+    },
+    {
+      "assessment_id": "RA-64",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-06-20",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Emma Richards",
+      "assessment_method": "Billing operations audit",
+      "notes": "Subscription billing controls tested and effective. Customer data handling compliant.",
+      "created_date": "2025-06-20"
+    },
+    {
+      "assessment_id": "RA-65",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-09-22",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Regulatory change impact assessment",
+      "notes": "No material regulatory changes identified. Compliance posture maintained.",
+      "created_date": "2025-09-22"
+    },
+    {
+      "assessment_id": "RA-66",
+      "parent_risk_id": "RISK-17",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end payment compliance review",
+      "notes": "FCA compliance stable. Continuous monitoring in place.",
+      "created_date": "2025-10-15"
+    },
+    {
+      "assessment_id": "RA-67",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-03-20",
+      "assessment_quarter": "Q1",
+      "likelihood": 2,
+      "impact": 4,
+      "score": 8,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "David Chen",
+      "assessment_method": "Cloud provider risk assessment",
+      "notes": "Multi-region redundancy in place. SLA compliance at 99.95%.",
+      "created_date": "2025-03-20"
+    },
+    {
+      "assessment_id": "RA-68",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-06-25",
+      "assessment_quarter": "Q2",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Decreasing",
+      "assessor": "David Chen",
+      "assessment_method": "DR testing and vendor performance review",
+      "notes": "DR testing successful. Secondary provider contract enhanced.",
+      "created_date": "2025-06-25"
+    },
+    {
+      "assessment_id": "RA-69",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-09-25",
+      "assessment_quarter": "Q3",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "James Wong",
+      "assessment_method": "Vendor contract and SLA review",
+      "notes": "Cloud provider performance stable. Exit planning documented.",
+      "created_date": "2025-09-25"
+    },
+    {
+      "assessment_id": "RA-70",
+      "parent_risk_id": "RISK-18",
+      "as_of_date": "2025-10-15",
+      "assessment_quarter": "Q4",
+      "likelihood": 2,
+      "impact": 3,
+      "score": 6,
+      "assessment_type": "Residual",
+      "velocity_indicator": "Stable",
+      "assessor": "Sarah Mitchell",
+      "assessment_method": "Year-end vendor risk review",
+      "notes": "Cloud provider risk well-managed. Business continuity plans current.",
+      "created_date": "2025-10-15"
+    }
+  ],
+  "risk_mitigation_plans": [
+    {
+      "plan_id": "RMP-1",
+      "risk_id": "RISK-1",
+      "name": "NHS Budget Cycle Integration Program",
+      "description": "Implement NHS-specific pipeline stage gates with procurement milestone tracking and probability adjustments based on budget cycle timing",
+      "status": "In-Progress",
+      "target_risk_reduction": 4,
+      "actions": [
+        {
+          "action": "Develop NHS procurement milestone tracking in CRM",
+          "owner": "Sales Operations Manager",
+          "due_date": "2025-04-30",
+          "status": "Completed"
+        },
+        {
+          "action": "Implement probability model adjustments for public sector",
+          "owner": "VP Sales",
+          "due_date": "2025-06-30",
+          "status": "In-Progress"
+        },
+        {
+          "action": "Establish NHS budget cycle early warning indicators",
+          "owner": "Strategic Accounts Director",
+          "due_date": "2025-09-30",
+          "status": "Not-Started"
+        }
+      ],
+      "owner": "VP Sales",
+      "start_date": "2025-03-15",
+      "target_completion_date": "2025-09-30",
+      "actual_completion_date": null,
+      "created_date": "2025-03-10"
+    },
+    {
+      "plan_id": "RMP-2",
+      "risk_id": "RISK-3",
+      "name": "Q4 Renewal Cohort Diversification",
+      "description": "Reduce Q4 renewal concentration through contract term restructuring and enhanced early engagement for at-risk accounts",
+      "status": "In-Progress",
+      "target_risk_reduction": 3,
+      "actions": [
+        {
+          "action": "Implement renewal cohort concentration dashboard",
+          "owner": "VP Customer Success",
+          "due_date": "2025-06-30",
+          "status": "In-Progress"
+        },
+        {
+          "action": "Develop early renewal incentive program for Q4 cohort",
+          "owner": "Director Customer Success",
+          "due_date": "2025-07-31",
+          "status": "Not-Started"
+        },
+        {
+          "action": "Executive engagement program for top 10 Q4 renewals",
+          "owner": "Chief Revenue Officer",
+          "due_date": "2025-08-31",
+          "status": "Not-Started"
+        }
+      ],
+      "owner": "VP Customer Success",
+      "start_date": "2025-05-01",
+      "target_completion_date": "2025-10-31",
+      "actual_completion_date": null,
+      "created_date": "2025-04-25"
+    },
+    {
+      "plan_id": "RMP-3",
+      "risk_id": "RISK-6",
+      "name": "Technical Debt Remediation Program",
+      "description": "Systematic reduction of technical debt through dedicated remediation sprints and improved classification framework",
+      "status": "In-Progress",
+      "target_risk_reduction": 3,
+      "actions": [
+        {
+          "action": "Implement technical debt classification framework",
+          "owner": "VP Engineering",
+          "due_date": "2025-05-31",
+          "status": "Completed"
+        },
+        {
+          "action": "Allocate 20% of sprint capacity to debt remediation",
+          "owner": "Engineering Directors",
+          "due_date": "2025-03-31",
+          "status": "Completed"
+        },
+        {
+          "action": "Integrate Jira with financial systems for tracking",
+          "owner": "Controller",
+          "due_date": "2025-07-31",
+          "status": "Completed"
+        }
+      ],
+      "owner": "Chief Technology Officer",
+      "start_date": "2025-02-01",
+      "target_completion_date": "2025-08-31",
+      "actual_completion_date": null,
+      "created_date": "2025-01-25"
+    },
+    {
+      "plan_id": "RMP-4",
+      "risk_id": "RISK-10",
+      "name": "ComplianceNow Integration Risk Mitigation",
+      "description": "Comprehensive integration planning and risk management for ComplianceNow acquisition",
+      "status": "In-Progress",
+      "target_risk_reduction": 5,
+      "actions": [
+        {
+          "action": "Establish integration management office",
+          "owner": "CEO",
+          "due_date": "2025-08-15",
+          "status": "Completed"
+        },
+        {
+          "action": "Develop detailed integration risk register",
+          "owner": "Integration PMO Lead",
+          "due_date": "2025-09-30",
+          "status": "In-Progress"
+        },
+        {
+          "action": "Engage external integration support",
+          "owner": "CFO",
+          "due_date": "2025-08-31",
+          "status": "Completed"
+        },
+        {
+          "action": "Complete customer retention plan",
+          "owner": "VP Customer Success",
+          "due_date": "2025-10-31",
+          "status": "In-Progress"
+        }
+      ],
+      "owner": "Chief Executive Officer",
+      "start_date": "2025-07-01",
+      "target_completion_date": "2025-12-31",
+      "actual_completion_date": null,
+      "created_date": "2025-06-25"
+    }
+  ],
+  "controls": [
+    {
+      "control_id": "C-1",
+      "name": "Revenue Recognition Review and Approval",
+      "description": "Monthly revenue recognition review with CFO approval for transactions exceeding \u00a3100K and all multi-year contracts",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Controller",
+      "delegate": "Revenue Accounting Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Select sample of 25 transactions >\u00a3100K and verify CFO approval documentation and ASC 606 analysis memo",
+      "evidence_required": "Approval workflow records, ASC 606 analysis memos, supporting calculations",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2021-06-01"
+    },
+    {
+      "control_id": "C-2",
+      "name": "Pipeline Forecast Accuracy Monitoring",
+      "description": "Weekly pipeline review with stage progression tracking and variance analysis against prior forecasts",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Sales",
+      "delegate": "Sales Operations Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-1",
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-2"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review pipeline reports for 8 consecutive weeks and analyze forecast accuracy metrics",
+      "evidence_required": "Weekly pipeline reports, forecast variance analysis, CRM stage progression reports",
+      "last_tested_date": "2025-09-20",
+      "last_test_result": "Partial",
+      "created_date": "2023-03-15"
+    },
+    {
+      "control_id": "C-3",
+      "name": "NHS Budget Cycle Milestone Tracking",
+      "description": "Tracking of NHS procurement milestones with automated alerts for budget cycle timing risks",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Strategic Accounts Director",
+      "delegate": "NHS Account Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-2"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review milestone tracking for all NHS opportunities >\u00a3250K and verify alert generation",
+      "evidence_required": "CRM milestone reports, alert logs, procurement timeline documentation",
+      "last_tested_date": "2025-09-22",
+      "last_test_result": "Partial",
+      "created_date": "2025-04-01"
+    },
+    {
+      "control_id": "C-4",
+      "name": "Multi-Year Contract Revenue Recognition Documentation",
+      "description": "Standardized documentation template for multi-year public sector contracts including performance obligation identification",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Manual",
+      "owner": "Controller",
+      "delegate": "Revenue Accounting Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review documentation for all new multi-year contracts and verify template completeness",
+      "evidence_required": "Contract documentation package, performance obligation analysis, recognition schedule",
+      "last_tested_date": "2025-09-18",
+      "last_test_result": "Pass",
+      "created_date": "2025-04-15"
+    },
+    {
+      "control_id": "C-5",
+      "name": "Premium Tier Upgrade Validation",
+      "description": "Validation of premium tier upgrades against customer usage metrics prior to revenue recognition",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Manual",
+      "owner": "Revenue Accounting Manager",
+      "delegate": "Billing Analyst",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Select sample of 15 premium tier upgrades and verify usage validation documentation",
+      "evidence_required": "Usage reports, upgrade approval documentation, feature activation records",
+      "last_tested_date": "2025-09-25",
+      "last_test_result": "Partial",
+      "created_date": "2025-05-01"
+    },
+    {
+      "control_id": "C-6",
+      "name": "API Authentication and Token Management",
+      "description": "Automated API token rotation with 90-day maximum lifetime for NHS integrations and credential monitoring",
+      "control_type": "Preventive",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Chief Information Security Officer",
+      "delegate": "Security Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review token rotation logs and verify no tokens exceed 90-day lifetime",
+      "evidence_required": "Token rotation logs, credential management reports, alert records",
+      "last_tested_date": "2025-09-28",
+      "last_test_result": "Pass",
+      "created_date": "2020-09-01"
+    },
+    {
+      "control_id": "C-7",
+      "name": "Security Event Monitoring and Alerting",
+      "description": "24/7 security event monitoring with automated alerting for suspicious access patterns to NHS data",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "Security Operations Manager",
+      "delegate": "SOC Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-4"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review SIEM alerts for test period and verify response times for critical alerts",
+      "evidence_required": "SIEM logs, alert response records, incident tickets",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2019-09-15"
+    },
+    {
+      "control_id": "C-8",
+      "name": "Personal Data Processing Register",
+      "description": "Maintained register of all personal data processing activities with lawful basis documentation per GDPR Article 30",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Data Protection Officer",
+      "delegate": "Privacy Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14",
+        "RISK-7"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review processing register for completeness and verify lawful basis for sample of 20 activities",
+      "evidence_required": "Article 30 register, lawful basis assessments, processing activity documentation",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-05-25"
+    },
+    {
+      "control_id": "C-9",
+      "name": "Regulatory Change Monitoring",
+      "description": "Systematic monitoring of healthcare regulatory changes including MDR, NHS Digital standards, and FCA requirements",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Compliance",
+      "delegate": "Regulatory Affairs Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-6"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review regulatory monitoring reports for 6-month period and verify impact assessments completed",
+      "evidence_required": "Regulatory monitoring reports, impact assessments, action tracking logs",
+      "last_tested_date": "2025-08-30",
+      "last_test_result": "Pass",
+      "created_date": "2019-06-15"
+    },
+    {
+      "control_id": "C-10",
+      "name": "Product Classification Assessment",
+      "description": "Assessment of new product features for MDR classification requirements with documented rationale",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Manual",
+      "owner": "Regulatory Affairs Manager",
+      "delegate": "Product Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "related_process_ids": [
+        "PROC-6",
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review classification assessments for new features released in test period",
+      "evidence_required": "Feature classification memos, MDR analysis, regulatory opinion documentation",
+      "last_tested_date": "2025-08-25",
+      "last_test_result": "Partial",
+      "created_date": "2024-07-01"
+    },
+    {
+      "control_id": "C-11",
+      "name": "Software Development Capitalization Review",
+      "description": "Monthly review of software development costs for capitalization eligibility with clear milestone-based gates",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "Controller",
+      "delegate": "Financial Analyst",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-3",
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review capitalization decisions for 6-month period and verify milestone gate documentation",
+      "evidence_required": "Capitalization analysis, sprint milestone reports, development cost allocation",
+      "last_tested_date": "2025-09-10",
+      "last_test_result": "Partial",
+      "created_date": "2022-01-15"
+    },
+    {
+      "control_id": "C-12",
+      "name": "Capitalized Software Impairment Testing",
+      "description": "Quarterly assessment of capitalized software for impairment indicators including feature abandonment and market changes",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "Controller",
+      "delegate": "Senior Accountant",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review impairment assessment documentation for all capitalized projects",
+      "evidence_required": "Impairment analysis, feature status reports, market assessment",
+      "last_tested_date": "2025-09-12",
+      "last_test_result": "Pass",
+      "created_date": "2022-03-01"
+    },
+    {
+      "control_id": "C-13",
+      "name": "Technical Debt Classification and Tracking",
+      "description": "Classification of technical debt items with accounting treatment determination and progress tracking",
+      "control_type": "Preventive",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Engineering",
+      "delegate": "Engineering Program Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-6"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review technical debt backlog and verify classification completeness",
+      "evidence_required": "Jira backlog reports, classification tags, finance integration data",
+      "last_tested_date": "2025-09-08",
+      "last_test_result": "Pass",
+      "created_date": "2025-06-15"
+    },
+    {
+      "control_id": "C-14",
+      "name": "M&A Due Diligence Framework",
+      "description": "Structured due diligence framework for acquisitions including risk assessment, integration planning, and accounting analysis",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Manual",
+      "owner": "Chief Financial Officer",
+      "delegate": "Controller",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-10",
+        "RISK-11"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review due diligence documentation for ComplianceNow acquisition",
+      "evidence_required": "Due diligence reports, risk assessment, integration plan, PPA methodology",
+      "last_tested_date": "2025-09-05",
+      "last_test_result": "Partial",
+      "created_date": "2023-06-20"
+    },
+    {
+      "control_id": "C-15",
+      "name": "Integration Governance and Risk Monitoring",
+      "description": "Integration management office with risk register maintenance and milestone tracking",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Integration PMO Lead",
+      "delegate": "Integration Analyst",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-10"
+      ],
+      "related_process_ids": [
+        "PROC-8"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review integration risk register and milestone tracking for ComplianceNow",
+      "evidence_required": "Integration risk register, milestone reports, governance meeting minutes",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2025-08-01"
+    },
+    {
+      "control_id": "C-16",
+      "name": "Renewal Cohort Concentration Monitoring",
+      "description": "Quarterly analysis of renewal cohort concentration with escalation triggers for cohorts exceeding 15% of ARR",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Customer Success",
+      "delegate": "Customer Success Analytics Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-1"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review cohort concentration reports and verify escalation procedures for high-concentration periods",
+      "evidence_required": "Cohort analysis reports, escalation records, executive engagement logs",
+      "last_tested_date": "2025-10-05",
+      "last_test_result": "Partial",
+      "created_date": "2025-05-15"
+    },
+    {
+      "control_id": "C-17",
+      "name": "Customer Concentration Monitoring and Credit Review",
+      "description": "Monthly monitoring of customer concentration with annual credit assessments for customers >3% of ARR",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "delegate": "Credit Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-5",
+        "RISK-3"
+      ],
+      "related_process_ids": [
+        "PROC-9",
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review concentration reports and credit assessments for top 20 customers",
+      "evidence_required": "Concentration analysis, credit reports, risk assessment documentation",
+      "last_tested_date": "2025-10-08",
+      "last_test_result": "Partial",
+      "created_date": "2022-09-01"
+    },
+    {
+      "control_id": "C-18",
+      "name": "Enterprise Customer Relationship Monitoring",
+      "description": "Enhanced monitoring and engagement protocols for enterprise customers representing significant ARR concentration",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Customer Success",
+      "delegate": "Enterprise Account Director",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-5"
+      ],
+      "related_process_ids": [
+        "PROC-9"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review engagement records for top 10 enterprise customers",
+      "evidence_required": "Account review documentation, health scores, executive engagement records",
+      "last_tested_date": "2025-10-10",
+      "last_test_result": "Pass",
+      "created_date": "2023-01-15"
+    },
+    {
+      "control_id": "C-19",
+      "name": "Competitive Intelligence Monitoring",
+      "description": "Systematic monitoring of competitor activities including pricing, funding, and market positioning",
+      "control_type": "Detective",
+      "frequency": "Weekly",
+      "automation_level": "Semi-Automated",
+      "owner": "Chief Revenue Officer",
+      "delegate": "Market Intelligence Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9",
+        "RISK-4"
+      ],
+      "related_process_ids": [
+        "PROC-10"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review competitive intelligence reports and verify distribution to sales team",
+      "evidence_required": "CI reports, win/loss analysis, pricing intelligence",
+      "last_tested_date": "2025-09-25",
+      "last_test_result": "Pass",
+      "created_date": "2024-03-01"
+    },
+    {
+      "control_id": "C-20",
+      "name": "Competitive Win/Loss Analysis",
+      "description": "Structured post-deal analysis of competitive wins and losses with root cause identification",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Manual",
+      "owner": "VP Sales",
+      "delegate": "Sales Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-4",
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-2"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review win/loss analysis for 20 competitive deals",
+      "evidence_required": "Win/loss reports, root cause analysis, action tracking",
+      "last_tested_date": "2025-09-28",
+      "last_test_result": "Pass",
+      "created_date": "2024-05-15"
+    },
+    {
+      "control_id": "C-21",
+      "name": "Product Differentiation Roadmap",
+      "description": "Quarterly product roadmap review aligned to competitive differentiation strategy",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Product",
+      "delegate": "Product Strategy Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-9"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review product roadmap alignment to competitive strategy documentation",
+      "evidence_required": "Product roadmap, competitive analysis, strategy alignment documentation",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2024-06-01"
+    },
+    {
+      "control_id": "C-22",
+      "name": "Operating Expense Budget Control",
+      "description": "Monthly operating expense review with variance analysis and approval required for overspend >5%",
+      "control_type": "Preventive",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "delegate": "FP&A Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review monthly expense variance reports and approval documentation",
+      "evidence_required": "Budget variance reports, approval workflows, action items",
+      "last_tested_date": "2025-09-20",
+      "last_test_result": "Pass",
+      "created_date": "2021-01-15"
+    },
+    {
+      "control_id": "C-23",
+      "name": "EBITDA Margin Tracking and Forecasting",
+      "description": "Monthly EBITDA margin tracking with variance analysis and forecast updates",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "CFO",
+      "delegate": "VP Finance",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-12"
+      ],
+      "related_process_ids": [
+        "PROC-7"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review EBITDA tracking reports and forecast accuracy analysis",
+      "evidence_required": "EBITDA reports, forecast variance analysis, board presentations",
+      "last_tested_date": "2025-09-22",
+      "last_test_result": "Pass",
+      "created_date": "2022-06-01"
+    },
+    {
+      "control_id": "C-24",
+      "name": "Foreign Exchange Exposure Monitoring",
+      "description": "Monthly monitoring of FX exposure with impact analysis and hedging evaluation",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Finance",
+      "delegate": "Treasury Manager",
+      "status": "Active",
+      "effectiveness": "Partially-Effective",
+      "related_risk_ids": [
+        "RISK-13"
+      ],
+      "related_process_ids": [
+        "PROC-11"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review FX exposure reports and hedging evaluation documentation",
+      "evidence_required": "FX exposure analysis, hedging evaluation, board recommendations",
+      "last_tested_date": "2025-10-01",
+      "last_test_result": "Partial",
+      "created_date": "2024-09-01"
+    },
+    {
+      "control_id": "C-25",
+      "name": "Data Subject Rights Management",
+      "description": "Process for managing data subject access requests, erasure requests, and other GDPR rights with SLA tracking",
+      "control_type": "Preventive",
+      "frequency": "Per-Transaction",
+      "automation_level": "Semi-Automated",
+      "owner": "Data Protection Officer",
+      "delegate": "Privacy Analyst",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-14"
+      ],
+      "related_process_ids": [
+        "PROC-5"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review DSR handling for test period and verify SLA compliance",
+      "evidence_required": "DSR log, response documentation, SLA tracking reports",
+      "last_tested_date": "2025-09-15",
+      "last_test_result": "Pass",
+      "created_date": "2018-05-25"
+    },
+    {
+      "control_id": "C-26",
+      "name": "Product Development Milestone Review",
+      "description": "Monthly review of product development milestones with schedule variance analysis and risk assessment",
+      "control_type": "Detective",
+      "frequency": "Monthly",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Product",
+      "delegate": "Program Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-15"
+      ],
+      "related_process_ids": [
+        "PROC-3"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review milestone tracking reports and variance analysis documentation",
+      "evidence_required": "Milestone reports, variance analysis, risk assessments",
+      "last_tested_date": "2025-09-18",
+      "last_test_result": "Pass",
+      "created_date": "2024-02-01"
+    },
+    {
+      "control_id": "C-27",
+      "name": "Executive Succession Planning",
+      "description": "Annual succession planning review for executive roles with documented succession candidates and development plans",
+      "control_type": "Preventive",
+      "frequency": "Annual",
+      "automation_level": "Manual",
+      "owner": "CEO",
+      "delegate": "VP Human Resources",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review succession planning documentation for all executive roles",
+      "evidence_required": "Succession plans, development plans, board presentations",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2022-03-15"
+    },
+    {
+      "control_id": "C-28",
+      "name": "Key Technical Role Retention Program",
+      "description": "Identification and retention program for key technical roles including competitive compensation and development opportunities",
+      "control_type": "Preventive",
+      "frequency": "Quarterly",
+      "automation_level": "Manual",
+      "owner": "VP Human Resources",
+      "delegate": "HR Business Partner",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "related_process_ids": [
+        "PROC-12"
+      ],
+      "relationship_strength": "Secondary",
+      "test_procedure": "Review retention program metrics and turnover analysis for key roles",
+      "evidence_required": "Retention metrics, turnover reports, compensation analysis",
+      "last_tested_date": "2025-09-25",
+      "last_test_result": "Pass",
+      "created_date": "2023-06-01"
+    },
+    {
+      "control_id": "C-29",
+      "name": "Payment Processing Compliance Monitoring",
+      "description": "Quarterly review of subscription billing and payment processing compliance with FCA requirements",
+      "control_type": "Detective",
+      "frequency": "Quarterly",
+      "automation_level": "Semi-Automated",
+      "owner": "Head of Compliance",
+      "delegate": "Billing Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "related_process_ids": [
+        "PROC-1"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review payment processing controls and FCA compliance documentation",
+      "evidence_required": "Compliance reports, control test results, regulatory correspondence",
+      "last_tested_date": "2025-09-28",
+      "last_test_result": "Pass",
+      "created_date": "2021-06-15"
+    },
+    {
+      "control_id": "C-30",
+      "name": "Cloud Provider Performance Monitoring",
+      "description": "Continuous monitoring of cloud provider SLA performance with automated alerting for threshold breaches",
+      "control_type": "Detective",
+      "frequency": "Continuous",
+      "automation_level": "Fully-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "Cloud Operations Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-18"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review SLA performance reports and alert response records",
+      "evidence_required": "SLA reports, availability metrics, alert logs",
+      "last_tested_date": "2025-09-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-06-01"
+    },
+    {
+      "control_id": "C-31",
+      "name": "Disaster Recovery Testing",
+      "description": "Semi-annual DR testing with documented results and remediation of identified gaps",
+      "control_type": "Detective",
+      "frequency": "Semi-Annual",
+      "automation_level": "Semi-Automated",
+      "owner": "VP Infrastructure",
+      "delegate": "DR Manager",
+      "status": "Active",
+      "effectiveness": "Effective",
+      "related_risk_ids": [
+        "RISK-18"
+      ],
+      "related_process_ids": [
+        "PROC-13"
+      ],
+      "relationship_strength": "Primary",
+      "test_procedure": "Review DR test results and remediation action tracking",
+      "evidence_required": "DR test reports, recovery time metrics, remediation logs",
+      "last_tested_date": "2025-06-30",
+      "last_test_result": "Pass",
+      "created_date": "2020-03-15"
+    }
+  ],
+  "control_assessments": [
+    {
+      "assessment_id": "CA-1",
+      "parent_control_id": "C-1",
+      "as_of_date": "2025-09-15",
+      "test_result": "Pass",
+      "test_evidence": "Tested 25 transactions >\u00a3100K from Q2-Q3. All had CFO approval and complete ASC 606 analysis. No exceptions identified.",
+      "tester": "Sarah Mitchell",
+      "deficiency_ids": [],
+      "created_date": "2025-09-15"
+    },
+    {
+      "assessment_id": "CA-2",
+      "parent_control_id": "C-2",
+      "as_of_date": "2025-09-20",
+      "test_result": "Partial",
+      "test_evidence": "Reviewed 8 weeks of pipeline reports. NHS-specific tracking implemented but probability adjustments not consistently applied. Forecast accuracy improved but still below target.",
+      "tester": "James Wong",
+      "deficiency_ids": [
+        "CD-1"
+      ],
+      "created_date": "2025-09-20"
+    },
+    {
+      "assessment_id": "CA-3",
+      "parent_control_id": "C-3",
+      "as_of_date": "2025-09-22",
+      "test_result": "Partial",
+      "test_evidence": "Milestone tracking in place for 85% of NHS opportunities. Alerts generating but escalation procedures not fully documented.",
+      "tester": "Rebecca Foster",
+      "deficiency_ids": [
+        "CD-2"
+      ],
+      "created_date": "2025-09-22"
+    },
+    {
+      "assessment_id": "CA-4",
+      "parent_control_id": "C-5",
+      "as_of_date": "2025-09-25",
+      "test_result": "Partial",
+      "test_evidence": "Usage validation performed for 12 of 15 sampled upgrades. Product telemetry integration not yet complete.",
+      "tester": "James Wong",
+      "deficiency_ids": [
+        "CD-3"
+      ],
+      "created_date": "2025-09-25"
+    },
+    {
+      "assessment_id": "CA-5",
+      "parent_control_id": "C-6",
+      "as_of_date": "2025-09-28",
+      "test_result": "Pass",
+      "test_evidence": "All NHS API tokens rotating at 90-day intervals. No tokens exceeded threshold. Automated alerting functional.",
+      "tester": "David Chen",
+      "deficiency_ids": [],
+      "created_date": "2025-09-28"
+    },
+    {
+      "assessment_id": "CA-6",
+      "parent_control_id": "C-10",
+      "as_of_date": "2025-08-25",
+      "test_result": "Partial",
+      "test_evidence": "Classification assessments completed for 3 of 5 new features. Process established but not yet fully embedded in product development workflow.",
+      "tester": "David Chen",
+      "deficiency_ids": [
+        "CD-4"
+      ],
+      "created_date": "2025-08-25"
+    },
+    {
+      "assessment_id": "CA-7",
+      "parent_control_id": "C-11",
+      "as_of_date": "2025-09-10",
+      "test_result": "Partial",
+      "test_evidence": "Monthly reviews occurring but milestone gates not clearly defined for all project phases. Classification improvement noted post-audit finding remediation.",
+      "tester": "Rebecca Foster",
+      "deficiency_ids": [
+        "CD-5"
+      ],
+      "created_date": "2025-09-10"
+    },
+    {
+      "assessment_id": "CA-8",
+      "parent_control_id": "C-14",
+      "as_of_date": "2025-09-05",
+      "test_result": "Partial",
+      "test_evidence": "Due diligence framework applied to ComplianceNow but risk assessment incomplete. PPA methodology gaps identified.",
+      "tester": "Sarah Mitchell",
+      "deficiency_ids": [
+        "CD-6"
+      ],
+      "created_date": "2025-09-05"
+    },
+    {
+      "assessment_id": "CA-9",
+      "parent_control_id": "C-16",
+      "as_of_date": "2025-10-05",
+      "test_result": "Partial",
+      "test_evidence": "Cohort analysis performed but dashboard not yet operational. Q4 concentration identified but escalation triggers still being defined.",
+      "tester": "Rebecca Foster",
+      "deficiency_ids": [
+        "CD-7"
+      ],
+      "created_date": "2025-10-05"
+    },
+    {
+      "assessment_id": "CA-10",
+      "parent_control_id": "C-17",
+      "as_of_date": "2025-10-08",
+      "test_result": "Partial",
+      "test_evidence": "Monthly concentration monitoring in place. Credit assessments annual only; semi-annual process not yet implemented for enterprise customers.",
+      "tester": "James Wong",
+      "deficiency_ids": [
+        "CD-8"
+      ],
+      "created_date": "2025-10-08"
+    },
+    {
+      "assessment_id": "CA-11",
+      "parent_control_id": "C-24",
+      "as_of_date": "2025-10-01",
+      "test_result": "Partial",
+      "test_evidence": "FX monitoring in place with monthly reporting. Hedging evaluation completed but program not yet implemented. Exposure growing with international expansion.",
+      "tester": "James Wong",
+      "deficiency_ids": [
+        "CD-9"
+      ],
+      "created_date": "2025-10-01"
+    }
+  ],
+  "control_deficiencies": [
+    {
+      "deficiency_id": "CD-1",
+      "control_id": "C-2",
+      "finding_id": "FND-1",
+      "deficiency_type": "Operating",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "NHS-specific probability adjustments not consistently applied in pipeline forecasting despite control design implementation",
+      "root_cause": "Sales team training incomplete; CRM workflow not enforcing probability adjustment entry",
+      "remediation_plan": "Complete sales team training; implement CRM validation for NHS opportunities requiring probability documentation",
+      "remediation_owner": "Sales Operations Manager",
+      "identified_date": "2025-03-10",
+      "target_remediation_date": "2025-06-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-2",
+      "control_id": "C-3",
+      "finding_id": "FND-1",
+      "deficiency_type": "Design",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "NHS milestone tracking escalation procedures not fully documented, limiting effectiveness of alert generation",
+      "root_cause": "Control recently implemented; escalation paths not formalized",
+      "remediation_plan": "Document escalation procedures and integrate with CRM alert system",
+      "remediation_owner": "Strategic Accounts Director",
+      "identified_date": "2025-09-22",
+      "target_remediation_date": "2025-11-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-3",
+      "control_id": "C-5",
+      "finding_id": "FND-3",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Product telemetry not integrated with billing system, limiting systematic validation of premium tier upgrades",
+      "root_cause": "System integration prioritized below product development; technical complexity of integration",
+      "remediation_plan": "Complete product telemetry integration with finance systems for automated usage validation",
+      "remediation_owner": "Director of Revenue Operations",
+      "identified_date": "2025-03-15",
+      "target_remediation_date": "2025-07-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-4",
+      "control_id": "C-10",
+      "finding_id": "FND-4",
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Remediation-In-Progress",
+      "description": "Product classification assessments not completed for all new features with clinical workflow interfaces",
+      "root_cause": "Process not yet embedded in product development lifecycle; awareness gap in product management",
+      "remediation_plan": "Integrate classification checkpoint into product development workflow; train product managers",
+      "remediation_owner": "Regulatory Affairs Manager",
+      "identified_date": "2025-03-20",
+      "target_remediation_date": "2025-06-30",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-5",
+      "control_id": "C-11",
+      "finding_id": "FND-5",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "Milestone-based capitalization gates not clearly defined for agile development methodology",
+      "root_cause": "Traditional capitalization framework not adapted for agile sprint-based development",
+      "remediation_plan": "Develop agile-aligned capitalization framework with clear sprint-based milestones",
+      "remediation_owner": "Controller",
+      "identified_date": "2025-06-10",
+      "target_remediation_date": "2025-08-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-6",
+      "control_id": "C-14",
+      "finding_id": "FND-7",
+      "deficiency_type": "Operating",
+      "severity": "Significant",
+      "status": "Remediation-In-Progress",
+      "description": "M&A due diligence framework not fully applied for ComplianceNow acquisition risk assessment",
+      "root_cause": "Limited M&A experience; compressed deal timeline",
+      "remediation_plan": "Complete detailed integration risk register; engage external integration support",
+      "remediation_owner": "Integration PMO Lead",
+      "identified_date": "2025-08-25",
+      "target_remediation_date": "2025-10-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-7",
+      "control_id": "C-16",
+      "finding_id": "FND-10",
+      "deficiency_type": "Design",
+      "severity": "Significant",
+      "status": "Open",
+      "description": "Renewal cohort concentration dashboard not operational; escalation triggers not yet defined",
+      "root_cause": "Control recently designed; implementation in progress",
+      "remediation_plan": "Complete dashboard development and define concentration escalation thresholds",
+      "remediation_owner": "VP Customer Success",
+      "identified_date": "2025-10-28",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-8",
+      "control_id": "C-17",
+      "finding_id": "FND-11",
+      "deficiency_type": "Design",
+      "severity": "Minor",
+      "status": "Open",
+      "description": "Enterprise customer credit assessment frequency insufficient at annual intervals",
+      "root_cause": "Credit policy designed for mid-market customer base; not updated for enterprise segment growth",
+      "remediation_plan": "Update credit policy to require semi-annual assessments for enterprise customers",
+      "remediation_owner": "VP Finance",
+      "identified_date": "2025-10-30",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    },
+    {
+      "deficiency_id": "CD-9",
+      "control_id": "C-24",
+      "finding_id": null,
+      "deficiency_type": "Operating",
+      "severity": "Minor",
+      "status": "Open",
+      "description": "FX hedging program approved but not yet implemented, limiting risk mitigation effectiveness",
+      "root_cause": "Hedging program complexity; treasury resource constraints",
+      "remediation_plan": "Implement hedging program per board-approved parameters",
+      "remediation_owner": "Treasury Manager",
+      "identified_date": "2025-10-01",
+      "target_remediation_date": "2025-12-31",
+      "actual_remediation_date": null
+    }
+  ],
+  "processes": [
+    {
+      "process_id": "PROC-1",
+      "name": "Revenue Recognition and Billing",
+      "description": "End-to-end process for subscription revenue recognition, contract billing, and ASC 606 compliance",
+      "process_owner": "Controller",
+      "related_control_ids": [
+        "C-1",
+        "C-4",
+        "C-5",
+        "C-17",
+        "C-29"
+      ],
+      "related_objective_ids": [
+        "OBJ-1",
+        "OBJ-2"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-2",
+      "name": "Sales Pipeline and Forecasting",
+      "description": "Pipeline management, opportunity tracking, and revenue forecasting including NHS-specific processes",
+      "process_owner": "VP Sales",
+      "related_control_ids": [
+        "C-2",
+        "C-3",
+        "C-20"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-3",
+      "name": "Product Development Lifecycle",
+      "description": "Product planning, development, release management, and technical debt remediation",
+      "process_owner": "VP Product",
+      "related_control_ids": [
+        "C-10",
+        "C-11",
+        "C-13",
+        "C-21",
+        "C-26"
+      ],
+      "related_objective_ids": [
+        "OBJ-4"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-4",
+      "name": "Information Security Operations",
+      "description": "Security monitoring, incident response, and access management for healthcare data",
+      "process_owner": "Chief Information Security Officer",
+      "related_control_ids": [
+        "C-6",
+        "C-7"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-5",
+      "name": "Data Privacy and GDPR Compliance",
+      "description": "Personal data processing management, DSAR handling, and GDPR compliance monitoring",
+      "process_owner": "Data Protection Officer",
+      "related_control_ids": [
+        "C-8",
+        "C-25"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-6",
+      "name": "Regulatory Compliance Management",
+      "description": "Healthcare regulatory monitoring, MDR assessment, and compliance program management",
+      "process_owner": "Head of Compliance",
+      "related_control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "related_objective_ids": [
+        "OBJ-6"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-7",
+      "name": "Financial Planning and Analysis",
+      "description": "Budgeting, forecasting, expense management, and profitability analysis",
+      "process_owner": "VP Finance",
+      "related_control_ids": [
+        "C-11",
+        "C-22",
+        "C-23"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Managed"
+    },
+    {
+      "process_id": "PROC-8",
+      "name": "M&A Integration Management",
+      "description": "Acquisition due diligence, integration planning, and post-merger integration execution",
+      "process_owner": "Integration PMO Lead",
+      "related_control_ids": [
+        "C-14",
+        "C-15"
+      ],
+      "related_objective_ids": [
+        "OBJ-7"
+      ],
+      "maturity_level": "Ad-Hoc"
+    },
+    {
+      "process_id": "PROC-9",
+      "name": "Customer Success and Retention",
+      "description": "Customer health monitoring, renewal management, and expansion planning",
+      "process_owner": "VP Customer Success",
+      "related_control_ids": [
+        "C-16",
+        "C-17",
+        "C-18"
+      ],
+      "related_objective_ids": [
+        "OBJ-3"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-10",
+      "name": "Competitive Intelligence",
+      "description": "Market monitoring, competitive analysis, and strategic response planning",
+      "process_owner": "Chief Revenue Officer",
+      "related_control_ids": [
+        "C-19"
+      ],
+      "related_objective_ids": [
+        "OBJ-8"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-11",
+      "name": "Treasury and FX Management",
+      "description": "Cash management, foreign exchange exposure monitoring, and hedging operations",
+      "process_owner": "VP Finance",
+      "related_control_ids": [
+        "C-24"
+      ],
+      "related_objective_ids": [
+        "OBJ-2"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-12",
+      "name": "Talent Management and Succession Planning",
+      "description": "Workforce planning, succession management, and key person risk mitigation",
+      "process_owner": "VP Human Resources",
+      "related_control_ids": [
+        "C-27",
+        "C-28"
+      ],
+      "related_objective_ids": [
+        "OBJ-9"
+      ],
+      "maturity_level": "Defined"
+    },
+    {
+      "process_id": "PROC-13",
+      "name": "IT Infrastructure and Business Continuity",
+      "description": "Cloud infrastructure management, disaster recovery, and service availability",
+      "process_owner": "VP Infrastructure",
+      "related_control_ids": [
+        "C-30",
+        "C-31"
+      ],
+      "related_objective_ids": [
+        "OBJ-5"
+      ],
+      "maturity_level": "Managed"
+    }
+  ],
+  "objectives": [
+    {
+      "objective_id": "OBJ-1",
+      "name": "Revenue Recognition Accuracy",
+      "description": "Ensure accurate and timely revenue recognition in compliance with ASC 606 and UK GAAP",
+      "objective_type": "Financial",
+      "owner": "Chief Financial Officer",
+      "target_metrics": {
+        "revenue_recognition_error_rate": "<0.5%",
+        "audit_adjustments": "Zero material adjustments"
+      },
+      "related_risk_ids": [
+        "RISK-2",
+        "RISK-11"
+      ],
+      "status": "Active",
+      "created_date": "2022-01-01"
+    },
+    {
+      "objective_id": "OBJ-2",
+      "name": "Financial Performance Achievement",
+      "description": "Achieve target EBITDA margins while maintaining revenue growth",
+      "objective_type": "Financial",
+      "owner": "Chief Financial Officer",
+      "target_metrics": {
+        "ebitda_margin": "14%",
+        "gross_margin": ">75%",
+        "operating_expense_growth": "<revenue growth"
+      },
+      "related_risk_ids": [
+        "RISK-12",
+        "RISK-13"
+      ],
+      "status": "Active",
+      "created_date": "2022-01-01"
+    },
+    {
+      "objective_id": "OBJ-3",
+      "name": "Customer Retention and Growth",
+      "description": "Maintain high net revenue retention and customer satisfaction",
+      "objective_type": "Operational",
+      "owner": "VP Customer Success",
+      "target_metrics": {
+        "net_revenue_retention": ">115%",
+        "gross_retention": ">95%",
+        "customer_satisfaction": ">4.5/5"
+      },
+      "related_risk_ids": [
+        "RISK-3",
+        "RISK-5",
+        "RISK-1"
+      ],
+      "status": "Active",
+      "created_date": "2022-01-01"
+    },
+    {
+      "objective_id": "OBJ-4",
+      "name": "Product Innovation and Quality",
+      "description": "Deliver HealthRoster 7.0 on schedule while managing technical debt",
+      "objective_type": "Strategic",
+      "owner": "Chief Technology Officer",
+      "target_metrics": {
+        "release_schedule_adherence": ">90%",
+        "technical_debt_allocation": "<30% of engineering capacity",
+        "defect_escape_rate": "<5%"
+      },
+      "related_risk_ids": [
+        "RISK-6",
+        "RISK-15"
+      ],
+      "status": "Active",
+      "created_date": "2024-01-01"
+    },
+    {
+      "objective_id": "OBJ-5",
+      "name": "Data Security and Service Availability",
+      "description": "Protect NHS patient data and maintain service availability SLAs",
+      "objective_type": "Operational",
+      "owner": "Chief Information Security Officer",
+      "target_metrics": {
+        "security_incidents": "Zero material breaches",
+        "service_availability": "99.9%",
+        "dspt_compliance": "Standards Met"
+      },
+      "related_risk_ids": [
+        "RISK-7",
+        "RISK-18"
+      ],
+      "status": "Active",
+      "created_date": "2019-01-01"
+    },
+    {
+      "objective_id": "OBJ-6",
+      "name": "Regulatory Compliance",
+      "description": "Maintain compliance with GDPR, NHS DSPT, MDR, and FCA requirements",
+      "objective_type": "Compliance",
+      "owner": "Head of Compliance",
+      "target_metrics": {
+        "regulatory_findings": "Zero material findings",
+        "dsar_response_time": "<30 days",
+        "dspt_attestation": "Annual completion"
+      },
+      "related_risk_ids": [
+        "RISK-8",
+        "RISK-14",
+        "RISK-17"
+      ],
+      "status": "Active",
+      "created_date": "2018-05-25"
+    },
+    {
+      "objective_id": "OBJ-7",
+      "name": "M&A Value Realization",
+      "description": "Successfully integrate ComplianceNow acquisition and realize synergies",
+      "objective_type": "Strategic",
+      "owner": "Chief Executive Officer",
+      "target_metrics": {
+        "integration_milestone_adherence": ">90%",
+        "customer_retention_post_close": ">95%",
+        "synergy_realization": "100% of plan within 18 months"
+      },
+      "related_risk_ids": [
+        "RISK-10",
+        "RISK-11"
+      ],
+      "status": "Active",
+      "created_date": "2025-06-01"
+    },
+    {
+      "objective_id": "OBJ-8",
+      "name": "Market Position Defense",
+      "description": "Maintain and grow market share against competitive threats",
+      "objective_type": "Strategic",
+      "owner": "Chief Revenue Officer",
+      "target_metrics": {
+        "market_share": ">8%",
+        "competitive_win_rate": ">50%",
+        "new_customer_acquisition": "Target achievement"
+      },
+      "related_risk_ids": [
+        "RISK-9",
+        "RISK-4"
+      ],
+      "status": "Active",
+      "created_date": "2024-01-01"
+    },
+    {
+      "objective_id": "OBJ-9",
+      "name": "Organizational Resilience",
+      "description": "Ensure business continuity through effective succession planning and talent retention",
+      "objective_type": "Operational",
+      "owner": "VP Human Resources",
+      "target_metrics": {
+        "executive_succession_coverage": "100%",
+        "key_role_turnover": "<10%",
+        "engagement_score": ">75%"
+      },
+      "related_risk_ids": [
+        "RISK-16"
+      ],
+      "status": "Active",
+      "created_date": "2022-06-01"
+    }
+  ],
+  "standards_regulations": [
+    {
+      "standard_id": "STD-1",
+      "name": "UK GDPR and Data Protection Act 2018",
+      "description": "UK implementation of GDPR governing personal data processing including NHS workforce and patient data",
+      "issuing_body": "Information Commissioner's Office (ICO)",
+      "jurisdiction": "United Kingdom",
+      "effective_date": "2018-05-25",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-03-25",
+      "next_review_date": "2026-03-25",
+      "related_risk_ids": [
+        "RISK-7",
+        "RISK-14"
+      ],
+      "created_date": "2018-05-25"
+    },
+    {
+      "standard_id": "STD-2",
+      "name": "NHS Data Security and Protection Toolkit (DSPT)",
+      "description": "NHS Digital mandatory security assessment for organizations processing NHS data",
+      "issuing_body": "NHS Digital",
+      "jurisdiction": "United Kingdom",
+      "effective_date": "2018-04-01",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-03-25",
+      "next_review_date": "2026-03-31",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "created_date": "2018-04-01"
+    },
+    {
+      "standard_id": "STD-3",
+      "name": "UK Medical Device Regulations 2002 (as amended)",
+      "description": "UK regulations governing medical devices including software as a medical device",
+      "issuing_body": "Medicines and Healthcare products Regulatory Agency (MHRA)",
+      "jurisdiction": "United Kingdom",
+      "effective_date": "2002-06-13",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-08-20",
+      "next_review_date": "2026-08-20",
+      "related_risk_ids": [
+        "RISK-8"
+      ],
+      "created_date": "2024-06-15"
+    },
+    {
+      "standard_id": "STD-4",
+      "name": "ASC 606 Revenue from Contracts with Customers",
+      "description": "FASB standard governing revenue recognition for subscription and SaaS businesses",
+      "issuing_body": "Financial Accounting Standards Board (FASB)",
+      "jurisdiction": "International",
+      "effective_date": "2018-01-01",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-09-15",
+      "next_review_date": "2026-09-15",
+      "related_risk_ids": [
+        "RISK-2"
+      ],
+      "created_date": "2018-01-01"
+    },
+    {
+      "standard_id": "STD-5",
+      "name": "FCA Payment Services Regulations",
+      "description": "Financial Conduct Authority regulations governing payment processing and customer data",
+      "issuing_body": "Financial Conduct Authority (FCA)",
+      "jurisdiction": "United Kingdom",
+      "effective_date": "2017-01-13",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-09-28",
+      "next_review_date": "2026-09-28",
+      "related_risk_ids": [
+        "RISK-17"
+      ],
+      "created_date": "2021-03-20"
+    },
+    {
+      "standard_id": "STD-6",
+      "name": "ISO 27001:2022 Information Security Management",
+      "description": "International standard for information security management systems",
+      "issuing_body": "International Organization for Standardization (ISO)",
+      "jurisdiction": "International",
+      "effective_date": "2022-10-25",
+      "compliance_status": "Compliant",
+      "last_review_date": "2025-07-12",
+      "next_review_date": "2026-07-12",
+      "related_risk_ids": [
+        "RISK-7"
+      ],
+      "created_date": "2020-03-15"
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "REQ-1",
+      "standard_id": "STD-1",
+      "name": "Lawful Basis for Processing",
+      "description": "Documented lawful basis for all personal data processing activities under GDPR Article 6",
+      "requirement_text": "Processing shall be lawful only if and to the extent that at least one lawful basis applies",
+      "control_ids": [
+        "C-8"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-15",
+      "created_date": "2018-05-25"
+    },
+    {
+      "requirement_id": "REQ-2",
+      "standard_id": "STD-1",
+      "name": "Data Subject Rights Response",
+      "description": "Respond to data subject access requests within one month per GDPR Article 12",
+      "requirement_text": "The controller shall provide information on action taken on a request without undue delay and in any event within one month",
+      "control_ids": [
+        "C-25"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-15",
+      "created_date": "2018-05-25"
+    },
+    {
+      "requirement_id": "REQ-3",
+      "standard_id": "STD-2",
+      "name": "NHS DSPT Annual Attestation",
+      "description": "Complete annual DSPT self-assessment to Standards Met level",
+      "requirement_text": "All organizations that have access to NHS patient data and systems must complete the DSPT annually",
+      "control_ids": [
+        "C-6",
+        "C-7",
+        "C-8"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-03-25",
+      "created_date": "2018-04-01"
+    },
+    {
+      "requirement_id": "REQ-4",
+      "standard_id": "STD-3",
+      "name": "Medical Device Software Classification",
+      "description": "Assess software for medical device classification under UK MDR",
+      "requirement_text": "Software intended for medical purposes must be classified according to MDR classification rules",
+      "control_ids": [
+        "C-9",
+        "C-10"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-08-20",
+      "created_date": "2024-06-15"
+    },
+    {
+      "requirement_id": "REQ-5",
+      "standard_id": "STD-4",
+      "name": "Performance Obligation Identification",
+      "description": "Identify distinct performance obligations in customer contracts for revenue recognition",
+      "requirement_text": "At contract inception, an entity shall assess the goods or services promised and identify each promise to transfer to the customer as a performance obligation",
+      "control_ids": [
+        "C-1",
+        "C-4"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-15",
+      "created_date": "2018-01-01"
+    },
+    {
+      "requirement_id": "REQ-6",
+      "standard_id": "STD-5",
+      "name": "Payment Data Security",
+      "description": "Protect customer payment data in accordance with FCA requirements",
+      "requirement_text": "Payment service providers must ensure the security of payment data and protect against fraud",
+      "control_ids": [
+        "C-29"
+      ],
+      "compliance_status": "Compliant",
+      "last_assessed_date": "2025-09-28",
+      "created_date": "2021-03-20"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-1",
+      "audit_id": "AUD-1",
+      "control_id": null,
+      "request_id": "REQ-A-1",
+      "evidence_type": "Documentation",
+      "description": "Q1-Q2 2025 revenue transaction listing with ASC 606 analysis memos for transactions >\u00a3100K",
+      "collected_date": "2025-02-20",
+      "collected_by": "James Wong",
+      "file_reference": "AUD1-EV001-Revenue-Transaction-Listing.xlsx"
+    },
+    {
+      "evidence_id": "EV-2",
+      "audit_id": "AUD-1",
+      "control_id": "C-1",
+      "request_id": "REQ-A-2",
+      "evidence_type": "Documentation",
+      "description": "CFO approval workflow screenshots and ASC 606 analysis for Ireland HSE contract",
+      "collected_date": "2025-02-25",
+      "collected_by": "Sarah Mitchell",
+      "file_reference": "AUD1-EV002-HSE-Contract-Documentation.pdf"
+    },
+    {
+      "evidence_id": "EV-3",
+      "audit_id": "AUD-1",
+      "control_id": "C-2",
+      "request_id": "REQ-A-3",
+      "evidence_type": "Report",
+      "description": "Weekly pipeline forecast reports for Q1 2025 with variance analysis",
+      "collected_date": "2025-03-05",
+      "collected_by": "Rebecca Foster",
+      "file_reference": "AUD1-EV003-Pipeline-Forecast-Reports.pdf"
+    },
+    {
+      "evidence_id": "EV-4",
+      "audit_id": "AUD-2",
+      "control_id": "C-8",
+      "request_id": "REQ-A-4",
+      "evidence_type": "Documentation",
+      "description": "GDPR Article 30 processing register with lawful basis documentation",
+      "collected_date": "2025-03-10",
+      "collected_by": "David Chen",
+      "file_reference": "AUD2-EV001-Processing-Register.xlsx"
+    },
+    {
+      "evidence_id": "EV-5",
+      "audit_id": "AUD-2",
+      "control_id": "C-6",
+      "request_id": "REQ-A-5",
+      "evidence_type": "System Output",
+      "description": "API token rotation logs for NHS integrations showing 90-day rotation compliance",
+      "collected_date": "2025-03-15",
+      "collected_by": "Emma Richards",
+      "file_reference": "AUD2-EV002-Token-Rotation-Logs.csv"
+    },
+    {
+      "evidence_id": "EV-6",
+      "audit_id": "AUD-3",
+      "control_id": "C-11",
+      "request_id": "REQ-A-6",
+      "evidence_type": "Documentation",
+      "description": "HealthRoster 7.0 development cost capitalization analysis and milestone documentation",
+      "collected_date": "2025-05-20",
+      "collected_by": "James Wong",
+      "file_reference": "AUD3-EV001-Capitalization-Analysis.xlsx"
+    },
+    {
+      "evidence_id": "EV-7",
+      "audit_id": "AUD-3",
+      "control_id": "C-13",
+      "request_id": "REQ-A-7",
+      "evidence_type": "System Output",
+      "description": "Technical debt Jira backlog export with classification tags and accounting treatment",
+      "collected_date": "2025-05-25",
+      "collected_by": "Tom Harrison",
+      "file_reference": "AUD3-EV002-TechDebt-Backlog.csv"
+    },
+    {
+      "evidence_id": "EV-8",
+      "audit_id": "AUD-4",
+      "control_id": "C-14",
+      "request_id": "REQ-A-8",
+      "evidence_type": "Documentation",
+      "description": "ComplianceNow due diligence report and risk assessment documentation",
+      "collected_date": "2025-08-10",
+      "collected_by": "Sarah Mitchell",
+      "file_reference": "AUD4-EV001-DueDiligence-Report.pdf"
+    },
+    {
+      "evidence_id": "EV-9",
+      "audit_id": "AUD-5",
+      "control_id": "C-7",
+      "request_id": "REQ-A-9",
+      "evidence_type": "Report",
+      "description": "External penetration test report from CyberDefense Ltd",
+      "collected_date": "2025-07-08",
+      "collected_by": "David Chen",
+      "file_reference": "AUD5-EV001-PenTest-Report.pdf"
+    },
+    {
+      "evidence_id": "EV-10",
+      "audit_id": "AUD-6",
+      "control_id": "C-16",
+      "request_id": "REQ-A-10",
+      "evidence_type": "Report",
+      "description": "Q4 renewal cohort concentration analysis and customer health scores",
+      "collected_date": "2025-10-15",
+      "collected_by": "Rebecca Foster",
+      "file_reference": "AUD6-EV001-Cohort-Analysis.xlsx"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-A-1",
+      "audit_id": "AUD-1",
+      "request_description": "Provide complete listing of all revenue transactions Q1-Q2 2025 with ASC 606 analysis documentation for transactions exceeding \u00a3100K",
+      "requestee": "Controller",
+      "requester": "Sarah Mitchell",
+      "request_date": "2025-02-05",
+      "due_date": "2025-02-19",
+      "response_date": "2025-02-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-1"
+      ]
+    },
+    {
+      "request_id": "REQ-A-2",
+      "audit_id": "AUD-1",
+      "request_description": "Provide CFO approval documentation and complete revenue recognition memo for Ireland HSE contract",
+      "requestee": "Revenue Accounting Manager",
+      "requester": "Sarah Mitchell",
+      "request_date": "2025-02-10",
+      "due_date": "2025-02-24",
+      "response_date": "2025-02-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-2"
+      ]
+    },
+    {
+      "request_id": "REQ-A-3",
+      "audit_id": "AUD-1",
+      "request_description": "Provide weekly pipeline forecast reports for Q1 2025 with forecast accuracy variance analysis",
+      "requestee": "Sales Operations Manager",
+      "requester": "Rebecca Foster",
+      "request_date": "2025-02-28",
+      "due_date": "2025-03-07",
+      "response_date": "2025-03-05",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-3"
+      ]
+    },
+    {
+      "request_id": "REQ-A-4",
+      "audit_id": "AUD-2",
+      "request_description": "Provide current GDPR Article 30 processing register with all lawful basis assessments",
+      "requestee": "Data Protection Officer",
+      "requester": "David Chen",
+      "request_date": "2025-03-05",
+      "due_date": "2025-03-12",
+      "response_date": "2025-03-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-4"
+      ]
+    },
+    {
+      "request_id": "REQ-A-5",
+      "audit_id": "AUD-2",
+      "request_description": "Provide API token rotation logs for all NHS integrations for past 12 months",
+      "requestee": "Security Operations Manager",
+      "requester": "Emma Richards",
+      "request_date": "2025-03-08",
+      "due_date": "2025-03-15",
+      "response_date": "2025-03-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-5"
+      ]
+    },
+    {
+      "request_id": "REQ-A-6",
+      "audit_id": "AUD-3",
+      "request_description": "Provide HealthRoster 7.0 development cost capitalization analysis including milestone documentation and phase determination",
+      "requestee": "Controller",
+      "requester": "James Wong",
+      "request_date": "2025-05-10",
+      "due_date": "2025-05-24",
+      "response_date": "2025-05-20",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-6"
+      ]
+    },
+    {
+      "request_id": "REQ-A-7",
+      "audit_id": "AUD-3",
+      "request_description": "Provide technical debt backlog export with accounting classification and spend tracking",
+      "requestee": "VP Engineering",
+      "requester": "James Wong",
+      "request_date": "2025-05-15",
+      "due_date": "2025-05-29",
+      "response_date": "2025-05-25",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-7"
+      ]
+    },
+    {
+      "request_id": "REQ-A-8",
+      "audit_id": "AUD-4",
+      "request_description": "Provide ComplianceNow due diligence documentation including risk assessment and integration planning materials",
+      "requestee": "Chief Financial Officer",
+      "requester": "Sarah Mitchell",
+      "request_date": "2025-07-25",
+      "due_date": "2025-08-08",
+      "response_date": "2025-08-10",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-8"
+      ]
+    },
+    {
+      "request_id": "REQ-A-9",
+      "audit_id": "AUD-5",
+      "request_description": "Provide external penetration test report and remediation tracking documentation",
+      "requestee": "Chief Information Security Officer",
+      "requester": "David Chen",
+      "request_date": "2025-07-01",
+      "due_date": "2025-07-10",
+      "response_date": "2025-07-08",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-9"
+      ]
+    },
+    {
+      "request_id": "REQ-A-10",
+      "audit_id": "AUD-6",
+      "request_description": "Provide Q4 2025 renewal cohort analysis including concentration metrics and customer health scores",
+      "requestee": "VP Customer Success",
+      "requester": "Rebecca Foster",
+      "request_date": "2025-09-25",
+      "due_date": "2025-10-09",
+      "response_date": "2025-10-15",
+      "status": "Fulfilled",
+      "evidence_ids": [
+        "EV-10"
+      ]
+    },
+    {
+      "request_id": "REQ-A-11",
+      "audit_id": "AUD-7",
+      "request_description": "Provide FX exposure analysis and hedging program documentation",
+      "requestee": "VP Finance",
+      "requester": "James Wong",
+      "request_date": "2025-11-08",
+      "due_date": "2025-11-22",
+      "response_date": null,
+      "status": "Pending",
+      "evidence_ids": []
+    }
+  ],
+  "assessment_methods": [
+    {
+      "method_id": "AM-1",
+      "name": "Revenue Transaction Substantive Testing",
+      "description": "Sample-based testing of revenue transactions for ASC 606 compliance including performance obligation identification and recognition timing",
+      "method_type": "Substantive",
+      "applicable_control_types": [
+        "Revenue Recognition",
+        "Financial Reporting"
+      ],
+      "sample_size_guidance": "25 transactions for populations >500; 15 for smaller populations",
+      "procedures": [
+        "Select sample of transactions exceeding materiality threshold",
+        "Verify performance obligation identification documentation",
+        "Test revenue recognition timing against delivery milestones",
+        "Confirm CFO approval for transactions >\u00a3100K"
+      ],
+      "created_date": "2022-01-15"
+    },
+    {
+      "method_id": "AM-2",
+      "name": "Control Operating Effectiveness Testing",
+      "description": "Walkthrough and reperformance testing of key controls to assess operating effectiveness",
+      "method_type": "Test of Controls",
+      "applicable_control_types": [
+        "All Control Types"
+      ],
+      "sample_size_guidance": "25 instances for controls operating more frequently than monthly; 5 for monthly controls",
+      "procedures": [
+        "Obtain control documentation and understand design",
+        "Select sample of control instances",
+        "Reperform control or inspect evidence of performance",
+        "Document exceptions and assess root cause"
+      ],
+      "created_date": "2021-06-01"
+    },
+    {
+      "method_id": "AM-3",
+      "name": "Cybersecurity Control Assessment",
+      "description": "Technical assessment of security controls including configuration review and vulnerability analysis",
+      "method_type": "Technical Testing",
+      "applicable_control_types": [
+        "Access Control",
+        "Security Monitoring",
+        "Data Protection"
+      ],
+      "sample_size_guidance": "100% of critical systems; sample of non-critical systems",
+      "procedures": [
+        "Review security configuration against policy requirements",
+        "Verify access control implementation",
+        "Test security monitoring and alerting",
+        "Review vulnerability scan results and remediation"
+      ],
+      "created_date": "2020-03-15"
+    },
+    {
+      "method_id": "AM-4",
+      "name": "Regulatory Compliance Assessment",
+      "description": "Assessment of compliance with regulatory requirements including GDPR, DSPT, and MDR",
+      "method_type": "Compliance Testing",
+      "applicable_control_types": [
+        "Privacy Controls",
+        "Regulatory Controls"
+      ],
+      "sample_size_guidance": "Risk-based sampling focused on high-impact processing activities",
+      "procedures": [
+        "Map regulatory requirements to control activities",
+        "Test compliance with specific requirement elements",
+        "Review regulatory correspondence and notifications",
+        "Assess documentation completeness"
+      ],
+      "created_date": "2018-05-25"
+    },
+    {
+      "method_id": "AM-5",
+      "name": "Process Walkthrough and Documentation Review",
+      "description": "End-to-end process walkthrough to understand control design and identify potential gaps",
+      "method_type": "Process Review",
+      "applicable_control_types": [
+        "All Control Types"
+      ],
+      "sample_size_guidance": "Single walkthrough per process with multiple transaction types",
+      "procedures": [
+        "Conduct interviews with process owners",
+        "Observe process execution",
+        "Review supporting documentation",
+        "Identify control points and potential gaps"
+      ],
+      "created_date": "2021-06-01"
+    },
+    {
+      "method_id": "AM-6",
+      "name": "Data Analytics and Trend Analysis",
+      "description": "Application of data analytics to identify anomalies, trends, and control exceptions",
+      "method_type": "Analytics",
+      "applicable_control_types": [
+        "Financial Controls",
+        "Operational Controls"
+      ],
+      "sample_size_guidance": "100% of population for automated analytics",
+      "procedures": [
+        "Define analytics objectives and parameters",
+        "Extract and validate data from source systems",
+        "Execute analytical procedures",
+        "Investigate anomalies and document conclusions"
+      ],
+      "created_date": "2023-01-15"
+    }
+  ]
+}
